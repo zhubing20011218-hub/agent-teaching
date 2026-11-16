@@ -22,3 +22,7 @@ logs/
 
 # 个人档案 —— 仓库是公开的,只留在本机
 docs/calmness-profile.md
+
+# 网站构建产物
+.vitepress/cache/
+.vitepress/dist/

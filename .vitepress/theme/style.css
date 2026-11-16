@@ -1,0 +1,318 @@
+/* ========== 颜色(浅色) ========== */
+:root {
+  --vp-c-brand-1: #3b5bdb;
+  --vp-c-brand-2: #4d6bfe;
+  --vp-c-brand-3: #4d6bfe;
+  --vp-c-brand-soft: rgba(77, 107, 254, 0.12);
+
+  --at-goal-bg: #f3f6ff;
+  --at-goal-border: #c9d4ff;
+  --at-main: #0f8a5f;
+  --at-main-soft: rgba(15, 138, 95, 0.1);
+  --at-optional: #b7791f;
+  --at-optional-soft: rgba(183, 121, 31, 0.12);
+  --at-done: #0f8a5f;
+
+  --vp-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', 'Noto Sans SC', 'Source Han Sans SC', sans-serif;
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #3b5bdb 20%, #7c5cff 80%);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, rgba(77, 107, 254, 0.35) 40%, rgba(124, 92, 255, 0.35) 60%);
+  --vp-home-hero-image-filter: blur(56px);
+}
+
+/* ========== 颜色(深色) ========== */
+.dark {
+  --vp-c-brand-1: #8ea2ff;
+  --vp-c-brand-2: #7b92ff;
+  --vp-c-brand-3: #4d6bfe;
+  --vp-c-brand-soft: rgba(123, 146, 255, 0.16);
+
+  --at-goal-bg: rgba(77, 107, 254, 0.08);
+  --at-goal-border: rgba(123, 146, 255, 0.3);
+  --at-main: #4cc38a;
+  --at-main-soft: rgba(76, 195, 138, 0.14);
+  --at-optional: #e3b341;
+  --at-optional-soft: rgba(227, 179, 65, 0.14);
+  --at-done: #4cc38a;
+}
+
+/* ========== 中文正文排版:行距大一点,读起来不累 ========== */
+.vp-doc p,
+.vp-doc li {
+  line-height: 1.85;
+}
+.vp-doc li + li {
+  margin-top: 6px;
+}
+.vp-doc h1 {
+  font-size: 30px;
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+.vp-doc h2 {
+  margin-top: 56px;
+  letter-spacing: 0;
+}
+.vp-doc h3 {
+  letter-spacing: 0;
+}
+.vp-doc strong {
+  color: var(--vp-c-text-1);
+}
+
+/* ========== 章首的"学完这一章,你能"卡片(普通引用块) ========== */
+.vp-doc blockquote {
+  margin: 20px 0;
+  padding: 14px 20px;
+  border: 1px solid var(--at-goal-border);
+  border-left: 4px solid var(--vp-c-brand-2);
+  border-radius: 10px;
+  background: var(--at-goal-bg);
+  color: var(--vp-c-text-1);
+}
+.vp-doc blockquote > p {
+  color: var(--vp-c-text-1);
+  font-size: 15px;
+  margin: 6px 0;
+}
+.vp-doc blockquote ul {
+  margin: 4px 0 8px;
+}
+
+/* 提示框(小技巧 / 注意)保持 VitePress 自带样式,只调圆角和行距 */
+.vp-doc .custom-block {
+  border-radius: 10px;
+  line-height: 1.8;
+}
+.vp-doc .custom-block p {
+  line-height: 1.8;
+}
+
+/* ========== 表格:表头有底色,手机上可以左右滑动 ========== */
+.vp-doc table {
+  display: table;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .vp-doc table {
+    display: block;
+    overflow-x: auto;
+  }
+}
+.vp-doc th {
+  background: var(--vp-c-bg-soft);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.vp-doc td,
+.vp-doc th {
+  line-height: 1.7;
+}
+
+/* ========== "自己检查"里可以勾选的清单 ========== */
+.vp-doc ul.task-list {
+  list-style: none;
+  padding-left: 0;
+}
+.vp-doc li.task-list-item {
+  position: relative;
+  padding: 8px 12px 8px 40px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.vp-doc li.task-list-item:hover {
+  border-color: var(--vp-c-brand-2);
+  background: var(--vp-c-brand-soft);
+}
+.vp-doc li.task-list-item.done {
+  border-color: var(--at-done);
+  background: var(--at-main-soft);
+}
+.vp-doc li.task-list-item p {
+  margin: 0;
+}
+.vp-doc input.task-checkbox {
+  position: absolute;
+  left: 13px;
+  top: 13px;
+  width: 17px;
+  height: 17px;
+  margin: 0;
+  accent-color: var(--at-done);
+  cursor: pointer;
+}
+.vp-doc li.task-list-item.done > p {
+  color: var(--vp-c-text-2);
+}
+
+/* ========== 折叠的"参考答案" ========== */
+.vp-doc details {
+  margin: 16px 0;
+  padding: 10px 16px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  background: var(--vp-c-bg-soft);
+}
+.vp-doc details summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+}
+
+/* ========== 章首的信息条 ========== */
+.doc-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 18px;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.doc-meta-part {
+  color: var(--vp-c-text-2);
+  font-weight: 500;
+}
+.doc-meta-tag {
+  padding: 1px 10px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+.doc-meta-tag.main {
+  color: var(--at-main);
+  background: var(--at-main-soft);
+}
+.doc-meta-tag.optional {
+  color: var(--at-optional);
+  background: var(--at-optional-soft);
+}
+.doc-meta-verify {
+  color: var(--vp-c-text-3);
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 侧边栏里的"选修"小标签 */
+.sb-badge {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 0 6px;
+  border-radius: 999px;
+  font-size: 11px;
+  line-height: 18px;
+  font-weight: 600;
+  color: var(--at-optional);
+  background: var(--at-optional-soft);
+  vertical-align: 1px;
+}
+
+/* ========== 页尾的反馈条 ========== */
+.doc-feedback {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0 8px;
+  padding: 14px 18px;
+  border: 1px dashed var(--vp-c-divider);
+  border-radius: 10px;
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+}
+.doc-feedback a {
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+}
+.doc-feedback a:hover {
+  text-decoration: underline;
+}
+
+/* ========== 首页 ========== */
+.VPHome .VPFeature .title {
+  font-size: 17px;
+}
+.VPHome .VPFeature .details {
+  line-height: 1.75;
+}
+.home-section {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 24px 64px;
+}
+@media (min-width: 640px) {
+  .home-section {
+    padding: 0 48px 64px;
+  }
+}
+@media (min-width: 960px) {
+  .home-section {
+    padding: 0 64px 80px;
+  }
+}
+.home-section h2 {
+  margin: 8px 0 20px;
+  font-size: 24px;
+  font-weight: 700;
+  border: none;
+  padding: 0;
+}
+.home-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+.home-step {
+  padding: 20px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-soft);
+}
+.home-step .num {
+  display: inline-flex;
+  width: 28px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--vp-c-brand-2);
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+}
+.home-step h3 {
+  margin: 12px 0 6px;
+  font-size: 16px;
+}
+.home-step p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.75;
+  color: var(--vp-c-text-2);
+}
+.home-legend {
+  margin-top: 20px;
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+}
+
+/* 手机上首页大图标小一点,让标题和按钮更早出现 */
+@media (max-width: 639px) {
+  .VPHero .image-container {
+    width: 180px !important;
+    height: 180px !important;
+  }
+  .VPHero .image-src {
+    max-width: 110px !important;
+    max-height: 110px !important;
+  }
+}

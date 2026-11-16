@@ -1,0 +1,14 @@
+{
+  "name": "agent-teaching",
+  "private": true,
+  "type": "module",
+  "description": "Agent 小白教程网站(VitePress)",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4"
+  }
+}
