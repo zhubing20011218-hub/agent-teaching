@@ -1,0 +1,24 @@
+# 密钥 / 凭据 —— 严禁入库
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+.credentials*
+credentials*.yaml
+
+# 系统 / 编辑器
+.DS_Store
+.vscode/
+.idea/
+
+# 依赖 / 构建 / 日志
+node_modules/
+__pycache__/
+.venv/
+dist/
+*.log
+logs/
+
+# 个人档案 —— 仓库是公开的,只留在本机
+docs/calmness-profile.md
