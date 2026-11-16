@@ -82,7 +82,7 @@
 
 | 仓库 | 星 | 许可 | 说明 |
 |---|---|---|---|
-| [anthropics/skills](https://github.com/anthropics/skills) 里的 `pptx` | — | **专有许可** | 处理 .pptx 的"技术底座":读取、新建、按模板编辑、转图片自检。需要 Python、Node.js(pptxgenjs)、LibreOffice。**许可不允许转载,教程里只能链接、不能把文件复制进本仓库。** |
+| [anthropics/skills](https://github.com/anthropics/skills) 里的 `pptx` | — | **Apache 2.0**(GitHub 现行版本;早期下载的旧版附带的是专有许可,已过时) | 处理 .pptx 的"技术底座":读取、新建、按模板编辑、转图片自检。需要 Python、Node.js(pptxgenjs)、LibreOffice、Poppler。教程里让读者从官方仓库安装,不在本仓库复制一份 |
 | [Gabberflast/academic-pptx-skill](https://github.com/Gabberflast/academic-pptx-skill) | 1607 | MIT | 学术汇报规范:标题写结论、一页一个图、三种颜色以内、结尾停在结论页。和 `pptx` 搭配使用 |
 | [carnot-tech/jinba-consulting-pptx-skill](https://github.com/carnot-tech/jinba-consulting-pptx-skill) | 1622 | MIT | 咨询风格:一份"PPT 规范"+ 自动检查脚本 + 65 种版式。核心思路"先读规范,做完再机器检查",值得在第 15 章借鉴(日文) |
 | [codezzzsleep/research-ppt-skill](https://github.com/codezzzsleep/research-ppt-skill) | 7 | MIT | 中文组会论文汇报 PPT;特点:先问 4 个问题再动手、每个数字记出处、排版自检。安装方式对小白很友好("把仓库地址交给 agent 让它装") |
