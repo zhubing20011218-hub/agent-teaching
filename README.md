@@ -4,6 +4,8 @@
 
 从“什么是 agent、什么是 API”讲起，一步步教你拿到 DeepSeek 的 API 钥匙、用上 [DeepSeek Harness(dsh)](https://github.com/deepseek-ai/deepseek-harness)、装好 skill 让 AI 学会新本事（做 PPT、美化 PPT、搜到靠谱资料），最后按自己的需要定制。
 
+> 🌐 **在线阅读:https://teach.prismice.cn**
+>
 > 📖 **从这里开始：[第 0 章 怎么用这份教程](chapters/00-how-to-use.md)**
 
 🟢 主线 = 不用写代码，所有人都学；🟡 选修 = 要写一点代码，跳过也不影响主线。
