@@ -68,7 +68,7 @@ last_checked: 2026-11-17
 
 ### 第二步:安装 LibreOffice(手动,只要一次)
 
-1. 打开 https://www.libreoffice.org/download/download/
+1. 打开 https://www.libreoffice.org/download/download-libreoffice/
 2. 下载适合你电脑的版本(Mac 选 Apple 芯片 / Intel;Windows 选 x86_64)
 3. 像普通软件一样安装
 
@@ -189,5 +189,5 @@ Node.js 和 pptxgenjs、Python 和它需要的 Python 包、LibreOffice、Popple
 ## 6. 想了解更多
 
 - `pptx` skill 原文:https://github.com/anthropics/skills/tree/main/skills/pptx
-- LibreOffice 下载:https://www.libreoffice.org/download/download/
+- LibreOffice 下载:https://www.libreoffice.org/download/download-libreoffice/
 - 下一章:[第 15 章 实战二:优化、美化你已有的 PPT](15-ppt-polish.md)
