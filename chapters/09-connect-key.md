@@ -1,7 +1,7 @@
 ---
 title: 第 9 章 把钥匙填进 DSH
 part: 第三部分 · 用上 DeepSeek Harness
-verified_with: dsh 0.2.2-rc.3(按官方文档和界面文字核对)
+verified_with: dsh 0.2.2-rc.3（按官方文档和界面文字核对）
 last_checked: 2026-11-17
 ---
 

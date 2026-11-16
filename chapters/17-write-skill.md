@@ -1,7 +1,7 @@
 ---
 title: 第 17 章 写你自己的第一个 Skill
 part: 第四部分 · Skill（技能）：教 AI 新本事
-verified_with: dsh 0.2.2-rc.3(按官方 skill 格式文档核对)
+verified_with: dsh 0.2.2-rc.3（按官方 skill 格式文档核对）
 last_checked: 2026-11-17
 ---
 
@@ -9,7 +9,7 @@ last_checked: 2026-11-17
 
 > **学完这一章，你能：**
 > - 判断什么事值得写成 skill
-> - 从零写出一个 skill(不用写代码)
+> - 从零写出一个 skill（不用写代码）
 > - 写好 `description`，让 AI 该用时用、不该用时不用
 > - 测试、修改，并分享给别人
 >
@@ -37,13 +37,13 @@ last_checked: 2026-11-17
 
 | 情况 | 应该放哪 |
 |---|---|
-| 每次对话**都要遵守**的规则（比如“永远用中文回答”） | AGENTS.md(第 20 章) |
+| 每次对话**都要遵守**的规则（比如“永远用中文回答”） | AGENTS.md（第 20 章） |
 | AI 本来**没有的能力**（比如连接某个数据库） | MCP 或插件（第 18、19 章） |
 | 只用一次的要求 | 直接在对话里说 |
 
 ### 写 `description` 的公式
 
-`description` 决定 AI 会不会用你的 skill(第 12 章讲过)。用这个公式写：
+`description` 决定 AI 会不会用你的 skill（第 12 章讲过）。用这个公式写：
 
 > **做什么** + **什么时候用（列出用户可能说的话）** + （可选）**什么时候不用**
 
@@ -81,7 +81,7 @@ description: 按我的个人风格制作或修改 PPT:我的配色、字体、�
 > [!TIP]
 > skill 名字建议用**英文小写字母和短横线**，比如 `my-ppt-style`。避免空格和中文，在各种工具里都不容易出问题。
 
-3. 用 VS Code(第 1 章)新建一个文件，保存到 `my-ppt-style` 文件夹里，文件名 **`SKILL.md`**
+3. 用 VS Code（第 1 章）新建一个文件，保存到 `my-ppt-style` 文件夹里，文件名 **`SKILL.md`**
 
 ### 第三步：写内容
 
@@ -197,5 +197,5 @@ skill 就是一个文件夹，分享很简单：
 ## 8. 想了解更多
 
 - DSH 官方 skill 格式说明：https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/skill/skill-filesystem/README.zh.md
-- Anthropic 的 skill-creator(一个“帮你写 skill”的 skill，英文):https://github.com/anthropics/skills/tree/main/skills/skill-creator
+- Anthropic 的 skill-creator（一个“帮你写 skill”的 skill，英文）:https://github.com/anthropics/skills/tree/main/skills/skill-creator
 - 下一章：[第 18 章 MCP：让 AI 连上更多外部工具](18-mcp.md)

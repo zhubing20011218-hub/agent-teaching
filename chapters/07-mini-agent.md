@@ -1,11 +1,11 @@
 ---
 title: 第 7 章 🟡 选修：手写一个迷你 Agent
 part: 第二部分 · 拿到钥匙，接上 DeepSeek
-verified_with: openai Python 库 3.51(示例代码已用模拟回复测试循环逻辑)
+verified_with: openai Python 库 3.51（示例代码已用模拟回复测试循环逻辑）
 last_checked: 2026-11-17
 ---
 
-# 第 7 章 🟡 选修：手写一个迷你 Agent(约 80 行，代码全给)
+# 第 7 章 🟡 选修：手写一个迷你 Agent（约 80 行，代码全给）
 
 > 🟡 **这是选修章。** 需要先学完第 6 章。不想学可以直接跳到 [第 8 章](08-install-dsh.md)。
 

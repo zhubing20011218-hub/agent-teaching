@@ -1,7 +1,7 @@
 ---
 title: 第 20 章 定制你自己的 Agent
 part: 第五部分 · 进阶定制
-verified_with: dsh 0.2.2-rc.3(按官方 agent-instructions、agent-preset、subagent 文档核对)
+verified_with: dsh 0.2.2-rc.3（按官方 agent-instructions、agent-preset、subagent 文档核对）
 last_checked: 2026-11-17
 ---
 
@@ -73,7 +73,7 @@ last_checked: 2026-11-17
 
 - **写短一点**：每次都要发给 AI，写得长就花钱多。一般一两页足够
 - **写具体**：“解释要简单”不如“一句话不超过 30 个字，专业名词先打比方”
-- **不要和 skill 重复**：某一类工作的具体做法，写成 skill(第 17 章)
+- **不要和 skill 重复**：某一类工作的具体做法，写成 skill（第 17 章）
 
 ## 3. 智能体模式（preset）
 

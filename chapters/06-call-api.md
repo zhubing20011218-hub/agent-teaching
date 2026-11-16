@@ -1,7 +1,7 @@
 ---
 title: 第 6 章 🟡 选修：亲手调用一次 API
 part: 第二部分 · 拿到钥匙，接上 DeepSeek
-verified_with: DeepSeek API 文档（2026-11-17 查阅）,openai Python 库 3.51
+verified_with: DeepSeek API 文档（2026-11-17 查阅），openai Python 库 3.51
 last_checked: 2026-11-17
 ---
 
@@ -21,7 +21,7 @@ last_checked: 2026-11-17
 DSH 每次和 DeepSeek 说话，背后做的都是这一章的事情。亲手做一次，你就会明白：
 
 - AI 其实**没有记忆**，每次都要把聊天记录重新发一遍
-- 每次调用都会告诉你用了多少 Token(多少钱)
+- 每次调用都会告诉你用了多少 Token（多少钱）
 
 ## 2. 跟着做
 

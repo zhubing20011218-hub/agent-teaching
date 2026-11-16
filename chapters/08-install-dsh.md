@@ -1,7 +1,7 @@
 ---
 title: 第 8 章 安装 DSH
 part: 第三部分 · 用上 DeepSeek Harness
-verified_with: dsh 0.2.2-rc.3(按官网下载页和官方文档核对)
+verified_with: dsh 0.2.2-rc.3（按官网下载页和官方文档核对）
 last_checked: 2026-11-17
 ---
 
@@ -40,7 +40,7 @@ DSH 有两种用法，界面和功能基本一样：
 
 1. 打开官网：https://deepseek.com/harness
 2. 点“下载桌面端”，选择你的系统：
-   - Mac(Apple 芯片)：下载 `.dmg` 文件
+   - Mac（Apple 芯片）：下载 `.dmg` 文件
    - Windows：下载 `.exe` 文件
 
 > [!WARNING]
@@ -115,7 +115,7 @@ DSH 的设置、聊天记录、skill 等，都存在你用户文件夹里一个�
 |---|---|---|
 | `.credentials.yaml` | **你保存的钥匙** | ⚠️ **绝对不能** |
 | `sessions/` | 你和 AI 的聊天记录 | 不建议，里面可能有你的文件内容 |
-| `skills/` | 你装的 skill(第四部分会用) | 可以 |
+| `skills/` | 你装的 skill（第四部分会用） | 可以 |
 | `profiles/` | 各种配置 | 发之前要检查有没有钥匙 |
 
 > [!WARNING]

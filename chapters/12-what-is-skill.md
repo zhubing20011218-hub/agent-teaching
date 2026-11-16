@@ -1,7 +1,7 @@
 ---
 title: 第 12 章 Skill 是什么
 part: 第四部分 · Skill（技能）：教 AI 新本事
-verified_with: dsh 0.2.2-rc.3(按官方 skill 文档核对)
+verified_with: dsh 0.2.2-rc.3（按官方 skill 文档核对）
 last_checked: 2026-11-17
 ---
 
@@ -107,7 +107,7 @@ description: 任何涉及 .pptx 文件的工作都用这个 skill:新建演示�
 | **AI 自己判断** | AI 看了目录，觉得当前工作需要 | 你说“帮我做个 PPT”,AI 自己去加载 `pptx` |
 | **你手动叫** | 在输入框里输入 `/` 加 skill 名字 | 输入 `/pptx`，直接指定用这个 skill |
 
-skill 被加载时，对话里会出现一行「**加载技能**」的记录，点「查看」可以看到它加载的是哪个 skill(第 13 章会教你怎么确认)。
+skill 被加载时，对话里会出现一行「**加载技能**」的记录，点「查看」可以看到它加载的是哪个 skill（第 13 章会教你怎么确认）。
 
 ### 分清四样东西
 
@@ -131,7 +131,7 @@ skill 被加载时，对话里会出现一行「**加载技能**」的记录，�
 
 ### Skill 是通用的
 
-skill 的格式最早来自 Anthropic(做 Claude 的公司)，现在 DSH、Claude Code、Codex 等很多工具都支持**同一种格式**。一个 skill 写好，在这几个工具里基本都能用。
+skill 的格式最早来自 Anthropic（做 Claude 的公司），现在 DSH、Claude Code、Codex 等很多工具都支持**同一种格式**。一个 skill 写好，在这几个工具里基本都能用。
 
 所以网上有大量别人写好的 skill，可以直接拿来用（下一章教你怎么装）。
 

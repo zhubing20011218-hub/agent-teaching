@@ -1,11 +1,11 @@
 ---
 title: 第 14 章 实战一：让 AI 帮你做 PPT
 part: 第四部分 · Skill（技能）：教 AI 新本事
-verified_with: dsh 0.2.2-rc.3;anthropics/skills 的 pptx skill(2026-11-17 版本，Apache 2.0)
+verified_with: dsh 0.2.2-rc.3;anthropics/skills 的 pptx skill（2026-11-17 版本，Apache 2.0）
 last_checked: 2026-11-17
 ---
 
-# 第 14 章 实战一：让 AI 帮你做 PPT(从零到成功)
+# 第 14 章 实战一：让 AI 帮你做 PPT（从零到成功）
 
 > **学完这一章，你能：**
 > - 装好做 PPT 用的 `pptx` skill 和它需要的软件
@@ -69,7 +69,7 @@ last_checked: 2026-11-17
 
 装好后，按第 13 章的方法，输入 `/pptx` 确认它出现在指令菜单里。
 
-### 第二步：安装 LibreOffice(手动，只要一次)
+### 第二步：安装 LibreOffice（手动，只要一次）
 
 1. 打开 https://www.libreoffice.org/download/download-libreoffice/
 2. 下载适合你电脑的版本（Mac 选 Apple 芯片 / Intel;Windows 选 x86_64）
@@ -93,7 +93,7 @@ Node.js 和 pptxgenjs、Python 和它需要的 Python 包、LibreOffice、Popple
 **应该看到：** 一张检查表。它要安装东西时会弹审批，看清命令(一般是 `pip install …` 或 `npm install …`)，确认后「允许一次」。
 
 > [!TIP]
-> **Poppler 在 Mac 上**一般用 Homebrew(Mac 上的“软件管家”)安装：`brew install poppler`。如果你没有 Homebrew,AI 会告诉你怎么装。**Windows 上**比较麻烦，可以先跳过，AI 会退而用其他办法检查。
+> **Poppler 在 Mac 上**一般用 Homebrew（Mac 上的“软件管家”）安装：`brew install poppler`。如果你没有 Homebrew,AI 会告诉你怎么装。**Windows 上**比较麻烦，可以先跳过，AI 会退而用其他办法检查。
 
 ### 第四步：第一次做 PPT
 
@@ -125,7 +125,7 @@ Node.js 和 pptxgenjs、Python 和它需要的 Python 包、LibreOffice、Popple
 
 1. 对话里出现「**加载技能**」→ 点「查看」确认是 `pptx`
 2. AI 给你一份 8 页的大纲 → 你检查、提修改意见，或者回复“可以，开始做”
-3. AI 写一个小程序来生成 PPT(这是 skill 教它的做法，你不用看懂)
+3. AI 写一个小程序来生成 PPT（这是 skill 教它的做法，你不用看懂）
 4. AI 运行检查工具，把 PPT 转成图片，自己“看”一遍，修掉问题
 5. AI 告诉你：做好了，文件在哪里
 

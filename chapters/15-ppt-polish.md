@@ -1,7 +1,7 @@
 ---
 title: 第 15 章 实战二：优化、美化你已有的 PPT
 part: 第四部分 · Skill（技能）：教 AI 新本事
-verified_with: dsh 0.2.2-rc.3;pptx skill(2026-11-17 版本)；本教程 ppt-polish skill
+verified_with: dsh 0.2.2-rc.3;pptx skill（2026-11-17 版本）；本教程 ppt-polish skill
 last_checked: 2026-11-17
 ---
 
@@ -61,7 +61,7 @@ skills/ppt-polish 这个文件夹复制到 ~/.dsh/skills/ppt-polish。
 
 ### 第二步：准备一份要优化的 PPT
 
-用你自己的一份 PPT(工作汇报、课程作业都行)，**复制一份**放进 `ai-练习/PPT练习` 文件夹。
+用你自己的一份 PPT（工作汇报、课程作业都行），**复制一份**放进 `ai-练习/PPT练习` 文件夹。
 
 > [!WARNING]
 > 如果 PPT 里有公司机密、客户信息、个人隐私，**不要用**。AI 读过的内容会发给 DeepSeek。可以先用第 14 章做的那份来练习。
@@ -130,9 +130,9 @@ skills/ppt-polish 这个文件夹复制到 ~/.dsh/skills/ppt-polish。
 另存为 我的汇报_模板版.pptx。
 ```
 
-## 4. 更多 PPT 规范 skill(可选)
+## 4. 更多 PPT 规范 skill（可选）
 
-`ppt-polish` 是通用的规范。如果你有特定场景，可以找更专门的 skill(都是 MIT 开源许可):
+`ppt-polish` 是通用的规范。如果你有特定场景，可以找更专门的 skill（都是 MIT 开源许可）:
 
 | skill | 适合 | 说明 |
 |---|---|---|

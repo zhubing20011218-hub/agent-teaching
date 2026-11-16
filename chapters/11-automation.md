@@ -1,7 +1,7 @@
 ---
 title: 第 11 章 🟡 选修：让 DSH 自动干活
 part: 第三部分 · 用上 DeepSeek Harness
-verified_with: dsh 0.2.2-rc.3(按官方文档核对)
+verified_with: dsh 0.2.2-rc.3（按官方文档核对）
 last_checked: 2026-11-17
 ---
 
@@ -80,7 +80,7 @@ npx @deepseek-ai/dsh headless "列出当前文件夹里所有的 txt 文件,并�
 
 ## 4. 从 Python 里调用（要写代码）
 
-DSH 提供官方 Python SDK(软件开发工具包，就是让你的 Python 程序能指挥 DSH 的工具包)，包名 `deepseek-harness-sdk`。
+DSH 提供官方 Python SDK（软件开发工具包，就是让你的 Python 程序能指挥 DSH 的工具包），包名 `deepseek-harness-sdk`。
 
 适合想把 Agent 能力做进自己程序里的人。它的安装和示例比较长，而且还在快速变化，请直接看官方教程：
 

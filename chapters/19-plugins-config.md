@@ -1,7 +1,7 @@
 ---
 title: 第 19 章 插件和配置文件
 part: 第五部分 · 进阶定制
-verified_with: dsh 0.2.2-rc.3(按官方插件索引文档和 CLI 文档核对)
+verified_with: dsh 0.2.2-rc.3（按官方插件索引文档和 CLI 文档核对）
 last_checked: 2026-11-17
 ---
 

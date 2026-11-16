@@ -21,7 +21,7 @@ last_checked: 2026-11-17
 
 | 资源 | 说明 |
 |---|---|
-| [anthropics/skills](https://github.com/anthropics/skills) | 官方示例 skill(含 pptx、docx、xlsx、pdf) |
+| [anthropics/skills](https://github.com/anthropics/skills) | 官方示例 skill（含 pptx、docx、xlsx、pdf） |
 | [obra/superpowers](https://github.com/obra/superpowers) | 很流行的一套开发类 skill |
 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | skill 合集索引（格式通用） |
 | 本教程的 [skills/](https://github.com/zhubing20011218-hub/agent-teaching/tree/main/skills) 文件夹 | 3 个中文示例 skill |

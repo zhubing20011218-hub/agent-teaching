@@ -1,7 +1,7 @@
 ---
 title: 第 18 章 MCP：让 AI 连上更多外部工具
 part: 第五部分 · 进阶定制
-verified_with: dsh 0.2.2-rc.3(按官方 dsh-mcp-client 文档核对配置格式)
+verified_with: dsh 0.2.2-rc.3（按官方 dsh-mcp-client 文档核对配置格式）
 last_checked: 2026-11-17
 ---
 

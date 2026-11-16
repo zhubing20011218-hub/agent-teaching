@@ -124,18 +124,18 @@ AI 本身**没有记忆**。你和它聊天时，其实每次都要把**整段�
 
 ### “OpenAI 兼容”：大家都用同一种菜单格式
 
-OpenAI(做 ChatGPT 的公司)最早定了一种 API 的“菜单格式”。后来很多 AI 公司为了方便大家迁移，都用了**同一种格式**。这就叫 **“OpenAI 兼容”**。
+OpenAI（做 ChatGPT 的公司）最早定了一种 API 的“菜单格式”。后来很多 AI 公司为了方便大家迁移，都用了**同一种格式**。这就叫 **“OpenAI 兼容”**。
 
 好处是：**换一家 AI，只需要换“窗口地址”和“钥匙”，其他都不用改。**
 
-DeepSeek 就是 OpenAI 兼容的。它还额外支持 Anthropic(做 Claude 的公司)的格式，地址是 `https://api.deepseek.com/anthropic`。
+DeepSeek 就是 OpenAI 兼容的。它还额外支持 Anthropic（做 Claude 的公司）的格式，地址是 `https://api.deepseek.com/anthropic`。
 
 你会在后面的设置里看到这几种格式的选项：
 
 | 格式名称 | 谁定的 |
 |---|---|
-| OpenAI Chat Completions | OpenAI(最常见) |
-| OpenAI Responses | OpenAI(较新) |
+| OpenAI Chat Completions | OpenAI（最常见） |
+| OpenAI Responses | OpenAI（较新） |
 | Anthropic Messages | Anthropic |
 | Gemini API | Google |
 
