@@ -89,7 +89,7 @@ fi
 # ---------- 4. 上传 ----------
 say "4/6 上传改过的文件"
 if [ "$UPLOAD_COUNT" -gt 0 ]; then
-  (cd "$STAGE" && tar --no-mac-metadata -cf - -T "$STAGE.upload") | "${SSH[@]}" "cd $REMOTE_DIR && tar -xf - --no-same-owner" \
+  (cd "$STAGE" && tar --no-mac-metadata --no-xattrs -cf - -T "$STAGE.upload") | "${SSH[@]}" "cd $REMOTE_DIR && tar -xf - --no-same-owner" \
     || fail "上传失败(多半是 ssh 超时),服务器上的网站可能只更新了一部分:等 20 秒原样重跑"
 fi
 if [ "$DELETE_COUNT" -gt 0 ]; then
@@ -119,7 +119,7 @@ echo "✅ 内网访问正常,线上版本 = $COMMIT"
 
 # ---------- 6. 公网验收 ----------
 say "6/6 公网验收 https://$DOMAIN"
-if ! remote "grep -q '^$DOMAIN' /opt/prismice/app/deploy/hk-server/Caddyfile"; then
+if [ "$(remote "grep -q '^$DOMAIN' /opt/prismice/app/deploy/hk-server/Caddyfile && echo yes || echo no")" != yes ]; then
   echo "⚠️ 主站网关的 Caddyfile 里还没有 $DOMAIN,公网暂时打不开(第一次上线要先改 eureka-saas 仓库的 deploy/hk-server/Caddyfile)"
   exit 0
 fi
