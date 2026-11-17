@@ -1,10 +1,8 @@
 import DefaultTheme from 'vitepress/theme'
-import { h } from 'vue'
+import { defineAsyncComponent, h } from 'vue'
 import { onContentUpdated, useRoute } from 'vitepress'
 import type { Theme } from 'vitepress'
 import DocMeta from './DocMeta.vue'
-import SkillLibrary from './SkillLibrary.vue'
-import ShowcaseList from './ShowcaseList.vue'
 import './style.css'
 
 /** 让"自己检查"里的复选框可以勾选,并记住进度(只存在读者自己的浏览器里) */
@@ -43,8 +41,9 @@ export default {
     })
   },
   enhanceApp({ app }) {
-    app.component('SkillLibrary', SkillLibrary)
-    app.component('ShowcaseList', ShowcaseList)
+    // 按需加载：只有打开 Skill 库、作品展示时才下载它们的数据
+    app.component('SkillLibrary', defineAsyncComponent(() => import('./SkillLibrary.vue')))
+    app.component('ShowcaseList', defineAsyncComponent(() => import('./ShowcaseList.vue')))
   },
   setup() {
     const route = useRoute()

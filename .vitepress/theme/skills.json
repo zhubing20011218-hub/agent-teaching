@@ -1,0 +1,4817 @@
+[
+{
+"id": "docx",
+"name": "docx",
+"title": "Word 文档",
+"desc": "新建、修改 Word：报告、通知、讲义、合同模板",
+"cat": "office",
+"roles": [
+"student",
+"teacher",
+"accounting"
+],
+"starter": true,
+"url": "https://github.com/anthropics/skills/tree/main/skills/docx",
+"source": "anthropics/skills",
+"stars": 196274,
+"license": "Apache-2.0",
+"script": true
+},
+{
+"id": "xlsx",
+"name": "xlsx",
+"title": "Excel 表格",
+"desc": "读、整理、计算 Excel 和 CSV，保留公式和格式，用程序算数不心算",
+"cat": "office",
+"roles": [
+"student",
+"teacher",
+"accounting",
+"ecommerce",
+"media",
+"pet",
+"travel"
+],
+"starter": true,
+"url": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
+"source": "anthropics/skills",
+"stars": 196274,
+"license": "Apache-2.0",
+"script": true
+},
+{
+"id": "pptx",
+"name": "pptx",
+"title": "PPT 制作",
+"desc": "做 PPT、改 PPT（第 13 章专门讲）",
+"cat": "office",
+"roles": [
+"student",
+"teacher",
+"ecommerce"
+],
+"starter": true,
+"url": "https://github.com/anthropics/skills/tree/main/skills/pptx",
+"source": "anthropics/skills",
+"stars": 196274,
+"license": "Apache-2.0",
+"script": true,
+"note": "你电脑上如果有旧版 pptx skill，许可证可能是早期的专有许可，建议换成这个新版"
+},
+{
+"id": "pdf",
+"name": "pdf",
+"title": "PDF 处理",
+"desc": "读 PDF 里的文字和表格，合并、拆分 PDF，填 PDF 表单",
+"cat": "office",
+"roles": [
+"student",
+"teacher",
+"accounting"
+],
+"starter": true,
+"url": "https://github.com/anthropics/skills/tree/main/skills/pdf",
+"source": "anthropics/skills",
+"stars": 196274,
+"license": "Apache-2.0",
+"script": true
+},
+{
+"id": "theme-factory",
+"name": "theme-factory",
+"title": "配色主题",
+"desc": "给 PPT、文档、网页统一配色和字体，自带 10 套主题",
+"cat": "office",
+"roles": [],
+"starter": false,
+"url": "https://github.com/anthropics/skills/tree/main/skills/theme-factory",
+"source": "anthropics/skills",
+"stars": 196274,
+"license": "Apache-2.0"
+},
+{
+"id": "markitdown",
+"name": "markitdown",
+"title": "各种文件转文字",
+"desc": "把 Word、PDF、PPT、Excel、网页等转成纯文字（Markdown），方便 AI 读",
+"cat": "office",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/markitdown",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true
+},
+{
+"id": "md-slides",
+"name": "md-slides",
+"title": "文字变网页幻灯片",
+"desc": "把一份 Markdown 文字稿变成单文件网页幻灯片，带翻页和演讲备注",
+"cat": "office",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/markdown-html/skills/md-slides",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "md-document",
+"name": "md-document",
+"title": "长文变网页",
+"desc": "把长篇报告、方案变成带目录的单页网页，方便阅读和分享",
+"cat": "office",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/markdown-html/skills/md-document",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "ppt-polish",
+"name": "ppt-polish",
+"title": "PPT 美化检查（本教程自带）",
+"desc": "检查并美化已有的 PPT：对齐、字号、配色、每页一个重点",
+"cat": "office",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://teach.prismice.cn/files/skills/ppt-polish/SKILL.md",
+"hosted": true,
+"license": "CC BY-NC-SA 4.0",
+"zh": true,
+"source": "本教程"
+},
+{
+"id": "prompt-master",
+"name": "prompt-master",
+"title": "把要求说清楚",
+"desc": "帮你把“想让 AI 做的事”写成更清楚的指令",
+"cat": "writing",
+"roles": [
+"student",
+"teacher",
+"accounting",
+"ecommerce",
+"media",
+"pet",
+"travel"
+],
+"starter": true,
+"url": "https://github.com/nidhinjs/prompt-master",
+"source": "nidhinjs/prompt-master",
+"stars": 16078,
+"license": "MIT"
+},
+{
+"id": "meeting-notes",
+"name": "meeting-notes",
+"title": "会议纪要（本教程自带）",
+"desc": "把零散记录整理成会议纪要：结论、待办、负责人",
+"cat": "writing",
+"roles": [
+"student",
+"teacher",
+"accounting",
+"ecommerce"
+],
+"starter": true,
+"url": "https://teach.prismice.cn/files/skills/meeting-notes/SKILL.md",
+"hosted": true,
+"license": "CC BY-NC-SA 4.0",
+"zh": true,
+"source": "本教程"
+},
+{
+"id": "internal-comms",
+"name": "internal-comms",
+"title": "工作通知和周报",
+"desc": "按固定格式写工作通知、周报、项目进展",
+"cat": "writing",
+"roles": [
+"teacher",
+"accounting",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/anthropics/skills/tree/main/skills/internal-comms",
+"source": "anthropics/skills",
+"stars": 196274,
+"license": "Apache-2.0"
+},
+{
+"id": "doc-coauthoring",
+"name": "doc-coauthoring",
+"title": "一起写文档",
+"desc": "按“先问清楚 → 列大纲 → 分段写 → 回头检查”的流程，和你一起写方案、说明文档",
+"cat": "writing",
+"roles": [
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring",
+"source": "anthropics/skills",
+"stars": 196274,
+"license": "未单独注明"
+},
+{
+"id": "en-zh-max",
+"name": "en-zh-max",
+"title": "英译汉",
+"desc": "英文翻成通顺的中文，按翻译方法逐步处理",
+"cat": "writing",
+"roles": [
+"student",
+"teacher",
+"media"
+],
+"starter": false,
+"url": "https://github.com/3060226349kk-cmd/en-zh-max",
+"source": "3060226349kk-cmd/en-zh-max",
+"stars": 25,
+"license": "MIT",
+"script": true,
+"zh": true
+},
+{
+"id": "qu-ai-wei",
+"name": "qu-ai-wei",
+"title": "去 AI 味",
+"desc": "把生硬的中文改自然，保留原来的事实和意思",
+"cat": "writing",
+"roles": [
+"ecommerce",
+"media"
+],
+"starter": false,
+"url": "https://github.com/LifelongLazyLearner/qu-ai-wei",
+"source": "LifelongLazyLearner/qu-ai-wei",
+"stars": 756,
+"license": "MIT",
+"script": true,
+"zh": true,
+"note": "只用来改你自己的文字风格。要求独立完成的作业、论文，不能用它“去痕迹”"
+},
+{
+"id": "copy-editing",
+"name": "copy-editing",
+"title": "文案精修",
+"desc": "校对、精简、改写已有的文案，告诉你哪句留、哪句删",
+"cat": "writing",
+"roles": [
+"media",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/copy-editing",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "prompt-optimizer",
+"name": "prompt-optimizer",
+"title": "提示词优化",
+"desc": "把你常用的提示词改得更清楚、更稳定，并反复测试改进",
+"cat": "writing",
+"roles": [],
+"starter": false,
+"url": "https://github.com/getsentry/skills/tree/main/skills/prompt-optimizer",
+"source": "getsentry/skills",
+"stars": 1174,
+"license": "Apache-2.0"
+},
+{
+"id": "team-communications",
+"name": "team-communications",
+"title": "团队沟通文稿",
+"desc": "写周报、进度更新、内部通讯、常见问题、事故说明",
+"cat": "writing",
+"roles": [
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/project-management/skills/team-communications",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT"
+},
+{
+"id": "reader-first-technical-edit",
+"name": "reader-first-technical-edit",
+"title": "让专业文章好读",
+"desc": "把公式多、术语多的论文或技术文档，改得让外行也能读懂",
+"cat": "writing",
+"roles": [],
+"starter": false,
+"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/reader-first-technical-edit-seth-chandler",
+"source": "lawve-ai/awesome-legal-skills",
+"stars": 958,
+"license": "CC BY-NC-ND 4.0",
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+},
+{
+"id": "deep-work",
+"name": "deep-work",
+"title": "深度工作计划",
+"desc": "帮你规划一天的专注时间：排时间块、砍掉浅层任务",
+"cat": "productivity",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/productivity/deep-work/skills/deep-work",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "weekly-review",
+"name": "weekly-review",
+"title": "每周复盘",
+"desc": "每周回顾一次：收尾没做完的事、检查停滞的项目、定下周重点",
+"cat": "productivity",
+"roles": [
+"student",
+"teacher",
+"accounting"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/productivity/weekly-review/skills/weekly-review",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "inbox-triage",
+"name": "inbox-triage",
+"title": "邮箱整理",
+"desc": "把收件箱里的邮件分类：要回的、要办的、可以忽略的",
+"cat": "productivity",
+"roles": [
+"teacher",
+"accounting",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/productivity/email/skills/inbox-triage",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true,
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"keys": true
+},
+{
+"id": "meetings",
+"name": "meetings",
+"title": "开会前想清楚",
+"desc": "判断这个会值不值得开、算会议成本、写议程和会后纪要",
+"cat": "productivity",
+"roles": [
+"teacher",
+"accounting"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/productivity/meetings/skills/meetings",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "reflect",
+"name": "reflect",
+"title": "停下来复盘",
+"desc": "事情做着做着跑偏时，帮你退一步看：目标还对吗、该不该调整",
+"cat": "productivity",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/productivity/reflect/skills/reflect",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "capture",
+"name": "capture",
+"title": "想法整理",
+"desc": "把脑子里乱七八糟的想法、任务、计划，整理成清单",
+"cat": "productivity",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/productivity/capture/skills/capture",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "meeting-analyzer",
+"name": "meeting-analyzer",
+"title": "会议录音分析",
+"desc": "读会议转写稿，分析发言占比、决定了什么、谁负责什么",
+"cat": "productivity",
+"roles": [
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/project-management/skills/meeting-analyzer",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT"
+},
+{
+"id": "decision-logger",
+"name": "decision-logger",
+"title": "决策记录",
+"desc": "记下每次重要决定和理由，之后回看、检查待办有没有完成",
+"cat": "productivity",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/decision-logger",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true,
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "knowledge-ops",
+"name": "knowledge-ops",
+"title": "操作手册（SOP）",
+"desc": "写、检查、整理操作手册和工作流程文档",
+"cat": "productivity",
+"roles": [
+"accounting",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/business-operations/skills/knowledge-ops",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "fact-check",
+"name": "fact-check",
+"title": "事实核查（DSH 专用）",
+"desc": "为 DSH 写的事实核查：把问题拆开，多个来源交叉核对，标出可信度",
+"cat": "research",
+"roles": [
+"student",
+"teacher",
+"media"
+],
+"starter": true,
+"url": "https://github.com/7starsseeker/dsh-fact-check",
+"source": "7starsseeker/dsh-fact-check",
+"stars": 6,
+"license": "MIT",
+"script": true,
+"net": true,
+"zh": true
+},
+{
+"id": "discernment-nudge",
+"name": "discernment-nudge",
+"title": "提醒你核对",
+"desc": "AI 给出建议或数据后，自动追加 2–3 个“你该核对什么”的问题",
+"cat": "research",
+"roles": [
+"student",
+"teacher",
+"accounting",
+"ecommerce",
+"media",
+"pet",
+"travel"
+],
+"starter": true,
+"url": "https://github.com/anthropics/skills/tree/main/skills/discernment-nudge",
+"source": "anthropics/skills",
+"stars": 196274,
+"license": "Apache-2.0"
+},
+{
+"id": "reliable-research",
+"name": "reliable-research",
+"title": "靠谱搜索（本教程自带）",
+"desc": "优先找原始来源，标出处，分清“查到的”和“推测的”，查不到就说查不到",
+"cat": "research",
+"roles": [
+"student",
+"teacher",
+"accounting",
+"ecommerce",
+"media",
+"pet",
+"travel"
+],
+"starter": true,
+"url": "https://teach.prismice.cn/files/skills/reliable-research/SKILL.md",
+"hosted": true,
+"license": "CC BY-NC-SA 4.0",
+"zh": true,
+"source": "本教程"
+},
+{
+"id": "research-lookup",
+"name": "research-lookup",
+"title": "学术证据汇总",
+"desc": "为一个研究问题汇总最新的学术证据，标清每条来源",
+"cat": "research",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/research-lookup",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true,
+"net": true
+},
+{
+"id": "paper-lookup",
+"name": "paper-lookup",
+"title": "查论文",
+"desc": "在 18 个学术数据库里查论文、预印本、引用和开放全文",
+"cat": "research",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/paper-lookup",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true,
+"net": true
+},
+{
+"id": "scientific-critical-thinking",
+"name": "scientific-critical-thinking",
+"title": "判断研究靠不靠谱",
+"desc": "检查一项研究的设计、偏差、证据强弱，判断结论站不站得住",
+"cat": "research",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/scientific-critical-thinking",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT"
+},
+{
+"id": "database-lookup",
+"name": "database-lookup",
+"title": "查公开数据库",
+"desc": "从公开的科研数据库里查数据，并记录来源和查询条件",
+"cat": "research",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/database-lookup",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT"
+},
+{
+"id": "lecture-notes",
+"name": "lecture-notes",
+"title": "课件变复习手册",
+"desc": "把课件整理成复习手册：概念讲解、准确定义、例题完整解答",
+"cat": "learning",
+"roles": [
+"student",
+"teacher"
+],
+"starter": true,
+"url": "https://github.com/SaB11F/lecture-notes-skill/tree/main/skills/lecture-notes",
+"source": "SaB11F/lecture-notes-skill",
+"stars": 2,
+"license": "MIT",
+"script": true,
+"note": "说明是英文，可以要求它输出中文"
+},
+{
+"id": "quiz-generator",
+"name": "quiz-generator",
+"title": "自测网页",
+"desc": "把题目做成离线自测网页：答题卡、错题本、随机抽题，不收集任何信息",
+"cat": "learning",
+"roles": [
+"student",
+"teacher"
+],
+"starter": true,
+"url": "https://github.com/fall-dust/quiz-generator-skill",
+"source": "fall-dust/quiz-generator-skill",
+"stars": 1,
+"license": "MIT",
+"script": true,
+"net": true,
+"zh": true
+},
+{
+"id": "learning-tutor",
+"name": "learning-tutor",
+"title": "一对一自学老师",
+"desc": "想系统学一样东西：先定计划，再一课一课教，布置小任务并批改",
+"cat": "learning",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/MyLiya46/learning-tutor/tree/main/skills/learning-tutor",
+"source": "MyLiya46/learning-tutor",
+"stars": 2,
+"license": "MIT",
+"zh": true
+},
+{
+"id": "teacher",
+"name": "teacher",
+"title": "AI 讲解老师",
+"desc": "把课本、讲义交给它，先判断你的水平，再一步步讲懂",
+"cat": "learning",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/chentao326/teacher-skill",
+"source": "chentao326/teacher-skill",
+"stars": 71,
+"license": "MIT",
+"script": true,
+"net": true,
+"zh": true
+},
+{
+"id": "anki",
+"name": "anki",
+"title": "Anki 记忆卡片",
+"desc": "把知识点做成 Anki 记忆卡片（需要先装 Anki）",
+"cat": "learning",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/loftiskg/anki-claude-code-skill/tree/main/.claude/skills/anki",
+"source": "loftiskg/anki-claude-code-skill",
+"stars": 0,
+"license": "MIT",
+"deps": "Anki 软件"
+},
+{
+"id": "sunzi-reading",
+"name": "sunzi-reading",
+"title": "论文讲人话",
+"desc": "用大白话讲论文：想解决什么、怎么做的、发现了什么，适合第一次读",
+"cat": "academic",
+"roles": [
+"student",
+"teacher"
+],
+"starter": true,
+"url": "https://github.com/julilaoshi/sunzi-reading/tree/main/skill",
+"source": "julilaoshi/sunzi-reading",
+"stars": 3,
+"license": "MIT",
+"zh": true
+},
+{
+"id": "paper-reading",
+"name": "paper-reading",
+"title": "论文精读笔记",
+"desc": "精读论文，生成中文阅读笔记：主线、方法、图表、公式",
+"cat": "academic",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/Kingslayer-bot/paper-reading-skill",
+"source": "Kingslayer-bot/paper-reading-skill",
+"stars": 33,
+"license": "MIT",
+"script": true,
+"zh": true
+},
+{
+"id": "literature-review-skills",
+"name": "literature-review-skills",
+"title": "文献综述（中文合集）",
+"desc": "收窄题目、拆分结构、比较研究方法、梳理矛盾、找研究空白",
+"cat": "academic",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/xingtaxueshu/literature-review-skills",
+"source": "xingtaxueshu/literature-review-skills",
+"stars": 91,
+"license": "MIT",
+"script": true,
+"zh": true,
+"note": "帮你理清思路和找资料；写进论文要用你自己的话，按规范引用"
+},
+{
+"id": "literature-review",
+"name": "literature-review",
+"title": "系统文献综述",
+"desc": "在 PubMed、arXiv 等数据库检索并整理文献，做系统综述或范围综述",
+"cat": "academic",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/literature-review",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true,
+"net": true
+},
+{
+"id": "citation-management",
+"name": "citation-management",
+"title": "参考文献管理",
+"desc": "查找、核对、格式化参考文献，避免引用错误",
+"cat": "academic",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/citation-management",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true
+},
+{
+"id": "scientific-writing",
+"name": "scientific-writing",
+"title": "科研论文写作",
+"desc": "起草、修改、检查科研论文，每个说法都标明证据来源",
+"cat": "academic",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/scientific-writing",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true,
+"note": "帮你起草和检查；交给期刊或学校的稿子，要按规定说明使用了 AI"
+},
+{
+"id": "peer-review",
+"name": "peer-review",
+"title": "论文审稿意见",
+"desc": "按结构写有建设性的审稿意见，只评价有证据支持的部分",
+"cat": "academic",
+"roles": [
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/peer-review",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true,
+"note": "审稿意见要你自己判断和负责，不要直接照搬"
+},
+{
+"id": "research-grants",
+"name": "research-grants",
+"title": "基金申请书",
+"desc": "准备和检查科研基金申请书（以美国、台湾地区的基金为主）",
+"cat": "academic",
+"roles": [
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/research-grants",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT"
+},
+{
+"id": "scholar-evaluation",
+"name": "scholar-evaluation",
+"title": "学术作品评审",
+"desc": "对论文、学位论文做发展性评审，指出可以改进的地方",
+"cat": "academic",
+"roles": [
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/scholar-evaluation",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true
+},
+{
+"id": "hypothesis-generation",
+"name": "hypothesis-generation",
+"title": "提出研究假设",
+"desc": "根据已有证据提出研究问题、候选假设和对立解释",
+"cat": "academic",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/hypothesis-generation",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true
+},
+{
+"id": "scientific-brainstorming",
+"name": "scientific-brainstorming",
+"title": "科研头脑风暴",
+"desc": "围绕一个研究方向结构化地想点子、讨论、筛选",
+"cat": "academic",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/scientific-brainstorming",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true
+},
+{
+"id": "experimental-design",
+"name": "experimental-design",
+"title": "实验设计",
+"desc": "在收数据之前设计实验：分组、随机化、样本量、控制变量",
+"cat": "academic",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/experimental-design",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true
+},
+{
+"id": "scientific-schematics",
+"name": "scientific-schematics",
+"title": "科研示意图",
+"desc": "用 AI 画科研示意图草稿，并反复修改（需要 OpenRouter 钥匙）",
+"cat": "academic",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/scientific-schematics",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true,
+"net": true,
+"keys": true
+},
+{
+"id": "scientific-slides",
+"name": "scientific-slides",
+"title": "学术报告幻灯片",
+"desc": "做学术报告、答辩、组会用的幻灯片",
+"cat": "academic",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/scientific-slides",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true,
+"net": true
+},
+{
+"id": "latex-posters",
+"name": "latex-posters",
+"title": "LaTeX 学术海报",
+"desc": "用 LaTeX 做会议海报（需要装 LaTeX）",
+"cat": "academic",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/latex-posters",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true,
+"net": true,
+"deps": "LaTeX"
+},
+{
+"id": "venue-templates",
+"name": "venue-templates",
+"title": "期刊会议模板",
+"desc": "按目标期刊、会议的格式要求整理论文和海报",
+"cat": "academic",
+"roles": [
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/venue-templates",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true
+},
+{
+"id": "pyzotero",
+"name": "pyzotero",
+"title": "Zotero 文献库",
+"desc": "管理你的 Zotero 文献库：查、增、改、删条目（需要 Zotero 钥匙）",
+"cat": "academic",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/pyzotero",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"keys": true
+},
+{
+"id": "uncertainty-and-units",
+"name": "uncertainty-and-units",
+"title": "单位和误差计算",
+"desc": "计算时自动带上物理单位，并传递测量误差（做实验报告的计算很有用）",
+"cat": "academic",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/uncertainty-and-units",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true
+},
+{
+"id": "sympy",
+"name": "sympy",
+"title": "符号数学",
+"desc": "用 SymPy 精确地解方程、求导、积分、化简公式",
+"cat": "academic",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/sympy",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT"
+},
+{
+"id": "biopython",
+"name": "biopython",
+"title": "生物信息（Biopython）",
+"desc": "处理 DNA、蛋白质序列文件，做序列分析和进化树",
+"cat": "academic",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/biopython",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT"
+},
+{
+"id": "rdkit",
+"name": "rdkit",
+"title": "化学分子（RDKit）",
+"desc": "读写分子结构，计算分子性质，做相似性搜索",
+"cat": "academic",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/rdkit",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true
+},
+{
+"id": "astropy",
+"name": "astropy",
+"title": "天文数据（Astropy）",
+"desc": "天文学常用的单位、坐标、时间换算和数据处理",
+"cat": "academic",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/astropy",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT"
+},
+{
+"id": "scanpy",
+"name": "scanpy",
+"title": "单细胞数据分析",
+"desc": "用 Scanpy 做单细胞 RNA 测序数据的质控、聚类和可视化",
+"cat": "academic",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/scanpy",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true,
+"deps": "Python 科学计算库（AI 会帮你装）"
+},
+{
+"id": "geopandas",
+"name": "geopandas",
+"title": "地理数据分析",
+"desc": "用 GeoPandas 处理地图、行政区、坐标等地理数据",
+"cat": "academic",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/geopandas",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true
+},
+{
+"id": "qiskit",
+"name": "qiskit",
+"title": "量子计算入门",
+"desc": "用 Qiskit 搭建和模拟量子电路",
+"cat": "academic",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/qiskit",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true,
+"deps": "Python 的 qiskit 库"
+},
+{
+"id": "huggingface-papers",
+"name": "huggingface-papers",
+"title": "Hugging Face 论文页",
+"desc": "查 AI 领域论文的摘要、作者、关联模型和数据集",
+"cat": "academic",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/huggingface/skills/tree/main/skills/huggingface-papers",
+"source": "huggingface/skills",
+"stars": 11356,
+"license": "Apache-2.0"
+},
+{
+"id": "rubric-feedback",
+"name": "rubric-feedback",
+"title": "按评分标准写反馈（本教程自带）",
+"desc": "逐项给建议档位、引用学生原文作证据、写反馈草稿，分数由老师定",
+"cat": "teaching",
+"roles": [
+"teacher"
+],
+"starter": false,
+"url": "https://teach.prismice.cn/files/skills/rubric-feedback/SKILL.md",
+"hosted": true,
+"license": "CC BY-NC-SA 4.0",
+"zh": true,
+"source": "本教程"
+},
+{
+"id": "workshop-facilitation",
+"name": "workshop-facilitation",
+"title": "工作坊主持",
+"desc": "一步一步带领一场互动工作坊或研讨课",
+"cat": "teaching",
+"roles": [
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/workshop-facilitation",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "survey-design-advisor",
+"name": "survey-design-advisor",
+"title": "问卷设计",
+"desc": "先判断该不该发问卷，再帮你设计题目和发放方式",
+"cat": "teaching",
+"roles": [
+"teacher",
+"student"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/survey-design-advisor",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "statistical-analysis",
+"name": "statistical-analysis",
+"title": "统计分析向导",
+"desc": "帮你选对统计方法、检查前提条件、算效应量，并解释结果",
+"cat": "data",
+"roles": [
+"student",
+"teacher",
+"accounting"
+],
+"starter": true,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/statistical-analysis",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true
+},
+{
+"id": "exploratory-data-analysis",
+"name": "exploratory-data-analysis",
+"title": "数据初步探索",
+"desc": "拿到一份数据先看清楚：有哪些列、缺失多少、分布怎样",
+"cat": "data",
+"roles": [
+"student",
+"teacher",
+"accounting",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/exploratory-data-analysis",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true
+},
+{
+"id": "statistical-power",
+"name": "statistical-power",
+"title": "样本量计算",
+"desc": "做研究前算一算：需要多少样本才够",
+"cat": "data",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/statistical-power",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true
+},
+{
+"id": "matplotlib",
+"name": "matplotlib",
+"title": "画图（Matplotlib）",
+"desc": "用 Python 画各种数据图，细节都能调",
+"cat": "data",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/matplotlib",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true
+},
+{
+"id": "seaborn",
+"name": "seaborn",
+"title": "统计图表（Seaborn）",
+"desc": "快速画分布图、关系图、分组对比图",
+"cat": "data",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/seaborn",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT"
+},
+{
+"id": "scientific-visualization",
+"name": "scientific-visualization",
+"title": "论文级图表",
+"desc": "做真实、清楚、可以直接放进论文的图表",
+"cat": "data",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/scientific-visualization",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true
+},
+{
+"id": "scikit-learn",
+"name": "scikit-learn",
+"title": "机器学习入门",
+"desc": "用 scikit-learn 做分类、回归、聚类等机器学习任务",
+"cat": "data",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/scikit-learn",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true
+},
+{
+"id": "statsmodels",
+"name": "statsmodels",
+"title": "统计建模",
+"desc": "回归分析、方差分析、时间序列模型，并检查模型好不好",
+"cat": "data",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/statsmodels",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT"
+},
+{
+"id": "polars",
+"name": "polars",
+"title": "大表格快速处理",
+"desc": "处理很大的表格数据，比 Excel 快得多",
+"cat": "data",
+"roles": [
+"accounting",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/polars",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT"
+},
+{
+"id": "networkx",
+"name": "networkx",
+"title": "关系网络分析",
+"desc": "分析人物关系、引用关系等网络，找出关键节点",
+"cat": "data",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/networkx",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT"
+},
+{
+"id": "timesfm-forecasting",
+"name": "timesfm-forecasting",
+"title": "销量和趋势预测",
+"desc": "用谷歌的 TimesFM 模型预测时间序列（比如销量）",
+"cat": "data",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/timesfm-forecasting",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true
+},
+{
+"id": "pymc",
+"name": "pymc",
+"title": "贝叶斯统计",
+"desc": "用 PyMC 建贝叶斯模型并检查结果",
+"cat": "data",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/pymc",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true
+},
+{
+"id": "pandas-pro",
+"name": "pandas-pro",
+"title": "表格数据处理（pandas）",
+"desc": "用 pandas 清洗、合并、汇总表格数据",
+"cat": "data",
+"roles": [
+"student",
+"accounting",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/pandas-pro",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "product-analytics",
+"name": "product-analytics",
+"title": "产品数据指标",
+"desc": "定义产品指标、做留存分析、搭数据看板",
+"cat": "data",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/product-team/skills/product-analytics",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "fcs-reconcile",
+"name": "fcs-reconcile",
+"title": "对账",
+"desc": "银行流水对台账，找差异，出复核底稿；金额比对由本地程序完成，原始明细不发给 AI",
+"cat": "finance",
+"roles": [
+"accounting"
+],
+"starter": true,
+"url": "https://github.com/cxtx/finance-copilot-skills/tree/main/skills/fcs-reconcile",
+"source": "cxtx/finance-copilot-skills",
+"stars": 4,
+"license": "MIT",
+"script": true,
+"net": true,
+"zh": true
+},
+{
+"id": "paypal-stripe-reconciliation",
+"name": "paypal-stripe-reconciliation",
+"title": "跨境收款对账",
+"desc": "PayPal、Stripe 的结算和银行到账对上",
+"cat": "finance",
+"roles": [
+"accounting",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/fengyiqicoder/paypal-stripe-reconciliation",
+"source": "fengyiqicoder/paypal-stripe-reconciliation",
+"stars": 0,
+"license": "MIT"
+},
+{
+"id": "financial-analyst",
+"name": "financial-analyst",
+"title": "财务分析",
+"desc": "分析财务报表、做现金流估值、解释预算差异、做滚动预测",
+"cat": "finance",
+"roles": [
+"accounting"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/finance/skills/financial-analyst",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "month-end-close",
+"name": "month-end-close",
+"title": "月结",
+"desc": "规划和加快月末、季末结账流程，列清单查漏",
+"cat": "finance",
+"roles": [
+"accounting"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/finance/skills/month-end-close",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "saas-metrics-coach",
+"name": "saas-metrics-coach",
+"title": "订阅业务指标",
+"desc": "解释和计算 ARR、MRR、流失率、客户终身价值等指标",
+"cat": "finance",
+"roles": [
+"accounting"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/finance/skills/saas-metrics-coach",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "cfo-advisor",
+"name": "cfo-advisor",
+"title": "创业公司财务",
+"desc": "现金还能撑多久、单位经济模型、融资和股权稀释",
+"cat": "finance",
+"roles": [
+"accounting"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/cfo-advisor",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true,
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "finance-metrics-quickref",
+"name": "finance-metrics-quickref",
+"title": "财务指标速查",
+"desc": "快速查财务指标的定义、公式和参考值",
+"cat": "finance",
+"roles": [
+"accounting"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/finance-metrics-quickref",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0"
+},
+{
+"id": "finance-based-pricing-advisor",
+"name": "finance-based-pricing-advisor",
+"title": "调价影响评估",
+"desc": "调价之前，从客单价、转化、流失算一算影响",
+"cat": "finance",
+"roles": [
+"accounting",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/finance-based-pricing-advisor",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "research-finance",
+"name": "research-finance",
+"title": "科研项目预算",
+"desc": "科研项目的多年预算、间接费用、经费使用进度",
+"cat": "finance",
+"roles": [
+"accounting"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/research-ops/skills/research-finance",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "procurement-optimizer",
+"name": "procurement-optimizer",
+"title": "采购降本",
+"desc": "盘点软件订阅和供应商支出，找出能省的钱",
+"cat": "finance",
+"roles": [
+"accounting"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/business-operations/skills/procurement-optimizer",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "contract-review",
+"name": "contract-review",
+"title": "合同审查",
+"desc": "逐条看合同风险，给出修改建议（英文）",
+"cat": "legal",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/evolsb/claude-legal-skill",
+"source": "evolsb/claude-legal-skill",
+"stars": 511,
+"license": "MIT",
+"note": "只能帮你先看一遍，不能代替律师；主要针对美国、欧盟的法律；中国的法律问题请咨询律师",
+"extra": "这个仓库的说明文件叫小写的 skill.md，装好后改名为 SKILL.md"
+},
+{
+"id": "nda-triage-anthropic",
+"name": "nda-triage-anthropic",
+"title": "保密协议初筛",
+"desc": "把收到的保密协议分成绿（标准）、黄（要看）、红（有风险）三类",
+"cat": "legal",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/nda-reviewer-anthropic",
+"source": "lawve-ai/awesome-legal-skills",
+"stars": 958,
+"license": "CC BY-NC-ND 4.0",
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+},
+{
+"id": "legal-risk-assessment",
+"name": "legal-risk-assessment",
+"title": "法律风险评估",
+"desc": "按“严重程度 × 可能性”给法律风险分级，并说明何时该找律师",
+"cat": "legal",
+"roles": [],
+"starter": false,
+"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/legal-risk-assessment-moonshot-ai",
+"source": "lawve-ai/awesome-legal-skills",
+"stars": 958,
+"license": "CC BY-NC-ND 4.0",
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+},
+{
+"id": "tos-clause-scanner",
+"name": "tos-clause-scanner",
+"title": "用户协议风险扫描",
+"desc": "检查网站或 App 的用户协议、隐私政策里对你不利的条款",
+"cat": "legal",
+"roles": [
+"student",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/tos-clause-scanner-moonshot-ai",
+"source": "lawve-ai/awesome-legal-skills",
+"stars": 958,
+"license": "CC BY-NC-ND 4.0",
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+},
+{
+"id": "case-briefer",
+"name": "case-briefer",
+"title": "判例摘要",
+"desc": "把美国法院判决整理成固定九段式的案例摘要（法学学习用）",
+"cat": "legal",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/case-briefer-seth-chandler",
+"source": "lawve-ai/awesome-legal-skills",
+"stars": 958,
+"license": "CC BY-NC-ND 4.0",
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+},
+{
+"id": "statute-briefer",
+"name": "statute-briefer",
+"title": "法条解读",
+"desc": "按固定框架拆解一部法律：适用范围、规则、例外",
+"cat": "legal",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/statute-briefer-seth-chandler",
+"source": "lawve-ai/awesome-legal-skills",
+"stars": 958,
+"license": "CC BY-NC-ND 4.0",
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+},
+{
+"id": "legal-translation",
+"name": "legal-translation",
+"title": "法律文件翻译",
+"desc": "把各语言的法律文件翻成英文，保留 Word 格式",
+"cat": "legal",
+"roles": [],
+"starter": false,
+"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/en-uk-legal-translation-wouter-van-den-berg",
+"source": "lawve-ai/awesome-legal-skills",
+"stars": 958,
+"license": "CC BY-NC-ND 4.0",
+"script": true,
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+},
+{
+"id": "persuasive-legal-writing",
+"name": "persuasive-legal-writing",
+"title": "法律文书写作",
+"desc": "用资深律师的写作技巧，把法律文书写得更有说服力",
+"cat": "legal",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/persuasive-legal-writing-larissa-meredith-flister",
+"source": "lawve-ai/awesome-legal-skills",
+"stars": 958,
+"license": "CC BY-NC-ND 4.0",
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+},
+{
+"id": "client-explanation-translator-larissa-meredith-flister",
+"name": "client-explanation-translator-larissa-meredith-flister",
+"title": "法律意见讲人话",
+"desc": "把复杂的法律分析，改写成客户能看懂、能用的建议",
+"cat": "legal",
+"roles": [],
+"starter": false,
+"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/client-explanation-translator-larissa-meredith-flister",
+"source": "lawve-ai/awesome-legal-skills",
+"stars": 958,
+"license": "CC BY-NC-ND 4.0",
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+},
+{
+"id": "chronology-builder-andrew-bird",
+"name": "chronology-builder-andrew-bird",
+"title": "案件时间线",
+"desc": "从案件材料里整理时间线，每一条都标出出处",
+"cat": "legal",
+"roles": [],
+"starter": false,
+"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/chronology-builder-andrew-bird",
+"source": "lawve-ai/awesome-legal-skills",
+"stars": 958,
+"license": "CC BY-NC-ND 4.0",
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+},
+{
+"id": "legal-diagram",
+"name": "legal-diagram",
+"title": "法律关系图",
+"desc": "把合同、案件、公司结构画成关系图或流程图",
+"cat": "legal",
+"roles": [],
+"starter": false,
+"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/legal-diagram-sam-zhai",
+"source": "lawve-ai/awesome-legal-skills",
+"stars": 958,
+"license": "CC BY-NC-ND 4.0",
+"script": true,
+"net": true,
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+},
+{
+"id": "gdpr-compliance",
+"name": "gdpr-compliance",
+"title": "GDPR 合规",
+"desc": "欧盟数据保护法（GDPR）的合规检查、文档和流程",
+"cat": "legal",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/gdpr-compliance-tanaji-hemant-naik",
+"source": "lawve-ai/awesome-legal-skills",
+"stars": 958,
+"license": "CC BY-NC-ND 4.0",
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+},
+{
+"id": "privacy-policy-malik-taiar",
+"name": "privacy-policy-malik-taiar",
+"title": "隐私政策起草",
+"desc": "按 GDPR 要求起草隐私政策（适合面向欧洲用户的网站）",
+"cat": "legal",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/privacy-policy-generator-malik-taiar",
+"source": "lawve-ai/awesome-legal-skills",
+"stars": 958,
+"license": "CC BY-NC-ND 4.0",
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+},
+{
+"id": "employment-law-research",
+"name": "employment-law-research",
+"title": "劳动法检索",
+"desc": "检索美国联邦、州、城市三级的劳动法规定",
+"cat": "legal",
+"roles": [],
+"starter": false,
+"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/employment-law-research-yue-deng-wu",
+"source": "lawve-ai/awesome-legal-skills",
+"stars": 958,
+"license": "CC BY-NC-ND 4.0",
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+},
+{
+"id": "mediation-dispute-analysis",
+"name": "mediation-dispute-analysis",
+"title": "纠纷调解分析",
+"desc": "帮调解员或律师分析纠纷：各方诉求、底线、可能的方案",
+"cat": "legal",
+"roles": [],
+"starter": false,
+"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/mediation-dispute-analysis-jinzhe-tan",
+"source": "lawve-ai/awesome-legal-skills",
+"stars": 958,
+"license": "CC BY-NC-ND 4.0",
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+},
+{
+"id": "general-counsel-advisor",
+"name": "general-counsel-advisor",
+"title": "法务顾问",
+"desc": "审合同和投资条款、知识产权策略、监管风险（创业公司视角）",
+"cat": "legal",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/general-counsel-advisor",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true,
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+},
+{
+"id": "resume-builder",
+"name": "resume-builder",
+"title": "简历制作",
+"desc": "先采访你的经历，再写简历、排版",
+"cat": "career",
+"roles": [
+"student"
+],
+"starter": true,
+"url": "https://github.com/StoneLL1/resume-builder",
+"source": "StoneLL1/resume-builder",
+"stars": 160,
+"license": "MIT",
+"script": true,
+"net": true,
+"zh": true,
+"note": "简历里只写真实经历"
+},
+{
+"id": "ai-dev-interview-simulator",
+"name": "ai-dev-interview-simulator",
+"title": "AI 开发岗模拟面试",
+"desc": "按你的简历和目标岗位，逐题模拟 AI 应用开发面试，结束给评分",
+"cat": "career",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/Hazenix/interview-prep-skills/tree/main/skills/ai-dev-interview-simulator",
+"source": "Hazenix/interview-prep-skills",
+"stars": 243,
+"license": "MIT",
+"zh": true
+},
+{
+"id": "backend-interview-simulator",
+"name": "backend-interview-simulator",
+"title": "后端岗模拟面试",
+"desc": "Java、C++、Go 等后端岗位的逐题模拟面试，会追问",
+"cat": "career",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/Hazenix/interview-prep-skills/tree/main/skills/backend-interview-simulator",
+"source": "Hazenix/interview-prep-skills",
+"stars": 243,
+"license": "MIT",
+"zh": true
+},
+{
+"id": "frontend-interview-simulator",
+"name": "frontend-interview-simulator",
+"title": "前端岗模拟面试",
+"desc": "实习、校招、社招前端岗位的逐题模拟面试，结束给反馈",
+"cat": "career",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/Hazenix/interview-prep-skills/tree/main/skills/frontend-interview-simulator",
+"source": "Hazenix/interview-prep-skills",
+"stars": 243,
+"license": "MIT",
+"zh": true
+},
+{
+"id": "resume-bullets",
+"name": "resume-bullets",
+"title": "简历条目打磨",
+"desc": "把实习、项目经历写成高质量的简历条目，只用说得清的数字",
+"cat": "career",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/Hazenix/interview-prep-skills/tree/main/skills/resume-bullets",
+"source": "Hazenix/interview-prep-skills",
+"stars": 243,
+"license": "MIT",
+"zh": true
+},
+{
+"id": "resume-interview-question-generator",
+"name": "resume-interview-question-generator",
+"title": "按简历出面试题",
+"desc": "根据你简历上的某段经历，生成面试题、追问和参考回答",
+"cat": "career",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/Hazenix/interview-prep-skills/tree/main/skills/resume-interview-question-generator",
+"source": "Hazenix/interview-prep-skills",
+"stars": 243,
+"license": "MIT",
+"zh": true
+},
+{
+"id": "easy-job-tutor",
+"name": "easy-job-tutor",
+"title": "岗位分析和简历优化",
+"desc": "分析招聘要求，对照优化简历，生成 PDF 简历",
+"cat": "career",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/yicLionel/Easy-Job-Tutor",
+"source": "yicLionel/Easy-Job-Tutor",
+"stars": 67,
+"license": "Apache-2.0",
+"script": true,
+"net": true
+},
+{
+"id": "product-sense-interview-answer",
+"name": "product-sense-interview-answer",
+"title": "产品岗面试答题",
+"desc": "产品经理面试“产品感”题目的答题结构",
+"cat": "career",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/product-sense-interview-answer",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "chro-advisor",
+"name": "chro-advisor",
+"title": "人力资源顾问",
+"desc": "招聘计划、薪酬带宽、组织架构、绩效和留人",
+"cat": "career",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/chro-advisor",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true,
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "culture-architect",
+"name": "culture-architect",
+"title": "企业文化建设",
+"desc": "定义价值观，把价值观变成具体行为，评估文化健康度",
+"cat": "career",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/culture-architect",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT"
+},
+{
+"id": "change-management",
+"name": "change-management",
+"title": "变革管理",
+"desc": "组织调整、换工具、换领导时，怎么规划和沟通",
+"cat": "career",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/change-management",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT"
+},
+{
+"id": "org-health-diagnostic",
+"name": "org-health-diagnostic",
+"title": "组织健康体检",
+"desc": "从 8 个维度给公司做一次健康检查",
+"cat": "career",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/org-health-diagnostic",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "executive-onboarding-playbook",
+"name": "executive-onboarding-playbook",
+"title": "新任管理者 90 天",
+"desc": "新上任的管理者前 30、60、90 天该做什么",
+"cat": "career",
+"roles": [],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/executive-onboarding-playbook",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0"
+},
+{
+"id": "linkedin-profile",
+"name": "linkedin-profile",
+"title": "领英资料优化",
+"desc": "给领英个人资料打分并改写：标题、简介、经历",
+"cat": "career",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/marketing/linkedin/skills/linkedin-profile",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "ceo-advisor",
+"name": "ceo-advisor",
+"title": "CEO 顾问",
+"desc": "创始人经营公司的难题：董事会、融资、战略取舍",
+"cat": "business",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/ceo-advisor",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true,
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "coo-advisor",
+"name": "coo-advisor",
+"title": "运营负责人顾问",
+"desc": "流程设计、目标落地、运营节奏、规模化瓶颈",
+"cat": "business",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/coo-advisor",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true,
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "founder-coach",
+"name": "founder-coach",
+"title": "创始人教练",
+"desc": "创始人成了瓶颈、不会授权、快累垮时的建议",
+"cat": "business",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/founder-coach",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT"
+},
+{
+"id": "board-deck-builder",
+"name": "board-deck-builder",
+"title": "董事会汇报材料",
+"desc": "做董事会汇报、投资人季度更新的结构和内容",
+"cat": "business",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/board-deck-builder",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT"
+},
+{
+"id": "strategic-alignment",
+"name": "strategic-alignment",
+"title": "战略对齐",
+"desc": "各部门目标对不上时，理清目标之间的关系",
+"cat": "business",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/strategic-alignment",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "scenario-war-room",
+"name": "scenario-war-room",
+"title": "情景推演",
+"desc": "“如果 A 和 B 同时发生会怎样”，跨部门推演最坏情况",
+"cat": "business",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/scenario-war-room",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "intl-expansion",
+"name": "intl-expansion",
+"title": "出海拓展",
+"desc": "进入新国家：选市场、进入方式、本地化、监管",
+"cat": "business",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/intl-expansion",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT"
+},
+{
+"id": "process-mapper",
+"name": "process-mapper",
+"title": "业务流程梳理",
+"desc": "画出完整业务流程，找出卡住的环节",
+"cat": "business",
+"roles": [
+"accounting"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/business-operations/skills/process-mapper",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "capacity-planner",
+"name": "capacity-planner",
+"title": "人力规划",
+"desc": "测算客服、运营团队需要多少人、先招谁",
+"cat": "business",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/business-operations/skills/capacity-planner",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "vendor-management",
+"name": "vendor-management",
+"title": "供应商管理",
+"desc": "给供应商打分、查服务水平、评估第三方风险",
+"cat": "business",
+"roles": [
+"accounting",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/business-operations/skills/vendor-management",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "market-research",
+"name": "market-research",
+"title": "市场规模测算",
+"desc": "自上而下、自下而上测算市场规模，计算问卷样本量",
+"cat": "business",
+"roles": [
+"ecommerce",
+"student"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/research-ops/skills/market-research",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "swot-analysis",
+"name": "swot-analysis",
+"title": "SWOT 分析",
+"desc": "用公开资料给一家公司做有出处的 SWOT 分析",
+"cat": "business",
+"roles": [
+"student",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/swot-analysis",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "porters-five-forces",
+"name": "porters-five-forces",
+"title": "波特五力分析",
+"desc": "分析一个行业的竞争结构，每项判断都有依据",
+"cat": "business",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/porters-five-forces",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "pestel-analysis",
+"name": "pestel-analysis",
+"title": "PESTEL 分析",
+"desc": "分析政治、经济、社会、技术、环境、法律六方面的外部影响",
+"cat": "business",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/pestel-analysis",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0"
+},
+{
+"id": "ansoff-matrix",
+"name": "ansoff-matrix",
+"title": "安索夫矩阵",
+"desc": "列出增长方向：老产品新市场、新产品老市场……并评估风险",
+"cat": "business",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/ansoff-matrix",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "business-health-diagnostic",
+"name": "business-health-diagnostic",
+"title": "业务健康诊断",
+"desc": "从增长、留存、效率、资金四方面诊断业务状况",
+"cat": "business",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/business-health-diagnostic",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "company-research",
+"name": "company-research",
+"title": "公司调研简报",
+"desc": "整理一家公司的高管言论、产品战略、组织情况",
+"cat": "business",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/company-research",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0"
+},
+{
+"id": "tam-sam-som-calculator",
+"name": "tam-sam-som-calculator",
+"title": "市场规模三层测算",
+"desc": "算 TAM、SAM、SOM，并写清每个假设",
+"cat": "business",
+"roles": [
+"student",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/tam-sam-som-calculator",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"script": true,
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "market-landscape-scan",
+"name": "market-landscape-scan",
+"title": "行业格局扫描",
+"desc": "画出一个市场的细分、玩家、替代品和空白机会",
+"cat": "business",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/market-landscape-scan",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "market-research-reports",
+"name": "market-research-reports",
+"title": "市场研究报告",
+"desc": "写有出处、有假设说明的市场研究报告",
+"cat": "business",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/market-research-reports",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true
+},
+{
+"id": "prd-development",
+"name": "prd-development",
+"title": "产品需求文档",
+"desc": "把问题、用户、方案、成功标准串成一份 PRD",
+"cat": "product",
+"roles": [],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/prd-development",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "user-story",
+"name": "user-story",
+"title": "用户故事",
+"desc": "把用户需求写成标准的用户故事和验收标准",
+"cat": "product",
+"roles": [],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/user-story",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"script": true
+},
+{
+"id": "user-story-mapping",
+"name": "user-story-mapping",
+"title": "用户故事地图",
+"desc": "把用户的完整流程和功能拆成地图，规划分批上线",
+"cat": "product",
+"roles": [],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/user-story-mapping",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0"
+},
+{
+"id": "roadmap-planning",
+"name": "roadmap-planning",
+"title": "产品路线图",
+"desc": "排优先级、定大功能、对齐各方、安排先后顺序",
+"cat": "product",
+"roles": [],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/roadmap-planning",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "prioritization-advisor",
+"name": "prioritization-advisor",
+"title": "优先级排序",
+"desc": "根据团队阶段选合适的优先级排序方法",
+"cat": "product",
+"roles": [],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/prioritization-advisor",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "jobs-to-be-done",
+"name": "jobs-to-be-done",
+"title": "用户任务分析",
+"desc": "弄清楚用户“想完成什么事”、痛点和期待",
+"cat": "product",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/jobs-to-be-done",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0"
+},
+{
+"id": "problem-statement",
+"name": "problem-statement",
+"title": "问题陈述",
+"desc": "写清楚：谁被卡住了、想做什么、为什么重要",
+"cat": "product",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/problem-statement",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0"
+},
+{
+"id": "opportunity-solution-tree",
+"name": "opportunity-solution-tree",
+"title": "机会方案树",
+"desc": "从目标出发，拆出机会、方案和验证实验",
+"cat": "product",
+"roles": [],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/opportunity-solution-tree",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "customer-journey-map",
+"name": "customer-journey-map",
+"title": "客户旅程图",
+"desc": "画出客户从了解到购买再到复购的每一步和感受",
+"cat": "product",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/customer-journey-map",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0"
+},
+{
+"id": "proto-persona",
+"name": "proto-persona",
+"title": "用户画像草稿",
+"desc": "根据现有信息先画一个用户画像，之后再验证",
+"cat": "product",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/proto-persona",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0"
+},
+{
+"id": "discovery-interview-prep",
+"name": "discovery-interview-prep",
+"title": "用户访谈准备",
+"desc": "规划用户访谈：目标、找谁、问什么",
+"cat": "product",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/discovery-interview-prep",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "sprint-planning",
+"name": "sprint-planning",
+"title": "迭代计划",
+"desc": "按目标和真实人力规划一个迭代，提前标出风险",
+"cat": "product",
+"roles": [],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/sprint-planning",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "launch-plan",
+"name": "launch-plan",
+"title": "上线计划",
+"desc": "按规模定上线计划：负责人、日期、能不能上线的标准",
+"cat": "product",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/launch-plan",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "stakeholder-mapping",
+"name": "stakeholder-mapping",
+"title": "利益相关方地图",
+"desc": "找出谁影响项目、谁关心项目，决定怎么沟通",
+"cat": "product",
+"roles": [],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/stakeholder-mapping",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "research-synthesis",
+"name": "research-synthesis",
+"title": "调研结果整理",
+"desc": "把访谈记录、反馈整理成主题、洞察和机会点",
+"cat": "product",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/research-synthesis",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "scrum-master",
+"name": "scrum-master",
+"title": "敏捷团队数据",
+"desc": "迭代速度预测、迭代健康度、回顾会、燃尽图",
+"cat": "product",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/project-management/skills/scrum-master",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "senior-pm",
+"name": "senior-pm",
+"title": "项目集管理",
+"desc": "多条线并行的项目：计划、周报、风险清单",
+"cat": "product",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/project-management/skills/senior-pm",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "ux-researcher-designer",
+"name": "ux-researcher-designer",
+"title": "用户体验研究",
+"desc": "用户画像、旅程图、可用性测试计划和结果整理",
+"cat": "product",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/product-team/skills/ux-researcher-designer",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "experiment-designer",
+"name": "experiment-designer",
+"title": "A/B 实验设计",
+"desc": "写实验假设、算样本量、解读结果",
+"cat": "product",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/product-team/skills/experiment-designer",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "copywriting",
+"name": "copywriting",
+"title": "营销文案",
+"desc": "写落地页、商品介绍等营销文案（英文说明，可要求输出中文）",
+"cat": "ecommerce",
+"roles": [
+"ecommerce",
+"media"
+],
+"starter": true,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/copywriting",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "ai-shopping-readiness-ecommerce",
+"name": "ai-shopping-readiness-ecommerce",
+"title": "AI 购物可见度检查",
+"desc": "检查店铺的商品信息能不能被 AI 购物助手正确读懂和推荐",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/ai-shopping-readiness-ecommerce",
+"source": "mardab96/ecommerce-claude-skills",
+"stars": 14,
+"license": "MIT",
+"extra": "这个 skill 会用到仓库根目录的 references 文件夹，请把它们也复制到 ~/.dsh/skills/ 下面（和 skill 文件夹放在同一层）"
+},
+{
+"id": "catalog-content-audit-ecommerce",
+"name": "catalog-content-audit-ecommerce",
+"title": "全店商品内容体检",
+"desc": "检查整个商品库：缺属性、描述太短、图片不全",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/catalog-content-audit-ecommerce",
+"source": "mardab96/ecommerce-claude-skills",
+"stars": 14,
+"license": "MIT",
+"extra": "这个 skill 会用到仓库根目录的 references、scripts 文件夹，请把它们也复制到 ~/.dsh/skills/ 下面（和 skill 文件夹放在同一层）"
+},
+{
+"id": "chargeback-fraud-pattern-review-ecommerce",
+"name": "chargeback-fraud-pattern-review-ecommerce",
+"title": "拒付和欺诈复盘",
+"desc": "分清真正的欺诈订单和服务问题导致的拒付",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/chargeback-fraud-pattern-review-ecommerce",
+"source": "mardab96/ecommerce-claude-skills",
+"stars": 14,
+"license": "MIT",
+"extra": "这个 skill 会用到仓库根目录的 references、scripts 文件夹，请把它们也复制到 ~/.dsh/skills/ 下面（和 skill 文件夹放在同一层）"
+},
+{
+"id": "checkout-friction-finder-ecommerce",
+"name": "checkout-friction-finder-ecommerce",
+"title": "结账流程卡点",
+"desc": "从截图、漏斗数据里找出购物车和结账哪里让人放弃",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/checkout-friction-finder-ecommerce",
+"source": "mardab96/ecommerce-claude-skills",
+"stars": 14,
+"license": "MIT"
+},
+{
+"id": "contribution-margin-check-ecommerce",
+"name": "contribution-margin-check-ecommerce",
+"title": "单品毛利核算",
+"desc": "把成本、平台费、运费、退款、广告费算进去，看每个商品真正赚多少",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/contribution-margin-check-ecommerce",
+"source": "mardab96/ecommerce-claude-skills",
+"stars": 14,
+"license": "MIT",
+"extra": "这个 skill 会用到仓库根目录的 references、scripts 文件夹，请把它们也复制到 ~/.dsh/skills/ 下面（和 skill 文件夹放在同一层）"
+},
+{
+"id": "inventory-risk-brief-ecommerce",
+"name": "inventory-risk-brief-ecommerce",
+"title": "库存风险简报",
+"desc": "从库存和销售数据里找出要断货、积压的商品",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/inventory-risk-brief-ecommerce",
+"source": "mardab96/ecommerce-claude-skills",
+"stars": 14,
+"license": "MIT"
+},
+{
+"id": "launch-readiness-check-ecommerce",
+"name": "launch-readiness-check-ecommerce",
+"title": "上新前检查",
+"desc": "新品上架、补货、大促、加投广告之前的检查清单",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/launch-readiness-check-ecommerce",
+"source": "mardab96/ecommerce-claude-skills",
+"stars": 14,
+"license": "MIT",
+"extra": "这个 skill 会用到仓库根目录的 references 文件夹，请把它们也复制到 ~/.dsh/skills/ 下面（和 skill 文件夹放在同一层）"
+},
+{
+"id": "ltv-cohort-read-ecommerce",
+"name": "ltv-cohort-read-ecommerce",
+"title": "复购和客户价值",
+"desc": "从订单数据看复购率、二次购买间隔、回本周期",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/ltv-cohort-read-ecommerce",
+"source": "mardab96/ecommerce-claude-skills",
+"stars": 14,
+"license": "MIT",
+"extra": "这个 skill 会用到仓库根目录的 references、scripts 文件夹，请把它们也复制到 ~/.dsh/skills/ 下面（和 skill 文件夹放在同一层）"
+},
+{
+"id": "onsite-search-merchandising-review-ecommerce",
+"name": "onsite-search-merchandising-review-ecommerce",
+"title": "站内搜索优化",
+"desc": "从站内搜索词、搜不到结果的词，找出该补的商品和分类",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/onsite-search-merchandising-review-ecommerce",
+"source": "mardab96/ecommerce-claude-skills",
+"stars": 14,
+"license": "MIT",
+"extra": "这个 skill 会用到仓库根目录的 references 文件夹，请把它们也复制到 ~/.dsh/skills/ 下面（和 skill 文件夹放在同一层）"
+},
+{
+"id": "paid-traffic-waste-triage-ecommerce",
+"name": "paid-traffic-waste-triage-ecommerce",
+"title": "广告浪费排查",
+"desc": "判断效果不好是广告的问题、商品页的问题，还是价格的问题",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/paid-traffic-waste-triage-ecommerce",
+"source": "mardab96/ecommerce-claude-skills",
+"stars": 14,
+"license": "MIT"
+},
+{
+"id": "product-feed-qa-ecommerce",
+"name": "product-feed-qa-ecommerce",
+"title": "商品数据源检查",
+"desc": "检查投放广告用的商品数据（如 Google Merchant Center）有没有错误",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/product-feed-qa-ecommerce",
+"source": "mardab96/ecommerce-claude-skills",
+"stars": 14,
+"license": "MIT"
+},
+{
+"id": "product-page-conversion-review-ecommerce",
+"name": "product-page-conversion-review-ecommerce",
+"title": "商品页诊断",
+"desc": "从商品页的信息、信任感、买家顾虑等方面找出转化问题",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/product-page-conversion-review-ecommerce",
+"source": "mardab96/ecommerce-claude-skills",
+"stars": 14,
+"license": "MIT"
+},
+{
+"id": "promo-discount-impact-review-ecommerce",
+"name": "promo-discount-impact-review-ecommerce",
+"title": "促销效果复盘",
+"desc": "这次打折到底多赚了钱，还是只是提前透支了销量",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/promo-discount-impact-review-ecommerce",
+"source": "mardab96/ecommerce-claude-skills",
+"stars": 14,
+"license": "MIT",
+"extra": "这个 skill 会用到仓库根目录的 references、scripts 文件夹，请把它们也复制到 ~/.dsh/skills/ 下面（和 skill 文件夹放在同一层）"
+},
+{
+"id": "repeat-purchase-flow-review-ecommerce",
+"name": "repeat-purchase-flow-review-ecommerce",
+"title": "复购流程检查",
+"desc": "检查邮件、短信等复购提醒的时机和内容",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/repeat-purchase-flow-review-ecommerce",
+"source": "mardab96/ecommerce-claude-skills",
+"stars": 14,
+"license": "MIT"
+},
+{
+"id": "returns-reason-miner-ecommerce",
+"name": "returns-reason-miner-ecommerce",
+"title": "退货原因分析",
+"desc": "从退货数据和客服记录里找出可以避免的退货",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/returns-reason-miner-ecommerce",
+"source": "mardab96/ecommerce-claude-skills",
+"stars": 14,
+"license": "MIT"
+},
+{
+"id": "review-objection-miner-ecommerce",
+"name": "review-objection-miner-ecommerce",
+"title": "评论里的买家顾虑",
+"desc": "从自家和竞品评论里找出买家在乎什么、担心什么",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/review-objection-miner-ecommerce",
+"source": "mardab96/ecommerce-claude-skills",
+"stars": 14,
+"license": "MIT"
+},
+{
+"id": "shipping-economics-review-ecommerce",
+"name": "shipping-economics-review-ecommerce",
+"title": "运费盈亏检查",
+"desc": "算清楚收的运费和实际运费之间的差额",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/shipping-economics-review-ecommerce",
+"source": "mardab96/ecommerce-claude-skills",
+"stars": 14,
+"license": "MIT",
+"extra": "这个 skill 会用到仓库根目录的 references、scripts 文件夹，请把它们也复制到 ~/.dsh/skills/ 下面（和 skill 文件夹放在同一层）"
+},
+{
+"id": "subscription-churn-review-ecommerce",
+"name": "subscription-churn-review-ecommerce",
+"title": "订阅流失诊断",
+"desc": "从订阅数据和取消原因里找出为什么流失",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/subscription-churn-review-ecommerce",
+"source": "mardab96/ecommerce-claude-skills",
+"stars": 14,
+"license": "MIT",
+"extra": "这个 skill 会用到仓库根目录的 references、scripts 文件夹，请把它们也复制到 ~/.dsh/skills/ 下面（和 skill 文件夹放在同一层）"
+},
+{
+"id": "support-ticket-theme-miner-ecommerce",
+"name": "support-ticket-theme-miner-ecommerce",
+"title": "客服工单分析",
+"desc": "从客服工单、聊天记录里找出最常见的问题",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/support-ticket-theme-miner-ecommerce",
+"source": "mardab96/ecommerce-claude-skills",
+"stars": 14,
+"license": "MIT"
+},
+{
+"id": "weekly-ecommerce-growth-readout",
+"name": "weekly-ecommerce-growth-readout",
+"title": "电商周报",
+"desc": "把店铺、广告、库存等导出数据整理成老板看的周报",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/weekly-ecommerce-growth-readout",
+"source": "mardab96/ecommerce-claude-skills",
+"stars": 14,
+"license": "MIT"
+},
+{
+"id": "zach-feature-demand-validator",
+"name": "zach-feature-demand-validator",
+"title": "亚马逊需求验证",
+"desc": "用评论、关键词、社区三方面数据验证一个改进点是不是真需求",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/zach22-1999/amazon-skills/tree/main/skills/zach-feature-demand-validator",
+"source": "zach22-1999/amazon-skills",
+"stars": 261,
+"license": "MIT",
+"script": true,
+"zh": true
+},
+{
+"id": "zach-listing-health-checker",
+"name": "zach-listing-health-checker",
+"title": "亚马逊 Listing 体检",
+"desc": "用买家视角检查 Listing：价格、购物车、配送、排名、差评",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/zach22-1999/amazon-skills/tree/main/skills/zach-listing-health-checker",
+"source": "zach22-1999/amazon-skills",
+"stars": 261,
+"license": "MIT",
+"script": true,
+"net": true,
+"zh": true,
+"note": "会抓取网页，先确认不违反平台规则"
+},
+{
+"id": "zach-product-research",
+"name": "zach-product-research",
+"title": "亚马逊选品分析",
+"desc": "选品前做市场调研，输出要不要做的结论（需要 Sorftime 服务）",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/zach22-1999/amazon-skills/tree/main/skills/zach-product-research",
+"source": "zach22-1999/amazon-skills",
+"stars": 261,
+"license": "MIT",
+"script": true,
+"zh": true,
+"keys": true
+},
+{
+"id": "zach-search-term-analyzer",
+"name": "zach-search-term-analyzer",
+"title": "亚马逊热门搜索词分析",
+"desc": "分析品牌分析里的热门搜索词报告，区分存量经营和新市场进入",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/zach22-1999/amazon-skills/tree/main/skills/zach-search-term-analyzer",
+"source": "zach22-1999/amazon-skills",
+"stars": 261,
+"license": "MIT",
+"script": true,
+"zh": true
+},
+{
+"id": "zach-search-term-report-analyzer",
+"name": "zach-search-term-report-analyzer",
+"title": "亚马逊广告搜索词分析",
+"desc": "清洗和聚类广告搜索词报告，找出该加、该否的词",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/zach22-1999/amazon-skills/tree/main/skills/zach-search-term-report-analyzer",
+"source": "zach22-1999/amazon-skills",
+"stars": 261,
+"license": "MIT",
+"script": true,
+"net": true,
+"zh": true
+},
+{
+"id": "zach-seller-skill-creator",
+"name": "zach-seller-skill-creator",
+"title": "亚马逊卖家写 skill",
+"desc": "把你的运营流程变成可以重复使用的 skill（中文）",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/zach22-1999/amazon-skills/tree/main/skills/zach-seller-skill-creator",
+"source": "zach22-1999/amazon-skills",
+"stars": 261,
+"license": "MIT",
+"script": true,
+"zh": true
+},
+{
+"id": "zach-sif-cvr-threshold-analyzer",
+"name": "zach-sif-cvr-threshold-analyzer",
+"title": "转化率和排名关系",
+"desc": "回测转化率和关键词自然排名的关系，给出预警线（需要领星和 SIF 数据）",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/zach22-1999/amazon-skills/tree/main/skills/zach-sif-cvr-threshold-analyzer",
+"source": "zach22-1999/amazon-skills",
+"stars": 261,
+"license": "MIT",
+"script": true,
+"zh": true,
+"keys": true
+},
+{
+"id": "ab-testing",
+"name": "ab-testing",
+"title": "A/B 测试",
+"desc": "规划、执行、解读 A/B 测试，判断结果是不是真的",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ab-testing",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "ad-creative",
+"name": "ad-creative",
+"title": "广告创意",
+"desc": "写广告标题、钩子和角度，判断哪个广告该停",
+"cat": "ecommerce",
+"roles": [
+"ecommerce",
+"media"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ad-creative",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "ads",
+"name": "ads",
+"title": "付费广告投放",
+"desc": "规划和优化 Google、Meta、LinkedIn 广告",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ads",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "ai-seo",
+"name": "ai-seo",
+"title": "AI 搜索优化",
+"desc": "让你的内容更容易被 AI 回答引用和推荐",
+"cat": "ecommerce",
+"roles": [
+"ecommerce",
+"media"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ai-seo",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "analytics",
+"name": "analytics",
+"title": "数据埋点和分析",
+"desc": "搭建或检查网站数据统计，判断数字算得对不对",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "aso",
+"name": "aso",
+"title": "应用商店优化",
+"desc": "优化 App Store、Google Play 的标题、关键词和截图",
+"cat": "ecommerce",
+"roles": [],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/aso",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "churn-prevention",
+"name": "churn-prevention",
+"title": "减少客户流失",
+"desc": "找出客户为什么取消，设计挽留方案",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/churn-prevention",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "community-marketing",
+"name": "community-marketing",
+"title": "社群运营",
+"desc": "建立和运营线上社群，判断值不值得做",
+"cat": "ecommerce",
+"roles": [
+"media"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/community-marketing",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "competitor-profiling",
+"name": "competitor-profiling",
+"title": "竞品档案",
+"desc": "整理竞争对手的价格、卖点、动态，带日期",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/competitor-profiling",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "content-strategy",
+"name": "content-strategy",
+"title": "内容策略",
+"desc": "规划写什么、先写什么、在哪里发",
+"cat": "ecommerce",
+"roles": [
+"media"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/content-strategy",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "cro",
+"name": "cro",
+"title": "转化率优化",
+"desc": "页面或表单转化低时，找原因、给改法",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/cro",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "customer-research",
+"name": "customer-research",
+"title": "客户调研",
+"desc": "整理客户评价、访谈和反馈，找出共性",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/customer-research",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "emails",
+"name": "emails",
+"title": "自动邮件序列",
+"desc": "设计欢迎邮件、提醒邮件等自动发送的邮件",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/emails",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "influencer-marketing",
+"name": "influencer-marketing",
+"title": "达人合作",
+"desc": "找合适的达人、谈合作、评估效果",
+"cat": "ecommerce",
+"roles": [
+"ecommerce",
+"media"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/influencer-marketing",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "launch",
+"name": "launch",
+"title": "新品发布",
+"desc": "规划产品或功能发布的时机和节奏",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/launch",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "lead-magnets",
+"name": "lead-magnets",
+"title": "引流资料",
+"desc": "设计用来换取用户联系方式的免费资料",
+"cat": "ecommerce",
+"roles": [
+"media"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/lead-magnets",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "marketing-ideas",
+"name": "marketing-ideas",
+"title": "营销点子",
+"desc": "给你的产品列一批可以尝试的增长点子",
+"cat": "ecommerce",
+"roles": [
+"ecommerce",
+"media"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-ideas",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "marketing-plan",
+"name": "marketing-plan",
+"title": "完整营销计划",
+"desc": "写一份完整的营销或市场进入计划",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-plan",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "marketing-psychology",
+"name": "marketing-psychology",
+"title": "营销心理学",
+"desc": "用心理学解释买家行为，用在定价和文案上",
+"cat": "ecommerce",
+"roles": [
+"ecommerce",
+"media"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-psychology",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "offers",
+"name": "offers",
+"title": "优惠方案设计",
+"desc": "设计更有吸引力的优惠和套餐",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/offers",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "onboarding",
+"name": "onboarding",
+"title": "新用户引导",
+"desc": "新用户留不住时，设计头几天的引导",
+"cat": "ecommerce",
+"roles": [],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/onboarding",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "popups",
+"name": "popups",
+"title": "弹窗设计",
+"desc": "设计弹窗、横幅，判断会不会惹人烦",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/popups",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "pricing",
+"name": "pricing",
+"title": "定价和套餐",
+"desc": "定价格、分套餐、判断该不该涨价",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "product-marketing",
+"name": "product-marketing",
+"title": "产品营销档案",
+"desc": "整理产品定位、目标客户、卖点，供其他营销 skill 使用",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/product-marketing",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "public-relations",
+"name": "public-relations",
+"title": "公关和媒体",
+"desc": "判断有没有新闻价值，准备给记者的材料",
+"cat": "ecommerce",
+"roles": [
+"media"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/public-relations",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "referrals",
+"name": "referrals",
+"title": "推荐和分销",
+"desc": "设计老带新、分销奖励",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/referrals",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "seo-audit",
+"name": "seo-audit",
+"title": "SEO 体检",
+"desc": "查网站搜索流量下降、页面没排名的原因",
+"cat": "ecommerce",
+"roles": [
+"ecommerce",
+"media"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/seo-audit",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "signup",
+"name": "signup",
+"title": "注册流程优化",
+"desc": "减少注册、试用流程里的流失",
+"cat": "ecommerce",
+"roles": [],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/signup",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "social",
+"name": "social",
+"title": "社交媒体内容",
+"desc": "为各平台写内容、定发布节奏",
+"cat": "ecommerce",
+"roles": [
+"media"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/social",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "video",
+"name": "video",
+"title": "AI 做视频",
+"desc": "判断用录屏、代码动画还是 AI 生成来做视频",
+"cat": "ecommerce",
+"roles": [
+"media"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/video",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "site-architecture",
+"name": "site-architecture",
+"title": "网站结构规划",
+"desc": "规划网站需要哪些页面、怎么组织",
+"cat": "ecommerce",
+"roles": [],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/site-architecture",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "marketing-loops",
+"name": "marketing-loops",
+"title": "定期营销任务",
+"desc": "设计让 AI 定期执行的营销任务（比如每周竞品监测）",
+"cat": "ecommerce",
+"roles": [],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-loops",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "linkedin-content",
+"name": "linkedin-content",
+"title": "领英内容写作",
+"desc": "写、改领英帖子：故事、教程、轮播图、投票",
+"cat": "ecommerce",
+"roles": [
+"media"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/marketing/linkedin/skills/linkedin-content",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "positioning-statement",
+"name": "positioning-statement",
+"title": "定位语",
+"desc": "用经典框架写清楚：为谁、解决什么问题、和别人有什么不同",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/positioning-statement",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0"
+},
+{
+"id": "message-house",
+"name": "message-house",
+"title": "核心信息屋",
+"desc": "一句核心信息 + 三个价值支柱 + 证据，统一对外口径",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/message-house",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "press-release",
+"name": "press-release",
+"title": "先写新闻稿",
+"desc": "做产品之前先写一篇发布新闻稿，想清楚客户价值",
+"cat": "ecommerce",
+"roles": [
+"ecommerce",
+"media"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/press-release",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0"
+},
+{
+"id": "battle-card-builder",
+"name": "battle-card-builder",
+"title": "竞品对比卡",
+"desc": "用公开资料做销售用的竞品对比卡，每条都有出处",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/battle-card-builder",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "shopify-expert",
+"name": "shopify-expert",
+"title": "Shopify 开发",
+"desc": "开发和调试 Shopify 主题和应用",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/shopify-expert",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "sales-enablement",
+"name": "sales-enablement",
+"title": "销售支持材料",
+"desc": "做销售用的资料，回答客户常见异议",
+"cat": "sales",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/sales-enablement",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "prospecting",
+"name": "prospecting",
+"title": "找潜在客户",
+"desc": "找到并筛选最值得先联系的潜在客户",
+"cat": "sales",
+"roles": [],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/prospecting",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "cold-email",
+"name": "cold-email",
+"title": "陌生开发信",
+"desc": "写企业间的开发信（注意遵守当地的营销邮件规定）",
+"cat": "sales",
+"roles": [],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/cold-email",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT",
+"note": "发营销邮件要遵守当地法规，不要群发骚扰"
+},
+{
+"id": "revops",
+"name": "revops",
+"title": "营收运营",
+"desc": "理清线索什么时候交给销售、销售和市场怎么配合",
+"cat": "sales",
+"roles": [],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/revops",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "deal-desk",
+"name": "deal-desk",
+"title": "大单审批",
+"desc": "超出权限的折扣、合同修改，怎么评估和审批",
+"cat": "sales",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/commercial/skills/deal-desk",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "rfp-responder",
+"name": "rfp-responder",
+"title": "招标和问卷回复",
+"desc": "收到招标书、供应商问卷时，拆解要求、组织回复",
+"cat": "sales",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/commercial/skills/rfp-responder",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "contract-and-proposal-writer",
+"name": "contract-and-proposal-writer",
+"title": "合同和方案起草",
+"desc": "起草自由职业合同、项目方案、工作说明书（欧美法律环境）",
+"cat": "sales",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/business-growth/skills/contract-and-proposal-writer",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT"
+},
+{
+"id": "customer-success-manager",
+"name": "customer-success-manager",
+"title": "客户成功",
+"desc": "给客户账户打健康分，找出流失风险和增购机会",
+"cat": "sales",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/business-growth/skills/customer-success-manager",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "sales-engineer",
+"name": "sales-engineer",
+"title": "售前支持",
+"desc": "招标覆盖度、竞品功能对比、试用方案",
+"cat": "sales",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/business-growth/skills/sales-engineer",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true,
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "sales-value-narrative",
+"name": "sales-value-narrative",
+"title": "销售价值话术",
+"desc": "为什么要换、为什么是现在、为什么选我们",
+"cat": "sales",
+"roles": [],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/sales-value-narrative",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "voice-of-customer-miner",
+"name": "voice-of-customer-miner",
+"title": "用户声音挖掘",
+"desc": "从公开评论、应用商店、论坛里找未被满足的需求",
+"cat": "sales",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/voice-of-customer-miner",
+"source": "deanpeters/Product-Manager-Skills",
+"stars": 8051,
+"license": "CC BY-NC-SA 4.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "canned-responses-anthropic",
+"name": "canned-responses-anthropic",
+"title": "常见问题模板回复",
+"desc": "为常见咨询生成模板回复，并识别哪些情况要单独处理",
+"cat": "sales",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/canned-response-generator-anthropic",
+"source": "lawve-ai/awesome-legal-skills",
+"stars": 958,
+"license": "CC BY-NC-ND 4.0",
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+},
+{
+"id": "video-subtitle",
+"name": "video-subtitle",
+"title": "视频加字幕",
+"desc": "本地语音识别生成字幕，再烧录进视频（需要装 ffmpeg 和 Whisper）",
+"cat": "media",
+"roles": [
+"media",
+"teacher"
+],
+"starter": true,
+"url": "https://github.com/Tofuswang/video-subtitle-skill/tree/main/skills/video-subtitle",
+"source": "Tofuswang/video-subtitle-skill",
+"stars": 5,
+"license": "MIT",
+"deps": "ffmpeg 和 Whisper（AI 会教你装）"
+},
+{
+"id": "remotion-motion-graphics",
+"name": "remotion-motion-graphics",
+"title": "代码做动画视频",
+"desc": "片头、文字动画、数据图表动画",
+"cat": "media",
+"roles": [
+"media"
+],
+"starter": false,
+"url": "https://github.com/haidrrrry/claude-remotion-skill/tree/main/remotion-motion-graphics",
+"source": "haidrrrry/claude-remotion-skill",
+"stars": 1075,
+"license": "MIT",
+"script": true
+},
+{
+"id": "image",
+"name": "image",
+"title": "营销图片",
+"desc": "生成、修改、优化营销用的图片",
+"cat": "media",
+"roles": [
+"media",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/image",
+"source": "coreyhaines31/marketingskills",
+"stars": 60888,
+"license": "MIT"
+},
+{
+"id": "generate-image",
+"name": "generate-image",
+"title": "AI 生成图片",
+"desc": "用 AI 模型生成或修改图片（需要 OpenRouter 钥匙）",
+"cat": "media",
+"roles": [
+"media"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/generate-image",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true,
+"net": true,
+"keys": true
+},
+{
+"id": "slack-gif-creator",
+"name": "slack-gif-creator",
+"title": "动图制作",
+"desc": "做尺寸、帧数合适的小动图",
+"cat": "media",
+"roles": [
+"media"
+],
+"starter": false,
+"url": "https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator",
+"source": "anthropics/skills",
+"stars": 196274,
+"license": "Apache-2.0",
+"script": true
+},
+{
+"id": "canvas-design",
+"name": "canvas-design",
+"title": "海报和封面",
+"desc": "做海报、封面、宣传图，输出 PNG 或 PDF",
+"cat": "design",
+"roles": [
+"media",
+"ecommerce",
+"teacher"
+],
+"starter": true,
+"url": "https://github.com/anthropics/skills/tree/main/skills/canvas-design",
+"source": "anthropics/skills",
+"stars": 196274,
+"license": "Apache-2.0"
+},
+{
+"id": "excalidraw",
+"name": "excalidraw",
+"title": "流程图和示意图",
+"desc": "画可以继续编辑的手绘风流程图、结构图",
+"cat": "design",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/fabricioartur/codex-excalidraw-skill/tree/main/skill",
+"source": "fabricioartur/codex-excalidraw-skill",
+"stars": 34,
+"license": "MIT",
+"script": true,
+"net": true
+},
+{
+"id": "frontend-design",
+"name": "frontend-design",
+"title": "好看的网页",
+"desc": "做网页时避免“一看就是 AI 做的”模板感",
+"cat": "design",
+"roles": [],
+"starter": false,
+"url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
+"source": "anthropics/skills",
+"stars": 196274,
+"license": "Apache-2.0"
+},
+{
+"id": "algorithmic-art",
+"name": "algorithmic-art",
+"title": "代码生成艺术",
+"desc": "用代码画出可调参数的生成艺术作品",
+"cat": "design",
+"roles": [],
+"starter": false,
+"url": "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art",
+"source": "anthropics/skills",
+"stars": 196274,
+"license": "Apache-2.0",
+"script": true
+},
+{
+"id": "web-artifacts-builder",
+"name": "web-artifacts-builder",
+"title": "复杂网页小工具",
+"desc": "用现代前端技术做多组件的网页小工具",
+"cat": "design",
+"roles": [],
+"starter": false,
+"url": "https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder",
+"source": "anthropics/skills",
+"stars": 196274,
+"license": "Apache-2.0",
+"script": true
+},
+{
+"id": "infographics",
+"name": "infographics",
+"title": "信息图",
+"desc": "做统计摘要、时间线等信息图（需要 OpenRouter 钥匙）",
+"cat": "design",
+"roles": [
+"media",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/infographics",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT",
+"script": true,
+"net": true,
+"keys": true
+},
+{
+"id": "markdown-mermaid-writing",
+"name": "markdown-mermaid-writing",
+"title": "文字画图（Mermaid）",
+"desc": "用文字描述画流程图、关系图、时间线",
+"cat": "design",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/markdown-mermaid-writing",
+"source": "K-Dense-AI/claude-scientific-skills",
+"stars": 57517,
+"license": "MIT"
+},
+{
+"id": "ui-design-system",
+"name": "ui-design-system",
+"title": "界面设计规范",
+"desc": "建立颜色、字号、组件等设计规范",
+"cat": "design",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/product-team/skills/ui-design-system",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "design-qa",
+"name": "design-qa",
+"title": "界面验收检查",
+"desc": "页面上线前，检查间距、对齐、状态是否和设计一致",
+"cat": "design",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/product-team/skills/design-qa",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "landing-page-generator",
+"name": "landing-page-generator",
+"title": "落地页生成",
+"desc": "生成营销落地页（Next.js + Tailwind）",
+"cat": "design",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/product-team/skills/landing-page-generator",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true
+},
+{
+"id": "wcag",
+"name": "wcag",
+"title": "无障碍检查",
+"desc": "按国际无障碍标准（WCAG）检查网页，照顾视障等用户",
+"cat": "design",
+"roles": [],
+"starter": false,
+"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/wcag-tanaji-hemant-naik",
+"source": "lawve-ai/awesome-legal-skills",
+"stars": 958,
+"license": "CC BY-NC-ND 4.0",
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+},
+{
+"id": "pet-care-log",
+"name": "pet-care-log",
+"title": "宠物照护记录（本教程自带）",
+"desc": "记录喂养、疫苗、驱虫、体重、看病，提醒下次该做什么",
+"cat": "life",
+"roles": [
+"pet"
+],
+"starter": true,
+"url": "https://teach.prismice.cn/files/skills/pet-care-log/SKILL.md",
+"hosted": true,
+"license": "CC BY-NC-SA 4.0",
+"zh": true,
+"source": "本教程"
+},
+{
+"id": "travel-itinerary",
+"name": "travel-itinerary",
+"title": "顺路行程和手机行程页",
+"desc": "根据目的地、航班、酒店排顺路行程，做成手机能看的网页",
+"cat": "life",
+"roles": [
+"travel"
+],
+"starter": true,
+"url": "https://github.com/linyoungjiang0617-stack/travel-itinerary-skill/tree/main/travel-itinerary",
+"source": "linyoungjiang0617-stack/travel-itinerary-skill",
+"stars": 1,
+"license": "MIT",
+"zh": true
+},
+{
+"id": "travel-planning-skill",
+"name": "travel-planning-skill",
+"title": "先问清楚再规划",
+"desc": "先确认需求，再给路线图和按小时排的每日安排",
+"cat": "life",
+"roles": [
+"travel"
+],
+"starter": false,
+"url": "https://github.com/618034128/Travel-Planning-Skill",
+"source": "618034128/Travel-Planning-Skill",
+"stars": 6,
+"license": "MIT",
+"script": true
+},
+{
+"id": "lele",
+"name": "lele",
+"title": "一问一答做行程",
+"desc": "一问一答问细了，再出完整的行程文档（英文）",
+"cat": "life",
+"roles": [
+"travel"
+],
+"starter": false,
+"url": "https://github.com/eazhou99/lele-skill",
+"source": "eazhou99/lele-skill",
+"stars": 0,
+"license": "MIT",
+"zh": true
+},
+{
+"id": "skill-creator",
+"name": "skill-creator",
+"title": "写 skill 的助手",
+"desc": "一问一答帮你写 skill，还能测试它好不好用（第 16 章用得上）",
+"cat": "dev",
+"roles": [
+"student",
+"teacher",
+"accounting",
+"ecommerce",
+"media",
+"pet",
+"travel"
+],
+"starter": true,
+"url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
+"source": "anthropics/skills",
+"stars": 196274,
+"license": "Apache-2.0",
+"script": true
+},
+{
+"id": "systematic-debugging",
+"name": "systematic-debugging",
+"title": "一步步找 bug",
+"desc": "程序出错时，先复现、再缩小范围、再修，不乱改",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/obra/superpowers/tree/main/skills/systematic-debugging",
+"source": "obra/superpowers",
+"stars": 318836,
+"license": "MIT",
+"script": true
+},
+{
+"id": "brainstorming",
+"name": "brainstorming",
+"title": "动手前先想清楚",
+"desc": "做新功能之前，先把需求、方案问清楚再写代码",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/obra/superpowers/tree/main/skills/brainstorming",
+"source": "obra/superpowers",
+"stars": 318836,
+"license": "MIT",
+"script": true,
+"net": true
+},
+{
+"id": "test-driven-development",
+"name": "test-driven-development",
+"title": "先写测试再写代码",
+"desc": "每个功能先写测试，再写实现",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/obra/superpowers/tree/main/skills/test-driven-development",
+"source": "obra/superpowers",
+"stars": 318836,
+"license": "MIT"
+},
+{
+"id": "verification-before-completion",
+"name": "verification-before-completion",
+"title": "完成前先验证",
+"desc": "说“做好了”之前，先真的跑一遍检查",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/obra/superpowers/tree/main/skills/verification-before-completion",
+"source": "obra/superpowers",
+"stars": 318836,
+"license": "MIT"
+},
+{
+"id": "requesting-code-review",
+"name": "requesting-code-review",
+"title": "请求代码审查",
+"desc": "完成功能后，按要求整理改动请人审查",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/obra/superpowers/tree/main/skills/requesting-code-review",
+"source": "obra/superpowers",
+"stars": 318836,
+"license": "MIT"
+},
+{
+"id": "executing-plans",
+"name": "executing-plans",
+"title": "照计划执行",
+"desc": "拿到实现计划后，一步一步执行并检查",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/obra/superpowers/tree/main/skills/executing-plans",
+"source": "obra/superpowers",
+"stars": 318836,
+"license": "MIT",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+},
+{
+"id": "dev-browser",
+"name": "dev-browser",
+"title": "让 AI 用浏览器",
+"desc": "让 AI 打开网页、点按钮、截图，检查你做的网页",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/SawyerHood/dev-browser/tree/main/skills/dev-browser",
+"source": "SawyerHood/dev-browser",
+"stars": 6737,
+"license": "MIT"
+},
+{
+"id": "mcp-builder",
+"name": "mcp-builder",
+"title": "做 MCP 工具",
+"desc": "指导你写一个 MCP 服务，让 AI 连上新的工具（第 18 章之后再看）",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/anthropics/skills/tree/main/skills/mcp-builder",
+"source": "anthropics/skills",
+"stars": 196274,
+"license": "Apache-2.0",
+"script": true
+},
+{
+"id": "webapp-testing",
+"name": "webapp-testing",
+"title": "测试网页",
+"desc": "自动打开你做的网页并测试功能",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing",
+"source": "anthropics/skills",
+"stars": 196274,
+"license": "Apache-2.0",
+"script": true
+},
+{
+"id": "commit",
+"name": "commit",
+"title": "写提交说明",
+"desc": "按规范写代码提交说明",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/getsentry/skills/tree/main/skills/commit",
+"source": "getsentry/skills",
+"stars": 1174,
+"license": "Apache-2.0"
+},
+{
+"id": "pr-writer",
+"name": "pr-writer",
+"title": "写合并请求说明",
+"desc": "写给审查人看的合并请求标题和说明",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/getsentry/skills/tree/main/skills/pr-writer",
+"source": "getsentry/skills",
+"stars": 1174,
+"license": "Apache-2.0"
+},
+{
+"id": "code-review",
+"name": "code-review",
+"title": "代码审查",
+"desc": "按工程规范审查代码改动",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/getsentry/skills/tree/main/skills/code-review",
+"source": "getsentry/skills",
+"stars": 1174,
+"license": "Apache-2.0"
+},
+{
+"id": "find-bugs",
+"name": "find-bugs",
+"title": "找 bug 和漏洞",
+"desc": "检查本地代码改动里的 bug、安全漏洞和质量问题",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/getsentry/skills/tree/main/skills/find-bugs",
+"source": "getsentry/skills",
+"stars": 1174,
+"license": "Apache-2.0"
+},
+{
+"id": "code-simplifier",
+"name": "code-simplifier",
+"title": "代码精简",
+"desc": "在不改变功能的前提下，把代码改得更清楚",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/getsentry/skills/tree/main/skills/code-simplifier",
+"source": "getsentry/skills",
+"stars": 1174,
+"license": "Apache-2.0"
+},
+{
+"id": "skill-writer",
+"name": "skill-writer",
+"title": "skill 编写规范",
+"desc": "按 Agent Skills 规范写和改进 skill",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/getsentry/skills/tree/main/skills/skill-writer",
+"source": "getsentry/skills",
+"stars": 1174,
+"license": "Apache-2.0",
+"script": true
+},
+{
+"id": "agents-md",
+"name": "agents-md",
+"title": "写 AGENTS.md",
+"desc": "为项目写简洁的 AGENTS.md 规则文件（第 20 章用得上）",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/getsentry/skills/tree/main/skills/agents-md",
+"source": "getsentry/skills",
+"stars": 1174,
+"license": "Apache-2.0"
+},
+{
+"id": "python-pro",
+"name": "python-pro",
+"title": "Python 开发",
+"desc": "写类型清楚、能处理错误的 Python 程序",
+"cat": "dev",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/python-pro",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "javascript-pro",
+"name": "javascript-pro",
+"title": "JavaScript 开发",
+"desc": "用现代 JavaScript 写、调试、重构代码",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/javascript-pro",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "typescript-pro",
+"name": "typescript-pro",
+"title": "TypeScript 开发",
+"desc": "TypeScript 的类型设计和工程配置",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/typescript-pro",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "react-expert",
+"name": "react-expert",
+"title": "React 开发",
+"desc": "用 React 做网页应用",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/react-expert",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "vue-expert",
+"name": "vue-expert",
+"title": "Vue 开发",
+"desc": "用 Vue 3 做网页应用",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/vue-expert",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "nextjs-developer",
+"name": "nextjs-developer",
+"title": "Next.js 开发",
+"desc": "用 Next.js 做全栈网站",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/nextjs-developer",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "fastapi-expert",
+"name": "fastapi-expert",
+"title": "FastAPI 接口开发",
+"desc": "用 FastAPI 写高性能的 Python 接口",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/fastapi-expert",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "django-expert",
+"name": "django-expert",
+"title": "Django 开发",
+"desc": "用 Django 做网站和接口",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/django-expert",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "sql-pro",
+"name": "sql-pro",
+"title": "SQL 查询",
+"desc": "写和优化 SQL 查询，设计数据表",
+"cat": "dev",
+"roles": [
+"accounting"
+],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/sql-pro",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "postgres-pro",
+"name": "postgres-pro",
+"title": "PostgreSQL 数据库",
+"desc": "PostgreSQL 的查询优化和配置",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/postgres-pro",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "api-designer",
+"name": "api-designer",
+"title": "接口设计",
+"desc": "设计 REST 或 GraphQL 接口，写接口文档",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/api-designer",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "code-documenter",
+"name": "code-documenter",
+"title": "代码文档",
+"desc": "生成函数注释、接口文档、使用说明",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/code-documenter",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "debugging-wizard",
+"name": "debugging-wizard",
+"title": "读报错找原因",
+"desc": "读懂报错信息和日志，定位问题根源",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/debugging-wizard",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "test-master",
+"name": "test-master",
+"title": "写测试",
+"desc": "生成测试代码，设计测试方案，看测试覆盖率",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/test-master",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "wordpress-pro",
+"name": "wordpress-pro",
+"title": "WordPress 开发",
+"desc": "开发 WordPress 主题和插件",
+"cat": "dev",
+"roles": [
+"ecommerce",
+"media"
+],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/wordpress-pro",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "flutter-expert",
+"name": "flutter-expert",
+"title": "Flutter 开发",
+"desc": "用 Flutter 做手机和桌面应用",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/flutter-expert",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "game-developer",
+"name": "game-developer",
+"title": "游戏开发",
+"desc": "Unity、Unreal 游戏系统开发和性能优化",
+"cat": "dev",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/game-developer",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "devops-engineer",
+"name": "devops-engineer",
+"title": "部署和运维",
+"desc": "写 Dockerfile、自动部署流程、服务器配置",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/devops-engineer",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "prompt-engineer",
+"name": "prompt-engineer",
+"title": "提示词工程",
+"desc": "写、改、评估给大模型的提示词",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/prompt-engineer",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "rag-architect",
+"name": "rag-architect",
+"title": "知识库问答（RAG）",
+"desc": "搭建“先检索资料再回答”的知识库问答系统",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/rag-architect",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "golang-pro",
+"name": "golang-pro",
+"title": "Go 开发",
+"desc": "用 Go 写并发程序和后端服务",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/golang-pro",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "java-architect",
+"name": "java-architect",
+"title": "Java 开发",
+"desc": "用 Spring Boot 开发企业级 Java 应用",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/java-architect",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "swift-expert",
+"name": "swift-expert",
+"title": "Swift 开发",
+"desc": "开发 iPhone、Mac 应用",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/swift-expert",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "rust-engineer",
+"name": "rust-engineer",
+"title": "Rust 开发",
+"desc": "写安全、高性能的 Rust 程序",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/rust-engineer",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "huggingface-gradio",
+"name": "huggingface-gradio",
+"title": "Gradio 演示网页",
+"desc": "用 Python 快速做一个 AI 模型的演示网页",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/huggingface/skills/tree/main/skills/huggingface-gradio",
+"source": "huggingface/skills",
+"stars": 11356,
+"license": "Apache-2.0"
+},
+{
+"id": "transformers-js",
+"name": "transformers-js",
+"title": "浏览器里跑 AI 模型",
+"desc": "用 Transformers.js 在网页里直接运行 AI 模型",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/huggingface/skills/tree/main/skills/transformers-js",
+"source": "huggingface/skills",
+"stars": 11356,
+"license": "Apache-2.0"
+},
+{
+"id": "skill-scanner",
+"name": "skill-scanner",
+"title": "skill 安全扫描",
+"desc": "安装 skill 前，扫描里面有没有危险操作和“骗 AI”的话",
+"cat": "security",
+"roles": [
+"student",
+"teacher",
+"accounting",
+"ecommerce",
+"media",
+"pet",
+"travel"
+],
+"starter": true,
+"url": "https://github.com/getsentry/skills/tree/main/skills/skill-scanner",
+"source": "getsentry/skills",
+"stars": 1174,
+"license": "Apache-2.0",
+"script": true,
+"net": true
+},
+{
+"id": "skill-security-auditor",
+"name": "skill-security-auditor",
+"title": "skill 安全审计",
+"desc": "来源不明的 skill，安装前先做一次安全审计",
+"cat": "security",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering/skills/skill-security-auditor",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true,
+"net": true
+},
+{
+"id": "security-review",
+"name": "security-review",
+"title": "代码安全审查",
+"desc": "检查代码里的安全漏洞",
+"cat": "security",
+"roles": [],
+"starter": false,
+"url": "https://github.com/getsentry/skills/tree/main/skills/security-review",
+"source": "getsentry/skills",
+"stars": 1174,
+"license": "Apache-2.0"
+},
+{
+"id": "secure-code-guardian",
+"name": "secure-code-guardian",
+"title": "安全编码",
+"desc": "登录、权限、用户输入这些地方怎么写才安全",
+"cat": "security",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/secure-code-guardian",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "security-reviewer",
+"name": "security-reviewer",
+"title": "安全审计报告",
+"desc": "找出安全漏洞，生成带严重程度的审计报告",
+"cat": "security",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/security-reviewer",
+"source": "Jeffallan/claude-skills",
+"stars": 12417,
+"license": "MIT"
+},
+{
+"id": "ciso-advisor",
+"name": "ciso-advisor",
+"title": "安全负责人顾问",
+"desc": "安全体系建设、预算、合规认证怎么选",
+"cat": "security",
+"roles": [],
+"starter": false,
+"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/ciso-advisor",
+"source": "alirezarezvani/claude-skills",
+"stars": 29935,
+"license": "MIT",
+"script": true,
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+}
+]

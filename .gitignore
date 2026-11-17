@@ -29,3 +29,6 @@ docs/calmness-profile.md
 
 # 构建时由 scripts/sync-files.mjs 生成
 public/files/
+
+# Skill 库审查的中间结果(很大，按 scripts/skill-audit/README.md 重新生成)
+scripts/skill-audit/scan.jsonl

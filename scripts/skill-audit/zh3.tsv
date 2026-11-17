@@ -1,0 +1,147 @@
+ai-shopping-readiness-ecommerce	AI 购物可见度检查	检查店铺的商品信息能不能被 AI 购物助手正确读懂和推荐
+catalog-content-audit-ecommerce	全店商品内容体检	检查整个商品库：缺属性、描述太短、图片不全
+chargeback-fraud-pattern-review-ecommerce	拒付和欺诈复盘	分清真正的欺诈订单和服务问题导致的拒付
+checkout-friction-finder-ecommerce	结账流程卡点	从截图、漏斗数据里找出购物车和结账哪里让人放弃
+contribution-margin-check-ecommerce	单品毛利核算	把成本、平台费、运费、退款、广告费算进去，看每个商品真正赚多少
+inventory-risk-brief-ecommerce	库存风险简报	从库存和销售数据里找出要断货、积压的商品
+launch-readiness-check-ecommerce	上新前检查	新品上架、补货、大促、加投广告之前的检查清单
+ltv-cohort-read-ecommerce	复购和客户价值	从订单数据看复购率、二次购买间隔、回本周期
+onsite-search-merchandising-review-ecommerce	站内搜索优化	从站内搜索词、搜不到结果的词，找出该补的商品和分类
+paid-traffic-waste-triage-ecommerce	广告浪费排查	判断效果不好是广告的问题、商品页的问题，还是价格的问题
+product-feed-qa-ecommerce	商品数据源检查	检查投放广告用的商品数据（如 Google Merchant Center）有没有错误
+product-page-conversion-review-ecommerce	商品页诊断	从商品页的信息、信任感、买家顾虑等方面找出转化问题
+promo-discount-impact-review-ecommerce	促销效果复盘	这次打折到底多赚了钱，还是只是提前透支了销量
+repeat-purchase-flow-review-ecommerce	复购流程检查	检查邮件、短信等复购提醒的时机和内容
+returns-reason-miner-ecommerce	退货原因分析	从退货数据和客服记录里找出可以避免的退货
+review-objection-miner-ecommerce	评论里的买家顾虑	从自家和竞品评论里找出买家在乎什么、担心什么
+shipping-economics-review-ecommerce	运费盈亏检查	算清楚收的运费和实际运费之间的差额
+subscription-churn-review-ecommerce	订阅流失诊断	从订阅数据和取消原因里找出为什么流失
+support-ticket-theme-miner-ecommerce	客服工单分析	从客服工单、聊天记录里找出最常见的问题
+weekly-ecommerce-growth-readout	电商周报	把店铺、广告、库存等导出数据整理成老板看的周报
+zach-feature-demand-validator	亚马逊需求验证	用评论、关键词、社区三方面数据验证一个改进点是不是真需求
+zach-listing-health-checker	亚马逊 Listing 体检	用买家视角检查 Listing：价格、购物车、配送、排名、差评
+zach-product-research	亚马逊选品分析	选品前做市场调研，输出要不要做的结论（需要 Sorftime 服务）
+zach-search-term-analyzer	亚马逊热门搜索词分析	分析品牌分析里的热门搜索词报告，区分存量经营和新市场进入
+zach-search-term-report-analyzer	亚马逊广告搜索词分析	清洗和聚类广告搜索词报告，找出该加、该否的词
+zach-seller-skill-creator	亚马逊卖家写 skill	把你的运营流程变成可以重复使用的 skill（中文）
+zach-sif-cvr-threshold-analyzer	转化率和排名关系	回测转化率和关键词自然排名的关系，给出预警线（需要领星和 SIF 数据）
+copywriting	营销文案	写落地页、商品介绍等营销文案（英文说明，可要求输出中文）
+ab-testing	A/B 测试	规划、执行、解读 A/B 测试，判断结果是不是真的
+ad-creative	广告创意	写广告标题、钩子和角度，判断哪个广告该停
+ads	付费广告投放	规划和优化 Google、Meta、LinkedIn 广告
+ai-seo	AI 搜索优化	让你的内容更容易被 AI 回答引用和推荐
+analytics	数据埋点和分析	搭建或检查网站数据统计，判断数字算得对不对
+aso	应用商店优化	优化 App Store、Google Play 的标题、关键词和截图
+churn-prevention	减少客户流失	找出客户为什么取消，设计挽留方案
+community-marketing	社群运营	建立和运营线上社群，判断值不值得做
+competitor-profiling	竞品档案	整理竞争对手的价格、卖点、动态，带日期
+content-strategy	内容策略	规划写什么、先写什么、在哪里发
+cro	转化率优化	页面或表单转化低时，找原因、给改法
+customer-research	客户调研	整理客户评价、访谈和反馈，找出共性
+emails	自动邮件序列	设计欢迎邮件、提醒邮件等自动发送的邮件
+influencer-marketing	达人合作	找合适的达人、谈合作、评估效果
+launch	新品发布	规划产品或功能发布的时机和节奏
+lead-magnets	引流资料	设计用来换取用户联系方式的免费资料
+marketing-ideas	营销点子	给你的产品列一批可以尝试的增长点子
+marketing-plan	完整营销计划	写一份完整的营销或市场进入计划
+marketing-psychology	营销心理学	用心理学解释买家行为，用在定价和文案上
+offers	优惠方案设计	设计更有吸引力的优惠和套餐
+onboarding	新用户引导	新用户留不住时，设计头几天的引导
+popups	弹窗设计	设计弹窗、横幅，判断会不会惹人烦
+pricing	定价和套餐	定价格、分套餐、判断该不该涨价
+product-marketing	产品营销档案	整理产品定位、目标客户、卖点，供其他营销 skill 使用
+public-relations	公关和媒体	判断有没有新闻价值，准备给记者的材料
+referrals	推荐和分销	设计老带新、分销奖励
+seo-audit	SEO 体检	查网站搜索流量下降、页面没排名的原因
+signup	注册流程优化	减少注册、试用流程里的流失
+social	社交媒体内容	为各平台写内容、定发布节奏
+video	AI 做视频	判断用录屏、代码动画还是 AI 生成来做视频
+site-architecture	网站结构规划	规划网站需要哪些页面、怎么组织
+marketing-loops	定期营销任务	设计让 AI 定期执行的营销任务（比如每周竞品监测）
+linkedin-content	领英内容写作	写、改领英帖子：故事、教程、轮播图、投票
+positioning-statement	定位语	用经典框架写清楚：为谁、解决什么问题、和别人有什么不同
+message-house	核心信息屋	一句核心信息 + 三个价值支柱 + 证据，统一对外口径
+press-release	先写新闻稿	做产品之前先写一篇发布新闻稿，想清楚客户价值
+battle-card-builder	竞品对比卡	用公开资料做销售用的竞品对比卡，每条都有出处
+shopify-expert	Shopify 开发	开发和调试 Shopify 主题和应用
+sales-enablement	销售支持材料	做销售用的资料，回答客户常见异议
+prospecting	找潜在客户	找到并筛选最值得先联系的潜在客户
+cold-email	陌生开发信	写企业间的开发信（注意遵守当地的营销邮件规定）
+revops	营收运营	理清线索什么时候交给销售、销售和市场怎么配合
+deal-desk	大单审批	超出权限的折扣、合同修改，怎么评估和审批
+rfp-responder	招标和问卷回复	收到招标书、供应商问卷时，拆解要求、组织回复
+contract-and-proposal-writer	合同和方案起草	起草自由职业合同、项目方案、工作说明书（欧美法律环境）
+customer-success-manager	客户成功	给客户账户打健康分，找出流失风险和增购机会
+sales-engineer	售前支持	招标覆盖度、竞品功能对比、试用方案
+sales-value-narrative	销售价值话术	为什么要换、为什么是现在、为什么选我们
+voice-of-customer-miner	用户声音挖掘	从公开评论、应用商店、论坛里找未被满足的需求
+canned-responses-anthropic	常见问题模板回复	为常见咨询生成模板回复，并识别哪些情况要单独处理
+video-subtitle	视频加字幕	本地语音识别生成字幕，再烧录进视频（需要装 ffmpeg 和 Whisper）
+remotion-motion-graphics	代码做动画视频	片头、文字动画、数据图表动画
+image	营销图片	生成、修改、优化营销用的图片
+generate-image	AI 生成图片	用 AI 模型生成或修改图片（需要 OpenRouter 钥匙）
+slack-gif-creator	动图制作	做尺寸、帧数合适的小动图
+canvas-design	海报和封面	做海报、封面、宣传图，输出 PNG 或 PDF
+excalidraw	流程图和示意图	画可以继续编辑的手绘风流程图、结构图
+frontend-design	好看的网页	做网页时避免“一看就是 AI 做的”模板感
+algorithmic-art	代码生成艺术	用代码画出可调参数的生成艺术作品
+web-artifacts-builder	复杂网页小工具	用现代前端技术做多组件的网页小工具
+infographics	信息图	做统计摘要、时间线等信息图（需要 OpenRouter 钥匙）
+markdown-mermaid-writing	文字画图（Mermaid）	用文字描述画流程图、关系图、时间线
+ui-design-system	界面设计规范	建立颜色、字号、组件等设计规范
+design-qa	界面验收检查	页面上线前，检查间距、对齐、状态是否和设计一致
+landing-page-generator	落地页生成	生成营销落地页（Next.js + Tailwind）
+wcag	无障碍检查	按国际无障碍标准（WCAG）检查网页，照顾视障等用户
+pet-care-log	宠物照护记录（本教程自带）	记录喂养、疫苗、驱虫、体重、看病，提醒下次该做什么
+travel-itinerary	顺路行程和手机行程页	根据目的地、航班、酒店排顺路行程，做成手机能看的网页
+travel-planning-skill	先问清楚再规划	先确认需求，再给路线图和按小时排的每日安排
+lele	一问一答做行程	一问一答问细了，再出完整的行程文档（英文）
+skill-creator	写 skill 的助手	一问一答帮你写 skill，还能测试它好不好用（第 16 章用得上）
+systematic-debugging	一步步找 bug	程序出错时，先复现、再缩小范围、再修，不乱改
+brainstorming	动手前先想清楚	做新功能之前，先把需求、方案问清楚再写代码
+test-driven-development	先写测试再写代码	每个功能先写测试，再写实现
+verification-before-completion	完成前先验证	说“做好了”之前，先真的跑一遍检查
+requesting-code-review	请求代码审查	完成功能后，按要求整理改动请人审查
+executing-plans	照计划执行	拿到实现计划后，一步一步执行并检查
+dev-browser	让 AI 用浏览器	让 AI 打开网页、点按钮、截图，检查你做的网页
+mcp-builder	做 MCP 工具	指导你写一个 MCP 服务，让 AI 连上新的工具（第 18 章之后再看）
+webapp-testing	测试网页	自动打开你做的网页并测试功能
+commit	写提交说明	按规范写代码提交说明
+pr-writer	写合并请求说明	写给审查人看的合并请求标题和说明
+code-review	代码审查	按工程规范审查代码改动
+find-bugs	找 bug 和漏洞	检查本地代码改动里的 bug、安全漏洞和质量问题
+code-simplifier	代码精简	在不改变功能的前提下，把代码改得更清楚
+skill-writer	skill 编写规范	按 Agent Skills 规范写和改进 skill
+agents-md	写 AGENTS.md	为项目写简洁的 AGENTS.md 规则文件（第 20 章用得上）
+python-pro	Python 开发	写类型清楚、能处理错误的 Python 程序
+javascript-pro	JavaScript 开发	用现代 JavaScript 写、调试、重构代码
+typescript-pro	TypeScript 开发	TypeScript 的类型设计和工程配置
+react-expert	React 开发	用 React 做网页应用
+vue-expert	Vue 开发	用 Vue 3 做网页应用
+nextjs-developer	Next.js 开发	用 Next.js 做全栈网站
+fastapi-expert	FastAPI 接口开发	用 FastAPI 写高性能的 Python 接口
+django-expert	Django 开发	用 Django 做网站和接口
+sql-pro	SQL 查询	写和优化 SQL 查询，设计数据表
+postgres-pro	PostgreSQL 数据库	PostgreSQL 的查询优化和配置
+api-designer	接口设计	设计 REST 或 GraphQL 接口，写接口文档
+code-documenter	代码文档	生成函数注释、接口文档、使用说明
+debugging-wizard	读报错找原因	读懂报错信息和日志，定位问题根源
+test-master	写测试	生成测试代码，设计测试方案，看测试覆盖率
+wordpress-pro	WordPress 开发	开发 WordPress 主题和插件
+flutter-expert	Flutter 开发	用 Flutter 做手机和桌面应用
+game-developer	游戏开发	Unity、Unreal 游戏系统开发和性能优化
+devops-engineer	部署和运维	写 Dockerfile、自动部署流程、服务器配置
+prompt-engineer	提示词工程	写、改、评估给大模型的提示词
+rag-architect	知识库问答（RAG）	搭建“先检索资料再回答”的知识库问答系统
+golang-pro	Go 开发	用 Go 写并发程序和后端服务
+java-architect	Java 开发	用 Spring Boot 开发企业级 Java 应用
+swift-expert	Swift 开发	开发 iPhone、Mac 应用
+rust-engineer	Rust 开发	写安全、高性能的 Rust 程序
+huggingface-gradio	Gradio 演示网页	用 Python 快速做一个 AI 模型的演示网页
+transformers-js	浏览器里跑 AI 模型	用 Transformers.js 在网页里直接运行 AI 模型
+skill-scanner	skill 安全扫描	安装 skill 前，扫描里面有没有危险操作和“骗 AI”的话
+skill-security-auditor	skill 安全审计	来源不明的 skill，安装前先做一次安全审计
+security-review	代码安全审查	检查代码里的安全漏洞
+secure-code-guardian	安全编码	登录、权限、用户输入这些地方怎么写才安全
+security-reviewer	安全审计报告	找出安全漏洞，生成带严重程度的审计报告
+ciso-advisor	安全负责人顾问	安全体系建设、预算、合规认证怎么选

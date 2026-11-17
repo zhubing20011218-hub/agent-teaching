@@ -3,11 +3,14 @@ title: Skill 库
 part: Skill 库
 last_checked: 2026-11-17
 outline: false
+aside: false
+sidebar: false
+pageClass: skill-hub-page
 ---
 
 # Skill 库
 
-> 按领域整理的 skill。每一个都是公开的、许可证允许使用的，我们看过它的说明和脚本。
+> 300 多个 skill，按领域整理。每一个都下载源码检查过：说明书和脚本都读过，格式按 DSH 的规则验证过（没有逐个实际运行）。左边选领域，或者直接搜索。
 >
 > **装法只有两步：** 点「**复制安装指令**」→ 粘贴到 DSH 发送。DSH 会先告诉你这个 skill 有没有脚本、会不会联网，你确认后它再安装。
 

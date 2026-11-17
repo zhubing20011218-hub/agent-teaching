@@ -1,0 +1,93 @@
+docx	Word 文档	新建、修改 Word：报告、通知、讲义、合同模板
+xlsx	Excel 表格	读、整理、计算 Excel 和 CSV，保留公式和格式，用程序算数不心算
+pptx	PPT 制作	做 PPT、改 PPT（第 13 章专门讲）
+pdf	PDF 处理	读 PDF 里的文字和表格，合并、拆分 PDF，填 PDF 表单
+theme-factory	配色主题	给 PPT、文档、网页统一配色和字体，自带 10 套主题
+internal-comms	工作通知和周报	按固定格式写工作通知、周报、项目进展
+doc-coauthoring	一起写文档	按“先问清楚 → 列大纲 → 分段写 → 回头检查”的流程，和你一起写方案、说明文档
+markitdown	各种文件转文字	把 Word、PDF、PPT、Excel、网页等转成纯文字（Markdown），方便 AI 读
+md-slides	文字变网页幻灯片	把一份 Markdown 文字稿变成单文件网页幻灯片，带翻页和演讲备注
+md-document	长文变网页	把长篇报告、方案变成带目录的单页网页，方便阅读和分享
+ppt-polish	PPT 美化检查（本教程自带）	检查并美化已有的 PPT：对齐、字号、配色、每页一个重点
+meeting-notes	会议纪要（本教程自带）	把零散记录整理成会议纪要：结论、待办、负责人
+en-zh-max	英译汉	英文翻成通顺的中文，按翻译方法逐步处理
+qu-ai-wei	去 AI 味	把生硬的中文改自然，保留原来的事实和意思
+prompt-master	把要求说清楚	帮你把“想让 AI 做的事”写成更清楚的指令
+copy-editing	文案精修	校对、精简、改写已有的文案，告诉你哪句留、哪句删
+prompt-optimizer	提示词优化	把你常用的提示词改得更清楚、更稳定，并反复测试改进
+team-communications	团队沟通文稿	写周报、进度更新、内部通讯、常见问题、事故说明
+reader-first-technical-edit	让专业文章好读	把公式多、术语多的论文或技术文档，改得让外行也能读懂
+deep-work	深度工作计划	帮你规划一天的专注时间：排时间块、砍掉浅层任务
+weekly-review	每周复盘	每周回顾一次：收尾没做完的事、检查停滞的项目、定下周重点
+inbox-triage	邮箱整理	把收件箱里的邮件分类：要回的、要办的、可以忽略的
+meetings	开会前想清楚	判断这个会值不值得开、算会议成本、写议程和会后纪要
+reflect	停下来复盘	事情做着做着跑偏时，帮你退一步看：目标还对吗、该不该调整
+capture	想法整理	把脑子里乱七八糟的想法、任务、计划，整理成清单
+meeting-analyzer	会议录音分析	读会议转写稿，分析发言占比、决定了什么、谁负责什么
+decision-logger	决策记录	记下每次重要决定和理由，之后回看、检查待办有没有完成
+knowledge-ops	操作手册（SOP）	写、检查、整理操作手册和工作流程文档
+fact-check	事实核查（DSH 专用）	为 DSH 写的事实核查：把问题拆开，多个来源交叉核对，标出可信度
+discernment-nudge	提醒你核对	AI 给出建议或数据后，自动追加 2–3 个“你该核对什么”的问题
+reliable-research	靠谱搜索（本教程自带）	优先找原始来源，标出处，分清“查到的”和“推测的”，查不到就说查不到
+research-lookup	学术证据汇总	为一个研究问题汇总最新的学术证据，标清每条来源
+paper-lookup	查论文	在 18 个学术数据库里查论文、预印本、引用和开放全文
+scientific-critical-thinking	判断研究靠不靠谱	检查一项研究的设计、偏差、证据强弱，判断结论站不站得住
+database-lookup	查公开数据库	从公开的科研数据库里查数据，并记录来源和查询条件
+lecture-notes	课件变复习手册	把课件整理成复习手册：概念讲解、准确定义、例题完整解答
+quiz-generator	自测网页	把题目做成离线自测网页：答题卡、错题本、随机抽题，不收集任何信息
+learning-tutor	一对一自学老师	想系统学一样东西：先定计划，再一课一课教，布置小任务并批改
+teacher	AI 讲解老师	把课本、讲义交给它，先判断你的水平，再一步步讲懂
+anki	Anki 记忆卡片	把知识点做成 Anki 记忆卡片（需要先装 Anki）
+sunzi-reading	论文讲人话	用大白话讲论文：想解决什么、怎么做的、发现了什么，适合第一次读
+paper-reading	论文精读笔记	精读论文，生成中文阅读笔记：主线、方法、图表、公式
+literature-review-skills	文献综述（中文合集）	收窄题目、拆分结构、比较研究方法、梳理矛盾、找研究空白
+literature-review	系统文献综述	在 PubMed、arXiv 等数据库检索并整理文献，做系统综述或范围综述
+citation-management	参考文献管理	查找、核对、格式化参考文献，避免引用错误
+scientific-writing	科研论文写作	起草、修改、检查科研论文，每个说法都标明证据来源
+peer-review	论文审稿意见	按结构写有建设性的审稿意见，只评价有证据支持的部分
+research-grants	基金申请书	准备和检查科研基金申请书（以美国、台湾地区的基金为主）
+scholar-evaluation	学术作品评审	对论文、学位论文做发展性评审，指出可以改进的地方
+hypothesis-generation	提出研究假设	根据已有证据提出研究问题、候选假设和对立解释
+scientific-brainstorming	科研头脑风暴	围绕一个研究方向结构化地想点子、讨论、筛选
+experimental-design	实验设计	在收数据之前设计实验：分组、随机化、样本量、控制变量
+scientific-schematics	科研示意图	用 AI 画科研示意图草稿，并反复修改（需要 OpenRouter 钥匙）
+scientific-slides	学术报告幻灯片	做学术报告、答辩、组会用的幻灯片
+latex-posters	LaTeX 学术海报	用 LaTeX 做会议海报（需要装 LaTeX）
+venue-templates	期刊会议模板	按目标期刊、会议的格式要求整理论文和海报
+pyzotero	Zotero 文献库	管理你的 Zotero 文献库：查、增、改、删条目（需要 Zotero 钥匙）
+uncertainty-and-units	单位和误差计算	计算时自动带上物理单位，并传递测量误差（做实验报告的计算很有用）
+sympy	符号数学	用 SymPy 精确地解方程、求导、积分、化简公式
+biopython	生物信息（Biopython）	处理 DNA、蛋白质序列文件，做序列分析和进化树
+rdkit	化学分子（RDKit）	读写分子结构，计算分子性质，做相似性搜索
+astropy	天文数据（Astropy）	天文学常用的单位、坐标、时间换算和数据处理
+scanpy	单细胞数据分析	用 Scanpy 做单细胞 RNA 测序数据的质控、聚类和可视化
+geopandas	地理数据分析	用 GeoPandas 处理地图、行政区、坐标等地理数据
+qiskit	量子计算入门	用 Qiskit 搭建和模拟量子电路
+huggingface-papers	Hugging Face 论文页	查 AI 领域论文的摘要、作者、关联模型和数据集
+rubric-feedback	按评分标准写反馈（本教程自带）	逐项给建议档位、引用学生原文作证据、写反馈草稿，分数由老师定
+workshop-facilitation	工作坊主持	一步一步带领一场互动工作坊或研讨课
+survey-design-advisor	问卷设计	先判断该不该发问卷，再帮你设计题目和发放方式
+statistical-analysis	统计分析向导	帮你选对统计方法、检查前提条件、算效应量，并解释结果
+exploratory-data-analysis	数据初步探索	拿到一份数据先看清楚：有哪些列、缺失多少、分布怎样
+statistical-power	样本量计算	做研究前算一算：需要多少样本才够
+matplotlib	画图（Matplotlib）	用 Python 画各种数据图，细节都能调
+seaborn	统计图表（Seaborn）	快速画分布图、关系图、分组对比图
+scientific-visualization	论文级图表	做真实、清楚、可以直接放进论文的图表
+scikit-learn	机器学习入门	用 scikit-learn 做分类、回归、聚类等机器学习任务
+statsmodels	统计建模	回归分析、方差分析、时间序列模型，并检查模型好不好
+polars	大表格快速处理	处理很大的表格数据，比 Excel 快得多
+networkx	关系网络分析	分析人物关系、引用关系等网络，找出关键节点
+timesfm-forecasting	销量和趋势预测	用谷歌的 TimesFM 模型预测时间序列（比如销量）
+pymc	贝叶斯统计	用 PyMC 建贝叶斯模型并检查结果
+pandas-pro	表格数据处理（pandas）	用 pandas 清洗、合并、汇总表格数据
+product-analytics	产品数据指标	定义产品指标、做留存分析、搭数据看板
+fcs-reconcile	对账	银行流水对台账，找差异，出复核底稿；金额比对由本地程序完成，原始明细不发给 AI
+paypal-stripe-reconciliation	跨境收款对账	PayPal、Stripe 的结算和银行到账对上
+financial-analyst	财务分析	分析财务报表、做现金流估值、解释预算差异、做滚动预测
+month-end-close	月结	规划和加快月末、季末结账流程，列清单查漏
+saas-metrics-coach	订阅业务指标	解释和计算 ARR、MRR、流失率、客户终身价值等指标
+cfo-advisor	创业公司财务	现金还能撑多久、单位经济模型、融资和股权稀释
+finance-metrics-quickref	财务指标速查	快速查财务指标的定义、公式和参考值
+finance-based-pricing-advisor	调价影响评估	调价之前，从客单价、转化、流失算一算影响
+research-finance	科研项目预算	科研项目的多年预算、间接费用、经费使用进度
+procurement-optimizer	采购降本	盘点软件订阅和供应商支出，找出能省的钱

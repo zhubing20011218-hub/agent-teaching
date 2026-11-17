@@ -1,0 +1,69 @@
+contract-review	合同审查	逐条看合同风险，给出修改建议（英文）
+nda-triage-anthropic	保密协议初筛	把收到的保密协议分成绿（标准）、黄（要看）、红（有风险）三类
+legal-risk-assessment	法律风险评估	按“严重程度 × 可能性”给法律风险分级，并说明何时该找律师
+tos-clause-scanner	用户协议风险扫描	检查网站或 App 的用户协议、隐私政策里对你不利的条款
+case-briefer	判例摘要	把美国法院判决整理成固定九段式的案例摘要（法学学习用）
+statute-briefer	法条解读	按固定框架拆解一部法律：适用范围、规则、例外
+legal-translation	法律文件翻译	把各语言的法律文件翻成英文，保留 Word 格式
+persuasive-legal-writing	法律文书写作	用资深律师的写作技巧，把法律文书写得更有说服力
+client-explanation-translator-larissa-meredith-flister	法律意见讲人话	把复杂的法律分析，改写成客户能看懂、能用的建议
+chronology-builder-andrew-bird	案件时间线	从案件材料里整理时间线，每一条都标出出处
+legal-diagram	法律关系图	把合同、案件、公司结构画成关系图或流程图
+gdpr-compliance	GDPR 合规	欧盟数据保护法（GDPR）的合规检查、文档和流程
+privacy-policy-malik-taiar	隐私政策起草	按 GDPR 要求起草隐私政策（适合面向欧洲用户的网站）
+employment-law-research	劳动法检索	检索美国联邦、州、城市三级的劳动法规定
+mediation-dispute-analysis	纠纷调解分析	帮调解员或律师分析纠纷：各方诉求、底线、可能的方案
+general-counsel-advisor	法务顾问	审合同和投资条款、知识产权策略、监管风险（创业公司视角）
+ai-dev-interview-simulator	AI 开发岗模拟面试	按你的简历和目标岗位，逐题模拟 AI 应用开发面试，结束给评分
+backend-interview-simulator	后端岗模拟面试	Java、C++、Go 等后端岗位的逐题模拟面试，会追问
+frontend-interview-simulator	前端岗模拟面试	实习、校招、社招前端岗位的逐题模拟面试，结束给反馈
+resume-bullets	简历条目打磨	把实习、项目经历写成高质量的简历条目，只用说得清的数字
+resume-interview-question-generator	按简历出面试题	根据你简历上的某段经历，生成面试题、追问和参考回答
+resume-builder	简历制作	先采访你的经历，再写简历、排版
+easy-job-tutor	岗位分析和简历优化	分析招聘要求，对照优化简历，生成 PDF 简历
+product-sense-interview-answer	产品岗面试答题	产品经理面试“产品感”题目的答题结构
+chro-advisor	人力资源顾问	招聘计划、薪酬带宽、组织架构、绩效和留人
+culture-architect	企业文化建设	定义价值观，把价值观变成具体行为，评估文化健康度
+change-management	变革管理	组织调整、换工具、换领导时，怎么规划和沟通
+org-health-diagnostic	组织健康体检	从 8 个维度给公司做一次健康检查
+executive-onboarding-playbook	新任管理者 90 天	新上任的管理者前 30、60、90 天该做什么
+linkedin-profile	领英资料优化	给领英个人资料打分并改写：标题、简介、经历
+ceo-advisor	CEO 顾问	创始人经营公司的难题：董事会、融资、战略取舍
+coo-advisor	运营负责人顾问	流程设计、目标落地、运营节奏、规模化瓶颈
+founder-coach	创始人教练	创始人成了瓶颈、不会授权、快累垮时的建议
+board-deck-builder	董事会汇报材料	做董事会汇报、投资人季度更新的结构和内容
+strategic-alignment	战略对齐	各部门目标对不上时，理清目标之间的关系
+scenario-war-room	情景推演	“如果 A 和 B 同时发生会怎样”，跨部门推演最坏情况
+intl-expansion	出海拓展	进入新国家：选市场、进入方式、本地化、监管
+process-mapper	业务流程梳理	画出完整业务流程，找出卡住的环节
+capacity-planner	人力规划	测算客服、运营团队需要多少人、先招谁
+vendor-management	供应商管理	给供应商打分、查服务水平、评估第三方风险
+market-research	市场规模测算	自上而下、自下而上测算市场规模，计算问卷样本量
+swot-analysis	SWOT 分析	用公开资料给一家公司做有出处的 SWOT 分析
+porters-five-forces	波特五力分析	分析一个行业的竞争结构，每项判断都有依据
+pestel-analysis	PESTEL 分析	分析政治、经济、社会、技术、环境、法律六方面的外部影响
+ansoff-matrix	安索夫矩阵	列出增长方向：老产品新市场、新产品老市场……并评估风险
+business-health-diagnostic	业务健康诊断	从增长、留存、效率、资金四方面诊断业务状况
+company-research	公司调研简报	整理一家公司的高管言论、产品战略、组织情况
+tam-sam-som-calculator	市场规模三层测算	算 TAM、SAM、SOM，并写清每个假设
+market-landscape-scan	行业格局扫描	画出一个市场的细分、玩家、替代品和空白机会
+market-research-reports	市场研究报告	写有出处、有假设说明的市场研究报告
+prd-development	产品需求文档	把问题、用户、方案、成功标准串成一份 PRD
+user-story	用户故事	把用户需求写成标准的用户故事和验收标准
+user-story-mapping	用户故事地图	把用户的完整流程和功能拆成地图，规划分批上线
+roadmap-planning	产品路线图	排优先级、定大功能、对齐各方、安排先后顺序
+prioritization-advisor	优先级排序	根据团队阶段选合适的优先级排序方法
+jobs-to-be-done	用户任务分析	弄清楚用户“想完成什么事”、痛点和期待
+problem-statement	问题陈述	写清楚：谁被卡住了、想做什么、为什么重要
+opportunity-solution-tree	机会方案树	从目标出发，拆出机会、方案和验证实验
+customer-journey-map	客户旅程图	画出客户从了解到购买再到复购的每一步和感受
+proto-persona	用户画像草稿	根据现有信息先画一个用户画像，之后再验证
+discovery-interview-prep	用户访谈准备	规划用户访谈：目标、找谁、问什么
+sprint-planning	迭代计划	按目标和真实人力规划一个迭代，提前标出风险
+launch-plan	上线计划	按规模定上线计划：负责人、日期、能不能上线的标准
+stakeholder-mapping	利益相关方地图	找出谁影响项目、谁关心项目，决定怎么沟通
+research-synthesis	调研结果整理	把访谈记录、反馈整理成主题、洞察和机会点
+scrum-master	敏捷团队数据	迭代速度预测、迭代健康度、回顾会、燃尽图
+senior-pm	项目集管理	多条线并行的项目：计划、周报、风险清单
+ux-researcher-designer	用户体验研究	用户画像、旅程图、可用性测试计划和结果整理
+experiment-designer	A/B 实验设计	写实验假设、算样本量、解读结果
