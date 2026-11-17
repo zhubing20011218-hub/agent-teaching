@@ -15,6 +15,11 @@ last_checked: 2026-11-17
 >
 > **这个作品最值得学的是做法：** 把“学习方法”写成规则，把每天要做的事做成一句话就能触发的 skill。
 
+> [!TIP]
+> **第 1 步的提示词里附了原作关键文件的链接**，AI 会先读原作、再动手，做出来更接近原作。打不开 GitHub 也没关系，提示词里的要求已经够用。
+>
+> **整个复刻请在同一个 DSH 会话里做完**，AI 才会一直记得原作和前面的步骤。
+
 ## 准备
 
 1. 新建文件夹 `ai-练习/英语练习`
@@ -23,6 +28,15 @@ last_checked: 2026-11-17
 ## 第 1 步：建档
 
 ```text
+参考这个开源项目：https://github.com/shazinet/english-handbook（MIT 许可证）
+先读下面这几个文件。只读，不要运行里面的任何脚本，也不要安装它的依赖：
+- https://raw.githubusercontent.com/shazinet/english-handbook/main/CLAUDE.md（整个系统的规则：数据怎么分、卡片怎么写）
+- https://raw.githubusercontent.com/shazinet/english-handbook/main/.claude/commands/journal.md（“写日记”命令）
+- https://raw.githubusercontent.com/shazinet/english-handbook/main/.claude/commands/check.md（“批改”命令）
+读完用三五句话告诉我：它是做什么的、分几块、外观或写法有什么特点。
+然后参考它的功能和外观，在当前文件夹里自己重新做一个简化版，不要整份复制它的代码；用到它的代码片段时，在文件开头注明出处和许可证。
+如果打不开这些链接，直接告诉我，然后只按下面的要求做。
+
 帮我搭一个英语口语练习系统，先建档。问我 5 个问题（一次问完）：
 我的水平（大概 A2/B1/B2/C1）、母语、每天能花多少分钟、想练的场景（工作/旅行/日常聊天）、最想改掉的毛病。
 我回答后，把结果写进 me/profile.md。

@@ -15,6 +15,11 @@ last_checked: 2026-11-17
 >
 > **这个作品最值得学的是做法：** 脚本写完先停下等人确认，再做画面；发布永远自己来。
 
+> [!TIP]
+> **第 1 步的提示词里附了原作关键文件的链接**，AI 会先读原作、再动手，做出来更接近原作。打不开 GitHub 也没关系，提示词里的要求已经够用。
+>
+> **整个复刻请在同一个 DSH 会话里做完**，AI 才会一直记得原作和前面的步骤。
+
 ## 准备
 
 1. 新建文件夹 `ai-练习/短视频-黏土风`
@@ -23,6 +28,15 @@ last_checked: 2026-11-17
 ## 第 1 步：查资料
 
 ```text
+参考这个开源项目：https://github.com/dodoshell/unfaced（MIT 许可证）
+先读下面这几个文件。只读，不要运行里面的任何脚本，也不要安装它的依赖：
+- https://raw.githubusercontent.com/dodoshell/unfaced/main/catalog/hooks.md（开头钩子的规则和例子）
+- https://raw.githubusercontent.com/dodoshell/unfaced/main/catalog/scripts/09-did-you-know.md（“你知道吗”脚本结构）
+- https://raw.githubusercontent.com/dodoshell/unfaced/main/catalog/styles/01-soft-3d/STYLE.md（“黏土风”画面说明：配色、圆角、动画）
+读完用三五句话告诉我：它是做什么的、分几块、外观或写法有什么特点。
+然后参考它的功能和外观，在当前文件夹里自己重新做一个简化版，不要整份复制它的代码；用到它的代码片段时，在文件开头注明出处和许可证。
+如果打不开这些链接，直接告诉我，然后只按下面的要求做。
+
 用 reliable-research 查「猫为什么会踩奶」，找 3–4 个有可靠来源的知识点，标出处，保存为「资料.md」。查不到可靠来源的不要写。
 ```
 

@@ -15,6 +15,11 @@ last_checked: 2026-11-17
 >
 > **这个作品最值得学的是做法：** 一个复杂任务拆成“一份主说明 + 几份参考文档”；规则第一条就是“不要替用户假设喜好”。
 
+> [!TIP]
+> **第 1 步的提示词里附了原作关键文件的链接**，AI 会先读原作、再动手，做出来更接近原作。打不开 GitHub 也没关系，提示词里的要求已经够用。
+>
+> **整个复刻请在同一个 DSH 会话里做完**，AI 才会一直记得原作和前面的步骤。
+
 ## 准备
 
 1. 新建文件夹 `ai-练习/旅行管家`
@@ -23,6 +28,15 @@ last_checked: 2026-11-17
 ## 第 1 步：写 skill 的主说明
 
 ```text
+参考这个开源项目：https://github.com/theoms/co-work-travel-planner-claude（MIT 许可证）
+先读下面这几个文件。只读，不要运行里面的任何脚本，也不要安装它的依赖：
+- https://raw.githubusercontent.com/theoms/co-work-travel-planner-claude/main/skills/plan-trip/SKILL.md（skill 主说明）
+- https://raw.githubusercontent.com/theoms/co-work-travel-planner-claude/main/skills/plan-trip/references/itinerary-building.md（每日行程怎么排）
+- https://raw.githubusercontent.com/theoms/co-work-travel-planner-claude/main/skills/plan-trip/references/map-template.md（地图网页模板）
+读完用三五句话告诉我：它是做什么的、分几块、外观或写法有什么特点。
+然后参考它的功能和外观，在当前文件夹里自己重新做一个简化版，不要整份复制它的代码；用到它的代码片段时，在文件开头注明出处和许可证。
+如果打不开这些链接，直接告诉我，然后只按下面的要求做。
+
 在 .dsh/skills/family-trip/ 下写一个 skill。SKILL.md 的要点：
 1. 角色：一个细心的家庭旅行管家
 2. 第一条规则：每个家庭都不一样，不要假设喜好（不默认要午睡、不默认饮食偏好、不默认爱逛街）

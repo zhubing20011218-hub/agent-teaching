@@ -15,6 +15,11 @@ last_checked: 2026-11-17
 >
 > **这个作品最值得学的是做法：** 作者每个功能都先“调研 → 写计划 → 实现”，所以下面的步骤也一样，先让 AI 写计划。
 
+> [!TIP]
+> **第 1 步的提示词里附了原作关键文件的链接**，AI 会先读原作、再动手，做出来更接近原作。打不开 GitHub 也没关系，提示词里的要求已经够用。
+>
+> **整个复刻请在同一个 DSH 会话里做完**，AI 才会一直记得原作和前面的步骤。
+
 ## 准备
 
 1. 新建文件夹 `ai-练习/家庭记账`
@@ -24,6 +29,15 @@ last_checked: 2026-11-17
 ## 第 1 步：先写设计规范
 
 ```text
+参考这个开源项目：https://github.com/ramazankarisan/household-budget（MIT 许可证）
+先读下面这几个文件。只读，不要运行里面的任何脚本，也不要安装它的依赖：
+- https://raw.githubusercontent.com/ramazankarisan/household-budget/main/README.md（功能说明）
+- https://raw.githubusercontent.com/ramazankarisan/household-budget/main/DESIGN.md（设计规范：颜色、原则、金额怎么显示）
+- https://raw.githubusercontent.com/ramazankarisan/household-budget/main/docs/plans/02-categorization-rules.md（分类规则的开发计划，看作者怎么写计划）
+读完用三五句话告诉我：它是做什么的、分几块、外观或写法有什么特点。
+然后参考它的功能和外观，在当前文件夹里自己重新做一个简化版，不要整份复制它的代码；用到它的代码片段时，在文件开头注明出处和许可证。
+如果打不开这些链接，直接告诉我，然后只按下面的要求做。
+
 我要做一个本地记账网页 budget.html。先别写代码，先写一份设计规范 DESIGN.md，内容：
 1. 三条原则：先给答案（每页开头一句话或一个大数字回答“这个月怎么样”）；颜色有含义（红色只用于超预算和错误）；本地优先（不联网、不加载外部资源）
 2. 颜色：页面底 #F6F5F1，卡片 #FFFFFF，浅底 #EFEDE7，分隔线 #E2DFD7，主文字 #1A1C1B，次要文字 #5B605D，主色 #0E5A4B（浅底 #E1EFEA），

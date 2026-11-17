@@ -15,6 +15,11 @@ last_checked: 2026-11-17
 >
 > **这个作品最值得学的是做法：** 项目一大，就先写 `AGENTS.md` 定规矩；把重复的操作写成固定命令。
 
+> [!TIP]
+> **第 1 步的提示词里附了原作关键文件的链接**，AI 会先读原作、再动手，做出来更接近原作。打不开 GitHub 也没关系，提示词里的要求已经够用。
+>
+> **整个复刻请在同一个 DSH 会话里做完**，AI 才会一直记得原作和前面的步骤。
+
 ## 准备
 
 1. 新建文件夹 `ai-练习/家庭管家`
@@ -23,6 +28,15 @@ last_checked: 2026-11-17
 ## 第 1 步：先写规矩
 
 ```text
+参考这个开源项目：https://github.com/micasa-dev/micasa（Apache-2.0 许可证）
+先读下面这几个文件。只读，不要运行里面的任何脚本，也不要安装它的依赖：
+- https://raw.githubusercontent.com/micasa-dev/micasa/main/README.md（功能和键盘操作）
+- https://raw.githubusercontent.com/micasa-dev/micasa/main/AGENTS.md（作者给 AI 定的规矩）
+- https://raw.githubusercontent.com/micasa-dev/micasa/main/.claude/commands/add-entity.md（“新增一种数据类型”命令）
+读完用三五句话告诉我：它是做什么的、分几块、外观或写法有什么特点。
+然后参考它的功能和外观，在当前文件夹里自己重新做一个简化版，不要整份复制它的代码；用到它的代码片段时，在文件开头注明出处和许可证。
+如果打不开这些链接，直接告诉我，然后只按下面的要求做。
+
 我要做一个家庭事务管家网页 home.html。先写 AGENTS.md，规定：
 1. 只用一个 HTML 文件，不联网、不加载外部资源；数据存 localStorage，可以导出、导入 JSON 备份
 2. 每次改动前先说要改什么，改完自己检查一遍：新增、修改、删除、刷新后保留

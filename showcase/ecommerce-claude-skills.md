@@ -14,6 +14,11 @@ last_checked: 2026-11-17
 >
 > **这个作品最值得学的是做法：** 每个 skill 结构都一样（什么时候用 → 需要什么数据 → 分析前先确认 → 分析步骤 → 输出格式 → 不要做的事），金额计算交给脚本，不让 AI 心算。
 
+> [!TIP]
+> **第 1 步的提示词里附了原作关键文件的链接**，AI 会先读原作、再动手，做出来更接近原作。打不开 GitHub 也没关系，提示词里的要求已经够用。
+>
+> **整个复刻请在同一个 DSH 会话里做完**，AI 才会一直记得原作和前面的步骤。
+
 ## 准备
 
 1. 新建文件夹 `ai-练习/电商skill`
@@ -22,6 +27,14 @@ last_checked: 2026-11-17
 ## 第 1 步：先造一份练习数据
 
 ```text
+参考这个开源项目：https://github.com/mardab96/ecommerce-claude-skills（MIT 许可证）
+先读下面这几个文件。只读，不要运行里面的任何脚本，也不要安装它的依赖：
+- https://raw.githubusercontent.com/mardab96/ecommerce-claude-skills/main/returns-reason-miner-ecommerce/SKILL.md（“退货原因分析”skill 原文：看它的结构）
+- https://raw.githubusercontent.com/mardab96/ecommerce-claude-skills/main/references/output-standard.md（所有 skill 共用的输出标准）
+读完用三五句话告诉我：它是做什么的、分几块、外观或写法有什么特点。
+然后参考它的功能和外观，在当前文件夹里自己重新做一个简化版，不要整份复制它的代码；用到它的代码片段时，在文件开头注明出处和许可证。
+如果打不开这些链接，直接告诉我，然后只按下面的要求做。
+
 生成一份假的退货数据 returns.csv（不要用任何真实客户信息），60 行，列：
 日期, 订单号, 商品编码, 商品名, 规格, 数量, 退货原因, 买家备注
 商品 5 种（保温杯、帆布包、蓝牙耳机、T恤、台灯），退货原因从这些里选：尺码不合适、颜色和图片不一样、质量问题、不想要了、发错货、物流太慢。
