@@ -32,6 +32,8 @@ const filtered = computed(() => {
 const visible = computed(() => filtered.value.slice(0, shown.value))
 const catLabel = (key: string) => CATEGORIES.find((c) => c.key === key)?.label ?? ''
 const roleLabel = (k: RoleKey) => ROLES.find((r) => r.key === k)?.label ?? k
+// 本站文件：复制时用完整网址（发给 DSH 用）；点“打开”时用站内路径，本机预览也能打开
+const openHref = (s: SkillEntry) => (s.hosted ? s.url.replace(/^https:\/\/teach\.prismice\.cn/, '') : s.url)
 
 watch([query, cat, role], () => (shown.value = PAGE))
 
@@ -60,6 +62,8 @@ function fromHash() {
     const idx = filtered.value.findIndex((x) => x.id === s.id)
     if (idx >= shown.value) shown.value = idx + 1
     openSkill(s, false)
+    // 切换领域后页面高度变了，把背景滚到这张卡片的位置
+    nextTick(() => document.getElementById(s.id)?.scrollIntoView({ block: 'center' }))
   })
 }
 const onKey = (e: KeyboardEvent) => e.key === 'Escape' && open.value && closeSkill()
@@ -147,7 +151,7 @@ async function copy(text: string, key: string) {
         <div v-if="filtered.length > shown" class="sk-more">
           <button type="button" class="sl-btn" @click="shown += PAGE">再显示 {{ Math.min(PAGE, filtered.length - shown) }} 个（还有 {{ filtered.length - shown }} 个）</button>
         </div>
-        <p class="sk-checked">所有 skill 于 {{ CHECKED }} 下载源码检查：说明书和脚本都读过，格式按 DSH 的规则验证过；没有逐个实际运行。</p>
+        <p class="sk-checked">所有 skill 于 {{ CHECKED }} 下载源码检查：只收 300 星以上、近半年有更新的仓库；说明书逐个看过结构和内容，脚本都扫描过，格式按 DSH 的规则验证过；没有逐个实际运行。</p>
       </div>
     </div>
 
@@ -166,6 +170,7 @@ async function copy(text: string, key: string) {
             <span v-if="open.collection" class="sl-tag">📦 合集</span>
             <span class="sl-tag muted">{{ open.license }}</span>
           </div>
+          <p v-if="open.review" class="sk-modal-line">🔍 审查：{{ open.review }}</p>
           <p v-if="open.deps" class="sk-modal-line">🧰 需要先装：{{ open.deps }}</p>
           <p v-if="open.note" class="sl-note">⚠️ {{ open.note }}</p>
           <p v-if="open.roles && open.roles.length" class="sk-modal-line">适合：<span v-for="r in open.roles" :key="r" class="sl-role">{{ roleLabel(r) }}</span></p>
@@ -177,7 +182,7 @@ async function copy(text: string, key: string) {
           <div class="sl-actions">
             <button type="button" class="sl-btn primary" @click="copy(installPrompt(open), 'prompt')">{{ copied === 'prompt' ? '✅ 已复制，粘贴给 DSH' : '复制安装指令' }}</button>
             <button type="button" class="sl-btn" @click="copy(open.url, 'url')">{{ copied === 'url' ? '✅ 已复制' : '复制链接' }}</button>
-            <a class="sl-btn ghost" :href="open.url" target="_blank" rel="noopener noreferrer">打开</a>
+            <a class="sl-btn ghost" :href="openHref(open)" target="_blank" rel="noopener noreferrer">打开</a>
           </div>
         </div>
       </div>

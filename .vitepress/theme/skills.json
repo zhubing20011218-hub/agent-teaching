@@ -15,7 +15,8 @@
 "source": "anthropics/skills",
 "stars": 196274,
 "license": "Apache-2.0",
-"script": true
+"script": true,
+"review": "说明书约 7 千字符（有输出模板、写明何时使用）；会运行脚本；仓库 196,274 星"
 },
 {
 "id": "xlsx",
@@ -37,7 +38,8 @@
 "source": "anthropics/skills",
 "stars": 196274,
 "license": "Apache-2.0",
-"script": true
+"script": true,
+"review": "说明书约 9 千字符（有输出模板）；会运行脚本；仓库 196,274 星"
 },
 {
 "id": "pptx",
@@ -56,7 +58,8 @@
 "stars": 196274,
 "license": "Apache-2.0",
 "script": true,
-"note": "你电脑上如果有旧版 pptx skill，许可证可能是早期的专有许可，建议换成这个新版"
+"note": "你电脑上如果有旧版 pptx skill，许可证可能是早期的专有许可，建议换成这个新版",
+"review": "说明书约 27 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 196,274 星"
 },
 {
 "id": "pdf",
@@ -74,7 +77,8 @@
 "source": "anthropics/skills",
 "stars": 196274,
 "license": "Apache-2.0",
-"script": true
+"script": true,
+"review": "说明书约 8 千字符（有输出模板）；会运行脚本；仓库 196,274 星"
 },
 {
 "id": "theme-factory",
@@ -87,7 +91,8 @@
 "url": "https://github.com/anthropics/skills/tree/main/skills/theme-factory",
 "source": "anthropics/skills",
 "stars": 196274,
-"license": "Apache-2.0"
+"license": "Apache-2.0",
+"review": "说明书约 3 千字符（有分步流程）；只有文字说明；仓库 196,274 星"
 },
 {
 "id": "markitdown",
@@ -104,7 +109,8 @@
 "source": "K-Dense-AI/claude-scientific-skills",
 "stars": 57517,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 12 千字符（有分步流程、有输出模板）；会运行脚本；仓库 57,517 星"
 },
 {
 "id": "md-slides",
@@ -121,7 +127,8 @@
 "source": "alirezarezvani/claude-skills",
 "stars": 29935,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 5 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 29,935 星"
 },
 {
 "id": "md-document",
@@ -135,7 +142,8 @@
 "source": "alirezarezvani/claude-skills",
 "stars": 29935,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 6 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 29,935 星"
 },
 {
 "id": "ppt-polish",
@@ -152,7 +160,63 @@
 "hosted": true,
 "license": "CC BY-NC-SA 4.0",
 "zh": true,
-"source": "本教程"
+"source": "本教程",
+"review": "本教程编写，逐条人工检查"
+},
+{
+"id": "baoyu-markdown-to-html",
+"name": "baoyu-markdown-to-html",
+"title": "Markdown 转网页",
+"desc": "把 Markdown 文章转成带样式的网页，可用于公众号排版",
+"cat": "office",
+"roles": [
+"media"
+],
+"starter": false,
+"url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-markdown-to-html",
+"source": "JimLiu/baoyu-skills",
+"stars": 27628,
+"license": "MIT",
+"script": true,
+"review": "说明书约 7 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 27,628 星"
+},
+{
+"id": "baoyu-slide-deck",
+"name": "baoyu-slide-deck",
+"title": "图片式幻灯片",
+"desc": "把内容做成一套图片风格的幻灯片（需要图片生成服务的钥匙）",
+"cat": "office",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-slide-deck",
+"source": "JimLiu/baoyu-skills",
+"stars": 27628,
+"license": "MIT",
+"script": true,
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"keys": true,
+"review": "说明书约 19 千字符（有分步流程、写明何时使用）；会运行脚本；仓库 27,628 星"
+},
+{
+"id": "ppt-image-first",
+"name": "ppt-image-first",
+"title": "图片优先的 PPT",
+"desc": "先规划每页的视觉，再生成以图片为主的 PPT",
+"cat": "office",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/NyxTides/ppt-image-first",
+"source": "NyxTides/ppt-image-first",
+"stars": 1239,
+"license": "Apache-2.0",
+"script": true,
+"review": "说明书约 6 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 1,239 星"
 },
 {
 "id": "prompt-master",
@@ -173,7 +237,8 @@
 "url": "https://github.com/nidhinjs/prompt-master",
 "source": "nidhinjs/prompt-master",
 "stars": 16078,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 32 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 16,078 星"
 },
 {
 "id": "meeting-notes",
@@ -192,7 +257,48 @@
 "hosted": true,
 "license": "CC BY-NC-SA 4.0",
 "zh": true,
-"source": "本教程"
+"source": "本教程",
+"review": "本教程编写，逐条人工检查"
+},
+{
+"id": "baoyu-translate",
+"name": "baoyu-translate",
+"title": "高质量翻译",
+"desc": "快速、普通、精翻三种模式，支持术语表，适合文章和长文",
+"cat": "writing",
+"roles": [
+"student",
+"teacher",
+"media"
+],
+"starter": true,
+"url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-translate",
+"source": "JimLiu/baoyu-skills",
+"stars": 27628,
+"license": "MIT",
+"script": true,
+"zh": true,
+"review": "说明书约 12 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 27,628 星"
+},
+{
+"id": "humanizer-zh",
+"name": "humanizer-zh",
+"title": "去 AI 味（中文）",
+"desc": "识别并改掉中文里的 AI 腔，保留原来的意思和作者语气",
+"cat": "writing",
+"roles": [
+"ecommerce",
+"media"
+],
+"starter": true,
+"url": "https://github.com/op7418/Humanizer-zh",
+"source": "op7418/Humanizer-zh",
+"stars": 23052,
+"license": "MIT",
+"script": true,
+"zh": true,
+"note": "只用来改你自己的文字风格。要求独立完成的作业、论文，不能用它“去痕迹”",
+"review": "说明书约 8 千字符（有分步流程、有输出模板、有示例、写明何时使用）；会运行脚本；仓库 23,052 星"
 },
 {
 "id": "internal-comms",
@@ -209,7 +315,8 @@
 "url": "https://github.com/anthropics/skills/tree/main/skills/internal-comms",
 "source": "anthropics/skills",
 "stars": 196274,
-"license": "Apache-2.0"
+"license": "Apache-2.0",
+"review": "说明书约 1 千字符（有分步流程、写明何时使用）；只有文字说明；仓库 196,274 星"
 },
 {
 "id": "doc-coauthoring",
@@ -224,45 +331,8 @@
 "url": "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring",
 "source": "anthropics/skills",
 "stars": 196274,
-"license": "未单独注明"
-},
-{
-"id": "en-zh-max",
-"name": "en-zh-max",
-"title": "英译汉",
-"desc": "英文翻成通顺的中文，按翻译方法逐步处理",
-"cat": "writing",
-"roles": [
-"student",
-"teacher",
-"media"
-],
-"starter": false,
-"url": "https://github.com/3060226349kk-cmd/en-zh-max",
-"source": "3060226349kk-cmd/en-zh-max",
-"stars": 25,
-"license": "MIT",
-"script": true,
-"zh": true
-},
-{
-"id": "qu-ai-wei",
-"name": "qu-ai-wei",
-"title": "去 AI 味",
-"desc": "把生硬的中文改自然，保留原来的事实和意思",
-"cat": "writing",
-"roles": [
-"ecommerce",
-"media"
-],
-"starter": false,
-"url": "https://github.com/LifelongLazyLearner/qu-ai-wei",
-"source": "LifelongLazyLearner/qu-ai-wei",
-"stars": 756,
-"license": "MIT",
-"script": true,
-"zh": true,
-"note": "只用来改你自己的文字风格。要求独立完成的作业、论文，不能用它“去痕迹”"
+"license": "未单独注明",
+"review": "说明书约 3 千字符（有分步流程、写明何时使用）；只有文字说明；仓库 196,274 星"
 },
 {
 "id": "copy-editing",
@@ -278,7 +348,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/copy-editing",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 16 千字符（有分步流程、写明何时使用）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "prompt-optimizer",
@@ -291,22 +362,8 @@
 "url": "https://github.com/getsentry/skills/tree/main/skills/prompt-optimizer",
 "source": "getsentry/skills",
 "stars": 1174,
-"license": "Apache-2.0"
-},
-{
-"id": "team-communications",
-"name": "team-communications",
-"title": "团队沟通文稿",
-"desc": "写周报、进度更新、内部通讯、常见问题、事故说明",
-"cat": "writing",
-"roles": [
-"teacher"
-],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/project-management/skills/team-communications",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT"
+"license": "Apache-2.0",
+"review": "说明书约 4 千字符（有分步流程、写明何时使用）；只有文字说明；仓库 1,174 星"
 },
 {
 "id": "reader-first-technical-edit",
@@ -320,111 +377,128 @@
 "source": "lawve-ai/awesome-legal-skills",
 "stars": 958,
 "license": "CC BY-NC-ND 4.0",
-"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师",
+"review": "说明书约 15 千字符（有分步流程、有输出模板）；只有文字说明；仓库 958 星"
 },
 {
-"id": "deep-work",
-"name": "deep-work",
-"title": "深度工作计划",
-"desc": "帮你规划一天的专注时间：排时间块、砍掉浅层任务",
-"cat": "productivity",
+"id": "baoyu-format-markdown",
+"name": "baoyu-format-markdown",
+"title": "文章排版整理",
+"desc": "把杂乱的文字整理成结构清楚的 Markdown 文章",
+"cat": "writing",
+"roles": [
+"media"
+],
+"starter": false,
+"url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-format-markdown",
+"source": "JimLiu/baoyu-skills",
+"stars": 27628,
+"license": "MIT",
+"script": true,
+"review": "说明书约 10 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 27,628 星"
+},
+{
+"id": "shuorenhua",
+"name": "shuorenhua",
+"title": "说人话",
+"desc": "中文改写：先划定能改的范围，保住事实，改得能直接发",
+"cat": "writing",
+"roles": [
+"ecommerce",
+"media"
+],
+"starter": false,
+"url": "https://github.com/MrGeDiao/shuorenhua/tree/main/skills/shuorenhua",
+"source": "MrGeDiao/shuorenhua",
+"stars": 2652,
+"license": "MIT",
+"zh": true,
+"note": "只用来改你自己的文字风格。要求独立完成的作业、论文，不能用它“去痕迹”",
+"review": "说明书约 4 千字符（有输出模板）；只有文字说明；仓库 2,652 星"
+},
+{
+"id": "humanizer",
+"name": "humanizer",
+"title": "去 AI 味（英文）",
+"desc": "改掉英文里的 AI 写作痕迹",
+"cat": "writing",
+"roles": [
+"media"
+],
+"starter": false,
+"url": "https://github.com/blader/humanizer",
+"source": "blader/humanizer",
+"stars": 70066,
+"license": "MIT",
+"script": true,
+"note": "只用来改你自己的文字风格。要求独立完成的作业、论文，不能用它“去痕迹”",
+"review": "说明书约 32 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 70,066 星"
+},
+{
+"id": "translate-book",
+"name": "translate-book",
+"title": "整本书翻译",
+"desc": "把整本书（PDF、EPUB 等）分章翻译，再合并检查",
+"cat": "writing",
 "roles": [
 "student",
 "teacher"
 ],
 "starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/productivity/deep-work/skills/deep-work",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
+"url": "https://github.com/deusyu/translate-book",
+"source": "deusyu/translate-book",
+"stars": 2429,
 "license": "MIT",
-"script": true
+"script": true,
+"zh": true,
+"deps": "Python 和 Calibre（转换电子书格式，AI 会教你装）",
+"review": "说明书约 14 千字符（有分步流程）；会运行脚本；仓库 2,429 星"
 },
 {
-"id": "weekly-review",
-"name": "weekly-review",
-"title": "每周复盘",
-"desc": "每周回顾一次：收尾没做完的事、检查停滞的项目、定下周重点",
+"id": "planning-with-files-zh",
+"name": "planning-with-files-zh",
+"title": "长任务计划（中文）",
+"desc": "做复杂任务时把计划、发现、进度写进文件，中断后能接着做",
 "cat": "productivity",
 "roles": [
 "student",
 "teacher",
-"accounting"
-],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/productivity/weekly-review/skills/weekly-review",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT",
-"script": true
-},
-{
-"id": "inbox-triage",
-"name": "inbox-triage",
-"title": "邮箱整理",
-"desc": "把收件箱里的邮件分类：要回的、要办的、可以忽略的",
-"cat": "productivity",
-"roles": [
-"teacher",
 "accounting",
-"ecommerce"
+"ecommerce",
+"media",
+"pet",
+"travel"
 ],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/productivity/email/skills/inbox-triage",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
+"starter": true,
+"url": "https://github.com/OthmanAdi/planning-with-files/tree/master/skills/i18n/planning-with-files-zh",
+"source": "OthmanAdi/planning-with-files",
+"stars": 28102,
 "license": "MIT",
 "script": true,
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
-"keys": true
+"zh": true,
+"review": "说明书约 6 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 28,102 星"
 },
 {
-"id": "meetings",
-"name": "meetings",
-"title": "开会前想清楚",
-"desc": "判断这个会值不值得开、算会议成本、写议程和会后纪要",
+"id": "interview-me",
+"name": "interview-me",
+"title": "让 AI 采访你",
+"desc": "动手之前，让 AI 一个一个问题问你，把需求问清楚",
 "cat": "productivity",
 "roles": [
+"student",
 "teacher",
-"accounting"
+"accounting",
+"ecommerce",
+"media",
+"pet",
+"travel"
 ],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/productivity/meetings/skills/meetings",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
+"starter": true,
+"url": "https://github.com/addyosmani/agent-skills/tree/main/skills/interview-me",
+"source": "addyosmani/agent-skills",
+"stars": 118452,
 "license": "MIT",
-"script": true
-},
-{
-"id": "reflect",
-"name": "reflect",
-"title": "停下来复盘",
-"desc": "事情做着做着跑偏时，帮你退一步看：目标还对吗、该不该调整",
-"cat": "productivity",
-"roles": [
-"student"
-],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/productivity/reflect/skills/reflect",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT",
-"script": true
-},
-{
-"id": "capture",
-"name": "capture",
-"title": "想法整理",
-"desc": "把脑子里乱七八糟的想法、任务、计划，整理成清单",
-"cat": "productivity",
-"roles": [
-"student"
-],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/productivity/capture/skills/capture",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT",
-"script": true
+"review": "说明书约 15 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 118,452 星"
 },
 {
 "id": "meeting-analyzer",
@@ -439,7 +513,8 @@
 "url": "https://github.com/alirezarezvani/claude-skills/tree/main/project-management/skills/meeting-analyzer",
 "source": "alirezarezvani/claude-skills",
 "stars": 29935,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 9 千字符（有输出模板、写明何时使用）；只有文字说明；仓库 29,935 星"
 },
 {
 "id": "decision-logger",
@@ -454,44 +529,210 @@
 "stars": 29935,
 "license": "MIT",
 "script": true,
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"review": "说明书约 4 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 29,935 星"
 },
 {
-"id": "knowledge-ops",
-"name": "knowledge-ops",
-"title": "操作手册（SOP）",
-"desc": "写、检查、整理操作手册和工作流程文档",
+"id": "standup",
+"name": "standup",
+"title": "站会汇报",
+"desc": "整理“昨天做了什么、今天做什么、卡在哪里”",
+"cat": "productivity",
+"roles": [
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/engineering/skills/standup",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 2 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "meeting-briefing",
+"name": "meeting-briefing",
+"title": "会前准备",
+"desc": "开会前整理背景、对方情况、要讨论的问题和你的立场",
+"cat": "productivity",
+"roles": [
+"teacher",
+"accounting"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/meeting-briefing",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 9 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "process-doc",
+"name": "process-doc",
+"title": "流程文档",
+"desc": "把一个工作流程写成文档：目的、范围、分工、步骤",
 "cat": "productivity",
 "roles": [
 "accounting",
 "ecommerce"
 ],
 "starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/business-operations/skills/knowledge-ops",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT",
-"script": true
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/operations/skills/process-doc",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 2 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
 },
 {
-"id": "fact-check",
-"name": "fact-check",
-"title": "事实核查（DSH 专用）",
-"desc": "为 DSH 写的事实核查：把问题拆开，多个来源交叉核对，标出可信度",
-"cat": "research",
+"id": "runbook",
+"name": "runbook",
+"title": "操作手册",
+"desc": "把一项重复操作写成一步一步的操作手册",
+"cat": "productivity",
+"roles": [],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/operations/skills/runbook",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 2 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "status-report",
+"name": "status-report",
+"title": "项目状态报告",
+"desc": "写项目周报：整体状态、进展、风险、需要谁帮忙",
+"cat": "productivity",
+"roles": [
+"teacher",
+"accounting"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/operations/skills/status-report",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 2 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "task-management",
+"name": "task-management",
+"title": "待办清单管理",
+"desc": "用一个文件管理待办：进行中、等待中、已完成",
+"cat": "productivity",
 "roles": [
 "student",
-"teacher",
-"media"
+"teacher"
 ],
-"starter": true,
-"url": "https://github.com/7starsseeker/dsh-fact-check",
-"source": "7starsseeker/dsh-fact-check",
-"stars": 6,
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/productivity/skills/task-management",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 2 千字符（有分步流程、有输出模板）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "obsidian-markdown",
+"name": "obsidian-markdown",
+"title": "Obsidian 笔记格式",
+"desc": "按 Obsidian 的写法写笔记：双链、标签、标注框",
+"cat": "productivity",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/obsidianmd/obsidian-skills/tree/main/plugins/obsidian/skills/obsidian-markdown",
+"source": "obsidianmd/obsidian-skills",
+"stars": 52992,
+"license": "MIT",
+"deps": "Obsidian 软件（不装也能写，装了才能看到效果）",
+"review": "说明书约 3 千字符（有输出模板、有示例、写明何时使用）；只有文字说明；仓库 52,992 星"
+},
+{
+"id": "json-canvas",
+"name": "json-canvas",
+"title": "Obsidian 白板",
+"desc": "创建和编辑 Obsidian 的白板（Canvas）文件",
+"cat": "productivity",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/obsidianmd/obsidian-skills/tree/main/plugins/obsidian/skills/json-canvas",
+"source": "obsidianmd/obsidian-skills",
+"stars": 52992,
+"license": "MIT",
+"deps": "Obsidian 软件",
+"review": "说明书约 8 千字符（有分步流程、有示例、写明何时使用）；只有文字说明；仓库 52,992 星"
+},
+{
+"id": "obsidian-bases",
+"name": "obsidian-bases",
+"title": "Obsidian 数据库视图",
+"desc": "用 Obsidian Bases 把笔记做成表格、看板视图",
+"cat": "productivity",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/obsidianmd/obsidian-skills/tree/main/plugins/obsidian/skills/obsidian-bases",
+"source": "obsidianmd/obsidian-skills",
+"stars": 52992,
+"license": "MIT",
+"deps": "Obsidian 软件",
+"review": "说明书约 17 千字符（有分步流程、有示例、写明何时使用）；只有文字说明；仓库 52,992 星"
+},
+{
+"id": "obsidian-cli",
+"name": "obsidian-cli",
+"title": "Obsidian 命令行",
+"desc": "让 AI 通过命令行操作你的 Obsidian 笔记库（需要装 Obsidian）",
+"cat": "productivity",
+"roles": [],
+"starter": false,
+"url": "https://github.com/obsidianmd/obsidian-skills/tree/main/plugins/obsidian/skills/obsidian-cli",
+"source": "obsidianmd/obsidian-skills",
+"stars": 52992,
+"license": "MIT",
+"deps": "Obsidian 软件",
+"review": "说明书约 6 千字符（有分步流程、写明何时使用）；只有文字说明；仓库 52,992 星"
+},
+{
+"id": "planning-with-files",
+"name": "planning-with-files",
+"title": "长任务计划（英文原版）",
+"desc": "同上的英文原版",
+"cat": "productivity",
+"roles": [],
+"starter": false,
+"url": "https://github.com/OthmanAdi/planning-with-files/tree/master/skills/planning-with-files",
+"source": "OthmanAdi/planning-with-files",
+"stars": 28102,
 "license": "MIT",
 "script": true,
-"net": true,
-"zh": true
+"review": "说明书约 39 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 28,102 星"
+},
+{
+"id": "planning-and-task-breakdown",
+"name": "planning-and-task-breakdown",
+"title": "计划和任务拆解",
+"desc": "把一件大事拆成小步骤，排好顺序再动手",
+"cat": "productivity",
+"roles": [],
+"starter": false,
+"url": "https://github.com/addyosmani/agent-skills/tree/main/skills/planning-and-task-breakdown",
+"source": "addyosmani/agent-skills",
+"stars": 118452,
+"license": "MIT",
+"review": "说明书约 10 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 118,452 星"
 },
 {
 "id": "discernment-nudge",
@@ -512,7 +753,8 @@
 "url": "https://github.com/anthropics/skills/tree/main/skills/discernment-nudge",
 "source": "anthropics/skills",
 "stars": 196274,
-"license": "Apache-2.0"
+"license": "Apache-2.0",
+"review": "说明书约 9 千字符（有输出模板、写明何时使用）；只有文字说明；仓库 196,274 星"
 },
 {
 "id": "reliable-research",
@@ -534,7 +776,8 @@
 "hosted": true,
 "license": "CC BY-NC-SA 4.0",
 "zh": true,
-"source": "本教程"
+"source": "本教程",
+"review": "本教程编写，逐条人工检查"
 },
 {
 "id": "research-lookup",
@@ -552,7 +795,8 @@
 "stars": 57517,
 "license": "MIT",
 "script": true,
-"net": true
+"net": true,
+"review": "说明书约 16 千字符（有分步流程、有输出模板）；会运行脚本；仓库 57,517 星"
 },
 {
 "id": "paper-lookup",
@@ -570,7 +814,8 @@
 "stars": 57517,
 "license": "MIT",
 "script": true,
-"net": true
+"net": true,
+"review": "说明书约 25 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 57,517 星"
 },
 {
 "id": "scientific-critical-thinking",
@@ -586,7 +831,8 @@
 "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/scientific-critical-thinking",
 "source": "K-Dense-AI/claude-scientific-skills",
 "stars": 57517,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 9 千字符（有分步流程、写明何时使用）；只有文字说明；仓库 57,517 星"
 },
 {
 "id": "database-lookup",
@@ -602,148 +848,64 @@
 "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/database-lookup",
 "source": "K-Dense-AI/claude-scientific-skills",
 "stars": 57517,
-"license": "MIT"
-},
-{
-"id": "lecture-notes",
-"name": "lecture-notes",
-"title": "课件变复习手册",
-"desc": "把课件整理成复习手册：概念讲解、准确定义、例题完整解答",
-"cat": "learning",
-"roles": [
-"student",
-"teacher"
-],
-"starter": true,
-"url": "https://github.com/SaB11F/lecture-notes-skill/tree/main/skills/lecture-notes",
-"source": "SaB11F/lecture-notes-skill",
-"stars": 2,
 "license": "MIT",
-"script": true,
-"note": "说明是英文，可以要求它输出中文"
+"review": "说明书约 27 千字符（有分步流程、有输出模板）；只有文字说明；仓库 57,517 星"
 },
 {
-"id": "quiz-generator",
-"name": "quiz-generator",
-"title": "自测网页",
-"desc": "把题目做成离线自测网页：答题卡、错题本、随机抽题，不收集任何信息",
-"cat": "learning",
+"id": "baoyu-url-to-markdown",
+"name": "baoyu-url-to-markdown",
+"title": "网页转文字",
+"desc": "把一个网页的正文抓下来，转成干净的 Markdown",
+"cat": "research",
 "roles": [
 "student",
-"teacher"
+"teacher",
+"media"
 ],
-"starter": true,
-"url": "https://github.com/fall-dust/quiz-generator-skill",
-"source": "fall-dust/quiz-generator-skill",
-"stars": 1,
+"starter": false,
+"url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-url-to-markdown",
+"source": "JimLiu/baoyu-skills",
+"stars": 27628,
 "license": "MIT",
 "script": true,
 "net": true,
-"zh": true
+"review": "说明书约 6 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 27,628 星"
 },
 {
-"id": "learning-tutor",
-"name": "learning-tutor",
-"title": "一对一自学老师",
-"desc": "想系统学一样东西：先定计划，再一课一课教，布置小任务并批改",
+"id": "study-pack",
+"name": "study-pack",
+"title": "复习资料包（本教程自带）",
+"desc": "把课件或讲义整理成复习手册、题库和离线自测网页，每条标出处",
 "cat": "learning",
-"roles": [
-"student"
-],
-"starter": false,
-"url": "https://github.com/MyLiya46/learning-tutor/tree/main/skills/learning-tutor",
-"source": "MyLiya46/learning-tutor",
-"stars": 2,
-"license": "MIT",
-"zh": true
-},
-{
-"id": "teacher",
-"name": "teacher",
-"title": "AI 讲解老师",
-"desc": "把课本、讲义交给它，先判断你的水平，再一步步讲懂",
-"cat": "learning",
-"roles": [
-"student"
-],
-"starter": false,
-"url": "https://github.com/chentao326/teacher-skill",
-"source": "chentao326/teacher-skill",
-"stars": 71,
-"license": "MIT",
-"script": true,
-"net": true,
-"zh": true
-},
-{
-"id": "anki",
-"name": "anki",
-"title": "Anki 记忆卡片",
-"desc": "把知识点做成 Anki 记忆卡片（需要先装 Anki）",
-"cat": "learning",
-"roles": [
-"student"
-],
-"starter": false,
-"url": "https://github.com/loftiskg/anki-claude-code-skill/tree/main/.claude/skills/anki",
-"source": "loftiskg/anki-claude-code-skill",
-"stars": 0,
-"license": "MIT",
-"deps": "Anki 软件"
-},
-{
-"id": "sunzi-reading",
-"name": "sunzi-reading",
-"title": "论文讲人话",
-"desc": "用大白话讲论文：想解决什么、怎么做的、发现了什么，适合第一次读",
-"cat": "academic",
 "roles": [
 "student",
 "teacher"
 ],
 "starter": true,
-"url": "https://github.com/julilaoshi/sunzi-reading/tree/main/skill",
-"source": "julilaoshi/sunzi-reading",
-"stars": 3,
-"license": "MIT",
-"zh": true
-},
-{
-"id": "paper-reading",
-"name": "paper-reading",
-"title": "论文精读笔记",
-"desc": "精读论文，生成中文阅读笔记：主线、方法、图表、公式",
-"cat": "academic",
-"roles": [
-"student",
-"teacher"
-],
-"starter": false,
-"url": "https://github.com/Kingslayer-bot/paper-reading-skill",
-"source": "Kingslayer-bot/paper-reading-skill",
-"stars": 33,
-"license": "MIT",
-"script": true,
-"zh": true
-},
-{
-"id": "literature-review-skills",
-"name": "literature-review-skills",
-"title": "文献综述（中文合集）",
-"desc": "收窄题目、拆分结构、比较研究方法、梳理矛盾、找研究空白",
-"cat": "academic",
-"roles": [
-"student",
-"teacher"
-],
-"starter": false,
-"url": "https://github.com/xingtaxueshu/literature-review-skills",
-"source": "xingtaxueshu/literature-review-skills",
-"stars": 91,
-"license": "MIT",
-"script": true,
+"url": "https://teach.prismice.cn/files/skills/study-pack/SKILL.md",
+"hosted": true,
+"license": "CC BY-NC-SA 4.0",
 "zh": true,
-"note": "帮你理清思路和找资料；写进论文要用你自己的话，按规范引用"
+"source": "本教程",
+"review": "本教程编写，逐条人工检查"
+},
+{
+"id": "paper-explainer",
+"name": "paper-explainer",
+"title": "论文讲解（本教程自带）",
+"desc": "先用大白话讲懂一篇论文，再出阅读笔记；引用都标页码，不编参考文献",
+"cat": "academic",
+"roles": [
+"student",
+"teacher"
+],
+"starter": true,
+"url": "https://teach.prismice.cn/files/skills/paper-explainer/SKILL.md",
+"hosted": true,
+"license": "CC BY-NC-SA 4.0",
+"zh": true,
+"source": "本教程",
+"review": "本教程编写，逐条人工检查"
 },
 {
 "id": "literature-review",
@@ -761,7 +923,8 @@
 "stars": 57517,
 "license": "MIT",
 "script": true,
-"net": true
+"net": true,
+"review": "说明书约 12 千字符（有分步流程、写明何时使用）；会运行脚本；仓库 57,517 星"
 },
 {
 "id": "citation-management",
@@ -778,7 +941,8 @@
 "source": "K-Dense-AI/claude-scientific-skills",
 "stars": 57517,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 14 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 57,517 星"
 },
 {
 "id": "scientific-writing",
@@ -796,7 +960,8 @@
 "stars": 57517,
 "license": "MIT",
 "script": true,
-"note": "帮你起草和检查；交给期刊或学校的稿子，要按规定说明使用了 AI"
+"note": "帮你起草和检查；交给期刊或学校的稿子，要按规定说明使用了 AI",
+"review": "说明书约 14 千字符（有分步流程、有输出模板）；会运行脚本；仓库 57,517 星"
 },
 {
 "id": "peer-review",
@@ -813,22 +978,8 @@
 "stars": 57517,
 "license": "MIT",
 "script": true,
-"note": "审稿意见要你自己判断和负责，不要直接照搬"
-},
-{
-"id": "research-grants",
-"name": "research-grants",
-"title": "基金申请书",
-"desc": "准备和检查科研基金申请书（以美国、台湾地区的基金为主）",
-"cat": "academic",
-"roles": [
-"teacher"
-],
-"starter": false,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/research-grants",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
-"license": "MIT"
+"note": "审稿意见要你自己判断和负责，不要直接照搬",
+"review": "说明书约 13 千字符（有分步流程）；会运行脚本；仓库 57,517 星"
 },
 {
 "id": "scholar-evaluation",
@@ -844,7 +995,8 @@
 "source": "K-Dense-AI/claude-scientific-skills",
 "stars": 57517,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 12 千字符（有分步流程）；会运行脚本；仓库 57,517 星"
 },
 {
 "id": "hypothesis-generation",
@@ -861,7 +1013,8 @@
 "source": "K-Dense-AI/claude-scientific-skills",
 "stars": 57517,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 16 千字符（有分步流程、写明何时使用）；会运行脚本；仓库 57,517 星"
 },
 {
 "id": "scientific-brainstorming",
@@ -878,7 +1031,8 @@
 "source": "K-Dense-AI/claude-scientific-skills",
 "stars": 57517,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 14 千字符（有分步流程）；会运行脚本；仓库 57,517 星"
 },
 {
 "id": "experimental-design",
@@ -895,26 +1049,8 @@
 "source": "K-Dense-AI/claude-scientific-skills",
 "stars": 57517,
 "license": "MIT",
-"script": true
-},
-{
-"id": "scientific-schematics",
-"name": "scientific-schematics",
-"title": "科研示意图",
-"desc": "用 AI 画科研示意图草稿，并反复修改（需要 OpenRouter 钥匙）",
-"cat": "academic",
-"roles": [
-"student",
-"teacher"
-],
-"starter": false,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/scientific-schematics",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
-"license": "MIT",
 "script": true,
-"net": true,
-"keys": true
+"review": "说明书约 12 千字符（有分步流程、写明何时使用）；会运行脚本；仓库 57,517 星"
 },
 {
 "id": "scientific-slides",
@@ -932,207 +1068,8 @@
 "stars": 57517,
 "license": "MIT",
 "script": true,
-"net": true
-},
-{
-"id": "latex-posters",
-"name": "latex-posters",
-"title": "LaTeX 学术海报",
-"desc": "用 LaTeX 做会议海报（需要装 LaTeX）",
-"cat": "academic",
-"roles": [
-"student",
-"teacher"
-],
-"starter": false,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/latex-posters",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
-"license": "MIT",
-"script": true,
 "net": true,
-"deps": "LaTeX"
-},
-{
-"id": "venue-templates",
-"name": "venue-templates",
-"title": "期刊会议模板",
-"desc": "按目标期刊、会议的格式要求整理论文和海报",
-"cat": "academic",
-"roles": [
-"teacher"
-],
-"starter": false,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/venue-templates",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
-"license": "MIT",
-"script": true
-},
-{
-"id": "pyzotero",
-"name": "pyzotero",
-"title": "Zotero 文献库",
-"desc": "管理你的 Zotero 文献库：查、增、改、删条目（需要 Zotero 钥匙）",
-"cat": "academic",
-"roles": [
-"student",
-"teacher"
-],
-"starter": false,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/pyzotero",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
-"license": "MIT",
-"keys": true
-},
-{
-"id": "uncertainty-and-units",
-"name": "uncertainty-and-units",
-"title": "单位和误差计算",
-"desc": "计算时自动带上物理单位，并传递测量误差（做实验报告的计算很有用）",
-"cat": "academic",
-"roles": [
-"student"
-],
-"starter": false,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/uncertainty-and-units",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
-"license": "MIT",
-"script": true
-},
-{
-"id": "sympy",
-"name": "sympy",
-"title": "符号数学",
-"desc": "用 SymPy 精确地解方程、求导、积分、化简公式",
-"cat": "academic",
-"roles": [
-"student"
-],
-"starter": false,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/sympy",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
-"license": "MIT"
-},
-{
-"id": "biopython",
-"name": "biopython",
-"title": "生物信息（Biopython）",
-"desc": "处理 DNA、蛋白质序列文件，做序列分析和进化树",
-"cat": "academic",
-"roles": [
-"student",
-"teacher"
-],
-"starter": false,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/biopython",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
-"license": "MIT"
-},
-{
-"id": "rdkit",
-"name": "rdkit",
-"title": "化学分子（RDKit）",
-"desc": "读写分子结构，计算分子性质，做相似性搜索",
-"cat": "academic",
-"roles": [
-"student",
-"teacher"
-],
-"starter": false,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/rdkit",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
-"license": "MIT",
-"script": true
-},
-{
-"id": "astropy",
-"name": "astropy",
-"title": "天文数据（Astropy）",
-"desc": "天文学常用的单位、坐标、时间换算和数据处理",
-"cat": "academic",
-"roles": [
-"student",
-"teacher"
-],
-"starter": false,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/astropy",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
-"license": "MIT"
-},
-{
-"id": "scanpy",
-"name": "scanpy",
-"title": "单细胞数据分析",
-"desc": "用 Scanpy 做单细胞 RNA 测序数据的质控、聚类和可视化",
-"cat": "academic",
-"roles": [
-"student",
-"teacher"
-],
-"starter": false,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/scanpy",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
-"license": "MIT",
-"script": true,
-"deps": "Python 科学计算库（AI 会帮你装）"
-},
-{
-"id": "geopandas",
-"name": "geopandas",
-"title": "地理数据分析",
-"desc": "用 GeoPandas 处理地图、行政区、坐标等地理数据",
-"cat": "academic",
-"roles": [
-"student",
-"teacher"
-],
-"starter": false,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/geopandas",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
-"license": "MIT",
-"script": true
-},
-{
-"id": "qiskit",
-"name": "qiskit",
-"title": "量子计算入门",
-"desc": "用 Qiskit 搭建和模拟量子电路",
-"cat": "academic",
-"roles": [
-"student"
-],
-"starter": false,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/qiskit",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
-"license": "MIT",
-"script": true,
-"deps": "Python 的 qiskit 库"
-},
-{
-"id": "huggingface-papers",
-"name": "huggingface-papers",
-"title": "Hugging Face 论文页",
-"desc": "查 AI 领域论文的摘要、作者、关联模型和数据集",
-"cat": "academic",
-"roles": [
-"student",
-"teacher"
-],
-"starter": false,
-"url": "https://github.com/huggingface/skills/tree/main/skills/huggingface-papers",
-"source": "huggingface/skills",
-"stars": 11356,
-"license": "Apache-2.0"
+"review": "说明书约 10 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 57,517 星"
 },
 {
 "id": "rubric-feedback",
@@ -1148,7 +1085,8 @@
 "hosted": true,
 "license": "CC BY-NC-SA 4.0",
 "zh": true,
-"source": "本教程"
+"source": "本教程",
+"review": "本教程编写，逐条人工检查"
 },
 {
 "id": "workshop-facilitation",
@@ -1164,7 +1102,8 @@
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
 "license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"review": "说明书约 10 千字符（有分步流程、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "survey-design-advisor",
@@ -1181,31 +1120,14 @@
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
 "license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"review": "说明书约 11 千字符（有分步流程、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
-"id": "statistical-analysis",
-"name": "statistical-analysis",
-"title": "统计分析向导",
-"desc": "帮你选对统计方法、检查前提条件、算效应量，并解释结果",
-"cat": "data",
-"roles": [
-"student",
-"teacher",
-"accounting"
-],
-"starter": true,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/statistical-analysis",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
-"license": "MIT",
-"script": true
-},
-{
-"id": "exploratory-data-analysis",
-"name": "exploratory-data-analysis",
-"title": "数据初步探索",
-"desc": "拿到一份数据先看清楚：有哪些列、缺失多少、分布怎样",
+"id": "analyze",
+"name": "analyze",
+"title": "回答数据问题",
+"desc": "用数据回答一个具体问题：理解问题 → 取数 → 分析 → 核对结果",
 "cat": "data",
 "roles": [
 "student",
@@ -1213,12 +1135,13 @@
 "accounting",
 "ecommerce"
 ],
-"starter": false,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/exploratory-data-analysis",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
-"license": "MIT",
-"script": true
+"starter": true,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/data/skills/analyze",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 4 千字符（有分步流程、有示例、写明何时使用）；只有文字说明；仓库 36,341 星"
 },
 {
 "id": "statistical-power",
@@ -1235,7 +1158,8 @@
 "source": "K-Dense-AI/claude-scientific-skills",
 "stars": 57517,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 13 千字符（有分步流程、有输出模板、有示例、写明何时使用）；会运行脚本；仓库 57,517 星"
 },
 {
 "id": "matplotlib",
@@ -1252,7 +1176,8 @@
 "source": "K-Dense-AI/claude-scientific-skills",
 "stars": 57517,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 16 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 57,517 星"
 },
 {
 "id": "seaborn",
@@ -1268,7 +1193,8 @@
 "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/seaborn",
 "source": "K-Dense-AI/claude-scientific-skills",
 "stars": 57517,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 13 千字符（有分步流程、有示例、写明何时使用）；只有文字说明；仓库 57,517 星"
 },
 {
 "id": "scientific-visualization",
@@ -1285,7 +1211,8 @@
 "source": "K-Dense-AI/claude-scientific-skills",
 "stars": 57517,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 15 千字符（有分步流程、写明何时使用）；会运行脚本；仓库 57,517 星"
 },
 {
 "id": "scikit-learn",
@@ -1301,7 +1228,8 @@
 "source": "K-Dense-AI/claude-scientific-skills",
 "stars": 57517,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 12 千字符（有分步流程、有输出模板、有示例、写明何时使用）；会运行脚本；仓库 57,517 星"
 },
 {
 "id": "statsmodels",
@@ -1317,70 +1245,8 @@
 "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/statsmodels",
 "source": "K-Dense-AI/claude-scientific-skills",
 "stars": 57517,
-"license": "MIT"
-},
-{
-"id": "polars",
-"name": "polars",
-"title": "大表格快速处理",
-"desc": "处理很大的表格数据，比 Excel 快得多",
-"cat": "data",
-"roles": [
-"accounting",
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/polars",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
-"license": "MIT"
-},
-{
-"id": "networkx",
-"name": "networkx",
-"title": "关系网络分析",
-"desc": "分析人物关系、引用关系等网络，找出关键节点",
-"cat": "data",
-"roles": [
-"student"
-],
-"starter": false,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/networkx",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
-"license": "MIT"
-},
-{
-"id": "timesfm-forecasting",
-"name": "timesfm-forecasting",
-"title": "销量和趋势预测",
-"desc": "用谷歌的 TimesFM 模型预测时间序列（比如销量）",
-"cat": "data",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/timesfm-forecasting",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
 "license": "MIT",
-"script": true
-},
-{
-"id": "pymc",
-"name": "pymc",
-"title": "贝叶斯统计",
-"desc": "用 PyMC 建贝叶斯模型并检查结果",
-"cat": "data",
-"roles": [
-"student"
-],
-"starter": false,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/pymc",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
-"license": "MIT",
-"script": true
+"review": "说明书约 12 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 57,517 星"
 },
 {
 "id": "pandas-pro",
@@ -1397,7 +1263,8 @@
 "url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/pandas-pro",
 "source": "Jeffallan/claude-skills",
 "stars": 12417,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 5 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 12,417 星"
 },
 {
 "id": "product-analytics",
@@ -1413,41 +1280,155 @@
 "source": "alirezarezvani/claude-skills",
 "stars": 29935,
 "license": "MIT",
-"script": true
-},
-{
-"id": "fcs-reconcile",
-"name": "fcs-reconcile",
-"title": "对账",
-"desc": "银行流水对台账，找差异，出复核底稿；金额比对由本地程序完成，原始明细不发给 AI",
-"cat": "finance",
-"roles": [
-"accounting"
-],
-"starter": true,
-"url": "https://github.com/cxtx/finance-copilot-skills/tree/main/skills/fcs-reconcile",
-"source": "cxtx/finance-copilot-skills",
-"stars": 4,
-"license": "MIT",
 "script": true,
-"net": true,
-"zh": true
+"review": "说明书约 5 千字符（有分步流程、写明何时使用）；会运行脚本；仓库 29,935 星"
 },
 {
-"id": "paypal-stripe-reconciliation",
-"name": "paypal-stripe-reconciliation",
-"title": "跨境收款对账",
-"desc": "PayPal、Stripe 的结算和银行到账对上",
-"cat": "finance",
+"id": "create-viz",
+"name": "create-viz",
+"title": "做数据图表",
+"desc": "根据数据和问题，选合适的图表类型并画出来",
+"cat": "data",
+"roles": [
+"student",
+"teacher",
+"accounting",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/data/skills/create-viz",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 5 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "explore-data",
+"name": "explore-data",
+"title": "数据质量体检",
+"desc": "拿到一份新数据，先检查完整性、一致性、准确性",
+"cat": "data",
+"roles": [
+"student",
+"teacher",
+"accounting",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/data/skills/explore-data",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 6 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "validate-data",
+"name": "validate-data",
+"title": "交付前数据核对",
+"desc": "报表、分析交出去之前，逐项核对数据和计算有没有错",
+"cat": "data",
 "roles": [
 "accounting",
 "ecommerce"
 ],
 "starter": false,
-"url": "https://github.com/fengyiqicoder/paypal-stripe-reconciliation",
-"source": "fengyiqicoder/paypal-stripe-reconciliation",
-"stars": 0,
-"license": "MIT"
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/data/skills/validate-data",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 10 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "data-visualization",
+"name": "data-visualization",
+"title": "图表怎么选",
+"desc": "按数据关系选图表，避免误导人的画法",
+"cat": "data",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/data/skills/data-visualization",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 11 千字符（有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "statistical-analysis",
+"name": "statistical-analysis",
+"title": "统计分析",
+"desc": "描述统计、对比检验、相关和回归，并解释结果是什么意思",
+"cat": "data",
+"roles": [
+"student",
+"teacher",
+"accounting"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/data/skills/statistical-analysis",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 10 千字符（有分步流程、有示例、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "build-dashboard",
+"name": "build-dashboard",
+"title": "做数据看板网页",
+"desc": "把数据做成一个带指标卡和图表的单页网页看板",
+"cat": "data",
+"roles": [
+"accounting",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/data/skills/build-dashboard",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 21 千字符（有输出模板、有示例、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "financial-statements",
+"name": "financial-statements",
+"title": "财务报表",
+"desc": "根据数据编制利润表、资产负债表、现金流量表，并做分析",
+"cat": "finance",
+"roles": [
+"accounting"
+],
+"starter": true,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/finance/skills/financial-statements",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 14 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "reconciliation",
+"name": "reconciliation",
+"title": "对账",
+"desc": "银行对账、总账和明细账对账、往来对账，找出并解释差异",
+"cat": "finance",
+"roles": [
+"accounting"
+],
+"starter": true,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/finance/skills/reconciliation",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 8 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
 },
 {
 "id": "financial-analyst",
@@ -1463,104 +1444,8 @@
 "source": "alirezarezvani/claude-skills",
 "stars": 29935,
 "license": "MIT",
-"script": true
-},
-{
-"id": "month-end-close",
-"name": "month-end-close",
-"title": "月结",
-"desc": "规划和加快月末、季末结账流程，列清单查漏",
-"cat": "finance",
-"roles": [
-"accounting"
-],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/finance/skills/month-end-close",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT",
-"script": true
-},
-{
-"id": "saas-metrics-coach",
-"name": "saas-metrics-coach",
-"title": "订阅业务指标",
-"desc": "解释和计算 ARR、MRR、流失率、客户终身价值等指标",
-"cat": "finance",
-"roles": [
-"accounting"
-],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/finance/skills/saas-metrics-coach",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT",
-"script": true
-},
-{
-"id": "cfo-advisor",
-"name": "cfo-advisor",
-"title": "创业公司财务",
-"desc": "现金还能撑多久、单位经济模型、融资和股权稀释",
-"cat": "finance",
-"roles": [
-"accounting"
-],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/cfo-advisor",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT",
 "script": true,
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
-},
-{
-"id": "finance-metrics-quickref",
-"name": "finance-metrics-quickref",
-"title": "财务指标速查",
-"desc": "快速查财务指标的定义、公式和参考值",
-"cat": "finance",
-"roles": [
-"accounting"
-],
-"starter": false,
-"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/finance-metrics-quickref",
-"source": "deanpeters/Product-Manager-Skills",
-"stars": 8051,
-"license": "CC BY-NC-SA 4.0"
-},
-{
-"id": "finance-based-pricing-advisor",
-"name": "finance-based-pricing-advisor",
-"title": "调价影响评估",
-"desc": "调价之前，从客单价、转化、流失算一算影响",
-"cat": "finance",
-"roles": [
-"accounting",
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/finance-based-pricing-advisor",
-"source": "deanpeters/Product-Manager-Skills",
-"stars": 8051,
-"license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
-},
-{
-"id": "research-finance",
-"name": "research-finance",
-"title": "科研项目预算",
-"desc": "科研项目的多年预算、间接费用、经费使用进度",
-"cat": "finance",
-"roles": [
-"accounting"
-],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/research-ops/skills/research-finance",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT",
-"script": true
+"review": "说明书约 7 千字符（有输出模板、写明何时使用）；会运行脚本；仓库 29,935 星"
 },
 {
 "id": "procurement-optimizer",
@@ -1576,54 +1461,94 @@
 "source": "alirezarezvani/claude-skills",
 "stars": 29935,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 13 千字符（有分步流程、有示例、写明何时使用）；会运行脚本；仓库 29,935 星"
 },
 {
-"id": "contract-review",
-"name": "contract-review",
+"id": "close-management",
+"name": "close-management",
+"title": "月结管理",
+"desc": "月末结账的检查清单和时间安排",
+"cat": "finance",
+"roles": [
+"accounting"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/finance/skills/close-management",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 10 千字符（有分步流程、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "journal-entry",
+"name": "journal-entry",
+"title": "记账分录",
+"desc": "根据原始数据算出并生成会计分录",
+"cat": "finance",
+"roles": [
+"accounting"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/finance/skills/journal-entry",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 5 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "journal-entry-prep",
+"name": "journal-entry-prep",
+"title": "常见分录准备",
+"desc": "预提、折旧、摊销等常见分录的准备方法",
+"cat": "finance",
+"roles": [
+"accounting"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/finance/skills/journal-entry-prep",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 8 千字符（有分步流程、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "variance-analysis",
+"name": "variance-analysis",
+"title": "预算差异分析",
+"desc": "实际和预算差多少、为什么差：拆成价格、数量、结构等因素",
+"cat": "finance",
+"roles": [
+"accounting"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/finance/skills/variance-analysis",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 11 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "review-contract",
+"name": "review-contract",
 "title": "合同审查",
-"desc": "逐条看合同风险，给出修改建议（英文）",
+"desc": "按你的标准逐条审合同：标出风险条款，给出修改建议",
 "cat": "legal",
 "roles": [
+"accounting",
 "ecommerce"
 ],
-"starter": false,
-"url": "https://github.com/evolsb/claude-legal-skill",
-"source": "evolsb/claude-legal-skill",
-"stars": 511,
-"license": "MIT",
-"note": "只能帮你先看一遍，不能代替律师；主要针对美国、欧盟的法律；中国的法律问题请咨询律师",
-"extra": "这个仓库的说明文件叫小写的 skill.md，装好后改名为 SKILL.md"
-},
-{
-"id": "nda-triage-anthropic",
-"name": "nda-triage-anthropic",
-"title": "保密协议初筛",
-"desc": "把收到的保密协议分成绿（标准）、黄（要看）、红（有风险）三类",
-"cat": "legal",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/nda-reviewer-anthropic",
-"source": "lawve-ai/awesome-legal-skills",
-"stars": 958,
-"license": "CC BY-NC-ND 4.0",
-"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
-},
-{
-"id": "legal-risk-assessment",
-"name": "legal-risk-assessment",
-"title": "法律风险评估",
-"desc": "按“严重程度 × 可能性”给法律风险分级，并说明何时该找律师",
-"cat": "legal",
-"roles": [],
-"starter": false,
-"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/legal-risk-assessment-moonshot-ai",
-"source": "lawve-ai/awesome-legal-skills",
-"stars": 958,
-"license": "CC BY-NC-ND 4.0",
-"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+"starter": true,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/review-contract",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "只能帮你先看一遍，不能代替律师；原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 16 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
 },
 {
 "id": "tos-clause-scanner",
@@ -1640,23 +1565,8 @@
 "source": "lawve-ai/awesome-legal-skills",
 "stars": 958,
 "license": "CC BY-NC-ND 4.0",
-"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
-},
-{
-"id": "case-briefer",
-"name": "case-briefer",
-"title": "判例摘要",
-"desc": "把美国法院判决整理成固定九段式的案例摘要（法学学习用）",
-"cat": "legal",
-"roles": [
-"student"
-],
-"starter": false,
-"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/case-briefer-seth-chandler",
-"source": "lawve-ai/awesome-legal-skills",
-"stars": 958,
-"license": "CC BY-NC-ND 4.0",
-"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师",
+"review": "说明书约 12 千字符（有分步流程、有输出模板）；只有文字说明；仓库 958 星"
 },
 {
 "id": "statute-briefer",
@@ -1672,22 +1582,8 @@
 "source": "lawve-ai/awesome-legal-skills",
 "stars": 958,
 "license": "CC BY-NC-ND 4.0",
-"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
-},
-{
-"id": "legal-translation",
-"name": "legal-translation",
-"title": "法律文件翻译",
-"desc": "把各语言的法律文件翻成英文，保留 Word 格式",
-"cat": "legal",
-"roles": [],
-"starter": false,
-"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/en-uk-legal-translation-wouter-van-den-berg",
-"source": "lawve-ai/awesome-legal-skills",
-"stars": 958,
-"license": "CC BY-NC-ND 4.0",
-"script": true,
-"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师",
+"review": "说明书约 5 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 958 星"
 },
 {
 "id": "persuasive-legal-writing",
@@ -1703,7 +1599,8 @@
 "source": "lawve-ai/awesome-legal-skills",
 "stars": 958,
 "license": "CC BY-NC-ND 4.0",
-"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师",
+"review": "说明书约 36 千字符（有分步流程、有示例、写明何时使用）；只有文字说明；仓库 958 星"
 },
 {
 "id": "client-explanation-translator-larissa-meredith-flister",
@@ -1717,21 +1614,8 @@
 "source": "lawve-ai/awesome-legal-skills",
 "stars": 958,
 "license": "CC BY-NC-ND 4.0",
-"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
-},
-{
-"id": "chronology-builder-andrew-bird",
-"name": "chronology-builder-andrew-bird",
-"title": "案件时间线",
-"desc": "从案件材料里整理时间线，每一条都标出出处",
-"cat": "legal",
-"roles": [],
-"starter": false,
-"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/chronology-builder-andrew-bird",
-"source": "lawve-ai/awesome-legal-skills",
-"stars": 958,
-"license": "CC BY-NC-ND 4.0",
-"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师",
+"review": "说明书约 5 千字符（有分步流程、有输出模板）；只有文字说明；仓库 958 星"
 },
 {
 "id": "legal-diagram",
@@ -1747,7 +1631,8 @@
 "license": "CC BY-NC-ND 4.0",
 "script": true,
 "net": true,
-"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师",
+"review": "说明书约 10 千字符（有输出模板、写明何时使用）；会运行脚本；仓库 958 星"
 },
 {
 "id": "gdpr-compliance",
@@ -1763,7 +1648,8 @@
 "source": "lawve-ai/awesome-legal-skills",
 "stars": 958,
 "license": "CC BY-NC-ND 4.0",
-"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师",
+"review": "说明书约 12 千字符（有分步流程、有输出模板）；只有文字说明；仓库 958 星"
 },
 {
 "id": "privacy-policy-malik-taiar",
@@ -1779,21 +1665,8 @@
 "source": "lawve-ai/awesome-legal-skills",
 "stars": 958,
 "license": "CC BY-NC-ND 4.0",
-"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
-},
-{
-"id": "employment-law-research",
-"name": "employment-law-research",
-"title": "劳动法检索",
-"desc": "检索美国联邦、州、城市三级的劳动法规定",
-"cat": "legal",
-"roles": [],
-"starter": false,
-"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/employment-law-research-yue-deng-wu",
-"source": "lawve-ai/awesome-legal-skills",
-"stars": 958,
-"license": "CC BY-NC-ND 4.0",
-"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师",
+"review": "说明书约 17 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 958 星"
 },
 {
 "id": "mediation-dispute-analysis",
@@ -1807,268 +1680,151 @@
 "source": "lawve-ai/awesome-legal-skills",
 "stars": 958,
 "license": "CC BY-NC-ND 4.0",
-"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师",
+"review": "说明书约 16 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 958 星"
 },
 {
-"id": "general-counsel-advisor",
-"name": "general-counsel-advisor",
-"title": "法务顾问",
-"desc": "审合同和投资条款、知识产权策略、监管风险（创业公司视角）",
+"id": "compliance-check",
+"name": "compliance-check",
+"title": "合规检查",
+"desc": "新业务、新功能上线前，检查涉及哪些法规要求",
 "cat": "legal",
-"roles": [],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/general-counsel-advisor",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT",
-"script": true,
-"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
-},
-{
-"id": "resume-builder",
-"name": "resume-builder",
-"title": "简历制作",
-"desc": "先采访你的经历，再写简历、排版",
-"cat": "career",
 "roles": [
-"student"
-],
-"starter": true,
-"url": "https://github.com/StoneLL1/resume-builder",
-"source": "StoneLL1/resume-builder",
-"stars": 160,
-"license": "MIT",
-"script": true,
-"net": true,
-"zh": true,
-"note": "简历里只写真实经历"
-},
-{
-"id": "ai-dev-interview-simulator",
-"name": "ai-dev-interview-simulator",
-"title": "AI 开发岗模拟面试",
-"desc": "按你的简历和目标岗位，逐题模拟 AI 应用开发面试，结束给评分",
-"cat": "career",
-"roles": [
-"student"
+"ecommerce"
 ],
 "starter": false,
-"url": "https://github.com/Hazenix/interview-prep-skills/tree/main/skills/ai-dev-interview-simulator",
-"source": "Hazenix/interview-prep-skills",
-"stars": 243,
-"license": "MIT",
-"zh": true
-},
-{
-"id": "backend-interview-simulator",
-"name": "backend-interview-simulator",
-"title": "后端岗模拟面试",
-"desc": "Java、C++、Go 等后端岗位的逐题模拟面试，会追问",
-"cat": "career",
-"roles": [
-"student"
-],
-"starter": false,
-"url": "https://github.com/Hazenix/interview-prep-skills/tree/main/skills/backend-interview-simulator",
-"source": "Hazenix/interview-prep-skills",
-"stars": 243,
-"license": "MIT",
-"zh": true
-},
-{
-"id": "frontend-interview-simulator",
-"name": "frontend-interview-simulator",
-"title": "前端岗模拟面试",
-"desc": "实习、校招、社招前端岗位的逐题模拟面试，结束给反馈",
-"cat": "career",
-"roles": [
-"student"
-],
-"starter": false,
-"url": "https://github.com/Hazenix/interview-prep-skills/tree/main/skills/frontend-interview-simulator",
-"source": "Hazenix/interview-prep-skills",
-"stars": 243,
-"license": "MIT",
-"zh": true
-},
-{
-"id": "resume-bullets",
-"name": "resume-bullets",
-"title": "简历条目打磨",
-"desc": "把实习、项目经历写成高质量的简历条目，只用说得清的数字",
-"cat": "career",
-"roles": [
-"student"
-],
-"starter": false,
-"url": "https://github.com/Hazenix/interview-prep-skills/tree/main/skills/resume-bullets",
-"source": "Hazenix/interview-prep-skills",
-"stars": 243,
-"license": "MIT",
-"zh": true
-},
-{
-"id": "resume-interview-question-generator",
-"name": "resume-interview-question-generator",
-"title": "按简历出面试题",
-"desc": "根据你简历上的某段经历，生成面试题、追问和参考回答",
-"cat": "career",
-"roles": [
-"student"
-],
-"starter": false,
-"url": "https://github.com/Hazenix/interview-prep-skills/tree/main/skills/resume-interview-question-generator",
-"source": "Hazenix/interview-prep-skills",
-"stars": 243,
-"license": "MIT",
-"zh": true
-},
-{
-"id": "easy-job-tutor",
-"name": "easy-job-tutor",
-"title": "岗位分析和简历优化",
-"desc": "分析招聘要求，对照优化简历，生成 PDF 简历",
-"cat": "career",
-"roles": [
-"student"
-],
-"starter": false,
-"url": "https://github.com/yicLionel/Easy-Job-Tutor",
-"source": "yicLionel/Easy-Job-Tutor",
-"stars": 67,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/compliance-check",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
 "license": "Apache-2.0",
-"script": true,
-"net": true
+"note": "只能帮你列出可能涉及的法规，最终请咨询专业人士；原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 14 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
 },
 {
-"id": "product-sense-interview-answer",
-"name": "product-sense-interview-answer",
-"title": "产品岗面试答题",
-"desc": "产品经理面试“产品感”题目的答题结构",
-"cat": "career",
+"id": "legal-risk-assessment",
+"name": "legal-risk-assessment",
+"title": "法律风险评估",
+"desc": "按“严重程度 × 可能性”给法律风险分级，并说明何时该找律师",
+"cat": "legal",
 "roles": [
-"student"
+"ecommerce"
 ],
 "starter": false,
-"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/product-sense-interview-answer",
-"source": "deanpeters/Product-Manager-Skills",
-"stars": 8051,
-"license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/legal-risk-assessment",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 12 千字符（有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
 },
 {
-"id": "chro-advisor",
-"name": "chro-advisor",
-"title": "人力资源顾问",
-"desc": "招聘计划、薪酬带宽、组织架构、绩效和留人",
-"cat": "career",
-"roles": [],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/chro-advisor",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT",
-"script": true,
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
-},
-{
-"id": "culture-architect",
-"name": "culture-architect",
-"title": "企业文化建设",
-"desc": "定义价值观，把价值观变成具体行为，评估文化健康度",
-"cat": "career",
-"roles": [],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/culture-architect",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT"
-},
-{
-"id": "change-management",
-"name": "change-management",
-"title": "变革管理",
-"desc": "组织调整、换工具、换领导时，怎么规划和沟通",
-"cat": "career",
-"roles": [],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/change-management",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT"
-},
-{
-"id": "org-health-diagnostic",
-"name": "org-health-diagnostic",
-"title": "组织健康体检",
-"desc": "从 8 个维度给公司做一次健康检查",
-"cat": "career",
-"roles": [],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/org-health-diagnostic",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT",
-"script": true
-},
-{
-"id": "executive-onboarding-playbook",
-"name": "executive-onboarding-playbook",
-"title": "新任管理者 90 天",
-"desc": "新上任的管理者前 30、60、90 天该做什么",
-"cat": "career",
-"roles": [],
-"starter": false,
-"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/executive-onboarding-playbook",
-"source": "deanpeters/Product-Manager-Skills",
-"stars": 8051,
-"license": "CC BY-NC-SA 4.0"
-},
-{
-"id": "linkedin-profile",
-"name": "linkedin-profile",
-"title": "领英资料优化",
-"desc": "给领英个人资料打分并改写：标题、简介、经历",
-"cat": "career",
+"id": "triage-nda",
+"name": "triage-nda",
+"title": "保密协议初筛",
+"desc": "把保密协议分成标准、要看、有风险三类，并说明原因",
+"cat": "legal",
 "roles": [
-"student"
+"ecommerce"
 ],
 "starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/marketing/linkedin/skills/linkedin-profile",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT",
-"script": true
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/triage-nda",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "只能帮你初筛，重要合同请找律师；原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 14 千字符（有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
 },
 {
-"id": "ceo-advisor",
-"name": "ceo-advisor",
-"title": "CEO 顾问",
-"desc": "创始人经营公司的难题：董事会、融资、战略取舍",
-"cat": "business",
+"id": "comp-analysis",
+"name": "comp-analysis",
+"title": "薪酬分析",
+"desc": "分析岗位薪酬水平和构成",
+"cat": "career",
 "roles": [],
 "starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/ceo-advisor",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT",
-"script": true,
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/human-resources/skills/comp-analysis",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 3 千字符（有分步流程、有输出模板）；只有文字说明；仓库 36,341 星"
 },
 {
-"id": "coo-advisor",
-"name": "coo-advisor",
-"title": "运营负责人顾问",
-"desc": "流程设计、目标落地、运营节奏、规模化瓶颈",
-"cat": "business",
+"id": "draft-offer",
+"name": "draft-offer",
+"title": "录用通知起草",
+"desc": "起草录用通知：薪酬、福利、入职条款",
+"cat": "career",
 "roles": [],
 "starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/coo-advisor",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT",
-"script": true,
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/human-resources/skills/draft-offer",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 2 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "onboarding",
+"name": "onboarding",
+"title": "新员工入职计划",
+"desc": "新员工入职前、第一天、第一周、第一个月的安排",
+"cat": "career",
+"roles": [],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/human-resources/skills/onboarding",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 3 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "people-report",
+"name": "people-report",
+"title": "人力资源报告",
+"desc": "离职率、招聘、敬业度等人力数据报告",
+"cat": "career",
+"roles": [],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/human-resources/skills/people-report",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 2 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "performance-review",
+"name": "performance-review",
+"title": "绩效评估",
+"desc": "写自评、上级评价和绩效面谈提纲",
+"cat": "career",
+"roles": [
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/human-resources/skills/performance-review",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 4 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "policy-lookup",
+"name": "policy-lookup",
+"title": "制度查询",
+"desc": "从公司制度文件里找到答案，并标出处",
+"cat": "career",
+"roles": [],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/human-resources/skills/policy-lookup",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 3 千字符（有分步流程、有输出模板）；只有文字说明；仓库 36,341 星"
 },
 {
 "id": "founder-coach",
@@ -2083,63 +1839,8 @@
 "url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/founder-coach",
 "source": "alirezarezvani/claude-skills",
 "stars": 29935,
-"license": "MIT"
-},
-{
-"id": "board-deck-builder",
-"name": "board-deck-builder",
-"title": "董事会汇报材料",
-"desc": "做董事会汇报、投资人季度更新的结构和内容",
-"cat": "business",
-"roles": [],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/board-deck-builder",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT"
-},
-{
-"id": "strategic-alignment",
-"name": "strategic-alignment",
-"title": "战略对齐",
-"desc": "各部门目标对不上时，理清目标之间的关系",
-"cat": "business",
-"roles": [],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/strategic-alignment",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
 "license": "MIT",
-"script": true
-},
-{
-"id": "scenario-war-room",
-"name": "scenario-war-room",
-"title": "情景推演",
-"desc": "“如果 A 和 B 同时发生会怎样”，跨部门推演最坏情况",
-"cat": "business",
-"roles": [],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/scenario-war-room",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT",
-"script": true
-},
-{
-"id": "intl-expansion",
-"name": "intl-expansion",
-"title": "出海拓展",
-"desc": "进入新国家：选市场、进入方式、本地化、监管",
-"cat": "business",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/intl-expansion",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT"
+"review": "说明书约 12 千字符（有分步流程、写明何时使用）；只有文字说明；仓库 29,935 星"
 },
 {
 "id": "process-mapper",
@@ -2155,38 +1856,8 @@
 "source": "alirezarezvani/claude-skills",
 "stars": 29935,
 "license": "MIT",
-"script": true
-},
-{
-"id": "capacity-planner",
-"name": "capacity-planner",
-"title": "人力规划",
-"desc": "测算客服、运营团队需要多少人、先招谁",
-"cat": "business",
-"roles": [],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/business-operations/skills/capacity-planner",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT",
-"script": true
-},
-{
-"id": "vendor-management",
-"name": "vendor-management",
-"title": "供应商管理",
-"desc": "给供应商打分、查服务水平、评估第三方风险",
-"cat": "business",
-"roles": [
-"accounting",
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/business-operations/skills/vendor-management",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 8 千字符（有分步流程、有示例、写明何时使用）；会运行脚本；仓库 29,935 星"
 },
 {
 "id": "market-research",
@@ -2203,7 +1874,8 @@
 "source": "alirezarezvani/claude-skills",
 "stars": 29935,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 9 千字符（有分步流程、有示例、写明何时使用）；会运行脚本；仓库 29,935 星"
 },
 {
 "id": "swot-analysis",
@@ -2220,7 +1892,8 @@
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
 "license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"review": "说明书约 9 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "porters-five-forces",
@@ -2236,7 +1909,8 @@
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
 "license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"review": "说明书约 10 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "pestel-analysis",
@@ -2251,7 +1925,8 @@
 "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/pestel-analysis",
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
-"license": "CC BY-NC-SA 4.0"
+"license": "CC BY-NC-SA 4.0",
+"review": "说明书约 10 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "ansoff-matrix",
@@ -2267,23 +1942,8 @@
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
 "license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
-},
-{
-"id": "business-health-diagnostic",
-"name": "business-health-diagnostic",
-"title": "业务健康诊断",
-"desc": "从增长、留存、效率、资金四方面诊断业务状况",
-"cat": "business",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/business-health-diagnostic",
-"source": "deanpeters/Product-Manager-Skills",
-"stars": 8051,
-"license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"review": "说明书约 10 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "company-research",
@@ -2298,7 +1958,8 @@
 "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/company-research",
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
-"license": "CC BY-NC-SA 4.0"
+"license": "CC BY-NC-SA 4.0",
+"review": "说明书约 11 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "tam-sam-som-calculator",
@@ -2316,7 +1977,8 @@
 "stars": 8051,
 "license": "CC BY-NC-SA 4.0",
 "script": true,
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"review": "说明书约 15 千字符（有分步流程、有输出模板、有示例、写明何时使用）；会运行脚本；仓库 8,051 星"
 },
 {
 "id": "market-landscape-scan",
@@ -2332,7 +1994,8 @@
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
 "license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"review": "说明书约 9 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "market-research-reports",
@@ -2348,7 +2011,74 @@
 "source": "K-Dense-AI/claude-scientific-skills",
 "stars": 57517,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 15 千字符（有分步流程、有输出模板）；会运行脚本；仓库 57,517 星"
+},
+{
+"id": "capacity-plan",
+"name": "capacity-plan",
+"title": "产能和人力规划",
+"desc": "从人力、预算、时间三方面规划团队能做多少事",
+"cat": "business",
+"roles": [],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/operations/skills/capacity-plan",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 3 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "change-request",
+"name": "change-request",
+"title": "变更管理",
+"desc": "规划和推进一项变更：评估、计划、执行、巩固",
+"cat": "business",
+"roles": [],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/operations/skills/change-request",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 3 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "vendor-review",
+"name": "vendor-review",
+"title": "供应商评估",
+"desc": "从成本、风险、服务质量等方面评估供应商",
+"cat": "business",
+"roles": [
+"accounting",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/operations/skills/vendor-review",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 3 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "idea-refine",
+"name": "idea-refine",
+"title": "想法打磨",
+"desc": "把一个模糊的想法问清楚、拆开、变成可以执行的方案",
+"cat": "business",
+"roles": [
+"student",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/addyosmani/agent-skills/tree/main/skills/idea-refine",
+"source": "addyosmani/agent-skills",
+"stars": 118452,
+"license": "MIT",
+"script": true,
+"review": "说明书约 9 千字符（有分步流程、有输出模板、有示例、写明何时使用）；会运行脚本；仓库 118,452 星"
 },
 {
 "id": "prd-development",
@@ -2362,7 +2092,8 @@
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
 "license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"review": "说明书约 20 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "user-story",
@@ -2376,7 +2107,8 @@
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
 "license": "CC BY-NC-SA 4.0",
-"script": true
+"script": true,
+"review": "说明书约 7 千字符（有输出模板、有示例、写明何时使用）；会运行脚本；仓库 8,051 星"
 },
 {
 "id": "user-story-mapping",
@@ -2389,21 +2121,8 @@
 "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/user-story-mapping",
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
-"license": "CC BY-NC-SA 4.0"
-},
-{
-"id": "roadmap-planning",
-"name": "roadmap-planning",
-"title": "产品路线图",
-"desc": "排优先级、定大功能、对齐各方、安排先后顺序",
-"cat": "product",
-"roles": [],
-"starter": false,
-"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/roadmap-planning",
-"source": "deanpeters/Product-Manager-Skills",
-"stars": 8051,
 "license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"review": "说明书约 7 千字符（有分步流程、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "prioritization-advisor",
@@ -2417,7 +2136,8 @@
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
 "license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"review": "说明书约 13 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "jobs-to-be-done",
@@ -2432,7 +2152,8 @@
 "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/jobs-to-be-done",
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
-"license": "CC BY-NC-SA 4.0"
+"license": "CC BY-NC-SA 4.0",
+"review": "说明书约 9 千字符（有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "problem-statement",
@@ -2447,7 +2168,8 @@
 "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/problem-statement",
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
-"license": "CC BY-NC-SA 4.0"
+"license": "CC BY-NC-SA 4.0",
+"review": "说明书约 7 千字符（有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "opportunity-solution-tree",
@@ -2461,7 +2183,8 @@
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
 "license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"review": "说明书约 14 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "customer-journey-map",
@@ -2476,7 +2199,8 @@
 "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/customer-journey-map",
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
-"license": "CC BY-NC-SA 4.0"
+"license": "CC BY-NC-SA 4.0",
+"review": "说明书约 10 千字符（有分步流程、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "proto-persona",
@@ -2491,7 +2215,8 @@
 "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/proto-persona",
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
-"license": "CC BY-NC-SA 4.0"
+"license": "CC BY-NC-SA 4.0",
+"review": "说明书约 9 千字符（有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "discovery-interview-prep",
@@ -2507,21 +2232,8 @@
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
 "license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
-},
-{
-"id": "sprint-planning",
-"name": "sprint-planning",
-"title": "迭代计划",
-"desc": "按目标和真实人力规划一个迭代，提前标出风险",
-"cat": "product",
-"roles": [],
-"starter": false,
-"url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/sprint-planning",
-"source": "deanpeters/Product-Manager-Skills",
-"stars": 8051,
-"license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"review": "说明书约 15 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "launch-plan",
@@ -2537,7 +2249,8 @@
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
 "license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"review": "说明书约 19 千字符（有分步流程、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "stakeholder-mapping",
@@ -2551,7 +2264,8 @@
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
 "license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"review": "说明书约 12 千字符（有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "research-synthesis",
@@ -2567,7 +2281,8 @@
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
 "license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"review": "说明书约 11 千字符（有分步流程、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "scrum-master",
@@ -2581,7 +2296,8 @@
 "source": "alirezarezvani/claude-skills",
 "stars": 29935,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 9 千字符（有分步流程、有输出模板）；会运行脚本；仓库 29,935 星"
 },
 {
 "id": "senior-pm",
@@ -2595,7 +2311,8 @@
 "source": "alirezarezvani/claude-skills",
 "stars": 29935,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 16 千字符（有分步流程、有输出模板、有示例、写明何时使用）；会运行脚本；仓库 29,935 星"
 },
 {
 "id": "ux-researcher-designer",
@@ -2609,7 +2326,8 @@
 "source": "alirezarezvani/claude-skills",
 "stars": 29935,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 11 千字符（有分步流程、写明何时使用）；会运行脚本；仓库 29,935 星"
 },
 {
 "id": "experiment-designer",
@@ -2625,7 +2343,117 @@
 "source": "alirezarezvani/claude-skills",
 "stars": 29935,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 3 千字符（有分步流程、有示例、写明何时使用）；会运行脚本；仓库 29,935 星"
+},
+{
+"id": "metrics-review",
+"name": "metrics-review",
+"title": "指标复盘",
+"desc": "整理关键指标，分析趋势，写出原因和建议",
+"cat": "product",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/product-management/skills/metrics-review",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 18 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "product-brainstorming",
+"name": "product-brainstorming",
+"title": "产品头脑风暴",
+"desc": "围绕问题、方案、假设，结构化地想点子",
+"cat": "product",
+"roles": [],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/product-management/skills/product-brainstorming",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 15 千字符（有分步流程、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "roadmap-update",
+"name": "roadmap-update",
+"title": "路线图更新",
+"desc": "更新产品路线图，并说明调整的原因",
+"cat": "product",
+"roles": [],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/product-management/skills/roadmap-update",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 12 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "stakeholder-update",
+"name": "stakeholder-update",
+"title": "进展同步",
+"desc": "按不同对象写项目或产品进展同步",
+"cat": "product",
+"roles": [],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/product-management/skills/stakeholder-update",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 14 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "synthesize-research",
+"name": "synthesize-research",
+"title": "调研结果综合",
+"desc": "把访谈、问卷、反馈综合成主题和洞察",
+"cat": "product",
+"roles": [
+"student"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/product-management/skills/synthesize-research",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 16 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "write-spec",
+"name": "write-spec",
+"title": "需求说明书",
+"desc": "把一个功能写成完整的需求说明：背景、用户、方案、验收标准",
+"cat": "product",
+"roles": [],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/product-management/skills/write-spec",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 12 千字符（有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "sprint-planning",
+"name": "sprint-planning",
+"title": "迭代计划",
+"desc": "按团队人力规划一个迭代要做的事和风险",
+"cat": "product",
+"roles": [],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/product-management/skills/sprint-planning",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 3 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
 },
 {
 "id": "copywriting",
@@ -2641,441 +2469,26 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/copywriting",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
-},
-{
-"id": "ai-shopping-readiness-ecommerce",
-"name": "ai-shopping-readiness-ecommerce",
-"title": "AI 购物可见度检查",
-"desc": "检查店铺的商品信息能不能被 AI 购物助手正确读懂和推荐",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/ai-shopping-readiness-ecommerce",
-"source": "mardab96/ecommerce-claude-skills",
-"stars": 14,
 "license": "MIT",
-"extra": "这个 skill 会用到仓库根目录的 references 文件夹，请把它们也复制到 ~/.dsh/skills/ 下面（和 skill 文件夹放在同一层）"
+"review": "说明书约 13 千字符（有分步流程、有输出模板）；只有文字说明；仓库 60,888 星"
 },
 {
-"id": "catalog-content-audit-ecommerce",
-"name": "catalog-content-audit-ecommerce",
-"title": "全店商品内容体检",
-"desc": "检查整个商品库：缺属性、描述太短、图片不全",
+"id": "content-creation",
+"name": "content-creation",
+"title": "内容创作模板",
+"desc": "博客、社交媒体、邮件通讯等内容的写作结构",
 "cat": "ecommerce",
 "roles": [
-"ecommerce"
+"ecommerce",
+"media"
 ],
-"starter": false,
-"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/catalog-content-audit-ecommerce",
-"source": "mardab96/ecommerce-claude-skills",
-"stars": 14,
-"license": "MIT",
-"extra": "这个 skill 会用到仓库根目录的 references、scripts 文件夹，请把它们也复制到 ~/.dsh/skills/ 下面（和 skill 文件夹放在同一层）"
-},
-{
-"id": "chargeback-fraud-pattern-review-ecommerce",
-"name": "chargeback-fraud-pattern-review-ecommerce",
-"title": "拒付和欺诈复盘",
-"desc": "分清真正的欺诈订单和服务问题导致的拒付",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/chargeback-fraud-pattern-review-ecommerce",
-"source": "mardab96/ecommerce-claude-skills",
-"stars": 14,
-"license": "MIT",
-"extra": "这个 skill 会用到仓库根目录的 references、scripts 文件夹，请把它们也复制到 ~/.dsh/skills/ 下面（和 skill 文件夹放在同一层）"
-},
-{
-"id": "checkout-friction-finder-ecommerce",
-"name": "checkout-friction-finder-ecommerce",
-"title": "结账流程卡点",
-"desc": "从截图、漏斗数据里找出购物车和结账哪里让人放弃",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/checkout-friction-finder-ecommerce",
-"source": "mardab96/ecommerce-claude-skills",
-"stars": 14,
-"license": "MIT"
-},
-{
-"id": "contribution-margin-check-ecommerce",
-"name": "contribution-margin-check-ecommerce",
-"title": "单品毛利核算",
-"desc": "把成本、平台费、运费、退款、广告费算进去，看每个商品真正赚多少",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/contribution-margin-check-ecommerce",
-"source": "mardab96/ecommerce-claude-skills",
-"stars": 14,
-"license": "MIT",
-"extra": "这个 skill 会用到仓库根目录的 references、scripts 文件夹，请把它们也复制到 ~/.dsh/skills/ 下面（和 skill 文件夹放在同一层）"
-},
-{
-"id": "inventory-risk-brief-ecommerce",
-"name": "inventory-risk-brief-ecommerce",
-"title": "库存风险简报",
-"desc": "从库存和销售数据里找出要断货、积压的商品",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/inventory-risk-brief-ecommerce",
-"source": "mardab96/ecommerce-claude-skills",
-"stars": 14,
-"license": "MIT"
-},
-{
-"id": "launch-readiness-check-ecommerce",
-"name": "launch-readiness-check-ecommerce",
-"title": "上新前检查",
-"desc": "新品上架、补货、大促、加投广告之前的检查清单",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/launch-readiness-check-ecommerce",
-"source": "mardab96/ecommerce-claude-skills",
-"stars": 14,
-"license": "MIT",
-"extra": "这个 skill 会用到仓库根目录的 references 文件夹，请把它们也复制到 ~/.dsh/skills/ 下面（和 skill 文件夹放在同一层）"
-},
-{
-"id": "ltv-cohort-read-ecommerce",
-"name": "ltv-cohort-read-ecommerce",
-"title": "复购和客户价值",
-"desc": "从订单数据看复购率、二次购买间隔、回本周期",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/ltv-cohort-read-ecommerce",
-"source": "mardab96/ecommerce-claude-skills",
-"stars": 14,
-"license": "MIT",
-"extra": "这个 skill 会用到仓库根目录的 references、scripts 文件夹，请把它们也复制到 ~/.dsh/skills/ 下面（和 skill 文件夹放在同一层）"
-},
-{
-"id": "onsite-search-merchandising-review-ecommerce",
-"name": "onsite-search-merchandising-review-ecommerce",
-"title": "站内搜索优化",
-"desc": "从站内搜索词、搜不到结果的词，找出该补的商品和分类",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/onsite-search-merchandising-review-ecommerce",
-"source": "mardab96/ecommerce-claude-skills",
-"stars": 14,
-"license": "MIT",
-"extra": "这个 skill 会用到仓库根目录的 references 文件夹，请把它们也复制到 ~/.dsh/skills/ 下面（和 skill 文件夹放在同一层）"
-},
-{
-"id": "paid-traffic-waste-triage-ecommerce",
-"name": "paid-traffic-waste-triage-ecommerce",
-"title": "广告浪费排查",
-"desc": "判断效果不好是广告的问题、商品页的问题，还是价格的问题",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/paid-traffic-waste-triage-ecommerce",
-"source": "mardab96/ecommerce-claude-skills",
-"stars": 14,
-"license": "MIT"
-},
-{
-"id": "product-feed-qa-ecommerce",
-"name": "product-feed-qa-ecommerce",
-"title": "商品数据源检查",
-"desc": "检查投放广告用的商品数据（如 Google Merchant Center）有没有错误",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/product-feed-qa-ecommerce",
-"source": "mardab96/ecommerce-claude-skills",
-"stars": 14,
-"license": "MIT"
-},
-{
-"id": "product-page-conversion-review-ecommerce",
-"name": "product-page-conversion-review-ecommerce",
-"title": "商品页诊断",
-"desc": "从商品页的信息、信任感、买家顾虑等方面找出转化问题",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/product-page-conversion-review-ecommerce",
-"source": "mardab96/ecommerce-claude-skills",
-"stars": 14,
-"license": "MIT"
-},
-{
-"id": "promo-discount-impact-review-ecommerce",
-"name": "promo-discount-impact-review-ecommerce",
-"title": "促销效果复盘",
-"desc": "这次打折到底多赚了钱，还是只是提前透支了销量",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/promo-discount-impact-review-ecommerce",
-"source": "mardab96/ecommerce-claude-skills",
-"stars": 14,
-"license": "MIT",
-"extra": "这个 skill 会用到仓库根目录的 references、scripts 文件夹，请把它们也复制到 ~/.dsh/skills/ 下面（和 skill 文件夹放在同一层）"
-},
-{
-"id": "repeat-purchase-flow-review-ecommerce",
-"name": "repeat-purchase-flow-review-ecommerce",
-"title": "复购流程检查",
-"desc": "检查邮件、短信等复购提醒的时机和内容",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/repeat-purchase-flow-review-ecommerce",
-"source": "mardab96/ecommerce-claude-skills",
-"stars": 14,
-"license": "MIT"
-},
-{
-"id": "returns-reason-miner-ecommerce",
-"name": "returns-reason-miner-ecommerce",
-"title": "退货原因分析",
-"desc": "从退货数据和客服记录里找出可以避免的退货",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/returns-reason-miner-ecommerce",
-"source": "mardab96/ecommerce-claude-skills",
-"stars": 14,
-"license": "MIT"
-},
-{
-"id": "review-objection-miner-ecommerce",
-"name": "review-objection-miner-ecommerce",
-"title": "评论里的买家顾虑",
-"desc": "从自家和竞品评论里找出买家在乎什么、担心什么",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/review-objection-miner-ecommerce",
-"source": "mardab96/ecommerce-claude-skills",
-"stars": 14,
-"license": "MIT"
-},
-{
-"id": "shipping-economics-review-ecommerce",
-"name": "shipping-economics-review-ecommerce",
-"title": "运费盈亏检查",
-"desc": "算清楚收的运费和实际运费之间的差额",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/shipping-economics-review-ecommerce",
-"source": "mardab96/ecommerce-claude-skills",
-"stars": 14,
-"license": "MIT",
-"extra": "这个 skill 会用到仓库根目录的 references、scripts 文件夹，请把它们也复制到 ~/.dsh/skills/ 下面（和 skill 文件夹放在同一层）"
-},
-{
-"id": "subscription-churn-review-ecommerce",
-"name": "subscription-churn-review-ecommerce",
-"title": "订阅流失诊断",
-"desc": "从订阅数据和取消原因里找出为什么流失",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/subscription-churn-review-ecommerce",
-"source": "mardab96/ecommerce-claude-skills",
-"stars": 14,
-"license": "MIT",
-"extra": "这个 skill 会用到仓库根目录的 references、scripts 文件夹，请把它们也复制到 ~/.dsh/skills/ 下面（和 skill 文件夹放在同一层）"
-},
-{
-"id": "support-ticket-theme-miner-ecommerce",
-"name": "support-ticket-theme-miner-ecommerce",
-"title": "客服工单分析",
-"desc": "从客服工单、聊天记录里找出最常见的问题",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/support-ticket-theme-miner-ecommerce",
-"source": "mardab96/ecommerce-claude-skills",
-"stars": 14,
-"license": "MIT"
-},
-{
-"id": "weekly-ecommerce-growth-readout",
-"name": "weekly-ecommerce-growth-readout",
-"title": "电商周报",
-"desc": "把店铺、广告、库存等导出数据整理成老板看的周报",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/mardab96/ecommerce-claude-skills/tree/main/weekly-ecommerce-growth-readout",
-"source": "mardab96/ecommerce-claude-skills",
-"stars": 14,
-"license": "MIT"
-},
-{
-"id": "zach-feature-demand-validator",
-"name": "zach-feature-demand-validator",
-"title": "亚马逊需求验证",
-"desc": "用评论、关键词、社区三方面数据验证一个改进点是不是真需求",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/zach22-1999/amazon-skills/tree/main/skills/zach-feature-demand-validator",
-"source": "zach22-1999/amazon-skills",
-"stars": 261,
-"license": "MIT",
-"script": true,
-"zh": true
-},
-{
-"id": "zach-listing-health-checker",
-"name": "zach-listing-health-checker",
-"title": "亚马逊 Listing 体检",
-"desc": "用买家视角检查 Listing：价格、购物车、配送、排名、差评",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/zach22-1999/amazon-skills/tree/main/skills/zach-listing-health-checker",
-"source": "zach22-1999/amazon-skills",
-"stars": 261,
-"license": "MIT",
-"script": true,
-"net": true,
-"zh": true,
-"note": "会抓取网页，先确认不违反平台规则"
-},
-{
-"id": "zach-product-research",
-"name": "zach-product-research",
-"title": "亚马逊选品分析",
-"desc": "选品前做市场调研，输出要不要做的结论（需要 Sorftime 服务）",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/zach22-1999/amazon-skills/tree/main/skills/zach-product-research",
-"source": "zach22-1999/amazon-skills",
-"stars": 261,
-"license": "MIT",
-"script": true,
-"zh": true,
-"keys": true
-},
-{
-"id": "zach-search-term-analyzer",
-"name": "zach-search-term-analyzer",
-"title": "亚马逊热门搜索词分析",
-"desc": "分析品牌分析里的热门搜索词报告，区分存量经营和新市场进入",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/zach22-1999/amazon-skills/tree/main/skills/zach-search-term-analyzer",
-"source": "zach22-1999/amazon-skills",
-"stars": 261,
-"license": "MIT",
-"script": true,
-"zh": true
-},
-{
-"id": "zach-search-term-report-analyzer",
-"name": "zach-search-term-report-analyzer",
-"title": "亚马逊广告搜索词分析",
-"desc": "清洗和聚类广告搜索词报告，找出该加、该否的词",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/zach22-1999/amazon-skills/tree/main/skills/zach-search-term-report-analyzer",
-"source": "zach22-1999/amazon-skills",
-"stars": 261,
-"license": "MIT",
-"script": true,
-"net": true,
-"zh": true
-},
-{
-"id": "zach-seller-skill-creator",
-"name": "zach-seller-skill-creator",
-"title": "亚马逊卖家写 skill",
-"desc": "把你的运营流程变成可以重复使用的 skill（中文）",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/zach22-1999/amazon-skills/tree/main/skills/zach-seller-skill-creator",
-"source": "zach22-1999/amazon-skills",
-"stars": 261,
-"license": "MIT",
-"script": true,
-"zh": true
-},
-{
-"id": "zach-sif-cvr-threshold-analyzer",
-"name": "zach-sif-cvr-threshold-analyzer",
-"title": "转化率和排名关系",
-"desc": "回测转化率和关键词自然排名的关系，给出预警线（需要领星和 SIF 数据）",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/zach22-1999/amazon-skills/tree/main/skills/zach-sif-cvr-threshold-analyzer",
-"source": "zach22-1999/amazon-skills",
-"stars": 261,
-"license": "MIT",
-"script": true,
-"zh": true,
-"keys": true
+"starter": true,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/content-creation",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 8 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 36,341 星"
 },
 {
 "id": "ab-testing",
@@ -3090,7 +2503,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ab-testing",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 12 千字符（有分步流程、有示例、写明何时使用）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "ad-creative",
@@ -3106,7 +2520,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ad-creative",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 24 千字符（有分步流程、有输出模板）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "ads",
@@ -3121,7 +2536,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ads",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 28 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "ai-seo",
@@ -3137,7 +2553,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ai-seo",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 30 千字符（有分步流程）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "analytics",
@@ -3152,20 +2569,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
-},
-{
-"id": "aso",
-"name": "aso",
-"title": "应用商店优化",
-"desc": "优化 App Store、Google Play 的标题、关键词和截图",
-"cat": "ecommerce",
-"roles": [],
-"starter": false,
-"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/aso",
-"source": "coreyhaines31/marketingskills",
-"stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 13 千字符（有分步流程、有输出模板、有示例）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "churn-prevention",
@@ -3180,7 +2585,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/churn-prevention",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 17 千字符（有分步流程）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "community-marketing",
@@ -3195,7 +2601,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/community-marketing",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 8 千字符（有分步流程、有输出模板）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "competitor-profiling",
@@ -3210,7 +2617,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/competitor-profiling",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 16 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "content-strategy",
@@ -3225,7 +2633,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/content-strategy",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 17 千字符（有分步流程、有输出模板）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "cro",
@@ -3240,7 +2649,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/cro",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 5 千字符（有分步流程、有输出模板）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "customer-research",
@@ -3255,7 +2665,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/customer-research",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 13 千字符（有分步流程、有输出模板）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "emails",
@@ -3270,7 +2681,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/emails",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 9 千字符（有分步流程、有输出模板）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "influencer-marketing",
@@ -3286,22 +2698,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/influencer-marketing",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
-},
-{
-"id": "launch",
-"name": "launch",
-"title": "新品发布",
-"desc": "规划产品或功能发布的时机和节奏",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/launch",
-"source": "coreyhaines31/marketingskills",
-"stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 19 千字符（有分步流程）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "lead-magnets",
@@ -3316,7 +2714,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/lead-magnets",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 9 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "marketing-ideas",
@@ -3332,7 +2731,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-ideas",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 4 千字符（有分步流程、有输出模板）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "marketing-plan",
@@ -3347,7 +2747,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-plan",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 24 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "marketing-psychology",
@@ -3363,7 +2764,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-psychology",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 20 千字符（有分步流程、写明何时使用）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "offers",
@@ -3378,80 +2780,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/offers",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
-},
-{
-"id": "onboarding",
-"name": "onboarding",
-"title": "新用户引导",
-"desc": "新用户留不住时，设计头几天的引导",
-"cat": "ecommerce",
-"roles": [],
-"starter": false,
-"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/onboarding",
-"source": "coreyhaines31/marketingskills",
-"stars": 60888,
-"license": "MIT"
-},
-{
-"id": "popups",
-"name": "popups",
-"title": "弹窗设计",
-"desc": "设计弹窗、横幅，判断会不会惹人烦",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/popups",
-"source": "coreyhaines31/marketingskills",
-"stars": 60888,
-"license": "MIT"
-},
-{
-"id": "pricing",
-"name": "pricing",
-"title": "定价和套餐",
-"desc": "定价格、分套餐、判断该不该涨价",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing",
-"source": "coreyhaines31/marketingskills",
-"stars": 60888,
-"license": "MIT"
-},
-{
-"id": "product-marketing",
-"name": "product-marketing",
-"title": "产品营销档案",
-"desc": "整理产品定位、目标客户、卖点，供其他营销 skill 使用",
-"cat": "ecommerce",
-"roles": [
-"ecommerce"
-],
-"starter": false,
-"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/product-marketing",
-"source": "coreyhaines31/marketingskills",
-"stars": 60888,
-"license": "MIT"
-},
-{
-"id": "public-relations",
-"name": "public-relations",
-"title": "公关和媒体",
-"desc": "判断有没有新闻价值，准备给记者的材料",
-"cat": "ecommerce",
-"roles": [
-"media"
-],
-"starter": false,
-"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/public-relations",
-"source": "coreyhaines31/marketingskills",
-"stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 8 千字符（有分步流程、写明何时使用）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "referrals",
@@ -3466,7 +2796,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/referrals",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 9 千字符（有分步流程）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "seo-audit",
@@ -3482,20 +2813,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/seo-audit",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
-},
-{
-"id": "signup",
-"name": "signup",
-"title": "注册流程优化",
-"desc": "减少注册、试用流程里的流失",
-"cat": "ecommerce",
-"roles": [],
-"starter": false,
-"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/signup",
-"source": "coreyhaines31/marketingskills",
-"stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 16 千字符（有分步流程、有输出模板）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "social",
@@ -3510,7 +2829,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/social",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 16 千字符（有分步流程、有输出模板、有示例）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "video",
@@ -3525,49 +2845,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/video",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
-},
-{
-"id": "site-architecture",
-"name": "site-architecture",
-"title": "网站结构规划",
-"desc": "规划网站需要哪些页面、怎么组织",
-"cat": "ecommerce",
-"roles": [],
-"starter": false,
-"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/site-architecture",
-"source": "coreyhaines31/marketingskills",
-"stars": 60888,
-"license": "MIT"
-},
-{
-"id": "marketing-loops",
-"name": "marketing-loops",
-"title": "定期营销任务",
-"desc": "设计让 AI 定期执行的营销任务（比如每周竞品监测）",
-"cat": "ecommerce",
-"roles": [],
-"starter": false,
-"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-loops",
-"source": "coreyhaines31/marketingskills",
-"stars": 60888,
-"license": "MIT"
-},
-{
-"id": "linkedin-content",
-"name": "linkedin-content",
-"title": "领英内容写作",
-"desc": "写、改领英帖子：故事、教程、轮播图、投票",
-"cat": "ecommerce",
-"roles": [
-"media"
-],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/marketing/linkedin/skills/linkedin-content",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
 "license": "MIT",
-"script": true
+"review": "说明书约 15 千字符（有分步流程、写明何时使用）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "positioning-statement",
@@ -3582,7 +2861,8 @@
 "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/positioning-statement",
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
-"license": "CC BY-NC-SA 4.0"
+"license": "CC BY-NC-SA 4.0",
+"review": "说明书约 6 千字符（有分步流程、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "message-house",
@@ -3598,7 +2878,8 @@
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
 "license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"review": "说明书约 11 千字符（有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "press-release",
@@ -3614,7 +2895,8 @@
 "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/press-release",
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
-"license": "CC BY-NC-SA 4.0"
+"license": "CC BY-NC-SA 4.0",
+"review": "说明书约 7 千字符（有分步流程、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "battle-card-builder",
@@ -3630,7 +2912,8 @@
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
 "license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"review": "说明书约 9 千字符（有分步流程、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "shopify-expert",
@@ -3645,7 +2928,113 @@
 "url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/shopify-expert",
 "source": "Jeffallan/claude-skills",
 "stars": 12417,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 6 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 12,417 星"
+},
+{
+"id": "brand-review",
+"name": "brand-review",
+"title": "品牌一致性检查",
+"desc": "检查文案、物料是否符合品牌语气和用词规范",
+"cat": "ecommerce",
+"roles": [
+"ecommerce",
+"media"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/brand-review",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 12 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "campaign-plan",
+"name": "campaign-plan",
+"title": "营销活动策划",
+"desc": "写一份完整的活动方案：目标、人群、信息、渠道、预算、排期",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/campaign-plan",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 14 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "competitive-brief",
+"name": "competitive-brief",
+"title": "竞品简报",
+"desc": "调研竞争对手，写一份对比简报",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/competitive-brief",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 14 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "draft-content",
+"name": "draft-content",
+"title": "按品牌语气写内容",
+"desc": "按你的品牌语气写各类营销内容",
+"cat": "ecommerce",
+"roles": [
+"ecommerce",
+"media"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/draft-content",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 4 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "email-sequence",
+"name": "email-sequence",
+"title": "营销邮件序列",
+"desc": "设计一组自动发送的邮件：每封的目的、标题、正文、时间",
+"cat": "ecommerce",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/email-sequence",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 10 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "performance-report",
+"name": "performance-report",
+"title": "营销效果报告",
+"desc": "整理营销数据，写出结论和下一步建议",
+"cat": "ecommerce",
+"roles": [
+"ecommerce",
+"media"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/performance-report",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 19 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
 },
 {
 "id": "sales-enablement",
@@ -3660,7 +3049,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/sales-enablement",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 19 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "prospecting",
@@ -3673,34 +3063,8 @@
 "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/prospecting",
 "source": "coreyhaines31/marketingskills",
 "stars": 60888,
-"license": "MIT"
-},
-{
-"id": "cold-email",
-"name": "cold-email",
-"title": "陌生开发信",
-"desc": "写企业间的开发信（注意遵守当地的营销邮件规定）",
-"cat": "sales",
-"roles": [],
-"starter": false,
-"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/cold-email",
-"source": "coreyhaines31/marketingskills",
-"stars": 60888,
 "license": "MIT",
-"note": "发营销邮件要遵守当地法规，不要群发骚扰"
-},
-{
-"id": "revops",
-"name": "revops",
-"title": "营收运营",
-"desc": "理清线索什么时候交给销售、销售和市场怎么配合",
-"cat": "sales",
-"roles": [],
-"starter": false,
-"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/revops",
-"source": "coreyhaines31/marketingskills",
-"stars": 60888,
-"license": "MIT"
+"review": "说明书约 16 千字符（有分步流程、有输出模板）；只有文字说明；仓库 60,888 星"
 },
 {
 "id": "deal-desk",
@@ -3714,7 +3078,8 @@
 "source": "alirezarezvani/claude-skills",
 "stars": 29935,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 10 千字符（有分步流程、有示例、写明何时使用）；会运行脚本；仓库 29,935 星"
 },
 {
 "id": "rfp-responder",
@@ -3728,7 +3093,8 @@
 "source": "alirezarezvani/claude-skills",
 "stars": 29935,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 12 千字符（有分步流程、写明何时使用）；会运行脚本；仓库 29,935 星"
 },
 {
 "id": "contract-and-proposal-writer",
@@ -3743,7 +3109,8 @@
 "url": "https://github.com/alirezarezvani/claude-skills/tree/main/business-growth/skills/contract-and-proposal-writer",
 "source": "alirezarezvani/claude-skills",
 "stars": 29935,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 13 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 29,935 星"
 },
 {
 "id": "customer-success-manager",
@@ -3759,22 +3126,8 @@
 "source": "alirezarezvani/claude-skills",
 "stars": 29935,
 "license": "MIT",
-"script": true
-},
-{
-"id": "sales-engineer",
-"name": "sales-engineer",
-"title": "售前支持",
-"desc": "招标覆盖度、竞品功能对比、试用方案",
-"cat": "sales",
-"roles": [],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/business-growth/skills/sales-engineer",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT",
 "script": true,
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"review": "说明书约 8 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 29,935 星"
 },
 {
 "id": "sales-value-narrative",
@@ -3788,7 +3141,8 @@
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
 "license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"review": "说明书约 12 千字符（有分步流程、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
 "id": "voice-of-customer-miner",
@@ -3804,106 +3158,173 @@
 "source": "deanpeters/Product-Manager-Skills",
 "stars": 8051,
 "license": "CC BY-NC-SA 4.0",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"review": "说明书约 9 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 8,051 星"
 },
 {
-"id": "canned-responses-anthropic",
-"name": "canned-responses-anthropic",
-"title": "常见问题模板回复",
-"desc": "为常见咨询生成模板回复，并识别哪些情况要单独处理",
+"id": "draft-response",
+"name": "draft-response",
+"title": "客服回复起草",
+"desc": "根据客户来信起草回复：先理解问题，再按语气要求写，最后自查一遍",
 "cat": "sales",
 "roles": [
 "ecommerce"
 ],
 "starter": false,
-"url": "https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/canned-response-generator-anthropic",
-"source": "lawve-ai/awesome-legal-skills",
-"stars": 958,
-"license": "CC BY-NC-ND 4.0",
-"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/customer-support/skills/draft-response",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 12 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
 },
 {
-"id": "video-subtitle",
-"name": "video-subtitle",
-"title": "视频加字幕",
-"desc": "本地语音识别生成字幕，再烧录进视频（需要装 ffmpeg 和 Whisper）",
-"cat": "media",
+"id": "kb-article",
+"name": "kb-article",
+"title": "帮助中心文章",
+"desc": "把常见问题写成结构清楚的帮助中心文章",
+"cat": "sales",
 "roles": [
-"media",
-"teacher"
-],
-"starter": true,
-"url": "https://github.com/Tofuswang/video-subtitle-skill/tree/main/skills/video-subtitle",
-"source": "Tofuswang/video-subtitle-skill",
-"stars": 5,
-"license": "MIT",
-"deps": "ffmpeg 和 Whisper（AI 会教你装）"
-},
-{
-"id": "remotion-motion-graphics",
-"name": "remotion-motion-graphics",
-"title": "代码做动画视频",
-"desc": "片头、文字动画、数据图表动画",
-"cat": "media",
-"roles": [
-"media"
+"ecommerce"
 ],
 "starter": false,
-"url": "https://github.com/haidrrrry/claude-remotion-skill/tree/main/remotion-motion-graphics",
-"source": "haidrrrry/claude-remotion-skill",
-"stars": 1075,
-"license": "MIT",
-"script": true
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/customer-support/skills/kb-article",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 10 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
 },
 {
-"id": "image",
-"name": "image",
-"title": "营销图片",
-"desc": "生成、修改、优化营销用的图片",
+"id": "ticket-triage",
+"name": "ticket-triage",
+"title": "客服工单分类",
+"desc": "给客服工单分类、定优先级，判断该转给谁",
+"cat": "sales",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/customer-support/skills/ticket-triage",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 8 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "baoyu-cover-image",
+"name": "baoyu-cover-image",
+"title": "文章封面图",
+"desc": "按文章内容生成封面图（需要图片生成服务的钥匙）",
 "cat": "media",
 "roles": [
 "media",
 "ecommerce"
 ],
 "starter": false,
-"url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/image",
-"source": "coreyhaines31/marketingskills",
-"stars": 60888,
-"license": "MIT"
+"url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-cover-image",
+"source": "JimLiu/baoyu-skills",
+"stars": 27628,
+"license": "MIT",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"keys": true,
+"review": "说明书约 12 千字符（有分步流程、写明何时使用）；只有文字说明；仓库 27,628 星"
 },
 {
-"id": "generate-image",
-"name": "generate-image",
-"title": "AI 生成图片",
-"desc": "用 AI 模型生成或修改图片（需要 OpenRouter 钥匙）",
+"id": "baoyu-xhs-images",
+"name": "baoyu-xhs-images",
+"title": "小红书图文卡片",
+"desc": "把内容做成一组小红书风格的图片卡片（需要图片生成服务的钥匙）",
+"cat": "media",
+"roles": [
+"media",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-xhs-images",
+"source": "JimLiu/baoyu-skills",
+"stars": 27628,
+"license": "MIT",
+"zh": true,
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"keys": true,
+"review": "说明书约 22 千字符（有分步流程、写明何时使用）；只有文字说明；仓库 27,628 星"
+},
+{
+"id": "baoyu-article-illustrator",
+"name": "baoyu-article-illustrator",
+"title": "文章配图",
+"desc": "读文章，在合适的位置生成配图（需要图片生成服务的钥匙）",
 "cat": "media",
 "roles": [
 "media"
 ],
 "starter": false,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/generate-image",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
+"url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-article-illustrator",
+"source": "JimLiu/baoyu-skills",
+"stars": 27628,
+"license": "MIT",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"keys": true,
+"review": "说明书约 12 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 27,628 星"
+},
+{
+"id": "baoyu-comic",
+"name": "baoyu-comic",
+"title": "知识漫画",
+"desc": "把知识点做成漫画（需要图片生成服务的钥匙）",
+"cat": "media",
+"roles": [
+"media"
+],
+"starter": false,
+"url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-comic",
+"source": "JimLiu/baoyu-skills",
+"stars": 27628,
+"license": "MIT",
+"script": true,
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"keys": true,
+"review": "说明书约 16 千字符（有分步流程、写明何时使用）；会运行脚本；仓库 27,628 星"
+},
+{
+"id": "baoyu-image-gen",
+"name": "baoyu-image-gen",
+"title": "AI 生成图片",
+"desc": "调用 OpenAI、谷歌等图片生成服务出图（需要对应的钥匙）",
+"cat": "media",
+"roles": [
+"media",
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-image-gen",
+"source": "JimLiu/baoyu-skills",
+"stars": 27628,
 "license": "MIT",
 "script": true,
 "net": true,
-"keys": true
+"keys": true,
+"review": "说明书约 16 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 27,628 星"
 },
 {
-"id": "slack-gif-creator",
-"name": "slack-gif-creator",
-"title": "动图制作",
-"desc": "做尺寸、帧数合适的小动图",
+"id": "baoyu-compress-image",
+"name": "baoyu-compress-image",
+"title": "图片压缩",
+"desc": "批量压缩图片，转成更小的格式",
 "cat": "media",
 "roles": [
-"media"
+"media",
+"ecommerce"
 ],
 "starter": false,
-"url": "https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator",
-"source": "anthropics/skills",
-"stars": 196274,
-"license": "Apache-2.0",
-"script": true
+"url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-compress-image",
+"source": "JimLiu/baoyu-skills",
+"stars": 27628,
+"license": "MIT",
+"script": true,
+"review": "说明书约 2 千字符（写明何时使用）；会运行脚本；仓库 27,628 星"
 },
 {
 "id": "canvas-design",
@@ -3920,25 +3341,8 @@
 "url": "https://github.com/anthropics/skills/tree/main/skills/canvas-design",
 "source": "anthropics/skills",
 "stars": 196274,
-"license": "Apache-2.0"
-},
-{
-"id": "excalidraw",
-"name": "excalidraw",
-"title": "流程图和示意图",
-"desc": "画可以继续编辑的手绘风流程图、结构图",
-"cat": "design",
-"roles": [
-"student",
-"teacher"
-],
-"starter": false,
-"url": "https://github.com/fabricioartur/codex-excalidraw-skill/tree/main/skill",
-"source": "fabricioartur/codex-excalidraw-skill",
-"stars": 34,
-"license": "MIT",
-"script": true,
-"net": true
+"license": "Apache-2.0",
+"review": "说明书约 6 千字符；只有文字说明；仓库 196,274 星"
 },
 {
 "id": "frontend-design",
@@ -3951,7 +3355,8 @@
 "url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
 "source": "anthropics/skills",
 "stars": 196274,
-"license": "Apache-2.0"
+"license": "Apache-2.0",
+"review": "说明书约 9 千字符（有分步流程）；只有文字说明；仓库 196,274 星"
 },
 {
 "id": "algorithmic-art",
@@ -3965,40 +3370,8 @@
 "source": "anthropics/skills",
 "stars": 196274,
 "license": "Apache-2.0",
-"script": true
-},
-{
-"id": "web-artifacts-builder",
-"name": "web-artifacts-builder",
-"title": "复杂网页小工具",
-"desc": "用现代前端技术做多组件的网页小工具",
-"cat": "design",
-"roles": [],
-"starter": false,
-"url": "https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder",
-"source": "anthropics/skills",
-"stars": 196274,
-"license": "Apache-2.0",
-"script": true
-},
-{
-"id": "infographics",
-"name": "infographics",
-"title": "信息图",
-"desc": "做统计摘要、时间线等信息图（需要 OpenRouter 钥匙）",
-"cat": "design",
-"roles": [
-"media",
-"teacher"
-],
-"starter": false,
-"url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/infographics",
-"source": "K-Dense-AI/claude-scientific-skills",
-"stars": 57517,
-"license": "MIT",
 "script": true,
-"net": true,
-"keys": true
+"review": "说明书约 13 千字符（有分步流程、有输出模板）；会运行脚本；仓库 196,274 星"
 },
 {
 "id": "markdown-mermaid-writing",
@@ -4014,7 +3387,8 @@
 "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/markdown-mermaid-writing",
 "source": "K-Dense-AI/claude-scientific-skills",
 "stars": 57517,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 9 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 57,517 星"
 },
 {
 "id": "ui-design-system",
@@ -4028,21 +3402,8 @@
 "source": "alirezarezvani/claude-skills",
 "stars": 29935,
 "license": "MIT",
-"script": true
-},
-{
-"id": "design-qa",
-"name": "design-qa",
-"title": "界面验收检查",
-"desc": "页面上线前，检查间距、对齐、状态是否和设计一致",
-"cat": "design",
-"roles": [],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/product-team/skills/design-qa",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
-"license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 10 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 29,935 星"
 },
 {
 "id": "landing-page-generator",
@@ -4058,7 +3419,8 @@
 "source": "alirezarezvani/claude-skills",
 "stars": 29935,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 10 千字符（有分步流程、写明何时使用）；会运行脚本；仓库 29,935 星"
 },
 {
 "id": "wcag",
@@ -4072,7 +3434,192 @@
 "source": "lawve-ai/awesome-legal-skills",
 "stars": 958,
 "license": "CC BY-NC-ND 4.0",
-"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师"
+"note": "主要针对美国、欧盟的法律；中国的法律问题请咨询律师",
+"review": "说明书约 15 千字符（有分步流程、有输出模板）；只有文字说明；仓库 958 星"
+},
+{
+"id": "accessibility-review",
+"name": "accessibility-review",
+"title": "无障碍检查",
+"desc": "按 WCAG 2.1 AA 检查网页或设计稿，照顾视障、色弱等用户",
+"cat": "design",
+"roles": [],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/accessibility-review",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 4 千字符（有分步流程、有输出模板）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "design-critique",
+"name": "design-critique",
+"title": "设计点评",
+"desc": "从第一印象、可用性、视觉层次等方面点评一份设计",
+"cat": "design",
+"roles": [
+"media"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/design-critique",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 4 千字符（有分步流程、有输出模板）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "design-handoff",
+"name": "design-handoff",
+"title": "设计交付说明",
+"desc": "给开发写清楚尺寸、交互、文案、状态等设计说明",
+"cat": "design",
+"roles": [],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/design-handoff",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 4 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "design-system",
+"name": "design-system",
+"title": "设计规范",
+"desc": "整理颜色、字体、组件等设计规范",
+"cat": "design",
+"roles": [],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/design-system",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 5 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "ux-copy",
+"name": "ux-copy",
+"title": "界面文案",
+"desc": "写按钮、报错提示、空状态、确认框等界面上的文字",
+"cat": "design",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/ux-copy",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 3 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "brand-style",
+"name": "brand-style",
+"title": "品牌风格设定",
+"desc": "一步一步设定品牌的颜色、字体、语气，并预览效果",
+"cat": "design",
+"roles": [
+"ecommerce"
+],
+"starter": false,
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/small-business/skills/brand-style",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好；原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 4 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
+},
+{
+"id": "baoyu-diagram",
+"name": "baoyu-diagram",
+"title": "示意图生成",
+"desc": "生成流程图、结构图、时间线等示意图（输出 SVG 图片）",
+"cat": "design",
+"roles": [
+"student",
+"teacher",
+"media"
+],
+"starter": false,
+"url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-diagram",
+"source": "JimLiu/baoyu-skills",
+"stars": 27628,
+"license": "MIT",
+"script": true,
+"review": "说明书约 15 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 27,628 星"
+},
+{
+"id": "baoyu-infographic",
+"name": "baoyu-infographic",
+"title": "信息图",
+"desc": "把文章或数据做成信息图（需要图片生成服务的钥匙）",
+"cat": "design",
+"roles": [
+"media",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-infographic",
+"source": "JimLiu/baoyu-skills",
+"stars": 27628,
+"license": "MIT",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"keys": true,
+"review": "说明书约 15 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 27,628 星"
+},
+{
+"id": "archify",
+"name": "archify",
+"title": "想法变图解",
+"desc": "把一个想法、计划或系统画成清楚的交互式图解",
+"cat": "design",
+"roles": [
+"student",
+"teacher"
+],
+"starter": false,
+"url": "https://github.com/tt-a1i/archify/tree/main/archify",
+"source": "tt-a1i/archify",
+"stars": 97286,
+"license": "Apache-2.0",
+"script": true,
+"review": "说明书约 18 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 97,286 星"
+},
+{
+"id": "unslop",
+"name": "unslop",
+"title": "界面去 AI 感",
+"desc": "把“一看就是 AI 做的”网页界面改得更有设计感",
+"cat": "design",
+"roles": [],
+"starter": false,
+"url": "https://github.com/heydamir/unslop/tree/main/skills/unslop",
+"source": "heydamir/unslop",
+"stars": 17411,
+"license": "CC-BY-4.0",
+"script": true,
+"net": true,
+"review": "说明书约 31 千字符（有分步流程、写明何时使用）；会运行脚本；仓库 17,411 星"
+},
+{
+"id": "design-taste-frontend",
+"name": "design-taste-frontend",
+"title": "网页设计品味",
+"desc": "按页面类型做出有设计感、不模板化的网页",
+"cat": "design",
+"roles": [],
+"starter": false,
+"url": "https://github.com/Leonxlnx/taste-skill/tree/main/skills/taste-skill",
+"source": "Leonxlnx/taste-skill",
+"stars": 117166,
+"license": "MIT",
+"script": true,
+"net": true,
+"review": "说明书约 29 千字符（有分步流程）；会运行脚本；仓库 117,166 星"
 },
 {
 "id": "pet-care-log",
@@ -4088,55 +3635,25 @@
 "hosted": true,
 "license": "CC BY-NC-SA 4.0",
 "zh": true,
-"source": "本教程"
+"source": "本教程",
+"review": "本教程编写，逐条人工检查"
 },
 {
-"id": "travel-itinerary",
-"name": "travel-itinerary",
-"title": "顺路行程和手机行程页",
-"desc": "根据目的地、航班、酒店排顺路行程，做成手机能看的网页",
+"id": "trip-planner",
+"name": "trip-planner",
+"title": "行程规划（本教程自带）",
+"desc": "先问清楚需求，再排顺路行程和预算表；开放时间、票价都要核对官方来源",
 "cat": "life",
 "roles": [
 "travel"
 ],
 "starter": true,
-"url": "https://github.com/linyoungjiang0617-stack/travel-itinerary-skill/tree/main/travel-itinerary",
-"source": "linyoungjiang0617-stack/travel-itinerary-skill",
-"stars": 1,
-"license": "MIT",
-"zh": true
-},
-{
-"id": "travel-planning-skill",
-"name": "travel-planning-skill",
-"title": "先问清楚再规划",
-"desc": "先确认需求，再给路线图和按小时排的每日安排",
-"cat": "life",
-"roles": [
-"travel"
-],
-"starter": false,
-"url": "https://github.com/618034128/Travel-Planning-Skill",
-"source": "618034128/Travel-Planning-Skill",
-"stars": 6,
-"license": "MIT",
-"script": true
-},
-{
-"id": "lele",
-"name": "lele",
-"title": "一问一答做行程",
-"desc": "一问一答问细了，再出完整的行程文档（英文）",
-"cat": "life",
-"roles": [
-"travel"
-],
-"starter": false,
-"url": "https://github.com/eazhou99/lele-skill",
-"source": "eazhou99/lele-skill",
-"stars": 0,
-"license": "MIT",
-"zh": true
+"url": "https://teach.prismice.cn/files/skills/trip-planner/SKILL.md",
+"hosted": true,
+"license": "CC BY-NC-SA 4.0",
+"zh": true,
+"source": "本教程",
+"review": "本教程编写，逐条人工检查"
 },
 {
 "id": "skill-creator",
@@ -4158,7 +3675,8 @@
 "source": "anthropics/skills",
 "stars": 196274,
 "license": "Apache-2.0",
-"script": true
+"script": true,
+"review": "说明书约 30 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 196,274 星"
 },
 {
 "id": "systematic-debugging",
@@ -4172,7 +3690,8 @@
 "source": "obra/superpowers",
 "stars": 318836,
 "license": "MIT",
-"script": true
+"script": true,
+"review": "说明书约 9 千字符（有分步流程、写明何时使用）；会运行脚本；仓库 318,836 星"
 },
 {
 "id": "brainstorming",
@@ -4187,7 +3706,8 @@
 "stars": 318836,
 "license": "MIT",
 "script": true,
-"net": true
+"net": true,
+"review": "说明书约 15 千字符（有分步流程）；会运行脚本；仓库 318,836 星"
 },
 {
 "id": "test-driven-development",
@@ -4200,7 +3720,8 @@
 "url": "https://github.com/obra/superpowers/tree/main/skills/test-driven-development",
 "source": "obra/superpowers",
 "stars": 318836,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 9 千字符（有示例、写明何时使用）；只有文字说明；仓库 318,836 星"
 },
 {
 "id": "verification-before-completion",
@@ -4213,47 +3734,8 @@
 "url": "https://github.com/obra/superpowers/tree/main/skills/verification-before-completion",
 "source": "obra/superpowers",
 "stars": 318836,
-"license": "MIT"
-},
-{
-"id": "requesting-code-review",
-"name": "requesting-code-review",
-"title": "请求代码审查",
-"desc": "完成功能后，按要求整理改动请人审查",
-"cat": "dev",
-"roles": [],
-"starter": false,
-"url": "https://github.com/obra/superpowers/tree/main/skills/requesting-code-review",
-"source": "obra/superpowers",
-"stars": 318836,
-"license": "MIT"
-},
-{
-"id": "executing-plans",
-"name": "executing-plans",
-"title": "照计划执行",
-"desc": "拿到实现计划后，一步一步执行并检查",
-"cat": "dev",
-"roles": [],
-"starter": false,
-"url": "https://github.com/obra/superpowers/tree/main/skills/executing-plans",
-"source": "obra/superpowers",
-"stars": 318836,
 "license": "MIT",
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
-},
-{
-"id": "dev-browser",
-"name": "dev-browser",
-"title": "让 AI 用浏览器",
-"desc": "让 AI 打开网页、点按钮、截图，检查你做的网页",
-"cat": "dev",
-"roles": [],
-"starter": false,
-"url": "https://github.com/SawyerHood/dev-browser/tree/main/skills/dev-browser",
-"source": "SawyerHood/dev-browser",
-"stars": 6737,
-"license": "MIT"
+"review": "说明书约 3 千字符（有分步流程、写明何时使用）；只有文字说明；仓库 318,836 星"
 },
 {
 "id": "mcp-builder",
@@ -4267,7 +3749,8 @@
 "source": "anthropics/skills",
 "stars": 196274,
 "license": "Apache-2.0",
-"script": true
+"script": true,
+"review": "说明书约 10 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 196,274 星"
 },
 {
 "id": "webapp-testing",
@@ -4281,20 +3764,8 @@
 "source": "anthropics/skills",
 "stars": 196274,
 "license": "Apache-2.0",
-"script": true
-},
-{
-"id": "commit",
-"name": "commit",
-"title": "写提交说明",
-"desc": "按规范写代码提交说明",
-"cat": "dev",
-"roles": [],
-"starter": false,
-"url": "https://github.com/getsentry/skills/tree/main/skills/commit",
-"source": "getsentry/skills",
-"stars": 1174,
-"license": "Apache-2.0"
+"script": true,
+"review": "说明书约 4 千字符（有分步流程、有示例）；会运行脚本；仓库 196,274 星"
 },
 {
 "id": "pr-writer",
@@ -4307,20 +3778,8 @@
 "url": "https://github.com/getsentry/skills/tree/main/skills/pr-writer",
 "source": "getsentry/skills",
 "stars": 1174,
-"license": "Apache-2.0"
-},
-{
-"id": "code-review",
-"name": "code-review",
-"title": "代码审查",
-"desc": "按工程规范审查代码改动",
-"cat": "dev",
-"roles": [],
-"starter": false,
-"url": "https://github.com/getsentry/skills/tree/main/skills/code-review",
-"source": "getsentry/skills",
-"stars": 1174,
-"license": "Apache-2.0"
+"license": "Apache-2.0",
+"review": "说明书约 5 千字符（有示例、写明何时使用）；只有文字说明；仓库 1,174 星"
 },
 {
 "id": "find-bugs",
@@ -4333,7 +3792,8 @@
 "url": "https://github.com/getsentry/skills/tree/main/skills/find-bugs",
 "source": "getsentry/skills",
 "stars": 1174,
-"license": "Apache-2.0"
+"license": "Apache-2.0",
+"review": "说明书约 3 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 1,174 星"
 },
 {
 "id": "code-simplifier",
@@ -4346,7 +3806,8 @@
 "url": "https://github.com/getsentry/skills/tree/main/skills/code-simplifier",
 "source": "getsentry/skills",
 "stars": 1174,
-"license": "Apache-2.0"
+"license": "Apache-2.0",
+"review": "说明书约 4 千字符（有分步流程、有示例、写明何时使用）；只有文字说明；仓库 1,174 星"
 },
 {
 "id": "skill-writer",
@@ -4360,7 +3821,8 @@
 "source": "getsentry/skills",
 "stars": 1174,
 "license": "Apache-2.0",
-"script": true
+"script": true,
+"review": "说明书约 10 千字符（有分步流程、有输出模板、有示例、写明何时使用）；会运行脚本；仓库 1,174 星"
 },
 {
 "id": "agents-md",
@@ -4373,7 +3835,8 @@
 "url": "https://github.com/getsentry/skills/tree/main/skills/agents-md",
 "source": "getsentry/skills",
 "stars": 1174,
-"license": "Apache-2.0"
+"license": "Apache-2.0",
+"review": "说明书约 3 千字符（有分步流程、写明何时使用）；只有文字说明；仓库 1,174 星"
 },
 {
 "id": "python-pro",
@@ -4388,7 +3851,8 @@
 "url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/python-pro",
 "source": "Jeffallan/claude-skills",
 "stars": 12417,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 5 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 12,417 星"
 },
 {
 "id": "javascript-pro",
@@ -4401,85 +3865,8 @@
 "url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/javascript-pro",
 "source": "Jeffallan/claude-skills",
 "stars": 12417,
-"license": "MIT"
-},
-{
-"id": "typescript-pro",
-"name": "typescript-pro",
-"title": "TypeScript 开发",
-"desc": "TypeScript 的类型设计和工程配置",
-"cat": "dev",
-"roles": [],
-"starter": false,
-"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/typescript-pro",
-"source": "Jeffallan/claude-skills",
-"stars": 12417,
-"license": "MIT"
-},
-{
-"id": "react-expert",
-"name": "react-expert",
-"title": "React 开发",
-"desc": "用 React 做网页应用",
-"cat": "dev",
-"roles": [],
-"starter": false,
-"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/react-expert",
-"source": "Jeffallan/claude-skills",
-"stars": 12417,
-"license": "MIT"
-},
-{
-"id": "vue-expert",
-"name": "vue-expert",
-"title": "Vue 开发",
-"desc": "用 Vue 3 做网页应用",
-"cat": "dev",
-"roles": [],
-"starter": false,
-"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/vue-expert",
-"source": "Jeffallan/claude-skills",
-"stars": 12417,
-"license": "MIT"
-},
-{
-"id": "nextjs-developer",
-"name": "nextjs-developer",
-"title": "Next.js 开发",
-"desc": "用 Next.js 做全栈网站",
-"cat": "dev",
-"roles": [],
-"starter": false,
-"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/nextjs-developer",
-"source": "Jeffallan/claude-skills",
-"stars": 12417,
-"license": "MIT"
-},
-{
-"id": "fastapi-expert",
-"name": "fastapi-expert",
-"title": "FastAPI 接口开发",
-"desc": "用 FastAPI 写高性能的 Python 接口",
-"cat": "dev",
-"roles": [],
-"starter": false,
-"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/fastapi-expert",
-"source": "Jeffallan/claude-skills",
-"stars": 12417,
-"license": "MIT"
-},
-{
-"id": "django-expert",
-"name": "django-expert",
-"title": "Django 开发",
-"desc": "用 Django 做网站和接口",
-"cat": "dev",
-"roles": [],
-"starter": false,
-"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/django-expert",
-"source": "Jeffallan/claude-skills",
-"stars": 12417,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 4 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 12,417 星"
 },
 {
 "id": "sql-pro",
@@ -4494,33 +3881,8 @@
 "url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/sql-pro",
 "source": "Jeffallan/claude-skills",
 "stars": 12417,
-"license": "MIT"
-},
-{
-"id": "postgres-pro",
-"name": "postgres-pro",
-"title": "PostgreSQL 数据库",
-"desc": "PostgreSQL 的查询优化和配置",
-"cat": "dev",
-"roles": [],
-"starter": false,
-"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/postgres-pro",
-"source": "Jeffallan/claude-skills",
-"stars": 12417,
-"license": "MIT"
-},
-{
-"id": "api-designer",
-"name": "api-designer",
-"title": "接口设计",
-"desc": "设计 REST 或 GraphQL 接口，写接口文档",
-"cat": "dev",
-"roles": [],
-"starter": false,
-"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/api-designer",
-"source": "Jeffallan/claude-skills",
-"stars": 12417,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 4 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 12,417 星"
 },
 {
 "id": "code-documenter",
@@ -4533,20 +3895,8 @@
 "url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/code-documenter",
 "source": "Jeffallan/claude-skills",
 "stars": 12417,
-"license": "MIT"
-},
-{
-"id": "debugging-wizard",
-"name": "debugging-wizard",
-"title": "读报错找原因",
-"desc": "读懂报错信息和日志，定位问题根源",
-"cat": "dev",
-"roles": [],
-"starter": false,
-"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/debugging-wizard",
-"source": "Jeffallan/claude-skills",
-"stars": 12417,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 5 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 12,417 星"
 },
 {
 "id": "test-master",
@@ -4559,7 +3909,8 @@
 "url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/test-master",
 "source": "Jeffallan/claude-skills",
 "stars": 12417,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 4 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 12,417 星"
 },
 {
 "id": "wordpress-pro",
@@ -4575,48 +3926,8 @@
 "url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/wordpress-pro",
 "source": "Jeffallan/claude-skills",
 "stars": 12417,
-"license": "MIT"
-},
-{
-"id": "flutter-expert",
-"name": "flutter-expert",
-"title": "Flutter 开发",
-"desc": "用 Flutter 做手机和桌面应用",
-"cat": "dev",
-"roles": [],
-"starter": false,
-"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/flutter-expert",
-"source": "Jeffallan/claude-skills",
-"stars": 12417,
-"license": "MIT"
-},
-{
-"id": "game-developer",
-"name": "game-developer",
-"title": "游戏开发",
-"desc": "Unity、Unreal 游戏系统开发和性能优化",
-"cat": "dev",
-"roles": [
-"student"
-],
-"starter": false,
-"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/game-developer",
-"source": "Jeffallan/claude-skills",
-"stars": 12417,
-"license": "MIT"
-},
-{
-"id": "devops-engineer",
-"name": "devops-engineer",
-"title": "部署和运维",
-"desc": "写 Dockerfile、自动部署流程、服务器配置",
-"cat": "dev",
-"roles": [],
-"starter": false,
-"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/devops-engineer",
-"source": "Jeffallan/claude-skills",
-"stars": 12417,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 5 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 12,417 星"
 },
 {
 "id": "prompt-engineer",
@@ -4629,98 +3940,168 @@
 "url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/prompt-engineer",
 "source": "Jeffallan/claude-skills",
 "stars": 12417,
-"license": "MIT"
+"license": "MIT",
+"review": "说明书约 5 千字符（有分步流程、有输出模板、有示例、写明何时使用）；只有文字说明；仓库 12,417 星"
 },
 {
-"id": "rag-architect",
-"name": "rag-architect",
-"title": "知识库问答（RAG）",
-"desc": "搭建“先检索资料再回答”的知识库问答系统",
+"id": "architecture",
+"name": "architecture",
+"title": "技术方案记录",
+"desc": "写技术方案和架构决策记录（ADR）：背景、选择、取舍",
 "cat": "dev",
 "roles": [],
 "starter": false,
-"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/rag-architect",
-"source": "Jeffallan/claude-skills",
-"stars": 12417,
-"license": "MIT"
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/engineering/skills/architecture",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 2 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
 },
 {
-"id": "golang-pro",
-"name": "golang-pro",
-"title": "Go 开发",
-"desc": "用 Go 写并发程序和后端服务",
+"id": "code-review",
+"name": "code-review",
+"title": "代码审查",
+"desc": "从安全、性能、正确性、可维护性四方面审查代码",
 "cat": "dev",
 "roles": [],
 "starter": false,
-"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/golang-pro",
-"source": "Jeffallan/claude-skills",
-"stars": 12417,
-"license": "MIT"
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/engineering/skills/code-review",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 3 千字符（有分步流程、有输出模板）；只有文字说明；仓库 36,341 星"
 },
 {
-"id": "java-architect",
-"name": "java-architect",
-"title": "Java 开发",
-"desc": "用 Spring Boot 开发企业级 Java 应用",
+"id": "debug",
+"name": "debug",
+"title": "排查问题",
+"desc": "复现问题、找根因、修复，最后写一份排查报告",
 "cat": "dev",
 "roles": [],
 "starter": false,
-"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/java-architect",
-"source": "Jeffallan/claude-skills",
-"stars": 12417,
-"license": "MIT"
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/engineering/skills/debug",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 3 千字符（有分步流程、有输出模板）；只有文字说明；仓库 36,341 星"
 },
 {
-"id": "swift-expert",
-"name": "swift-expert",
-"title": "Swift 开发",
-"desc": "开发 iPhone、Mac 应用",
+"id": "deploy-checklist",
+"name": "deploy-checklist",
+"title": "上线检查清单",
+"desc": "上线前、上线中、上线后要检查的事，以及怎么回滚",
 "cat": "dev",
 "roles": [],
 "starter": false,
-"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/swift-expert",
-"source": "Jeffallan/claude-skills",
-"stars": 12417,
-"license": "MIT"
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/engineering/skills/deploy-checklist",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 2 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 36,341 星"
 },
 {
-"id": "rust-engineer",
-"name": "rust-engineer",
-"title": "Rust 开发",
-"desc": "写安全、高性能的 Rust 程序",
+"id": "incident-response",
+"name": "incident-response",
+"title": "故障处理",
+"desc": "线上故障时：定级别、怎么沟通、写状态更新和复盘",
 "cat": "dev",
 "roles": [],
 "starter": false,
-"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/rust-engineer",
-"source": "Jeffallan/claude-skills",
-"stars": 12417,
-"license": "MIT"
+"url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/engineering/skills/incident-response",
+"source": "anthropics/knowledge-work-plugins",
+"stars": 36341,
+"license": "Apache-2.0",
+"note": "原本为 Claude 的岗位插件设计，提到的 CRM、Slack 等连接器没有也能用：把资料直接发给 AI 就行",
+"review": "说明书约 5 千字符（有分步流程、有输出模板）；只有文字说明；仓库 36,341 星"
 },
 {
-"id": "huggingface-gradio",
-"name": "huggingface-gradio",
-"title": "Gradio 演示网页",
-"desc": "用 Python 快速做一个 AI 模型的演示网页",
+"id": "context-engineering",
+"name": "context-engineering",
+"title": "给 AI 准备上下文",
+"desc": "整理规则文件和资料，让 AI 每次都拿到需要的信息",
 "cat": "dev",
 "roles": [],
 "starter": false,
-"url": "https://github.com/huggingface/skills/tree/main/skills/huggingface-gradio",
-"source": "huggingface/skills",
-"stars": 11356,
-"license": "Apache-2.0"
+"url": "https://github.com/addyosmani/agent-skills/tree/main/skills/context-engineering",
+"source": "addyosmani/agent-skills",
+"stars": 118452,
+"license": "MIT",
+"review": "说明书约 15 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 118,452 星"
 },
 {
-"id": "transformers-js",
-"name": "transformers-js",
-"title": "浏览器里跑 AI 模型",
-"desc": "用 Transformers.js 在网页里直接运行 AI 模型",
+"id": "debugging-and-error-recovery",
+"name": "debugging-and-error-recovery",
+"title": "出错后的排查",
+"desc": "出错时先停下：复现、缩小范围、修复、防止再犯",
 "cat": "dev",
 "roles": [],
 "starter": false,
-"url": "https://github.com/huggingface/skills/tree/main/skills/transformers-js",
-"source": "huggingface/skills",
-"stars": 11356,
-"license": "Apache-2.0"
+"url": "https://github.com/addyosmani/agent-skills/tree/main/skills/debugging-and-error-recovery",
+"source": "addyosmani/agent-skills",
+"stars": 118452,
+"license": "MIT",
+"review": "说明书约 10 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 118,452 星"
+},
+{
+"id": "documentation-and-adrs",
+"name": "documentation-and-adrs",
+"title": "技术文档和决策记录",
+"desc": "写技术文档和架构决策记录",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/addyosmani/agent-skills/tree/main/skills/documentation-and-adrs",
+"source": "addyosmani/agent-skills",
+"stars": 118452,
+"license": "MIT",
+"review": "说明书约 12 千字符（有分步流程、有输出模板、写明何时使用）；只有文字说明；仓库 118,452 星"
+},
+{
+"id": "code-review-and-quality",
+"name": "code-review-and-quality",
+"title": "代码质量审查",
+"desc": "从正确性、可读性、架构、安全、性能五方面审查代码",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/addyosmani/agent-skills/tree/main/skills/code-review-and-quality",
+"source": "addyosmani/agent-skills",
+"stars": 118452,
+"license": "MIT",
+"review": "说明书约 21 千字符（有分步流程、写明何时使用）；只有文字说明；仓库 118,452 星"
+},
+{
+"id": "spec-driven-development",
+"name": "spec-driven-development",
+"title": "先写规格再开发",
+"desc": "先写清楚规格并确认，再分阶段开发",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/addyosmani/agent-skills/tree/main/skills/spec-driven-development",
+"source": "addyosmani/agent-skills",
+"stars": 118452,
+"license": "MIT",
+"review": "说明书约 16 千字符（有分步流程、写明何时使用）；只有文字说明；仓库 118,452 星"
+},
+{
+"id": "git-workflow-and-versioning",
+"name": "git-workflow-and-versioning",
+"title": "Git 使用规范",
+"desc": "提交、分支、版本号的做法",
+"cat": "dev",
+"roles": [],
+"starter": false,
+"url": "https://github.com/addyosmani/agent-skills/tree/main/skills/git-workflow-and-versioning",
+"source": "addyosmani/agent-skills",
+"stars": 118452,
+"license": "MIT",
+"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好",
+"review": "说明书约 13 千字符（有输出模板、写明何时使用）；只有文字说明；仓库 118,452 星"
 },
 {
 "id": "skill-scanner",
@@ -4743,7 +4124,8 @@
 "stars": 1174,
 "license": "Apache-2.0",
 "script": true,
-"net": true
+"net": true,
+"review": "说明书约 9 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 1,174 星"
 },
 {
 "id": "skill-security-auditor",
@@ -4758,7 +4140,8 @@
 "stars": 29935,
 "license": "MIT",
 "script": true,
-"net": true
+"net": true,
+"review": "说明书约 7 千字符（有分步流程、有输出模板）；会运行脚本；仓库 29,935 星"
 },
 {
 "id": "security-review",
@@ -4771,47 +4154,36 @@
 "url": "https://github.com/getsentry/skills/tree/main/skills/security-review",
 "source": "getsentry/skills",
 "stars": 1174,
-"license": "Apache-2.0"
+"license": "Apache-2.0",
+"review": "说明书约 5 千字符（有输出模板、写明何时使用）；只有文字说明；仓库 1,174 星"
 },
 {
-"id": "secure-code-guardian",
-"name": "secure-code-guardian",
-"title": "安全编码",
-"desc": "登录、权限、用户输入这些地方怎么写才安全",
+"id": "security-audit",
+"name": "security-audit",
+"title": "安全审计",
+"desc": "分阶段做代码安全审计，每个发现都独立验证",
 "cat": "security",
 "roles": [],
 "starter": false,
-"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/secure-code-guardian",
-"source": "Jeffallan/claude-skills",
-"stars": 12417,
-"license": "MIT"
-},
-{
-"id": "security-reviewer",
-"name": "security-reviewer",
-"title": "安全审计报告",
-"desc": "找出安全漏洞，生成带严重程度的审计报告",
-"cat": "security",
-"roles": [],
-"starter": false,
-"url": "https://github.com/Jeffallan/claude-skills/tree/main/skills/security-reviewer",
-"source": "Jeffallan/claude-skills",
-"stars": 12417,
-"license": "MIT"
-},
-{
-"id": "ciso-advisor",
-"name": "ciso-advisor",
-"title": "安全负责人顾问",
-"desc": "安全体系建设、预算、合规认证怎么选",
-"cat": "security",
-"roles": [],
-"starter": false,
-"url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/ciso-advisor",
-"source": "alirezarezvani/claude-skills",
-"stars": 29935,
+"url": "https://github.com/cloudflare/security-audit-skill/tree/main/skills/security-audit",
+"source": "cloudflare/security-audit-skill",
+"stars": 74199,
 "license": "MIT",
 "script": true,
-"note": "会提到同一个仓库里的其他 skill；单独安装也能用，一起装效果更好"
+"review": "说明书约 22 千字符（有分步流程、写明何时使用）；会运行脚本；仓库 74,199 星"
+},
+{
+"id": "security-and-hardening",
+"name": "security-and-hardening",
+"title": "安全加固",
+"desc": "先做威胁建模，再按三层边界加固程序",
+"cat": "security",
+"roles": [],
+"starter": false,
+"url": "https://github.com/addyosmani/agent-skills/tree/main/skills/security-and-hardening",
+"source": "addyosmani/agent-skills",
+"stars": 118452,
+"license": "MIT",
+"review": "说明书约 17 千字符（有分步流程、写明何时使用）；只有文字说明；仓库 118,452 星"
 }
 ]

@@ -8,7 +8,7 @@ last_checked: 2026-11-17
 
 > **流程：** 商品信息 → 标题和卖点 → 详情文案 → 客服问答 → 违规用词自查
 >
-> **装好：** `qu-ai-wei`、`xlsx`；做数据复盘再从 `ecommerce-claude-skills` 里挑一两个
+> **装好：** `humanizer-zh`、`xlsx`；想系统做内容和复盘，再加 `content-creation`、`performance-report`
 
 ## 准备
 
@@ -38,7 +38,7 @@ DSH 选这个文件夹，权限「工作区内修改」。
 
 ```text
 写 300 字左右的详情文案，4 个小标题：保温表现、用起来方便、材质、适合谁。
-写完用 qu-ai-wei 改自然，数字一个都不要改。保存为「详情文案.md」。
+写完用 humanizer-zh 改自然，数字一个都不要改。保存为「详情文案.md」。
 ```
 
 ✅ **检查：** 数字逐个和商品信息核对。
@@ -68,7 +68,7 @@ DSH 选这个文件夹，权限「工作区内修改」。
 
 ## 真实作品
 
-[电商运营 skill 合集](/showcase/#ecommerce-claude-skills)：从 10 个 skill 迭代到 20 个，金额计算交给脚本。
+[电商运营 skill 合集](/showcase/#ecommerce-claude-skills)：作者先做 10 个，用起来再扩到 20 个，金额计算交给脚本。
 
 ## 自己检查
 

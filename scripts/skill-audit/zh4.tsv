@@ -1,0 +1,100 @@
+draft-response	客服回复起草	根据客户来信起草回复：先理解问题，再按语气要求写，最后自查一遍
+kb-article	帮助中心文章	把常见问题写成结构清楚的帮助中心文章
+ticket-triage	客服工单分类	给客服工单分类、定优先级，判断该转给谁
+analyze	回答数据问题	用数据回答一个具体问题：理解问题 → 取数 → 分析 → 核对结果
+create-viz	做数据图表	根据数据和问题，选合适的图表类型并画出来
+explore-data	数据质量体检	拿到一份新数据，先检查完整性、一致性、准确性
+validate-data	交付前数据核对	报表、分析交出去之前，逐项核对数据和计算有没有错
+data-visualization	图表怎么选	按数据关系选图表，避免误导人的画法
+statistical-analysis	统计分析	描述统计、对比检验、相关和回归，并解释结果是什么意思
+build-dashboard	做数据看板网页	把数据做成一个带指标卡和图表的单页网页看板
+accessibility-review	无障碍检查	按 WCAG 2.1 AA 检查网页或设计稿，照顾视障、色弱等用户
+design-critique	设计点评	从第一印象、可用性、视觉层次等方面点评一份设计
+design-handoff	设计交付说明	给开发写清楚尺寸、交互、文案、状态等设计说明
+design-system	设计规范	整理颜色、字体、组件等设计规范
+ux-copy	界面文案	写按钮、报错提示、空状态、确认框等界面上的文字
+architecture	技术方案记录	写技术方案和架构决策记录（ADR）：背景、选择、取舍
+code-review	代码审查	从安全、性能、正确性、可维护性四方面审查代码
+debug	排查问题	复现问题、找根因、修复，最后写一份排查报告
+deploy-checklist	上线检查清单	上线前、上线中、上线后要检查的事，以及怎么回滚
+incident-response	故障处理	线上故障时：定级别、怎么沟通、写状态更新和复盘
+standup	站会汇报	整理“昨天做了什么、今天做什么、卡在哪里”
+close-management	月结管理	月末结账的检查清单和时间安排
+financial-statements	财务报表	根据数据编制利润表、资产负债表、现金流量表，并做分析
+journal-entry	记账分录	根据原始数据算出并生成会计分录
+journal-entry-prep	常见分录准备	预提、折旧、摊销等常见分录的准备方法
+reconciliation	对账	银行对账、总账和明细账对账、往来对账，找出并解释差异
+variance-analysis	预算差异分析	实际和预算差多少、为什么差：拆成价格、数量、结构等因素
+comp-analysis	薪酬分析	分析岗位薪酬水平和构成
+draft-offer	录用通知起草	起草录用通知：薪酬、福利、入职条款
+onboarding	新员工入职计划	新员工入职前、第一天、第一周、第一个月的安排
+people-report	人力资源报告	离职率、招聘、敬业度等人力数据报告
+performance-review	绩效评估	写自评、上级评价和绩效面谈提纲
+policy-lookup	制度查询	从公司制度文件里找到答案，并标出处
+compliance-check	合规检查	新业务、新功能上线前，检查涉及哪些法规要求
+meeting-briefing	会前准备	开会前整理背景、对方情况、要讨论的问题和你的立场
+review-contract	合同审查	按你的标准逐条审合同：标出风险条款，给出修改建议
+triage-nda	保密协议初筛	把保密协议分成标准、要看、有风险三类，并说明原因
+brand-review	品牌一致性检查	检查文案、物料是否符合品牌语气和用词规范
+campaign-plan	营销活动策划	写一份完整的活动方案：目标、人群、信息、渠道、预算、排期
+competitive-brief	竞品简报	调研竞争对手，写一份对比简报
+content-creation	内容创作模板	博客、社交媒体、邮件通讯等内容的写作结构
+draft-content	按品牌语气写内容	按你的品牌语气写各类营销内容
+email-sequence	营销邮件序列	设计一组自动发送的邮件：每封的目的、标题、正文、时间
+performance-report	营销效果报告	整理营销数据，写出结论和下一步建议
+capacity-plan	产能和人力规划	从人力、预算、时间三方面规划团队能做多少事
+change-request	变更管理	规划和推进一项变更：评估、计划、执行、巩固
+process-doc	流程文档	把一个工作流程写成文档：目的、范围、分工、步骤
+runbook	操作手册	把一项重复操作写成一步一步的操作手册
+status-report	项目状态报告	写项目周报：整体状态、进展、风险、需要谁帮忙
+vendor-review	供应商评估	从成本、风险、服务质量等方面评估供应商
+metrics-review	指标复盘	整理关键指标，分析趋势，写出原因和建议
+product-brainstorming	产品头脑风暴	围绕问题、方案、假设，结构化地想点子
+roadmap-update	路线图更新	更新产品路线图，并说明调整的原因
+stakeholder-update	进展同步	按不同对象写项目或产品进展同步
+synthesize-research	调研结果综合	把访谈、问卷、反馈综合成主题和洞察
+write-spec	需求说明书	把一个功能写成完整的需求说明：背景、用户、方案、验收标准
+sprint-planning	迭代计划	按团队人力规划一个迭代要做的事和风险
+task-management	待办清单管理	用一个文件管理待办：进行中、等待中、已完成
+brand-style	品牌风格设定	一步一步设定品牌的颜色、字体、语气，并预览效果
+baoyu-translate	高质量翻译	快速、普通、精翻三种模式，支持术语表，适合文章和长文
+baoyu-format-markdown	文章排版整理	把杂乱的文字整理成结构清楚的 Markdown 文章
+baoyu-markdown-to-html	Markdown 转网页	把 Markdown 文章转成带样式的网页，可用于公众号排版
+baoyu-url-to-markdown	网页转文字	把一个网页的正文抓下来，转成干净的 Markdown
+baoyu-diagram	示意图生成	生成流程图、结构图、时间线等示意图（输出 SVG 图片）
+baoyu-infographic	信息图	把文章或数据做成信息图（需要图片生成服务的钥匙）
+baoyu-cover-image	文章封面图	按文章内容生成封面图（需要图片生成服务的钥匙）
+baoyu-xhs-images	小红书图文卡片	把内容做成一组小红书风格的图片卡片（需要图片生成服务的钥匙）
+baoyu-article-illustrator	文章配图	读文章，在合适的位置生成配图（需要图片生成服务的钥匙）
+baoyu-slide-deck	图片式幻灯片	把内容做成一套图片风格的幻灯片（需要图片生成服务的钥匙）
+baoyu-comic	知识漫画	把知识点做成漫画（需要图片生成服务的钥匙）
+baoyu-image-gen	AI 生成图片	调用 OpenAI、谷歌等图片生成服务出图（需要对应的钥匙）
+baoyu-compress-image	图片压缩	批量压缩图片，转成更小的格式
+obsidian-markdown	Obsidian 笔记格式	按 Obsidian 的写法写笔记：双链、标签、标注框
+json-canvas	Obsidian 白板	创建和编辑 Obsidian 的白板（Canvas）文件
+obsidian-bases	Obsidian 数据库视图	用 Obsidian Bases 把笔记做成表格、看板视图
+obsidian-cli	Obsidian 命令行	让 AI 通过命令行操作你的 Obsidian 笔记库（需要装 Obsidian）
+planning-with-files-zh	长任务计划（中文）	做复杂任务时把计划、发现、进度写进文件，中断后能接着做
+planning-with-files	长任务计划（英文原版）	同上的英文原版
+humanizer-zh	去 AI 味（中文）	识别并改掉中文里的 AI 腔，保留原来的意思和作者语气
+shuorenhua	说人话	中文改写：先划定能改的范围，保住事实，改得能直接发
+humanizer	去 AI 味（英文）	改掉英文里的 AI 写作痕迹
+translate-book	整本书翻译	把整本书（PDF、EPUB 等）分章翻译，再合并检查
+archify	想法变图解	把一个想法、计划或系统画成清楚的交互式图解
+ppt-image-first	图片优先的 PPT	先规划每页的视觉，再生成以图片为主的 PPT
+unslop	界面去 AI 感	把“一看就是 AI 做的”网页界面改得更有设计感
+design-taste-frontend	网页设计品味	按页面类型做出有设计感、不模板化的网页
+security-audit	安全审计	分阶段做代码安全审计，每个发现都独立验证
+idea-refine	想法打磨	把一个模糊的想法问清楚、拆开、变成可以执行的方案
+interview-me	让 AI 采访你	动手之前，让 AI 一个一个问题问你，把需求问清楚
+planning-and-task-breakdown	计划和任务拆解	把一件大事拆成小步骤，排好顺序再动手
+context-engineering	给 AI 准备上下文	整理规则文件和资料，让 AI 每次都拿到需要的信息
+debugging-and-error-recovery	出错后的排查	出错时先停下：复现、缩小范围、修复、防止再犯
+documentation-and-adrs	技术文档和决策记录	写技术文档和架构决策记录
+code-review-and-quality	代码质量审查	从正确性、可读性、架构、安全、性能五方面审查代码
+spec-driven-development	先写规格再开发	先写清楚规格并确认，再分阶段开发
+git-workflow-and-versioning	Git 使用规范	提交、分支、版本号的做法
+security-and-hardening	安全加固	先做威胁建模，再按三层边界加固程序
+study-pack	复习资料包（本教程自带）	把课件或讲义整理成复习手册、题库和离线自测网页，每条标出处
+paper-explainer	论文讲解（本教程自带）	先用大白话讲懂一篇论文，再出阅读笔记；引用都标页码，不编参考文献
+trip-planner	行程规划（本教程自带）	先问清楚需求，再排顺路行程和预算表；开放时间、票价都要核对官方来源

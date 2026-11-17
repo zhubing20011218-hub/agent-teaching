@@ -53,6 +53,13 @@
     -Server
   }
 
+  # 本站提供下载的 skill 和示例代码：当纯文本显示，浏览器打开就能看到内容（不会变成下载）
+  @files {
+    path /files/*
+    path_regexp \.(md|py)$
+  }
+  header @files >Content-Type "text/plain; charset=utf-8"
+
   file_server
 
   handle_errors {

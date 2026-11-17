@@ -3,6 +3,7 @@
 // 具体的 skill 列表在 skills.json（由审查脚本生成，每条都下载过源码检查）：
 //   - 格式按 DSH 的规则验证（头部信息、name、description、名字只能用小写字母数字短横线）
 //   - 说明书和所有脚本都扫描过：联网、危险命令、要钥匙、“骗 AI”的话；扫出问题的逐条人工看过
+//   - 只收仓库 ≥300 星、近半年有更新的；说明书按结构和内容打分，空壳、难用、太专业、依赖付费服务的不收
 //   - 没有逐个实际运行
 // 新增一条：在 skills.json 里加一个对象；id 要唯一（会成为网址里的 #锚点）。
 
@@ -33,6 +34,7 @@ export interface SkillEntry {
   deps?: string // 需要先装的软件
   note?: string // 特别提醒
   extra?: string // 安装时要额外做的事（会写进安装指令）
+  review?: string // 审查结论：说明书的结构、是否运行脚本、仓库星数
 }
 
 export const SKILLS = data as SkillEntry[]
