@@ -131,13 +131,14 @@ function zhAlertTitles(md: any) {
   })
 }
 
-/** 工具型页面：放在这些文件夹里的页面自动撑满宽度、不显示左右目录。
- *  以后新加“卡片 + 筛选”这类页面，放进对应文件夹就行，不要在单个页面里单独设置 */
-const WIDE_PAGES = ['skill-hub/', 'showcase/']
+/** 工具型页面：列在这里的页面自动撑满宽度、不显示左右目录。
+ *  以后新加“卡片 + 筛选”这类页面，把它加进这个列表，不要在单个页面里单独设置。
+ *  同一文件夹里的文章型页面（比如作品的复刻步骤）不在列表里，照常用文章排版 */
+const WIDE_PAGES = ['skill-hub/index.md', 'showcase/index.md']
 
 export default defineConfig({
   transformPageData(pageData) {
-    if (WIDE_PAGES.some((p) => pageData.relativePath.startsWith(p))) {
+    if (WIDE_PAGES.includes(pageData.relativePath)) {
       pageData.frontmatter.aside = false
       pageData.frontmatter.sidebar = false
       pageData.frontmatter.outline = false
@@ -188,6 +189,22 @@ export default defineConfig({
     ],
     sidebar: {
       '/chapters/': tutorialSidebar,
+      '/showcase/': [
+        { text: '作品展示', items: [{ text: '← 全部作品', link: '/showcase/' }] },
+        {
+          text: '复刻步骤',
+          items: [
+            { text: '🎓 英语口语练习系统', link: '/showcase/english-handbook' },
+            { text: '👩‍🏫 每日猜谜课堂小游戏', link: '/showcase/geneguessr' },
+            { text: '🧾 家庭记账（自动分类）', link: '/showcase/household-budget' },
+            { text: '🧾 一个文件的记账本', link: '/showcase/expense-tracker' },
+            { text: '🛒 电商分析 skill', link: '/showcase/ecommerce-claude-skills' },
+            { text: '🎬 不露脸文字动画短视频', link: '/showcase/unfaced' },
+            { text: '✈️ 家庭旅行管家 skill', link: '/showcase/travel-planner-plugin' },
+            { text: '🏠 家庭事务管家', link: '/showcase/micasa' },
+          ],
+        },
+      ],
       '/roles/': rolesSidebar,
     },
     outline: { level: [2, 3], label: '本页目录' },

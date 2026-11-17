@@ -18,7 +18,8 @@ export interface ShowcaseEntry {
   steps: string[] // 作者是怎么做的（只写有证据的）
   evidence: string // 证据在哪里
   learn: string // 你可以学走的做法
-  prompt: string // 发给 DSH 的“简化版”提示词
+  prompt: string // 复刻第 1 步的提示词（完整步骤在 /showcase/<id> 页面）
+  recipeSteps: number // 复刻一共几步
 }
 
 export const SHOWCASE_ROLES: { key: ShowcaseEntry['role']; label: string }[] = [
@@ -27,7 +28,6 @@ export const SHOWCASE_ROLES: { key: ShowcaseEntry['role']; label: string }[] = [
   { key: 'accounting', label: '🧾 会计 / 家庭财务' },
   { key: 'ecommerce', label: '🛒 电商' },
   { key: 'media', label: '🎬 自媒体' },
-  { key: 'pet', label: '🐾 宠物主人' },
   { key: 'travel', label: '✈️ 旅行' },
   { key: 'home', label: '🏠 综合' },
 ]
@@ -49,22 +49,10 @@ export const SHOWCASE: ShowcaseEntry[] = [
     ],
     evidence: '仓库 35 次提交，每一次都带 Claude 的协作署名；根目录有 CLAUDE.md 和 .claude/commands',
     learn: '把“学习方法”写成规则交给 AI，把每天要做的事做成一句话就能触发的命令',
-    prompt: '我想做一个背单词的小系统：每天给我 10 个四级单词，我写例句，你批改；我写错的单词第二天再考我。先给我看计划，确认后再做。所有文件放在当前文件夹里。',
+    prompt: '帮我搭一个英语口语练习系统，先建档。问我 5 个问题（一次问完）：\n我的水平（大概 A2/B1/B2/C1）、母语、每天能花多少分钟、想练的场景（工作/旅行/日常聊天）、最想改掉的毛病。\n我回答后，把结果写进 me/profile.md。\n以后所有属于我个人的内容（日记、错题、卡片）都放在 me/ 文件夹里。',
+    recipeSteps: 7,
   },
-  {
-    id: 'tikz-editor',
-    title: 'TikZ 论文插图编辑器',
-    role: 'teacher',
-    kind: 'built',
-    url: 'https://tikz.dev/editor/',
-    license: '不开源，可以直接在线使用',
-    what: '在网页上拖拽编辑 LaTeX TikZ 图形，适合做论文和讲义里的示意图。',
-    result: '打开网页就能用，所见即所得，画完导出 TikZ 代码。',
-    steps: ['作者说明：几乎全部代码由 Codex 写成'],
-    evidence: '收录于开源清单 awesome-vibecoded-apps（作者自述）；不开源，看不到开发过程',
-    learn: '老师自己最常用、又最费时间的小工具，最适合让 AI 帮你做出来',
-    prompt: '帮我做一个网页小工具：粘贴学生名单（只用学号），随机分成每组 4 人，能导出 Excel。只用一个 HTML 文件，不联网。先给我看计划。',
-  },
+
   {
     id: 'geneguessr',
     title: 'GeneGuessr 每日生物学谜题',
@@ -77,7 +65,8 @@ export const SHOWCASE: ShowcaseEntry[] = [
     steps: ['作者说明：由生物学研究者借助 Claude 做成'],
     evidence: '收录于开源清单 awesome-vibecoded-apps（作者自述）；不开源',
     learn: '懂专业的人 + AI 写代码 = 能做出课堂用的互动小游戏',
-    prompt: '帮我做一个课堂小测网页：从 题库.md 随机抽 5 道选择题，做完立刻显示对错和解析。只用一个 HTML 文件，不联网，不收集任何信息。',
+    prompt: '做一个前 36 号化学元素的数据文件 elements.json，每个元素包含：\n中文名、符号、原子序数、相对原子质量（保留一位小数）、周期、族、类别（金属/非金属/稀有气体/类金属）、常温状态（固/液/气）、一个生活中的用途。\n数据要准确。做完后随机挑 5 个元素，把数据列成表给我核对。',
+    recipeSteps: 3,
   },
   {
     id: 'household-budget',
@@ -95,7 +84,8 @@ export const SHOWCASE: ShowcaseEntry[] = [
     ],
     evidence: 'README 写明用 Claude Code 开发；docs/plans、docs/research 里是完整的计划和调研记录',
     learn: '让 AI 先写计划、你确认后再动手；每一步都有检查，这正是本教程反复强调的做法',
-    prompt: '我有一份银行流水 CSV。请先读前 20 行告诉我有哪些列；然后写一个计划：怎么按“餐饮、交通、房租、其他”自动分类。等我确认计划后，再用程序分类并输出 Excel。不要心算。',
+    prompt: '我要做一个本地记账网页 budget.html。先别写代码，先写一份设计规范 DESIGN.md，内容：\n1. 三条原则：先给答案（每页开头一句话或一个大数字回答“这个月怎么样”）；颜色有含义（红色只用于超预算和错误）；本地优先（不联网、不加载外部资源）\n2. 颜色：页面底 #F6F5F1，卡片 #FFFFFF，浅底 #EFEDE7，分隔线 #E2DFD7，主文字 #1A1C1B，次要文字 #5B605D，主色 #0E5A4B（浅底 #E1EFEA），\n   收入/未超 #1D7442，接近预算 #A15C00，超预算 #B42318\n3. 分类颜色固定 8 种：蓝 #2A78D6、橙 #EB6834、青 #1BAF7A、黄 #EDA100、粉 #E87BA4、绿 #008300、紫 #4A3AA7、棕 #A8641C\n4. 金额一律用“分”为单位的整数，显示时保留两位小数、右对齐、不换行\n写完给我看。',
+    recipeSteps: 6,
   },
   {
     id: 'expense-tracker',
@@ -109,7 +99,8 @@ export const SHOWCASE: ShowcaseEntry[] = [
     steps: ['作者说明：借助 Claude 完成开发', '全部功能放在一个 HTML 文件里'],
     evidence: 'README 写明“Claude-assisted development workflow”',
     learn: '新手的第一个作品，从“一个文件就能跑”的小工具开始最容易成功',
-    prompt: '帮我做一个记账网页：能记收入和支出、分类、看本月余额，数据存在浏览器里。只用一个 HTML 文件，不联网。做完告诉我怎么打开。',
+    prompt: '帮我做一个个人记账网页，名字叫“Ledger 记账本”。要求：\n1. 只用一个 HTML 文件（ledger.html），双击就能打开，不联网、不加载任何外部文件\n2. 数据存在浏览器的 localStorage 里，刷新不丢\n3. 功能：记一笔收入或支出（日期、描述、金额、分类）、删除、按类型和分类筛选、按日期/描述/分类/金额排序\n4. 顶部显示：当前余额、本期总收入、本期总支出\n先别写代码，先给我一份计划：页面分几块、每块放什么、数据怎么存。我确认后再写。',
+    recipeSteps: 4,
   },
   {
     id: 'ecommerce-claude-skills',
@@ -123,7 +114,8 @@ export const SHOWCASE: ShowcaseEntry[] = [
     steps: ['先做 10 个店铺前台相关的 skill', '再扩充到 20 个，补上利润和库存', '最后加确定性的计算脚本，修了 7 个问题'],
     evidence: '提交记录完整记录了从 10 个到 20 个的迭代；仓库有 AGENTS.md，部分提交带 AI 协作署名',
     learn: '先做最常用的几个，用起来再扩充；涉及金额的计算交给脚本',
-    prompt: '我导出了上个月的订单表 订单.xlsx。请先告诉我表里有哪些列，然后按商品统计销量、销售额和退款率，找出退款率最高的 3 个商品。用程序计算。',
+    prompt: '生成一份假的退货数据 returns.csv（不要用任何真实客户信息），60 行，列：\n日期, 订单号, 商品编码, 商品名, 规格, 数量, 退货原因, 买家备注\n商品 5 种（保温杯、帆布包、蓝牙耳机、T恤、台灯），退货原因从这些里选：尺码不合适、颜色和图片不一样、质量问题、不想要了、发错货、物流太慢。\n故意让“T恤”的“尺码不合适”和“台灯”的“颜色和图片不一样”特别多。\n再生成 sales.csv：同期每个商品的销量。',
+    recipeSteps: 4,
   },
   {
     id: 'unfaced',
@@ -137,22 +129,10 @@ export const SHOWCASE: ShowcaseEntry[] = [
     steps: ['脚本写好后，先停下来等人确认，再往下做', '每条视频做完，自动检查，再交给另一个“审核员”复查', '只生成文件，从不替你自动发布'],
     evidence: '描述写明用 Claude Code 制作；仓库有 CLAUDE.md、AGENTS.md 和测试用例（evals）',
     learn: '关键节点让 AI 停下来等你确认；发布这一步永远自己来',
-    prompt: '我要做一条 60 秒的科普短视频，主题是「猫为什么爱踩奶」。先查资料并标出处，再写脚本和分镜表。写完脚本先停下，等我确认后再继续。',
+    prompt: '用 reliable-research 查「猫为什么会踩奶」，找 3–4 个有可靠来源的知识点，标出处，保存为「资料.md」。查不到可靠来源的不要写。',
+    recipeSteps: 5,
   },
-  {
-    id: 'dog-e-dex',
-    title: 'Dog-e-dex 狗狗图鉴',
-    role: 'pet',
-    kind: 'built',
-    url: 'https://apps.apple.com/app/dog-e-dex/id6741032284',
-    license: '不开源（iOS 应用）',
-    what: '拍一张狗狗的照片，识别品种并收集进图鉴。',
-    result: 'App Store 上架的 iPhone 应用。',
-    steps: ['作者说明：借助 AI 编程完成'],
-    evidence: '收录于开源清单 awesome-vibecoded-apps（作者自述）；不开源',
-    learn: '养宠的人最懂需求，AI 可以帮你把想法变成能用的工具',
-    prompt: '帮我做一个宠物记录网页：记录疫苗、驱虫、体重，按日期列出下次要做的事。只用一个 HTML 文件，数据存在浏览器里，不联网。',
-  },
+
   {
     id: 'travel-planner-plugin',
     title: '家庭旅行管家',
@@ -165,7 +145,8 @@ export const SHOWCASE: ShowcaseEntry[] = [
     steps: ['把规划拆成几个参考文档：目的地调研、自驾规划、每日行程、出行清单', '先问问题，再规划'],
     evidence: '仓库里 skills/plan-trip 下的 SKILL.md 和 references 文档就是它的全部“做法”',
     learn: '复杂的事拆成几份说明书；让 AI 先问清楚再动手',
-    prompt: '我想带父母去杭州玩 3 天。请先问我问题（预算、体力、喜好），问清楚再排行程。开放时间和票价要查官方来源，查不到写「待查」。',
+    prompt: '在 .dsh/skills/family-trip/ 下写一个 skill。SKILL.md 的要点：\n1. 角色：一个细心的家庭旅行管家\n2. 第一条规则：每个家庭都不一样，不要假设喜好（不默认要午睡、不默认饮食偏好、不默认爱逛街）\n3. 原则：自己把事做完，不要只说“请您自己查一下”；每个推荐都写“为什么推荐它”；提前想到细节（几点关门、要不要预约、停车）\n4. 流程分四段：了解家庭 → 选目的地 → 排每日行程 → 出行清单和地图网页；各段的细节写在 references/ 里，用到时再读\n5. 开放时间、票价、预约规则必须用 reliable-research 查官方来源，标查询日期；查不到写「待核对」',
+    recipeSteps: 4,
   },
   {
     id: 'micasa',
@@ -179,6 +160,7 @@ export const SHOWCASE: ShowcaseEntry[] = [
     steps: ['用 AGENTS.md 给 AI 定规矩', '把常用操作写成 AI 命令：加新数据类型、检查文档', '官网有完整文档和开发博客'],
     evidence: '仓库有 AGENTS.md 和 .claude/commands；最近 100 次提交里有 17 次带 AI 协作署名',
     learn: '项目越大，越要把规矩写下来；AI 写的代码人要审',
-    prompt: '帮我建一个“家里的东西”清单：家电名称、购买日期、保修到期日，生成 Excel，保修 30 天内到期的标红。',
+    prompt: '我要做一个家庭事务管家网页 home.html。先写 AGENTS.md，规定：\n1. 只用一个 HTML 文件，不联网、不加载外部资源；数据存 localStorage，可以导出、导入 JSON 备份\n2. 每次改动前先说要改什么，改完自己检查一遍：新增、修改、删除、刷新后保留\n3. 日期一律用 YYYY-MM-DD；金额用“分”为单位的整数\n4. 不删除任何数据之前，先弹确认',
+    recipeSteps: 5,
   },
 ]

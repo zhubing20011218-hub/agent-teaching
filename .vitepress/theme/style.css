@@ -410,3 +410,11 @@ a.home-step.home-role h3 {
 .sk-modal .sl-note { margin: 0; font-size: 13px; color: var(--at-optional); }
 .sk-modal .sl-link-url { display: block; padding: 8px 10px; border-radius: 8px; background: var(--vp-c-bg-soft); font-size: 13px; overflow-wrap: anywhere; word-break: break-all; user-select: all; }
 .vp-doc details.sk-fold { margin: 12px 0; }
+
+.sc-recipe { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; padding: 12px 14px; border-radius: 10px; background: var(--vp-c-brand-soft); }
+.sc-recipe-title { margin: 0; font-size: 14px; font-weight: 600; color: var(--vp-c-text-1); }
+.sk-modal .sc-prompt-text { white-space: pre-wrap; max-height: 160px; overflow-y: auto; }
+
+/* 提示词代码框(```text)自动换行：长提示词不用左右滑动就能读完，复制按钮照常可用 */
+.vp-doc div[class*='language-text'] pre,
+.vp-doc div[class*='language-text'] code { white-space: pre-wrap; word-break: break-word; }

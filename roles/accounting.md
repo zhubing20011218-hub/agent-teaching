@@ -86,8 +86,8 @@ last_checked: 2026-11-17
 
 ## 真实作品
 
-- [家庭记账：银行流水自动分类](/showcase/#household-budget)：每个功能都先调研、写计划，再让 AI 动手
-- [一个文件的记账本](/showcase/#expense-tracker)：新手第一个作品的好起点
+- [家庭记账：银行流水自动分类](/showcase/household-budget)：每个功能都先调研、写计划，再让 AI 动手
+- [一个文件的记账本](/showcase/expense-tracker)：新手第一个作品的好起点
 
 ## 自己检查
 

@@ -59,7 +59,7 @@ last_checked: 2026-11-17
 
 ## 真实作品
 
-[家庭旅行管家](/showcase/#travel-planner-plugin)：一套让 AI 先问清楚家庭情况、再排行程的 skill。
+[家庭旅行管家](/showcase/travel-planner-plugin)：一套让 AI 先问清楚家庭情况、再排行程的 skill。
 
 ## 自己检查
 

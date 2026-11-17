@@ -63,7 +63,7 @@ async function copy(text: string, key: string) {
     <div class="sk-roles" role="group" aria-label="按身份筛选">
       <span class="sk-roles-label">按身份</span>
       <button type="button" class="sl-chip" :class="{ on: role === 'all' }" @click="role = 'all'">全部 {{ SHOWCASE.length }}</button>
-      <button v-for="r in SHOWCASE_ROLES" :key="r.key" type="button" class="sl-chip" :class="{ on: role === r.key }" @click="role = r.key">
+      <button v-for="r in SHOWCASE_ROLES.filter((x) => countOf(x.key) > 0)" :key="r.key" type="button" class="sl-chip" :class="{ on: role === r.key }" @click="role = r.key">
         {{ r.label }} {{ countOf(r.key) }}
       </button>
     </div>
@@ -75,6 +75,7 @@ async function copy(text: string, key: string) {
         <span class="sk-card-tags">
           <span class="sl-tag safe">{{ p.kind === 'built' ? '💻 代码由 AI 写' : '🧭 让 AI 干活的流程' }}</span>
           <span class="sl-tag muted">{{ roleLabel(p.role) }}</span>
+          <span class="sl-tag">🧪 {{ p.recipeSteps }} 步复刻</span>
         </span>
       </button>
     </div>
@@ -97,16 +98,20 @@ async function copy(text: string, key: string) {
           </div>
           <p class="sk-modal-line">📎 证据：{{ open.evidence }}</p>
           <p class="sk-modal-line"><b>可以学走的做法：</b>{{ open.learn }}</p>
+          <div class="sc-recipe">
+            <p class="sc-recipe-title">🧪 复刻这个作品：一共 {{ open.recipeSteps }} 步，每一步都有提示词、检查方法和调试提示词</p>
+            <a class="sl-btn primary" :href="`/showcase/${open.id}`">查看复刻步骤 →</a>
+          </div>
           <div class="sl-link">
-            <span class="sl-link-label">发给 DSH 试一个简化版</span>
-            <code class="sl-link-url">{{ open.prompt }}</code>
+            <span class="sl-link-label">第 1 步的提示词（可以先复制试试）</span>
+            <code class="sl-link-url sc-prompt-text">{{ open.prompt }}</code>
           </div>
           <div class="sl-link">
             <span class="sl-link-label">项目地址</span>
             <code class="sl-link-url">{{ open.url }}</code>
           </div>
           <div class="sl-actions">
-            <button type="button" class="sl-btn primary" @click="copy(open.prompt, 'prompt')">{{ copied === 'prompt' ? '✅ 已复制，粘贴给 DSH' : '复制提示词' }}</button>
+            <button type="button" class="sl-btn" @click="copy(open.prompt, 'prompt')">{{ copied === 'prompt' ? '✅ 已复制，粘贴给 DSH' : '复制第 1 步' }}</button>
             <button type="button" class="sl-btn" @click="copy(open.url, 'url')">{{ copied === 'url' ? '✅ 已复制' : '复制链接' }}</button>
             <a class="sl-btn ghost" :href="open.url" target="_blank" rel="noopener noreferrer">打开</a>
           </div>

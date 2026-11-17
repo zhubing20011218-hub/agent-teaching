@@ -12,6 +12,7 @@ console.log('synced skills/ and examples/ -> public/files/')
 // 给布局检查脚本(scripts/layout-check.js)用的页面清单
 const pages = ['/', '/roles/', '/skill-hub/', '/showcase/']
 for (const f of readdirSync('chapters').filter((f) => f.endsWith('.md')).sort()) pages.push('/chapters/' + f.replace(/\.md$/, ''))
+for (const f of readdirSync('showcase').filter((f) => f.endsWith('.md') && f !== 'index.md').sort()) pages.push('/showcase/' + f.replace(/\.md$/, ''))
 for (const f of readdirSync('roles').filter((f) => f.endsWith('.md') && f !== 'index.md').sort()) pages.push('/roles/' + f.replace(/\.md$/, ''))
 writeFileSync(`${out}/pages.txt`, pages.join('\n') + '\n')
 console.log(`page list: ${pages.length} pages -> ${out}/pages.txt`)

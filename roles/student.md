@@ -71,7 +71,7 @@ last_checked: 2026-11-17
 
 ## 真实作品
 
-[英语口语练习系统](/showcase/#english-handbook)：一个学习者用 AI 给自己做的练习系统，错题会自动变成新卡片。
+[英语口语练习系统](/showcase/english-handbook)：一个学习者用 AI 给自己做的练习系统，错题会自动变成新卡片。
 
 ## 自己检查
 

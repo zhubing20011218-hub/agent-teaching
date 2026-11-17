@@ -82,8 +82,7 @@ last_checked: 2026-11-17
 
 ## 真实作品
 
-- [TikZ 论文插图编辑器](/showcase/#tikz-editor)：几乎全部代码由 AI 写成
-- [GeneGuessr 生物学谜题](/showcase/#geneguessr)：生物学研究者用 AI 做的课堂小游戏
+- [每日猜谜课堂小游戏](/showcase/geneguessr)：照着生物学研究者用 AI 做的 GeneGuessr，做一个你自己学科的“每日一猜”，有完整复刻步骤
 
 ## 自己检查
 

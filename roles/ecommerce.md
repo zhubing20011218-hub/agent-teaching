@@ -68,7 +68,7 @@ DSH 选这个文件夹，权限「工作区内修改」。
 
 ## 真实作品
 
-[电商运营 skill 合集](/showcase/#ecommerce-claude-skills)：作者先做 10 个，用起来再扩到 20 个，金额计算交给脚本。
+[电商运营 skill 合集](/showcase/ecommerce-claude-skills)：作者先做 10 个，用起来再扩到 20 个，金额计算交给脚本。
 
 ## 自己检查
 
