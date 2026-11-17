@@ -1,6 +1,6 @@
 # 教程大纲（v0.3 · 2026-11-17）
 
-> **写给谁：** 完全没有编程基础的人（小白）。只要会用电脑、会复制粘贴，就能跟着学完主线。
+> **写给谁：** 完全没有编程基础的人。只要会用电脑、会复制粘贴，就能跟着学完主线。
 > **学完能做到：** 知道 agent 是什么 → 拿到 DeepSeek 的 API 钥匙 → 用 DeepSeek Harness（简称 DSH）让 AI 帮你干活 → 装好并用上 skill（比如让 AI 帮你做 PPT、美化 PPT、搜到靠谱资料） → 按自己的需要定制。
 > 写作规则见 [docs/writing-guide.md](docs/writing-guide.md)：**大白话、每个新词都要解释、每一步都告诉读者“看到什么算成功”。**
 > 调研依据见 [docs/research/2026-11-17-github-survey.md](docs/research/2026-11-17-github-survey.md)。
