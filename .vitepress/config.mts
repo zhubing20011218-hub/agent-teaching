@@ -2,6 +2,10 @@ import { defineConfig } from 'vitepress'
 import fs from 'node:fs'
 import path from 'node:path'
 import { SKILLS } from './theme/skills-data'
+import { buildElfIndex } from './elf-index'
+
+// 学创 AI 的知识库：每次启动预览或构建时，从全站内容重新生成 public/elf/index.json
+buildElfIndex()
 
 const chaptersDir = path.resolve(__dirname, '../chapters')
 
@@ -145,6 +149,12 @@ export default defineConfig({
       pageData.frontmatter.pageClass = 'wide-page'
     }
   },
+  vite: {
+    server: {
+      // 本机预览时，把学创 AI 的接口转给本机的 elf/server.mjs(node elf/server.mjs 启动，默认 18787 端口)
+      proxy: { '/api/': 'http://127.0.0.1:18787' },
+    },
+  },
   lang: 'zh-CN',
   title: 'Agent 上手指南',
   description: '写给零编程基础的人:从 API、DeepSeek Harness 到 Skill,让 AI 真的帮你干活',
@@ -178,12 +188,13 @@ export default defineConfig({
       { text: '作品展示', link: '/showcase/', activeMatch: '^/showcase/' },
       {
         text: '工具箱',
-        activeMatch: '^/chapters/appendix',
+        activeMatch: '^/(chapters/appendix|xuechuang)',
         items: [
           { text: '名词小词典', link: '/chapters/appendix-a-glossary' },
           { text: '常见报错', link: '/chapters/appendix-b-errors' },
           { text: '更新日志', link: '/chapters/appendix-c-changelog' },
           { text: '学习资源', link: '/chapters/appendix-d-resources' },
+          { text: '认识学创 AI', link: '/xuechuang' },
         ],
       },
     ],

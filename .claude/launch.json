@@ -4,8 +4,23 @@
     {
       "name": "tutorial-site",
       "runtimeExecutable": "npx",
-      "runtimeArgs": ["vitepress", "dev", "--port", "5173", "--strictPort"],
+      "runtimeArgs": [
+        "vitepress",
+        "dev",
+        "--port",
+        "5173",
+        "--strictPort"
+      ],
       "port": 5173
+    },
+    {
+      "name": "elf-api",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "--env-file-if-exists=.env",
+        "elf/server.mjs"
+      ],
+      "port": 18787
     }
   ]
 }

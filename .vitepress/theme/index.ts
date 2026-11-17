@@ -3,6 +3,7 @@ import { defineAsyncComponent, h } from 'vue'
 import { onContentUpdated, useRoute } from 'vitepress'
 import type { Theme } from 'vitepress'
 import DocMeta from './DocMeta.vue'
+import XcElf from './elf/XcElf.vue'
 import './style.css'
 
 /** 让"自己检查"里的复选框可以勾选,并记住进度(只存在读者自己的浏览器里) */
@@ -38,12 +39,15 @@ export default {
   Layout() {
     return h(DefaultTheme.Layout, null, {
       'doc-before': () => h(DocMeta),
+      // 学创 AI：全站右下角的机器人向导(搜索、提问、收集反馈)
+      'layout-bottom': () => h(XcElf),
     })
   },
   enhanceApp({ app }) {
     // 按需加载：只有打开 Skill 库、作品展示时才下载它们的数据
     app.component('SkillLibrary', defineAsyncComponent(() => import('./SkillLibrary.vue')))
     app.component('ShowcaseList', defineAsyncComponent(() => import('./ShowcaseList.vue')))
+    app.component('XcGallery', defineAsyncComponent(() => import('./elf/XcGallery.vue')))
   },
   setup() {
     const route = useRoute()

@@ -1,5 +1,7 @@
-# 教程站静态容器。服务器路径:/opt/prismice/teach
+# 教程站容器。服务器路径:/opt/prismice/teach
 # 只接入 prismice_app-network,不对外开放端口;公网 HTTPS 由主站网关 prismice-caddy-1 转发。
+#   teach    静态网页(Caddy);/api/ 开头的请求转给 elf-api
+#   elf-api  学创 AI 的接口(Node,代码在仓库 elf/,部署时放到 ./api)
 name: prismice-teach
 
 services:
@@ -14,6 +16,32 @@ services:
       - prismice_app-network
     healthcheck:
       test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1/"]
+      interval: 60s
+      timeout: 5s
+      retries: 3
+
+  elf-api:
+    image: node:24.14.1-alpine
+    container_name: prismice-teach-api
+    restart: unless-stopped
+    user: "1000:1000"          # 不用 root 运行
+    working_dir: /app
+    command: ["node", "server.mjs"]
+    env_file: ./api.env        # DeepSeek 钥匙,只在服务器上(用 deploy/set-elf-key.sh 写入),不进 git
+    environment:
+      PORT: "18787"
+      ELF_INDEX: /site/elf/index.json   # 知识库:随网站一起部署,文件变了接口会自动重新读
+      ELF_DATA: /data                   # 提问和反馈记录(用 deploy/feedback.sh 查看)
+      ELF_DAILY_LIMIT: "800"            # 全站每天最多让 AI 回答几次,控制花费
+    volumes:
+      - ./api:/app:ro
+      - ./site:/site:ro
+      - ./data:/data
+    mem_limit: 256m
+    networks:
+      - prismice_app-network
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:18787/api/elf/health"]
       interval: 60s
       timeout: 5s
       retries: 3

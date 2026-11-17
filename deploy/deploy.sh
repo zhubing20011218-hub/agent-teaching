@@ -10,9 +10,12 @@
 #   4. 每一次连服务器失败都立刻停止,不会"假装成功"
 #
 # 服务器上的位置:/opt/prismice/teach
-#   site/        网站文件(VitePress 构建结果)
+#   site/        网站文件(VitePress 构建结果,包括学创 AI 的知识库 site/elf/index.json)
 #   conf/        教程站容器的 Caddy 配置
-#   compose.yml  容器 prismice-teach 的定义(只接入 prismice_app-network,不开公网端口)
+#   api/         学创 AI 的接口代码(仓库 elf/server.mjs、elf/search.mjs)
+#   data/        学创 AI 收到的提问和反馈(只在服务器上;用 deploy/feedback.sh 查看)
+#   api.env      DeepSeek 钥匙(只在服务器上;用 deploy/set-elf-key.sh 写入,本脚本不碰它)
+#   compose.yml  容器 prismice-teach、prismice-teach-api 的定义(只接入 prismice_app-network,不开公网端口)
 # 公网 HTTPS 由主站网关 prismice-caddy-1 转发(配置在 eureka-saas 仓库 deploy/hk-server/Caddyfile)。
 
 set -euo pipefail
@@ -56,17 +59,19 @@ echo "✅ 构建完成"
 # 把要上传的东西整理到一个临时文件夹,结构和服务器上一模一样
 STAGE="$(mktemp -d)"
 trap 'rm -rf "$STAGE"' EXIT
-mkdir -p "$STAGE/site" "$STAGE/conf"
+mkdir -p "$STAGE/site" "$STAGE/conf" "$STAGE/api"
 cp -R .vitepress/dist/. "$STAGE/site/"
 cp -R deploy/teach-site/conf/. "$STAGE/conf/"
+cp elf/server.mjs elf/search.mjs "$STAGE/api/"
+[ -f "$STAGE/site/elf/index.json" ] || fail "构建结果里没有学创 AI 的知识库 elf/index.json"
 cp deploy/teach-site/compose.yml "$STAGE/compose.yml"
 printf '%s\n' "$COMMIT" > "$STAGE/site/version.txt"
 
 # ---------- 3. 对比本机和服务器,只挑出改过的文件 ----------
 say "3/6 对比服务器上已有的文件"
 remote true
-(cd "$STAGE" && find site conf compose.yml -type f -print0 | xargs -0 shasum -a 256 | sed 's#  \./#  #' | awk '{print $2"\t"$1}' | sort) > "$STAGE.local"
-remote "mkdir -p $REMOTE_DIR && cd $REMOTE_DIR && { find site conf compose.yml -type f -exec sha256sum {} + 2>/dev/null || true; } | awk '{print \$2\"\t\"\$1}'" | sort > "$STAGE.remote"
+(cd "$STAGE" && find site conf api compose.yml -type f -print0 | xargs -0 shasum -a 256 | sed 's#  \./#  #' | awk '{print $2"\t"$1}' | sort) > "$STAGE.local"
+remote "mkdir -p $REMOTE_DIR && cd $REMOTE_DIR && { find site conf api compose.yml -type f -exec sha256sum {} + 2>/dev/null || true; } | awk '{print \$2\"\t\"\$1}'" | sort > "$STAGE.remote"
 
 # 要上传的:本机有、服务器没有或内容不同
 join -t $'\t' -a 1 "$STAGE.local" "$STAGE.remote" | awk -F'\t' '$3=="" || $2!=$3 {print $1}' > "$STAGE.upload"
@@ -99,15 +104,21 @@ if [ "$DELETE_COUNT" -gt 0 ]; then
 fi
 
 # 上传后逐个核对:服务器上的文件必须和本机完全一样
-remote "cd $REMOTE_DIR && find site conf compose.yml -type f -exec sha256sum {} + | awk '{print \$2\"\t\"\$1}'" | sort > "$STAGE.after"
+remote "cd $REMOTE_DIR && find site conf api compose.yml -type f -exec sha256sum {} + | awk '{print \$2\"\t\"\$1}'" | sort > "$STAGE.after"
 diff -q "$STAGE.local" "$STAGE.after" >/dev/null || { diff "$STAGE.local" "$STAGE.after" | head -20; fail "服务器上的文件和本机不一致"; }
 echo "✅ 服务器上的 $(wc -l < "$STAGE.after" | tr -d ' ') 个文件和本机完全一致"
 
 # ---------- 5. 启动 / 更新容器 ----------
 say "5/6 启动教程站容器"
-if grep -q -E '^(compose\.yml|conf/)' "$STAGE.upload" || ! remote "docker ps --format '{{.Names}}'" | grep -qx prismice-teach; then
+# 学创 AI 存提问和反馈的文件夹(容器里用 1000 号用户写入);还没配钥匙时放一个空的 api.env,容器照样能启动(只提供搜索)
+remote "cd $REMOTE_DIR && mkdir -p data && chown 1000:1000 data && { [ -f api.env ] || { umask 077; : > api.env; }; }"
+RUNNING="$(remote "docker ps --format '{{.Names}}'")"
+if grep -q -E '^(compose\.yml|conf/)' "$STAGE.upload" || ! grep -qx prismice-teach <<<"$RUNNING" || ! grep -qx prismice-teach-api <<<"$RUNNING"; then
   remote "cd $REMOTE_DIR && docker compose up -d --force-recreate" >/dev/null
-  echo "已按新配置重建容器 prismice-teach"
+  echo "已按新配置重建容器 prismice-teach、prismice-teach-api"
+elif grep -q '^api/' "$STAGE.upload"; then
+  remote "docker restart prismice-teach-api" >/dev/null
+  echo "学创 AI 的接口代码有更新,已重启 prismice-teach-api"
 else
   echo "配置没变,只更新了网站文件,不用重启容器"
 fi
@@ -117,6 +128,17 @@ for i in 1 2 3 4 5 6 7 8 9 10; do
   sleep 2
 done
 echo "✅ 内网访问正常,线上版本 = $COMMIT"
+for i in 1 2 3 4 5 6 7 8 9 10; do
+  ELF_HEALTH="$(remote "docker exec prismice-caddy-1 wget -q -O - http://prismice-teach/api/elf/health 2>/dev/null || true")"
+  grep -q '"ok":true' <<<"$ELF_HEALTH" && break
+  [ "$i" = 10 ] && fail "学创 AI 的接口没起来:在服务器上看 docker logs prismice-teach-api"
+  sleep 2
+done
+if grep -q '"ai":true' <<<"$ELF_HEALTH"; then
+  echo "✅ 学创 AI 接口正常,AI 回答已开启"
+else
+  echo "⚠️ 学创 AI 接口正常,但还没配 DeepSeek 钥匙:现在只能用搜索回答。配钥匙:bash deploy/set-elf-key.sh"
+fi
 
 # ---------- 6. 公网验收 ----------
 say "6/6 公网验收 https://$DOMAIN"
@@ -124,7 +146,7 @@ if [ "$(remote "grep -q '^$DOMAIN' /opt/prismice/app/deploy/hk-server/Caddyfile 
   echo "⚠️ 主站网关的 Caddyfile 里还没有 $DOMAIN,公网暂时打不开(第一次上线要先改 eureka-saas 仓库的 deploy/hk-server/Caddyfile)"
   exit 0
 fi
-for path in / /chapters/00-how-to-use /chapters/13-ppt-make /version.txt; do
+for path in / /chapters/00-how-to-use /chapters/13-ppt-make /version.txt /elf/index.json /api/elf/health; do
   code=$(curl -s -o /dev/null -m 20 -w '%{http_code}' "https://$DOMAIN$path" || true)
   echo "$code  https://$DOMAIN$path"
   [ "$code" = 200 ] || fail "公网访问 $path 不正常"

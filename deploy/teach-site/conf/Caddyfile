@@ -3,10 +3,25 @@
 {
   admin off
   auto_https off
+  servers {
+    # 请求是主站网关(内网地址)转来的:信任它带来的 X-Forwarded-For,学创 AI 的接口才能按读者 IP 限流
+    trusted_proxies static private_ranges
+  }
 }
 
 :80 {
   root * /srv
+
+  # 学创 AI 的接口:转给 elf-api 容器。回答是一个字一个字流式返回的,不能攒着再发
+  handle /api/* {
+    reverse_proxy prismice-teach-api:18787 {
+      flush_interval -1
+    }
+  }
+
+  # 网页、知识库压缩后再发(接口不压缩,否则流式回答会被攒住)
+  @compress not path /api/*
+  encode @compress zstd gzip
 
   # 2026-11-17 v0.3:章节按“入门 → 精通”重新排序。旧网址(v0.2)永久跳转到新网址，别人收藏的链接不会失效
   redir /chapters/06-call-api /chapters/23-call-api 301
