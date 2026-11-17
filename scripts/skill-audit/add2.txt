@@ -103,3 +103,4 @@ addyosmani/agent-skills|security-and-hardening|security||
 zhubing-own|study-pack|learning|student,teacher|1
 zhubing-own|paper-explainer|academic|student,teacher|1
 zhubing-own|trip-planner|life|travel|1
+zhubing-own|env-check|dev|student,teacher,accounting,ecommerce,media,pet,travel|1

@@ -99,7 +99,7 @@ async function copy(text: string, key: string) {
           <p class="sk-modal-line">📎 证据：{{ open.evidence }}</p>
           <p class="sk-modal-line"><b>可以学走的做法：</b>{{ open.learn }}</p>
           <div class="sc-recipe">
-            <p class="sc-recipe-title">🧪 复刻这个作品：一共 {{ open.recipeSteps }} 步，每一步都有提示词、检查方法和调试提示词</p>
+            <p class="sc-recipe-title">🧪 复刻这个作品：先检查环境，再 {{ open.recipeSteps }} 步。每一步都有提示词、检查方法和调试提示词</p>
             <a class="sl-btn primary" :href="`/showcase/${open.id}`">查看复刻步骤 →</a>
           </div>
           <div class="sl-link">

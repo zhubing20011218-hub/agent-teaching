@@ -6,7 +6,7 @@ last_checked: 2026-11-17
 
 # ✍️ 入门篇实操题
 
-> 对应第 0–4 章。不需要钥匙，也不需要装 DSH，用电脑和任意一个 AI 聊天网页就能做。
+> 对应第 0–4 章。不需要钥匙，也不需要装 DSH，用电脑和终端就能做。
 
 ## 题 1：找到文件的“家庭住址”
 
@@ -74,10 +74,25 @@ Windows 的 PowerShell 也可以用 `ls`。
 
 </details>
 
+## 题 5：查一查你电脑的运行环境
+
+**操作：** 在终端里分别输入 `python3 --version`（Windows 用 `python --version`）和 `node --version`。
+
+**做对了：** 能说出你的电脑有没有 Python、Node.js，各是什么版本，够不够用（Python 3.10 以上、Node.js 18 以上）。
+
+<details>
+<summary>卡住了？</summary>
+
+- 显示“找不到命令”：说明没装，用到时再按[第 1 章](01-basic-skills.md)的方法装
+- Mac 弹出“安装命令行开发者工具”：点「安装」，装好后再查一次
+
+</details>
+
 ## 全部做完？
 
 - [ ] 我能找到任何文件的完整路径
 - [ ] 我能在终端里进入一个文件夹并列出文件
 - [ ] 我能用比喻讲清楚 API、钥匙和 Harness
+- [ ] 我知道自己电脑上的 Python、Node.js 是什么版本
 
 下一篇：[第 5 章 申请 DeepSeek API 钥匙](05-get-api-key.md)

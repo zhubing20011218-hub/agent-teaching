@@ -10,6 +10,30 @@ last_checked: 2026-11-17
 >
 > **装好：** `pptx`、`ppt-polish`、`docx`、`xlsx`、`paper-explainer`、`study-pack`、`rubric-feedback`
 
+## 先检查环境
+
+这些 skill 里，有的要靠电脑上的 Python、Node.js 才能运行（不知道这是什么，先看[第 1 章 · 认识运行环境](/chapters/01-basic-skills#_5-小技能四-认识-运行环境)）：
+
+- `pptx`：Node.js 18 以上 + 工具包 pptxgenjs；Python 3.10 以上；LibreOffice（让 AI 把 PPT 转成图片自己检查，强烈建议）
+- `docx`：Node.js 18 以上 + 工具包 docx；Python 3.10 以上
+- `xlsx`：Python 3.10 以上 + 工具包 openpyxl、pandas、markitdown；LibreOffice（重算公式）
+- `ppt-polish`、`study-pack`、`paper-explainer`、`rubric-feedback`：只有文字说明，不需要额外环境
+
+装好 skill 之后，在 DSH 里发（或者装了 `env-check` 就说“检查环境”）：
+
+```text
+开始之前，先检查我的电脑环境，只检查，不要安装任何东西。我要用的 skill 需要：
+- pptx：Node.js 18 以上 + 工具包 pptxgenjs；Python 3.10 以上；LibreOffice（让 AI 把 PPT 转成图片自己检查，强烈建议）
+- docx：Node.js 18 以上 + 工具包 docx；Python 3.10 以上
+- xlsx：Python 3.10 以上 + 工具包 openpyxl、pandas、markitdown；LibreOffice（重算公式）
+每一项告诉我：装了没有、版本号、够不够用，用表格列出来。
+缺的东西，告诉我怎么装：需要安装包的，给我官网地址和步骤，我自己装；工具包可以你来装，但要先告诉我命令，等我同意。
+全部装好后再检查一遍。
+```
+
+✅ **检查：** 表格里每一项都是“够用”。
+🔧 **下载太慢的话：** `安装工具包时用国内镜像：pip 用清华源，npm 用 npmmirror，只在这次安装时使用，不要改我的全局设置。`
+
 ## 准备
 
 1. 新建文件夹 `ai-练习/管理学原理/第5周`

@@ -3679,6 +3679,29 @@
 "review": "说明书约 30 千字符（有分步流程、有输出模板、写明何时使用）；会运行脚本；仓库 196,274 星"
 },
 {
+"id": "env-check",
+"name": "env-check",
+"title": "环境检查（本教程自带）",
+"desc": "检查电脑有没有 Python、Node.js 等需要的软件和版本，缺什么就一步步带你装好，装之前先问你",
+"cat": "dev",
+"roles": [
+"student",
+"teacher",
+"accounting",
+"ecommerce",
+"media",
+"pet",
+"travel"
+],
+"starter": true,
+"url": "https://teach.prismice.cn/files/skills/env-check/SKILL.md",
+"hosted": true,
+"license": "CC BY-NC-SA 4.0",
+"zh": true,
+"source": "本教程",
+"review": "本教程编写，逐条人工检查"
+},
+{
 "id": "systematic-debugging",
 "name": "systematic-debugging",
 "title": "一步步找 bug",

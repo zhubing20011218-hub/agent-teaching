@@ -14,7 +14,7 @@
 
 ### 入门篇 · 认识 AI
 - 🟢 [第 0 章 怎么用这份教程](chapters/00-how-to-use.md)
-- 🟢 [第 1 章 三个必备小技能](chapters/01-basic-skills.md)
+- 🟢 [第 1 章 四个必备小技能](chapters/01-basic-skills.md)
 - 🟢 [第 2 章 大模型和 Agent 到底是什么](chapters/02-what-is-agent.md)
 - 🟢 [第 3 章 API 是什么](chapters/03-what-is-api.md)
 - 🟢 [第 4 章 Harness 是什么](chapters/04-what-is-harness.md)
