@@ -357,23 +357,23 @@ a.home-step.home-role h3 {
 .sl-role { margin-right: 6px; }
 .sl-empty { padding: 24px; text-align: center; color: var(--vp-c-text-2); }
 .vp-doc a.skill-link code { color: var(--vp-c-brand-1); text-decoration: underline dotted; text-underline-offset: 3px; }
-.sc-grid { grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
-@media (max-width: 640px) { .sc-grid { grid-template-columns: 1fr; } }
 .vp-doc .sc-line { margin: 0; font-size: 14px; line-height: 1.7; }
-.vp-doc .sc-steps { margin: 2px 0 0; padding-left: 20px; font-size: 14px; }
-.vp-doc .sc-steps li + li { margin-top: 2px; }
+.sc-steps { margin: 2px 0 0; padding-left: 20px; font-size: 14px; }
+.sc-steps li + li { margin-top: 2px; }
 .vp-doc .sc-evidence { margin: 0; font-size: 12px; line-height: 1.6; color: var(--vp-c-text-3); }
 .sc-prompt { display: flex; flex-direction: column; gap: 2px; padding: 8px 10px; border-radius: 8px; background: var(--vp-c-bg); }
 .vp-doc .sc-prompt .sl-link-url { white-space: normal; font-size: 13px; line-height: 1.6; background: transparent; padding: 0; }
 
-/* ========== Skill 库页面:撑满屏幕宽度 ========== */
-.skill-hub-page .VPDoc .container,
-.skill-hub-page .VPDoc .content,
-.skill-hub-page .VPDoc .content-container { max-width: 1280px !important; }
-.skill-hub-page .VPDoc.has-aside .content-container { max-width: 1280px !important; }
+/* ========== 工具型页面(Skill 库、作品展示……):撑满屏幕宽度 ==========
+   不要在单个页面里设置。config.mts 的 WIDE_PAGES 按路径自动给这些页面加上 wide-page */
+.wide-page .VPDoc .container,
+.wide-page .VPDoc .content,
+.wide-page .VPDoc .content-container,
+.wide-page .VPDoc.has-aside .content-container { max-width: 1280px !important; }
 .sk-top { margin: 18px 0 16px; }
 .sk-search { width: 100%; padding: 14px 18px; border: 2px solid var(--vp-c-brand-2); border-radius: 12px; background: var(--vp-c-bg); font-size: 16px; }
 .sk-search:focus { outline: none; box-shadow: 0 0 0 4px var(--vp-c-brand-soft); }
+.sk .sk-roles + .sk-grid { margin-top: 16px; }
 .sk-roles { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 10px; }
 .sk-roles-label { font-size: 13px; color: var(--vp-c-text-2); margin-right: 4px; }
 .sk-body { display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: 24px; align-items: start; }
@@ -409,3 +409,4 @@ a.home-step.home-role h3 {
 .sk-modal-line { margin: 0; font-size: 14px; color: var(--vp-c-text-2); }
 .sk-modal .sl-note { margin: 0; font-size: 13px; color: var(--at-optional); }
 .sk-modal .sl-link-url { display: block; padding: 8px 10px; border-radius: 8px; background: var(--vp-c-bg-soft); font-size: 13px; overflow-wrap: anywhere; word-break: break-all; user-select: all; }
+.vp-doc details.sk-fold { margin: 12px 0; }

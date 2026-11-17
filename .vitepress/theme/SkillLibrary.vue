@@ -2,7 +2,8 @@
 import { computed, nextTick, onMounted, onBeforeUnmount, ref, watch } from 'vue'
 import { CATEGORIES, ROLES, SKILLS, CHECKED, installPrompt, type RoleKey, type SkillEntry } from './skills-data'
 
-const PAGE = 24
+// 每次显示多少张卡片：手机上少一些，页面不会太长
+const PAGE = typeof window !== 'undefined' && window.innerWidth < 768 ? 10 : 24
 const STARTER = 'starter'
 
 const query = ref('')
@@ -53,6 +54,15 @@ function closeSkill() {
 
 function fromHash() {
   const id = decodeURIComponent(location.hash.replace(/^#/, ''))
+  // #safety、#avoid：展开页面底部对应的折叠说明
+  if (id === 'safety' || id === 'avoid') {
+    const fold = document.getElementById(id)?.nextElementSibling
+    if (fold instanceof HTMLDetailsElement) {
+      fold.open = true
+      nextTick(() => fold.scrollIntoView({ block: 'start' }))
+    }
+    return
+  }
   const s = SKILLS.find((x) => x.id === id)
   if (!s) return
   cat.value = s.cat

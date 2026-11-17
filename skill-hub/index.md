@@ -2,10 +2,6 @@
 title: Skill 库
 part: Skill 库
 last_checked: 2026-11-17
-outline: false
-aside: false
-sidebar: false
-pageClass: skill-hub-page
 ---
 
 # Skill 库
@@ -16,7 +12,10 @@ pageClass: skill-hub-page
 
 <SkillLibrary />
 
-## 安装前，花三分钟看一眼 {#safety}
+<div id="safety"></div>
+
+<details class="sk-fold">
+<summary>🛡️ 安装前，花三分钟看一眼</summary>
 
 skill 是写给 AI 的说明书，装上后 AI 会照着做，包括运行里面的脚本。
 
@@ -32,7 +31,12 @@ skill 是写给 AI 的说明书，装上后 AI 会照着做，包括运行里面
 > [!TIP]
 > GitHub 打不开的话，DSH 一般也下载不了，因为它和你的浏览器走的是同一个网络。标着「本站下载」的 skill 不受影响。
 
-## 这几类 skill 我们不收录 {#avoid}
+</details>
+
+<div id="avoid"></div>
+
+<details class="sk-fold">
+<summary>🚫 这几类 skill 我们不收录</summary>
 
 | 类型 | 原因 |
 |---|---|
@@ -41,3 +45,5 @@ skill 是写给 AI 的说明书，装上后 AI 会照着做，包括运行里面
 | 批量注册、自动海投简历、自动发布和评论、刷数据 | 违反平台规则，容易被封号 |
 | 要你把账号密码写进配置文件的 | 密码可能被同步、上传、泄露 |
 | 一个仓库里塞一百多个 skill 的 | AI 容易挑错，质量和许可证参差不齐 |
+
+</details>

@@ -131,7 +131,19 @@ function zhAlertTitles(md: any) {
   })
 }
 
+/** 工具型页面：放在这些文件夹里的页面自动撑满宽度、不显示左右目录。
+ *  以后新加“卡片 + 筛选”这类页面，放进对应文件夹就行，不要在单个页面里单独设置 */
+const WIDE_PAGES = ['skill-hub/', 'showcase/']
+
 export default defineConfig({
+  transformPageData(pageData) {
+    if (WIDE_PAGES.some((p) => pageData.relativePath.startsWith(p))) {
+      pageData.frontmatter.aside = false
+      pageData.frontmatter.sidebar = false
+      pageData.frontmatter.outline = false
+      pageData.frontmatter.pageClass = 'wide-page'
+    }
+  },
   lang: 'zh-CN',
   title: 'Agent 上手指南',
   description: '写给零编程基础的人:从 API、DeepSeek Harness 到 Skill,让 AI 真的帮你干活',
