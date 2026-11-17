@@ -58,11 +58,27 @@
 - [C 更新日志](chapters/appendix-c-changelog.md)
 - [D 推荐资源](chapters/appendix-d-resources.md)
 
+## 按身份学（7 套实操流程）
+
+认识 AI 只是开始，用起来才有用。每个身份一套从头到尾的流程：
+
+- [🎓 大学生](roles/student.md)：课件变复习手册和自测网页；读懂一篇论文
+- [👩‍🏫 大学老师](roles/teacher.md)：一周的课程包：课件、阅读导读、自测网页、作业反馈草稿
+- [🧾 会计 / 财务](roles/accounting.md)：银行流水对账（假数据练习）
+- [🛒 电商运营](roles/ecommerce.md)：新品上架包
+- [🎬 自媒体 / 剪辑](roles/media.md)：60 秒短视频
+- [🐾 宠物主人](roles/pet.md)：照护档案和自动提醒
+- [✈️ 旅行爱好者](roles/travel.md)：3 天行程
+
+## Skill 库
+
+GitHub 上公开、许可证允许、看过内容的 skill,分[通用](skill-hub/general.md)和[按身份](skill-hub/by-role.md)两类，另有[安装前的安全检查](skill-hub/safety-check.md)和[不推荐的 Skill](skill-hub/avoid.md)。
+
 ## 附带的示例
 
 | 文件夹 | 内容 |
 |---|---|
-| [skills/](skills/) | 3 个可以直接安装的中文 skill:`meeting-notes`（会议纪要）、`ppt-polish`（PPT 优化规范）、`reliable-research`（靠谱调研） |
+| [skills/](skills/) | 5 个可以直接安装的中文 skill:`meeting-notes`（会议纪要）、`ppt-polish`（PPT 优化规范）、`reliable-research`（靠谱调研）、`pet-care-log`（宠物照护记录）、`rubric-feedback`（按评分标准写作业反馈） |
 | [examples/](examples/) | 🟡 选修章的 Python 示例：命令行聊天、迷你 Agent |
 
 ## 关于“持续更新”

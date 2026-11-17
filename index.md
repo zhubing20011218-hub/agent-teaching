@@ -15,8 +15,11 @@ hero:
       text: 开始学习 →
       link: /chapters/00-how-to-use
     - theme: alt
-      text: 直接看 Skill 实战
-      link: /chapters/14-what-is-skill
+      text: 按身份学：大学生 / 老师 / 会计……
+      link: /roles/
+    - theme: alt
+      text: Skill 库
+      link: /skill-hub/
     - theme: alt
       text: GitHub
       link: https://github.com/zhubing20011218-hub/agent-teaching
@@ -79,6 +82,19 @@ features:
     <h3>勾选自己检查</h3>
     <p>每章末尾有一张清单，点一下就能打勾，进度会记在你自己的浏览器里。</p>
   </div>
+</div>
+
+## 认识 AI 只是开始，用起来才有用
+
+<div class="home-steps">
+  <a class="home-step home-role" href="/roles/student"><h3>🎓 大学生</h3><p>课件变成复习手册和自测网页，读懂论文</p></a>
+  <a class="home-step home-role" href="/roles/teacher"><h3>👩‍🏫 大学老师</h3><p>课件、阅读导读、作业反馈草稿</p></a>
+  <a class="home-step home-role" href="/roles/accounting"><h3>🧾 会计</h3><p>银行流水对账，找出差异写说明</p></a>
+  <a class="home-step home-role" href="/roles/ecommerce"><h3>🛒 电商</h3><p>新品上架：标题、卖点、详情、客服问答</p></a>
+  <a class="home-step home-role" href="/roles/media"><h3>🎬 自媒体</h3><p>60 秒短视频：查证、分镜、字幕、封面</p></a>
+  <a class="home-step home-role" href="/roles/pet"><h3>🐾 宠物主人</h3><p>照护档案，疫苗驱虫自动提醒</p></a>
+  <a class="home-step home-role" href="/roles/travel"><h3>✈️ 旅行</h3><p>3 天行程，先问清楚再出发</p></a>
+  <a class="home-step home-role" href="/skill-hub/"><h3>🧰 Skill 库</h3><p>通用和各身份的 skill，装之前先看安全检查</p></a>
 </div>
 
 <p class="home-legend">学完整个教程，调用 AI 的花费一般只要几块钱人民币。内容会跟着 DeepSeek Harness 的更新持续修订，每章开头都写着核对日期。</p>

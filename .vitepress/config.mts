@@ -32,18 +32,47 @@ const pick = (from: number, to: number) =>
     return !Number.isNaN(n) && n >= from && n <= to
   }).map(item)
 
-const sidebar = [
-  { text: '开始之前', items: pick(0, 1) },
-  { text: '第一部分 · 弄懂概念', items: pick(2, 4) },
-  { text: '第二部分 · 拿到钥匙', items: pick(5, 7) },
-  { text: '第三部分 · 接入和使用 DSH', items: pick(8, 13) },
-  { text: '第四部分 · Skill 技能', items: pick(14, 19) },
-  { text: '第五部分 · 进阶定制', items: pick(20, 23) },
-  { text: '第六部分 · 实战与安全', items: pick(24, 25) },
+/** 教程目录:按学习阶段分组。每组可以折叠，正在看的那一组会自动展开 */
+const group = (text: string, items: ReturnType<typeof item>[]) => ({ text, collapsed: false, items })
+const tutorialSidebar = [
+  group('① 认识 AI', pick(0, 4)),
+  group('② 拿到钥匙', pick(5, 7)),
+  group('③ 接入 DSH', pick(8, 11)),
+  group('④ 用 DSH 干活', pick(12, 13)),
+  group('⑤ Skill：教 AI 新本事', pick(14, 19)),
+  group('⑥ 进阶定制', pick(20, 23)),
+  group('⑦ 实战与安全', pick(24, 25)),
+  { text: '附录', collapsed: true, items: files.filter((f) => f.startsWith('appendix-')).map(item) },
+]
+
+/** 按身份学:7 个角色 */
+const rolesSidebar = [
+  { text: '按身份学', items: [{ text: '先选一个身份', link: '/roles/' }] },
   {
-    text: '附录',
-    collapsed: true,
-    items: files.filter((f) => f.startsWith('appendix-')).map(item),
+    text: '7 个身份',
+    items: [
+      { text: '🎓 大学生', link: '/roles/student' },
+      { text: '👩‍🏫 大学老师', link: '/roles/teacher' },
+      { text: '🧾 会计 / 财务', link: '/roles/accounting' },
+      { text: '🛒 电商运营', link: '/roles/ecommerce' },
+      { text: '🎬 自媒体 / 剪辑', link: '/roles/media' },
+      { text: '🐾 宠物主人', link: '/roles/pet' },
+      { text: '✈️ 旅行爱好者', link: '/roles/travel' },
+    ],
+  },
+]
+
+/** Skill 库 */
+const skillHubSidebar = [
+  {
+    text: 'Skill 库',
+    items: [
+      { text: '怎么用这个 Skill 库', link: '/skill-hub/' },
+      { text: '安装前的安全检查', link: '/skill-hub/safety-check' },
+      { text: '通用 Skill：人人用得上', link: '/skill-hub/general' },
+      { text: '按身份找 Skill', link: '/skill-hub/by-role' },
+      { text: '不推荐的 Skill（和原因）', link: '/skill-hub/avoid' },
+    ],
   },
 ]
 
@@ -119,11 +148,25 @@ export default defineConfig({
     logo: '/logo.svg',
     nav: [
       { text: '首页', link: '/' },
-      { text: '开始学习', link: '/chapters/00-how-to-use', activeMatch: '^/chapters/' },
-      { text: '名词小词典', link: '/chapters/appendix-a-glossary' },
-      { text: '常见报错', link: '/chapters/appendix-b-errors' },
+      { text: '教程', link: '/chapters/00-how-to-use', activeMatch: '^/chapters/(?!appendix)' },
+      { text: '按身份学', link: '/roles/', activeMatch: '^/roles/' },
+      { text: 'Skill 库', link: '/skill-hub/', activeMatch: '^/skill-hub/' },
+      {
+        text: '工具箱',
+        activeMatch: '^/chapters/appendix',
+        items: [
+          { text: '名词小词典', link: '/chapters/appendix-a-glossary' },
+          { text: '常见报错', link: '/chapters/appendix-b-errors' },
+          { text: '更新日志', link: '/chapters/appendix-c-changelog' },
+          { text: '学习资源', link: '/chapters/appendix-d-resources' },
+        ],
+      },
     ],
-    sidebar: { '/chapters/': sidebar },
+    sidebar: {
+      '/chapters/': tutorialSidebar,
+      '/roles/': rolesSidebar,
+      '/skill-hub/': skillHubSidebar,
+    },
     socialLinks: [{ icon: 'github', link: REPO, ariaLabel: 'GitHub 仓库' }],
     outline: { level: [2, 3], label: '本页目录' },
     docFooter: { prev: '上一章', next: '下一章' },

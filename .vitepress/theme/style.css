@@ -321,3 +321,21 @@
     max-height: 110px !important;
   }
 }
+
+/* 首页“按身份学”卡片:整张可点 */
+a.home-step.home-role {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 0.15s, background 0.15s;
+}
+a.home-step.home-role:hover {
+  border-color: var(--vp-c-brand-2);
+  background: var(--vp-c-brand-soft);
+}
+a.home-step.home-role h3 {
+  margin-top: 0;
+}
+.home-section h2 + .home-steps {
+  margin-bottom: 40px;
+}
