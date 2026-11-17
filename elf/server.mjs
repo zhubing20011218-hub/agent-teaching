@@ -3,6 +3,7 @@
 //   POST /api/elf/chat      读者提问 → 在知识库里找资料 → 交给 DeepSeek 写回答(一个字一个字地流式返回)
 //   POST /api/elf/feedback  读者的反馈(划词反馈、读完一章后说的话)
 //   GET  /api/elf/health    检查接口活着没有、有没有配好钥匙
+//   /api/elf/admin/...      管理后台：登录后看反馈和提问(见 admin.mjs)
 //
 // 环境变量(线上写在服务器的 /opt/prismice/teach/api.env，不进 git)：
 //   DEEPSEEK_API_KEY   DeepSeek 钥匙(本机试运行时也可以写在仓库根目录 .env 的 TEACH_ELF_DEEPSEEK_KEY)。
@@ -12,6 +13,7 @@
 //   ELF_INDEX          知识库文件，默认 public/elf/index.json(线上是 /site/elf/index.json)
 //   ELF_DATA           提问和反馈存哪里，默认 .elf-data(线上是 /data)
 //   ELF_DAILY_LIMIT    全站每天最多回答几次(控制花费)，默认 800
+//   ELF_ADMIN_USER / ELF_ADMIN_PASSWORD_HASH  管理后台的账号和密码指纹(见 admin.mjs)
 //   PORT               默认 18787
 //
 // 存下来的东西(都不记 IP)：
@@ -21,7 +23,9 @@
 import http from 'node:http'
 import fs from 'node:fs'
 import path from 'node:path'
+import crypto from 'node:crypto'
 import { createSearcher } from './search.mjs'
+import { createAdmin } from './admin.mjs'
 
 const env = process.env
 const PORT = Number(env.PORT || 18787)
@@ -118,7 +122,8 @@ const sitePath = (v) => {
 }
 
 function append(file, record) {
-  fs.appendFile(path.join(DATA, file), JSON.stringify({ t: new Date().toISOString(), ...record }) + '\n', (e) => {
+  const id = crypto.randomBytes(6).toString('base64url') // 后台标记"已处理"时用
+  fs.appendFile(path.join(DATA, file), JSON.stringify({ t: new Date().toISOString(), id, ...record }) + '\n', (e) => {
     if (e) console.error('[elf] 写入失败', file, e.message)
   })
 }
@@ -301,9 +306,12 @@ export function guessKind(text) {
 }
 
 // ---------- 启动 ----------
+const admin = createAdmin({ env, dataDir: DATA, send, readBody, clientIp })
+
 const server = http.createServer(async (req, res) => {
   const url = new URL(req.url || '/', 'http://x')
   try {
+    if (await admin(req, res, url)) return
     if (req.method === 'GET' && url.pathname === '/api/elf/health') {
       return send(res, 200, { ok: true, ai: Boolean(KEY), chunks: knowledge() ? kb.chunks.length : 0 })
     }

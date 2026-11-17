@@ -46,8 +46,10 @@
 | `.vitepress/theme/elf/XcRobot.vue` | 机器人形象和 9 个动作 |
 | `deploy/teach-site/compose.yml` | 服务器上多了一个容器 `prismice-teach-api` |
 | `deploy/teach-site/conf/Caddyfile` | `/api/*` 转给接口容器 |
-| `deploy/set-elf-key.sh` | 把 DeepSeek 钥匙放到服务器 |
-| `deploy/feedback.sh` | 查看读者的反馈和提问 |
+| `deploy/set-elf-secrets.sh` | 把 DeepSeek 钥匙放到服务器 |
+| `elf/admin.mjs` | 管理后台的登录和数据接口 |
+| `admin.md`、`.vitepress/theme/elf/XcAdmin.vue` | 管理后台页面 `/admin` |
+| `deploy/feedback.sh` | 在终端里查看读者的反馈和提问 |
 
 改了网站内容，**不用管知识库**：部署时自动重新生成，接口发现文件变了会自动重新读。
 
@@ -58,7 +60,7 @@
 1. 在 DeepSeek 开放平台单独建一把钥匙给学创 AI 用，设好用量上限
 2. 在仓库根目录 `.env` 里写 `TEACH_ELF_DEEPSEEK_KEY=sk-...`(参考 `.env.example`)
 3. 先部署一次网站：`bash deploy/deploy.sh`（会创建接口容器）
-4. `bash deploy/set-elf-key.sh`，看到“✅ AI 回答已开启”就好了
+4. `bash deploy/set-elf-secrets.sh`，看到“✅ AI 回答：已开启”就好了（这一步同时会开启管理后台）
 
 ### 花费和防滥用
 
@@ -68,6 +70,30 @@
 - AI 只根据本站内容回答；让它写作业、闲聊，它会拉回教程
 
 ## 看反馈
+
+### 方法一：管理后台（推荐）
+
+打开 https://teach.prismice.cn/admin ，用管理员账号登录。能看到：
+
+- 统计：待处理反馈、看不懂、写错了、建议、看懂了、提问数、可能缺的内容
+- **反馈**：按类别筛选、搜索；每条有时间、哪一页、读者引用的原文、读者原话、AI 概括；改完了点「✓ 已处理」
+- **提问**：读者问了什么；黄色的是“教程里可能没讲到”的
+- **按页面看**：“看不懂”“写错了”多的页面排前面，最该先改
+
+**开启后台**：在本机 `.env` 里设 `TEACH_ELF_ADMIN_USER`（默认 admin）和 `TEACH_ELF_ADMIN_PASSWORD`，然后运行 `bash deploy/set-elf-secrets.sh`。
+
+后台的安全做法：
+
+- 密码**至少 12 位**，太短或太常见（比如 123456）脚本会拒绝上传
+- 服务器上只存密码的“指纹”（scrypt 加盐哈希），没有原文
+- 同一 IP 15 分钟内输错 5 次就锁定；全站 15 分钟内失败 30 次也会锁定
+- 登录凭证是 HttpOnly cookie，12 小时过期；接口容器重启后要重新登录
+- 页面带 `noindex`，搜索引擎不收录；学创 AI 机器人在后台页面不出现
+- 忘了密码：看本机 `.env`，或者改一个新的再运行一次 `set-elf-secrets.sh`
+
+本机试用后台：`.env` 里的密码可以先随便写（本机允许短密码，只会提示警告），启动 `elf-api` 后打开 http://localhost:5173/admin 。
+
+### 方法二：终端
 
 ```bash
 bash deploy/feedback.sh

@@ -27,7 +27,7 @@ services:
     user: "1000:1000"          # 不用 root 运行
     working_dir: /app
     command: ["node", "server.mjs"]
-    env_file: ./api.env        # DeepSeek 钥匙,只在服务器上(用 deploy/set-elf-key.sh 写入),不进 git
+    env_file: ./api.env        # DeepSeek 钥匙、后台密码指纹,只在服务器上(用 deploy/set-elf-secrets.sh 写入),不进 git
     environment:
       PORT: "18787"
       ELF_INDEX: /site/elf/index.json   # 知识库:随网站一起部署,文件变了接口会自动重新读

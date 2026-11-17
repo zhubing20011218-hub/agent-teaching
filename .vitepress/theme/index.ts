@@ -48,6 +48,7 @@ export default {
     app.component('SkillLibrary', defineAsyncComponent(() => import('./SkillLibrary.vue')))
     app.component('ShowcaseList', defineAsyncComponent(() => import('./ShowcaseList.vue')))
     app.component('XcGallery', defineAsyncComponent(() => import('./elf/XcGallery.vue')))
+    app.component('XcAdmin', defineAsyncComponent(() => import('./elf/XcAdmin.vue')))
   },
   setup() {
     const route = useRoute()

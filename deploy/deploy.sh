@@ -12,9 +12,9 @@
 # 服务器上的位置:/opt/prismice/teach
 #   site/        网站文件(VitePress 构建结果,包括学创 AI 的知识库 site/elf/index.json)
 #   conf/        教程站容器的 Caddy 配置
-#   api/         学创 AI 的接口代码(仓库 elf/server.mjs、elf/search.mjs)
+#   api/         学创 AI 的接口代码(仓库 elf/*.mjs)
 #   data/        学创 AI 收到的提问和反馈(只在服务器上;用 deploy/feedback.sh 查看)
-#   api.env      DeepSeek 钥匙(只在服务器上;用 deploy/set-elf-key.sh 写入,本脚本不碰它)
+#   api.env      DeepSeek 钥匙、后台密码指纹(只在服务器上;用 deploy/set-elf-secrets.sh 写入,本脚本不碰它)
 #   compose.yml  容器 prismice-teach、prismice-teach-api 的定义(只接入 prismice_app-network,不开公网端口)
 # 公网 HTTPS 由主站网关 prismice-caddy-1 转发(配置在 eureka-saas 仓库 deploy/hk-server/Caddyfile)。
 
@@ -62,7 +62,7 @@ trap 'rm -rf "$STAGE"' EXIT
 mkdir -p "$STAGE/site" "$STAGE/conf" "$STAGE/api"
 cp -R .vitepress/dist/. "$STAGE/site/"
 cp -R deploy/teach-site/conf/. "$STAGE/conf/"
-cp elf/server.mjs elf/search.mjs "$STAGE/api/"
+cp elf/*.mjs "$STAGE/api/"
 [ -f "$STAGE/site/elf/index.json" ] || fail "构建结果里没有学创 AI 的知识库 elf/index.json"
 cp deploy/teach-site/compose.yml "$STAGE/compose.yml"
 printf '%s\n' "$COMMIT" > "$STAGE/site/version.txt"
@@ -137,7 +137,7 @@ done
 if grep -q '"ai":true' <<<"$ELF_HEALTH"; then
   echo "✅ 学创 AI 接口正常,AI 回答已开启"
 else
-  echo "⚠️ 学创 AI 接口正常,但还没配 DeepSeek 钥匙:现在只能用搜索回答。配钥匙:bash deploy/set-elf-key.sh"
+  echo "⚠️ 学创 AI 接口正常,但还没配 DeepSeek 钥匙:现在只能用搜索回答。配钥匙:bash deploy/set-elf-secrets.sh"
 fi
 
 # ---------- 6. 公网验收 ----------

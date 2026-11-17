@@ -79,7 +79,7 @@ GitHub 上公开、许可证允许、看过内容的 skill,分[通用](skill-hub
 
 ## 学创 AI
 
-网站每一页右下角的机器人向导：边打字边搜全站、按回车由 AI 根据本站内容回答、划词提问和反馈、读完一页问一句“看懂了吗”。读者介绍见 [xuechuang.md](xuechuang.md)，维护说明(开启 AI、看反馈、隐私)见 [docs/elf.md](docs/elf.md)。
+网站每一页右下角的机器人向导：边打字边搜全站、按回车由 AI 根据本站内容回答、划词提问和反馈、读完一页问一句“看懂了吗”。读者介绍见 [xuechuang.md](xuechuang.md)，维护说明(开启 AI、管理后台 `/admin`、隐私)见 [docs/elf.md](docs/elf.md)。
 
 ## 附带的示例
 

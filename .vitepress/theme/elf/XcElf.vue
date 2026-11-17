@@ -85,6 +85,7 @@ const listEl = ref<HTMLElement>()
 
 const pageTitle = computed(() => String(frontmatter.value.title || page.value.title || ''))
 const pathNow = computed(() => route.path.replace(/\.html$/, ''))
+const onAdmin = computed(() => pathNow.value.startsWith('/admin')) // 后台页面不显示机器人
 
 // ---------- 知识库(第一次用到时才下载，约 130KB) ----------
 let searcher: ReturnType<typeof createSearcher> | null = null
@@ -602,7 +603,7 @@ function kindIcon(k: string) {
 </script>
 
 <template>
-  <div v-if="ready" class="xc-root" :class="{ 'is-open': open, 'is-mobile': isMobile }">
+  <div v-if="ready && !onAdmin" class="xc-root" :class="{ 'is-open': open, 'is-mobile': isMobile }">
     <!-- 划词后冒出来的小气泡 -->
     <div v-if="sel" class="xc-sel" :style="{ left: sel.x + 'px', top: sel.y + 'px' }" @mousedown.prevent>
       <span class="xc-sel-face" aria-hidden="true"><XcRobot state="wave" :size="22" /></span>
