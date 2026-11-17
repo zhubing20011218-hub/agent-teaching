@@ -123,7 +123,7 @@ if [ "$(remote "grep -q '^$DOMAIN' /opt/prismice/app/deploy/hk-server/Caddyfile 
   echo "⚠️ 主站网关的 Caddyfile 里还没有 $DOMAIN,公网暂时打不开(第一次上线要先改 eureka-saas 仓库的 deploy/hk-server/Caddyfile)"
   exit 0
 fi
-for path in / /chapters/00-how-to-use /chapters/14-ppt-make /version.txt; do
+for path in / /chapters/00-how-to-use /chapters/16-ppt-make /version.txt; do
   code=$(curl -s -o /dev/null -m 20 -w '%{http_code}' "https://$DOMAIN$path" || true)
   echo "$code  https://$DOMAIN$path"
   [ "$code" = 200 ] || fail "公网访问 $path 不正常"

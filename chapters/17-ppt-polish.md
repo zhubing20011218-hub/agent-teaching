@@ -1,11 +1,11 @@
 ---
-title: 第 15 章 实战二：优化、美化你已有的 PPT
+title: 第 17 章 实战二：优化、美化你已有的 PPT
 part: 第四部分 · Skill（技能）：教 AI 新本事
 verified_with: dsh 0.2.2-rc.3;pptx skill（2026-11-17 版本）；本教程 ppt-polish skill
 last_checked: 2026-11-17
 ---
 
-# 第 15 章 实战二：优化、美化你已有的 PPT
+# 第 17 章 实战二：优化、美化你已有的 PPT
 
 > **学完这一章，你能：**
 > - 让 AI 先“诊断”你的 PPT，列出问题清单
@@ -13,7 +13,7 @@ last_checked: 2026-11-17
 > - **把两个 skill 叠加起来用**：一个负责“会做”，一个负责“做得好”
 > - 对比改前、改后的效果
 >
-> **前置：** 第 14 章(装好了 `pptx` skill 和依赖软件)
+> **前置：** 第 16 章(装好了 `pptx` skill 和依赖软件)
 
 ## 1. 为什么要学这个
 
@@ -45,7 +45,7 @@ last_checked: 2026-11-17
 
 ### 第一步：安装 `ppt-polish` skill
 
-这是本教程自带的 skill。按第 13 章的方法，在 DSH 里输入：
+这是本教程自带的 skill。按第 15 章的方法，在 DSH 里输入：
 
 ```
 请帮我安装一个 skill:
@@ -57,16 +57,16 @@ skills/ppt-polish 这个文件夹复制到 ~/.dsh/skills/ppt-polish。
 装好后，输入 `/ppt` 看看，指令菜单里应该同时有 `pptx` 和 `ppt-polish`。
 
 > [!TIP]
-> 打开 [skills/ppt-polish/SKILL.md](https://github.com/zhubing20011218-hub/agent-teaching/blob/main/skills/ppt-polish/SKILL.md) 读一遍。它没有任何脚本，只是一份用中文写的“规范”。你会发现：**写 skill 不需要会编程，把经验写清楚就行。** 第 17 章你会写自己的。
+> 打开 [skills/ppt-polish/SKILL.md](https://github.com/zhubing20011218-hub/agent-teaching/blob/main/skills/ppt-polish/SKILL.md) 读一遍。它没有任何脚本，只是一份用中文写的“规范”。你会发现：**写 skill 不需要会编程，把经验写清楚就行。** 第 19 章你会写自己的。
 
 ### 第二步：准备一份要优化的 PPT
 
 用你自己的一份 PPT（工作汇报、课程作业都行），**复制一份**放进 `ai-练习/PPT练习` 文件夹。
 
 > [!WARNING]
-> 如果 PPT 里有公司机密、客户信息、个人隐私，**不要用**。AI 读过的内容会发给 DeepSeek。可以先用第 14 章做的那份来练习。
+> 如果 PPT 里有公司机密、客户信息、个人隐私，**不要用**。AI 读过的内容会发给 DeepSeek。可以先用第 16 章做的那份来练习。
 
-没有现成的？用第 14 章做的 `AI提效分享.pptx` 也行。
+没有现成的？用第 16 章做的 `AI提效分享.pptx` 也行。
 
 ### 第三步：先诊断，不动手
 
@@ -141,7 +141,7 @@ skills/ppt-polish 这个文件夹复制到 ~/.dsh/skills/ppt-polish。
 | [jinba-consulting-pptx-skill](https://github.com/carnot-tech/jinba-consulting-pptx-skill) | 咨询风格、商务提案 | 日文。一份详细规范 + 自动检查脚本 + 65 种版式 |
 
 > [!WARNING]
-> 安装前按第 13 章的 5 点检查一遍，尤其是带脚本的。
+> 安装前按第 15 章的 5 点检查一遍，尤其是带脚本的。
 
 ## 5. 自己检查
 
@@ -165,4 +165,4 @@ skills/ppt-polish 这个文件夹复制到 ~/.dsh/skills/ppt-polish。
 ## 7. 想了解更多
 
 - 本教程的 [ppt-polish skill 原文](https://github.com/zhubing20011218-hub/agent-teaching/blob/main/skills/ppt-polish/SKILL.md)
-- 下一章：[第 16 章 实战三：让 AI 搜到靠谱资料，少说“胡话”](16-reliable-search.md)
+- 下一章：[第 18 章 实战三：让 AI 搜到靠谱资料，少说“胡话”](18-reliable-search.md)

@@ -8,6 +8,36 @@
 :80 {
   root * /srv
 
+  # 2026-11-17 v0.3:插入第 10、11 章，原第 10–23 章顺延为第 12–25 章。旧网址永久跳转到新网址，别人收藏的链接不会失效
+  redir /chapters/10-work-with-dsh /chapters/12-work-with-dsh 301
+  redir /chapters/10-work-with-dsh.html /chapters/12-work-with-dsh 301
+  redir /chapters/11-automation /chapters/13-automation 301
+  redir /chapters/11-automation.html /chapters/13-automation 301
+  redir /chapters/12-what-is-skill /chapters/14-what-is-skill 301
+  redir /chapters/12-what-is-skill.html /chapters/14-what-is-skill 301
+  redir /chapters/13-install-skill /chapters/15-install-skill 301
+  redir /chapters/13-install-skill.html /chapters/15-install-skill 301
+  redir /chapters/14-ppt-make /chapters/16-ppt-make 301
+  redir /chapters/14-ppt-make.html /chapters/16-ppt-make 301
+  redir /chapters/15-ppt-polish /chapters/17-ppt-polish 301
+  redir /chapters/15-ppt-polish.html /chapters/17-ppt-polish 301
+  redir /chapters/16-reliable-search /chapters/18-reliable-search 301
+  redir /chapters/16-reliable-search.html /chapters/18-reliable-search 301
+  redir /chapters/17-write-skill /chapters/19-write-skill 301
+  redir /chapters/17-write-skill.html /chapters/19-write-skill 301
+  redir /chapters/18-mcp /chapters/20-mcp 301
+  redir /chapters/18-mcp.html /chapters/20-mcp 301
+  redir /chapters/19-plugins-config /chapters/21-plugins-config 301
+  redir /chapters/19-plugins-config.html /chapters/21-plugins-config 301
+  redir /chapters/20-customize-agent /chapters/22-customize-agent 301
+  redir /chapters/20-customize-agent.html /chapters/22-customize-agent 301
+  redir /chapters/21-plugin-dev /chapters/23-plugin-dev 301
+  redir /chapters/21-plugin-dev.html /chapters/23-plugin-dev 301
+  redir /chapters/22-projects /chapters/24-projects 301
+  redir /chapters/22-projects.html /chapters/24-projects 301
+  redir /chapters/23-safety-cost /chapters/25-safety-cost 301
+  redir /chapters/23-safety-cost.html /chapters/25-safety-cost 301
+
   # VitePress 的"干净网址":/chapters/00-how-to-use → /chapters/00-how-to-use.html
   try_files {path} {path}.html {path}/index.html
 

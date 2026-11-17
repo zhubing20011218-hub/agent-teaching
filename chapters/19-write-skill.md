@@ -1,11 +1,11 @@
 ---
-title: 第 17 章 写你自己的第一个 Skill
+title: 第 19 章 写你自己的第一个 Skill
 part: 第四部分 · Skill（技能）：教 AI 新本事
 verified_with: dsh 0.2.2-rc.3（按官方 skill 格式文档核对）
 last_checked: 2026-11-17
 ---
 
-# 第 17 章 写你自己的第一个 Skill
+# 第 19 章 写你自己的第一个 Skill
 
 > **学完这一章，你能：**
 > - 判断什么事值得写成 skill
@@ -13,7 +13,7 @@ last_checked: 2026-11-17
 > - 写好 `description`，让 AI 该用时用、不该用时不用
 > - 测试、修改，并分享给别人
 >
-> **前置：** 第 13–16 章
+> **前置：** 第 15–18 章
 
 ## 1. 为什么要学这个
 
@@ -37,13 +37,13 @@ last_checked: 2026-11-17
 
 | 情况 | 应该放哪 |
 |---|---|
-| 每次对话**都要遵守**的规则（比如“永远用中文回答”） | AGENTS.md（第 20 章） |
-| AI 本来**没有的能力**（比如连接某个数据库） | MCP 或插件（第 18、19 章） |
+| 每次对话**都要遵守**的规则（比如“永远用中文回答”） | AGENTS.md（第 22 章） |
+| AI 本来**没有的能力**（比如连接某个数据库） | MCP 或插件（第 20、21 章） |
 | 只用一次的要求 | 直接在对话里说 |
 
 ### 写 `description` 的公式
 
-`description` 决定 AI 会不会用你的 skill（第 12 章讲过）。用这个公式写：
+`description` 决定 AI 会不会用你的 skill（第 14 章讲过）。用这个公式写：
 
 > **做什么** + **什么时候用（列出用户可能说的话）** + （可选）**什么时候不用**
 
@@ -75,7 +75,7 @@ description: 按我的个人风格制作或修改 PPT:我的配色、字体、�
 
 ### 第二步：建文件夹和文件
 
-1. 打开 `~/.dsh/skills/`（第 13 章教过怎么打开）
+1. 打开 `~/.dsh/skills/`（第 15 章教过怎么打开）
 2. 新建一个文件夹，名字叫 `my-ppt-style`
 
 > [!TIP]
@@ -127,7 +127,7 @@ description: 按我的个人风格制作或修改 PPT:我的配色、字体、�
 
 ### 第四步：测试（三个测试）
 
-和第 13 章一样，做三个测试：
+和第 15 章一样，做三个测试：
 
 **测试一：AI 自己判断**——新开会话，不提 skill 名字：
 
@@ -157,7 +157,7 @@ description: 按我的个人风格制作或修改 PPT:我的配色、字体、�
 
 ## 4. 练习二：把“靠谱搜索”改成你自己的版本
 
-把第 16 章的 `reliable-research` **复制一份**，改名为 `my-research`，然后按你的需要改，比如：
+把第 18 章的 `reliable-research` **复制一份**，改名为 `my-research`，然后按你的需要改，比如：
 
 - 你是做跨境电商的：加上“优先看平台官方的卖家中心、政策公告”
 - 你是学生：加上“优先看学术论文、学校图书馆数据库”
@@ -198,4 +198,4 @@ skill 就是一个文件夹，分享很简单：
 
 - DSH 官方 skill 格式说明：https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/skill/skill-filesystem/README.zh.md
 - Anthropic 的 skill-creator（一个“帮你写 skill”的 skill，英文）:https://github.com/anthropics/skills/tree/main/skills/skill-creator
-- 下一章：[第 18 章 MCP：让 AI 连上更多外部工具](18-mcp.md)
+- 下一章：[第 20 章 MCP：让 AI 连上更多外部工具](20-mcp.md)

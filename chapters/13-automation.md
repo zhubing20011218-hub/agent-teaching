@@ -1,11 +1,11 @@
 ---
-title: 第 11 章 🟡 选修：让 DSH 自动干活
-part: 第三部分 · 用上 DeepSeek Harness
+title: 第 13 章 🟡 选修：让 DSH 自动干活
+part: 第三部分 · 接入和使用 DeepSeek Harness
 verified_with: dsh 0.2.2-rc.3（按官方文档核对）
 last_checked: 2026-11-17
 ---
 
-# 第 11 章 🟡 选修：让 DSH 自动干活
+# 第 13 章 🟡 选修：让 DSH 自动干活
 
 > 🟡 **这是选修章。** 第一节“定时任务”不用写代码，所有人都可以看；后面两节要用终端和代码。
 
@@ -14,7 +14,7 @@ last_checked: 2026-11-17
 > - 用一条命令让 DSH 做完一件事就退出
 > - 知道怎么从 Python 程序里调用 DSH
 >
-> **前置：** 第 10 章
+> **前置：** 第 12 章
 
 ## 1. 为什么要学这个
 
@@ -105,4 +105,4 @@ DSH 提供官方 Python SDK（软件开发工具包，就是让你的 Python 程
 
 - 官方定时任务指南：https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/guide/schedule.zh.md
 - 官方命令行模式说明：https://github.com/deepseek-ai/deepseek-harness/blob/master/apps/cli/README.zh.md
-- 下一章：[第 12 章 Skill 是什么](12-what-is-skill.md)
+- 下一章：[第 14 章 Skill 是什么](14-what-is-skill.md)

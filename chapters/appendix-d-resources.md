@@ -42,7 +42,7 @@ last_checked: 2026-11-17
 | [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | DSH 插件精选列表 |
 
 > [!WARNING]
-> 第三方插件、skill、MCP 都是别人写的程序或说明，安装前请按第 13、18、19 章的方法检查。
+> 第三方插件、skill、MCP 都是别人写的程序或说明，安装前请按第 15、20、21 章的方法检查。
 
 ## 本教程
 

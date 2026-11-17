@@ -16,7 +16,7 @@ hero:
       link: /chapters/00-how-to-use
     - theme: alt
       text: 直接看 Skill 实战
-      link: /chapters/12-what-is-skill
+      link: /chapters/14-what-is-skill
     - theme: alt
       text: GitHub
       link: https://github.com/zhubing20011218-hub/agent-teaching
@@ -33,25 +33,25 @@ features:
     link: /chapters/05-get-api-key
     linkText: 从第 5 章开始
   - icon: 🖥️
-    title: 第三部分 · 用上 DSH
-    details: 安装 DeepSeek Harness 桌面版，填好钥匙，让 AI 第一次真的动手帮你整理一个文件夹。
+    title: 第三部分 · 接入和使用 DSH
+    details: 安装 DeepSeek Harness 桌面版，接上 DeepSeek、其他 AI 或中转站，让 AI 第一次真的动手帮你整理一个文件夹。
     link: /chapters/08-install-dsh
     linkText: 从第 8 章开始
   - icon: 📚
     title: 第四部分 · Skill 技能
     details: 给 AI 装“说明书”：做 PPT、美化 PPT、搜到靠谱资料，最后写一个你自己的 skill。
-    link: /chapters/12-what-is-skill
-    linkText: 从第 12 章开始
+    link: /chapters/14-what-is-skill
+    linkText: 从第 14 章开始
   - icon: 🔌
     title: 第五部分 · 进阶定制
     details: 用 MCP 接上专业搜索引擎，管理插件和配置，用 AGENTS.md 让 AI 记住你的规矩。
-    link: /chapters/18-mcp
-    linkText: 从第 18 章开始
+    link: /chapters/20-mcp
+    linkText: 从第 20 章开始
   - icon: 🛡️
     title: 第六部分 · 实战与安全
     details: 三个完整的实战项目；认清“提示词注入”，学会省钱，用 git 备份你的工作。
-    link: /chapters/22-projects
-    linkText: 从第 22 章开始
+    link: /chapters/24-projects
+    linkText: 从第 24 章开始
 ---
 
 <div class="home-section">

@@ -112,6 +112,11 @@
 .vp-doc th {
   line-height: 1.7;
 }
+/* 表格里的长网址、长代码可以折行，不把整页撑出横向滚动条 */
+.vp-doc td code {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
 
 /* ========== "自己检查"里可以勾选的清单 ========== */
 .vp-doc ul.task-list {

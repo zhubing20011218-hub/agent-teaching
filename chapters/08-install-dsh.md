@@ -1,6 +1,6 @@
 ---
 title: 第 8 章 安装 DSH
-part: 第三部分 · 用上 DeepSeek Harness
+part: 第三部分 · 接入和使用 DeepSeek Harness
 verified_with: dsh 0.2.2-rc.3（按官网下载页和官方文档核对）
 last_checked: 2026-11-17
 ---

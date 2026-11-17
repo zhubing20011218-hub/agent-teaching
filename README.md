@@ -26,29 +26,31 @@
 - 🟡 [第 6 章 亲手调用一次 API](chapters/06-call-api.md)
 - 🟡 [第 7 章 手写一个迷你 Agent](chapters/07-mini-agent.md)
 
-### 第三部分 · 用上 DeepSeek Harness
+### 第三部分 · 接入和使用 DeepSeek Harness
 - 🟢 [第 8 章 安装 DSH](chapters/08-install-dsh.md)
 - 🟢 [第 9 章 把钥匙填进 DSH](chapters/09-connect-key.md)
-- 🟢 [第 10 章 让 DSH 帮你干活](chapters/10-work-with-dsh.md)
-- 🟡 [第 11 章 让 DSH 自动干活](chapters/11-automation.md)
+- 🟢 [第 10 章 接其他 AI：厂商渠道和自定义渠道](chapters/10-api-channels.md)
+- 🟢 [第 11 章 中转站：学校网关和公开中转站](chapters/11-relay-station.md)
+- 🟢 [第 12 章 让 DSH 帮你干活](chapters/12-work-with-dsh.md)
+- 🟡 [第 13 章 让 DSH 自动干活](chapters/13-automation.md)
 
 ### 第四部分 · Skill（技能）：教 AI 新本事
-- 🟢 [第 12 章 Skill 是什么](chapters/12-what-is-skill.md)
-- 🟢 [第 13 章 安装 Skill，并确认 AI 真的会用它](chapters/13-install-skill.md)
-- 🟢 [第 14 章 实战一：让 AI 帮你做 PPT](chapters/14-ppt-make.md)
-- 🟢 [第 15 章 实战二：优化、美化你已有的 PPT](chapters/15-ppt-polish.md)
-- 🟢 [第 16 章 实战三：让 AI 搜到靠谱资料，少说“胡话”](chapters/16-reliable-search.md)
-- 🟢 [第 17 章 写你自己的第一个 Skill](chapters/17-write-skill.md)
+- 🟢 [第 14 章 Skill 是什么](chapters/14-what-is-skill.md)
+- 🟢 [第 15 章 安装 Skill，并确认 AI 真的会用它](chapters/15-install-skill.md)
+- 🟢 [第 16 章 实战一：让 AI 帮你做 PPT](chapters/16-ppt-make.md)
+- 🟢 [第 17 章 实战二：优化、美化你已有的 PPT](chapters/17-ppt-polish.md)
+- 🟢 [第 18 章 实战三：让 AI 搜到靠谱资料，少说“胡话”](chapters/18-reliable-search.md)
+- 🟢 [第 19 章 写你自己的第一个 Skill](chapters/19-write-skill.md)
 
 ### 第五部分 · 进阶定制
-- 🟢 [第 18 章 MCP：让 AI 连上更多外部工具](chapters/18-mcp.md)
-- 🟢 [第 19 章 插件和配置文件](chapters/19-plugins-config.md)
-- 🟢 [第 20 章 定制你自己的 Agent](chapters/20-customize-agent.md)
-- 🟡 [第 21 章 开发你的第一个插件](chapters/21-plugin-dev.md)
+- 🟢 [第 20 章 MCP：让 AI 连上更多外部工具](chapters/20-mcp.md)
+- 🟢 [第 21 章 插件和配置文件](chapters/21-plugins-config.md)
+- 🟢 [第 22 章 定制你自己的 Agent](chapters/22-customize-agent.md)
+- 🟡 [第 23 章 开发你的第一个插件](chapters/23-plugin-dev.md)
 
 ### 第六部分 · 实战与安全
-- 🟢 [第 22 章 综合实战](chapters/22-projects.md)
-- 🟢 [第 23 章 安全和花费](chapters/23-safety-cost.md)
+- 🟢 [第 24 章 综合实战](chapters/24-projects.md)
+- 🟢 [第 25 章 安全和花费](chapters/25-safety-cost.md)
 
 ### 附录
 - [A 名词小词典](chapters/appendix-a-glossary.md)

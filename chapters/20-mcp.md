@@ -1,19 +1,19 @@
 ---
-title: 第 18 章 MCP：让 AI 连上更多外部工具
+title: 第 20 章 MCP：让 AI 连上更多外部工具
 part: 第五部分 · 进阶定制
 verified_with: dsh 0.2.2-rc.3（按官方 dsh-mcp-client 文档核对配置格式）
 last_checked: 2026-11-17
 ---
 
-# 第 18 章 MCP：让 AI 连上更多外部工具
+# 第 20 章 MCP：让 AI 连上更多外部工具
 
 > **学完这一章，你能：**
 > - 用“万能插座”的比喻讲清楚 MCP
-> - 给 DSH 接上一个专业搜索 MCP(Exa)，让第 16 章的调研更准
+> - 给 DSH 接上一个专业搜索 MCP(Exa)，让第 18 章的调研更准
 > - 确认 MCP 接上了、AI 用上了
 > - 知道接 MCP 有什么风险
 >
-> **前置：** 第 1 章（会编辑文本文件）、第 16 章
+> **前置：** 第 1 章（会编辑文本文件）、第 18 章
 
 ## 1. 为什么要学这个
 
@@ -81,7 +81,7 @@ MCP 的工具在 DSH 里会叫 `mcp__服务器名__工具名`。比如接了 Exa
 
 ```yaml
 
-# Exa 搜索 MCP(远程,免费)—— 第 18 章添加
+# Exa 搜索 MCP(远程,免费)—— 第 20 章添加
 - insert:
     - id: mcp-exa
       name: '@deepseek-ai/dsh-mcp-client'
@@ -128,7 +128,7 @@ MCP 的工具在 DSH 里会叫 `mcp__服务器名__工具名`。比如接了 Exa
 
 ### 第六步：和调研 skill 配合
 
-现在，第 16 章的 `reliable-research` skill 有了更好的“搜索引擎”。试试：
+现在，第 18 章的 `reliable-research` skill 有了更好的“搜索引擎”。试试：
 
 ```
 /reliable-research 中英文资料都用 exa 搜索工具搜。
@@ -147,8 +147,8 @@ MCP 服务器会拿到 AI **发给它的内容**，有些还能**在你电脑上
 | 风险 | 怎么防 |
 |---|---|
 | 远程 MCP 能看到 AI 发给它的内容（比如搜索词，有时包括你的文件内容） | 只接可信的公司或官方提供的 MCP；别让 AI 把敏感内容发出去 |
-| 本地 MCP 是在你电脑上运行的程序，有你电脑的权限 | 只装来源可靠、很多人用的；安装前按第 13 章的方法检查 |
-| MCP 返回的内容里可能藏着“骗 AI 的指令” | 第 23 章讲的提示词注入；遇到 AI 突然要做奇怪的事，先「拒绝」 |
+| 本地 MCP 是在你电脑上运行的程序，有你电脑的权限 | 只装来源可靠、很多人用的；安装前按第 15 章的方法检查 |
+| MCP 返回的内容里可能藏着“骗 AI 的指令” | 第 25 章讲的提示词注入；遇到 AI 突然要做奇怪的事，先「拒绝」 |
 | 需要钥匙的 MCP | 钥匙不要直接写在配置文件里，用官方文档推荐的环境变量方式 |
 
 ## 6. 自己检查
@@ -178,4 +178,4 @@ MCP 服务器会拿到 AI **发给它的内容**，有些还能**在你电脑上
 - DSH 官方 MCP 客户端说明：https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/mcp/mcp-client/README.zh.md
 - DSH 官方“接记忆 MCP”指南（本地 MCP 的例子）：https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/guide/mcp-memory.zh.md
 - Exa MCP:https://github.com/exa-labs/exa-mcp-server
-- 下一章：[第 19 章 插件和配置文件](19-plugins-config.md)
+- 下一章：[第 21 章 插件和配置文件](21-plugins-config.md)
