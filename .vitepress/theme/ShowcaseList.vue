@@ -103,7 +103,7 @@ async function copy(text: string, key: string) {
             <a class="sl-btn primary" :href="`/showcase/${open.id}`">查看复刻步骤 →</a>
           </div>
           <div class="sl-link">
-            <span class="sl-link-label">第 1 步的提示词（可以先复制试试）</span>
+            <span class="sl-link-label">从这里开始：第 0 步的提示词（交代要做什么，并检查你的电脑环境）</span>
             <code class="sl-link-url sc-prompt-text">{{ open.prompt }}</code>
           </div>
           <div class="sl-link">
@@ -111,7 +111,7 @@ async function copy(text: string, key: string) {
             <code class="sl-link-url">{{ open.url }}</code>
           </div>
           <div class="sl-actions">
-            <button type="button" class="sl-btn" @click="copy(open.prompt, 'prompt')">{{ copied === 'prompt' ? '✅ 已复制，粘贴给 DSH' : '复制第 1 步' }}</button>
+            <button type="button" class="sl-btn" @click="copy(open.prompt, 'prompt')">{{ copied === 'prompt' ? '✅ 已复制，粘贴给 DSH' : '复制第 0 步' }}</button>
             <button type="button" class="sl-btn" @click="copy(open.url, 'url')">{{ copied === 'url' ? '✅ 已复制' : '复制链接' }}</button>
             <a class="sl-btn ghost" :href="open.url" target="_blank" rel="noopener noreferrer">打开</a>
           </div>

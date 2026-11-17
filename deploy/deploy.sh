@@ -46,6 +46,7 @@ echo "✅ 分支 $BRANCH,提交 $COMMIT,和远程一致"
 
 # ---------- 2. 构建 ----------
 say "2/6 构建网站"
+node scripts/prompt-lint.mjs || fail "有提示词用了 AI 看不懂的指代（比如“第 3 步”），先改好再部署"
 [ -d node_modules ] || npm ci --no-fund --no-audit
 npm run build >/dev/null
 [ -f .vitepress/dist/index.html ] || fail "构建结果里没有 index.html"
