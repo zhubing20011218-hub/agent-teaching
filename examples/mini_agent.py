@@ -1,10 +1,10 @@
 """
 迷你 Agent:约 80 行,演示 "大脑 + 双手 + 反复做"。
-配套教程:第 7 章 手写一个迷你 Agent
+配套教程:第 24 章 手写一个迷你 Agent
 
 运行前:
   1. pip install openai
-  2. 设置环境变量 DEEPSEEK_API_KEY(方法见第 6 章)
+  2. 设置环境变量 DEEPSEEK_API_KEY(方法见第 23 章)
   3. python mini_agent.py
 """
 import json

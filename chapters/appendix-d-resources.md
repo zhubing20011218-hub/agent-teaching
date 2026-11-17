@@ -24,7 +24,7 @@ last_checked: 2026-11-17
 | [anthropics/skills](https://github.com/anthropics/skills) | 官方示例 skill（含 pptx、docx、xlsx、pdf） |
 | [obra/superpowers](https://github.com/obra/superpowers) | 很流行的一套开发类 skill |
 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | skill 合集索引（格式通用） |
-| 本教程的 [skills/](https://github.com/zhubing20011218-hub/agent-teaching/tree/main/skills) 文件夹 | 3 个中文示例 skill |
+| 本教程的 [Skill 库](/skill-hub/) | 按领域整理的 skill，每个都能复制链接交给 DSH 安装 |
 
 ## 进一步学 Agent 原理
 
@@ -42,9 +42,5 @@ last_checked: 2026-11-17
 | [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | DSH 插件精选列表 |
 
 > [!WARNING]
-> 第三方插件、skill、MCP 都是别人写的程序或说明，安装前请按第 15、20、21 章的方法检查。
+> 第三方插件、skill、MCP 都是别人写的程序或说明，安装前请按第 12、18、19 章的方法检查。
 
-## 本教程
-
-- 写作前的调研报告：[docs/research/2026-11-17-github-survey.md](https://github.com/zhubing20011218-hub/agent-teaching/blob/main/docs/research/2026-11-17-github-survey.md)
-- 写作规范（想参与贡献的话先看）：[docs/writing-guide.md](https://github.com/zhubing20011218-hub/agent-teaching/blob/main/docs/writing-guide.md)

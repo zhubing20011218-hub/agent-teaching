@@ -1,11 +1,11 @@
 ---
-title: 第 15 章 安装 Skill，并确认 AI 真的会用它
-part: 第四部分 · Skill（技能）：教 AI 新本事
+title: 第 12 章 安装 Skill，并确认 AI 真的会用它
+part: 进阶篇 · 用 Skill 教 AI 新本事
 verified_with: dsh 0.2.2-rc.3（按官方 skill 文档和界面文字核对）
 last_checked: 2026-11-17
 ---
 
-# 第 15 章 安装 Skill，并确认 AI 真的会用它
+# 第 12 章 安装 Skill，并确认 AI 真的会用它
 
 > **学完这一章，你能：**
 > - 知道 DSH 去哪里找 skill
@@ -13,7 +13,7 @@ last_checked: 2026-11-17
 > - **确认 skill 装好了**，并且**确认 AI 真的用上了它**
 > - 安装别人的 skill 之前，检查它安不安全
 >
-> **前置：** 第 14 章
+> **前置：** 第 11 章
 
 ## 1. 为什么要学这个
 
@@ -75,8 +75,8 @@ DSH 只认这两种放法：
 
 ```
 请帮我安装一个 skill:
-把 https://github.com/zhubing20011218-hub/agent-teaching 仓库里
-skills/meeting-notes 这个文件夹,复制到 ~/.dsh/skills/meeting-notes。
+下载 https://teach.prismice.cn/files/skills/meeting-notes/SKILL.md
+保存为 ~/.dsh/skills/meeting-notes/SKILL.md。
 注意 ~/.dsh/skills/meeting-notes/ 里面要直接是 SKILL.md,不要多套文件夹。
 装好后列出 ~/.dsh/skills/meeting-notes/ 里的文件给我确认。
 ```
@@ -89,10 +89,10 @@ skills/meeting-notes 这个文件夹,复制到 ~/.dsh/skills/meeting-notes。
 
 不想让 AI 动手，或者方法一失败了，就自己装：
 
-1. 打开 https://github.com/zhubing20011218-hub/agent-teaching
-2. 点绿色的「**Code**」按钮 →「**Download ZIP**」
-3. 双击下载好的 zip 文件解压，得到一个 `agent-teaching-main` 文件夹
-4. 打开它，进入 `skills` 文件夹，你会看到 `meeting-notes` 文件夹。**点进去确认里面直接就是 `SKILL.md`**
+1. 用浏览器打开 https://teach.prismice.cn/files/skills/meeting-notes/SKILL.md
+2. 按 `Cmd + S`（Windows 按 `Ctrl + S`）保存，文件名写 `SKILL.md`
+3. 新建一个文件夹，名字叫 `meeting-notes`，把刚保存的 `SKILL.md` 放进去
+4. **确认 `meeting-notes` 文件夹里面直接就是 `SKILL.md`**
 5. 打开 `~/.dsh/skills` 文件夹：
    - **Mac**：在访达里按 `⌘ + Shift + G`，输入 `~/.dsh/skills`，回车
    - **Windows**：在文件资源管理器的地址栏输入 `%USERPROFILE%\.dsh\skills`，回车
@@ -156,7 +156,7 @@ skills/meeting-notes 这个文件夹,复制到 ~/.dsh/skills/meeting-notes。
 
 1. **换一种说法**：用 skill 的 `description` 里写到的词，比如“整理会议纪要”
 2. **手动叫**：用 `/skill名字`
-3. **改 `description`**：说明它写得不够清楚，第 19 章教你怎么改
+3. **改 `description`**：说明它写得不够清楚，第 16 章教你怎么改
 
 ## 7. ⚠️ 安装别人的 skill 前，先检查
 
@@ -187,7 +187,7 @@ skill 是**别人写的说明书，AI 会照着做**。有些 skill 还带脚本
 ```
 
 > [!WARNING]
-> AI 的检查只能参考。写坏 skill 的人可能在文件里藏“骗 AI”的话（第 25 章讲的“提示词注入”）。**来源不明、星数很少、又带脚本的 skill，最好别装。**
+> AI 的检查只能参考。写坏 skill 的人可能在文件里藏“骗 AI”的话（第 22 章讲的“提示词注入”）。**来源不明、星数很少、又带脚本的 skill，最好别装。**
 
 ## 8. 卸载 skill
 
@@ -216,5 +216,5 @@ skill 是**别人写的说明书，AI 会照着做**。有些 skill 还带脚本
 ## 11. 想了解更多
 
 - DSH 官方 skill 格式和目录说明：https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/skill/skill-filesystem/README.zh.md
-- 本教程的示例 skill:[skills/meeting-notes](https://github.com/zhubing20011218-hub/agent-teaching/blob/main/skills/meeting-notes/SKILL.md)
-- 下一章：[第 16 章 实战一：让 AI 帮你做 PPT](16-ppt-make.md)
+- 本教程的示例 skill:[skills/meeting-notes](https://teach.prismice.cn/files/skills/meeting-notes/SKILL.md)
+- 下一章：[第 13 章 实战一：让 AI 帮你做 PPT](13-ppt-make.md)

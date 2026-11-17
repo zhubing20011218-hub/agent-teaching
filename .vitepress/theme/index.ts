@@ -3,7 +3,8 @@ import { h } from 'vue'
 import { onContentUpdated, useRoute } from 'vitepress'
 import type { Theme } from 'vitepress'
 import DocMeta from './DocMeta.vue'
-import DocFeedback from './DocFeedback.vue'
+import SkillLibrary from './SkillLibrary.vue'
+import ShowcaseList from './ShowcaseList.vue'
 import './style.css'
 
 /** 让"自己检查"里的复选框可以勾选,并记住进度(只存在读者自己的浏览器里) */
@@ -39,8 +40,11 @@ export default {
   Layout() {
     return h(DefaultTheme.Layout, null, {
       'doc-before': () => h(DocMeta),
-      'doc-footer-before': () => h(DocFeedback),
     })
+  },
+  enhanceApp({ app }) {
+    app.component('SkillLibrary', SkillLibrary)
+    app.component('ShowcaseList', ShowcaseList)
   },
   setup() {
     const route = useRoute()

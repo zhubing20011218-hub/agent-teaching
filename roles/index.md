@@ -26,7 +26,7 @@ last_checked: 2026-11-17
 
 ## 2. 每个身份都要先学的“主线”
 
-不管你是谁，先把这几章做完。大约需要一个周末：
+这几章是所有身份共用的基础，建议先学完，大约一个周末：
 
 | 章节 | 学完你能 |
 |---|---|
@@ -34,11 +34,11 @@ last_checked: 2026-11-17
 | [第 1 章 三个必备小技能](/chapters/01-basic-skills) | 会找文件路径、会复制粘贴命令 |
 | [第 2 章 Agent 是什么](/chapters/02-what-is-agent) | 知道 AI 能做什么、会犯什么错 |
 | [第 5 章 申请钥匙](/chapters/05-get-api-key) | 有了 DeepSeek 钥匙 |
-| [第 8 章 安装 DSH](/chapters/08-install-dsh) | 装好 DSH |
-| [第 9 章 把钥匙填进 DSH](/chapters/09-connect-key) | 能和 AI 对话 |
-| [第 12 章 让 DSH 帮你干活](/chapters/12-work-with-dsh) | 会用工作区、会批准 AI 的操作 |
-| [第 14 章 Skill 是什么](/chapters/14-what-is-skill) | 知道 skill 是“说明书” |
-| [第 15 章 安装 Skill](/chapters/15-install-skill) | 会装 skill，会确认它真的被用上 |
+| [第 6 章 安装 DSH](/chapters/06-install-dsh) | 装好 DSH |
+| [第 7 章 把钥匙填进 DSH](/chapters/07-connect-key) | 能和 AI 对话 |
+| [第 10 章 让 DSH 帮你干活](/chapters/10-work-with-dsh) | 会用工作区、会批准 AI 的操作 |
+| [第 11 章 Skill 是什么](/chapters/11-what-is-skill) | 知道 skill 是“说明书” |
+| [第 12 章 安装 Skill](/chapters/12-install-skill) | 会装 skill，会确认它真的被用上 |
 
 学完主线，回到这里选身份，照着实操流程做一遍。
 
@@ -56,5 +56,5 @@ last_checked: 2026-11-17
 ## 4. 用 AI 的三条底线
 
 1. **重要的结果自己核对**：数字、日期、引用、法律和医疗信息
-2. **敏感资料不乱发**：身份证、密码、客户数据、学生信息，见[第 11 章](/chapters/11-relay-station)
+2. **敏感资料不乱发**：身份证、密码、客户数据、学生信息，见[第 9 章](/chapters/09-relay-station)
 3. **该自己负责的事不交给 AI**：交作业、签字、打分、投资、看病

@@ -1,18 +1,18 @@
 ---
-title: 第 16 章 实战一：让 AI 帮你做 PPT
-part: 第四部分 · Skill（技能）：教 AI 新本事
+title: 第 13 章 实战一：让 AI 帮你做 PPT
+part: 进阶篇 · 用 Skill 教 AI 新本事
 verified_with: dsh 0.2.2-rc.3;anthropics/skills 的 pptx skill（2026-11-17 版本，Apache 2.0）
 last_checked: 2026-11-17
 ---
 
-# 第 16 章 实战一：让 AI 帮你做 PPT（从零到成功）
+# 第 13 章 实战一：让 AI 帮你做 PPT（从零到成功）
 
 > **学完这一章，你能：**
 > - 装好做 PPT 用的 `pptx` skill 和它需要的软件
 > - 用一段话让 DSH 做出一份真正的 `.pptx` 文件
 > - 检查成品，并让 AI 按你的意见修改
 >
-> **前置：** 第 15 章（会装 skill、会确认 skill 被调用）
+> **前置：** 第 12 章（会装 skill、会确认 skill 被调用）
 
 ## 1. 为什么要学这个
 
@@ -47,7 +47,7 @@ last_checked: 2026-11-17
 
 ### 第一步：安装 `pptx` skill
 
-按第 15 章的方法一，在 DSH 里输入：
+按第 12 章的方法一，在 DSH 里输入：
 
 ```
 请帮我安装一个 skill:
@@ -67,7 +67,7 @@ last_checked: 2026-11-17
 > [!TIP]
 > 以前装过旧版的 `pptx` skill?旧版的许可证比较严格，而且内容较旧，建议删掉旧的、装最新版。
 
-装好后，按第 15 章的方法，输入 `/pptx` 确认它出现在指令菜单里。
+装好后，按第 12 章的方法，输入 `/pptx` 确认它出现在指令菜单里。
 
 ### 第二步：安装 LibreOffice（手动，只要一次）
 
@@ -189,10 +189,10 @@ Node.js 和 pptxgenjs、Python 和它需要的 Python 包、LibreOffice、Popple
 答：用 `deepseek-flash`，一份 10 页左右的 PPT，包括检查和修改，一般在几毛钱以内。去 DeepSeek 开放平台的“用量信息”里可以看到实际花费。
 
 **问：AI 编了一些不存在的数据？**
-答：大模型会“幻觉”（第 2 章）。数据类内容，请**把真实数据给它**（“用下面这些数字做图表：……”），不要让它自己想。第 18 章专门讲怎么让它查到靠谱资料。
+答：大模型会“幻觉”（第 2 章）。数据类内容，请**把真实数据给它**（“用下面这些数字做图表：……”），不要让它自己想。第 15 章专门讲怎么让它查到靠谱资料。
 
 ## 6. 想了解更多
 
 - `pptx` skill 原文：https://github.com/anthropics/skills/tree/main/skills/pptx
 - LibreOffice 下载：https://www.libreoffice.org/download/download-libreoffice/
-- 下一章：[第 17 章 实战二：优化、美化你已有的 PPT](17-ppt-polish.md)
+- 下一章：[第 14 章 实战二：优化、美化你已有的 PPT](14-ppt-polish.md)

@@ -1,18 +1,18 @@
 ---
-title: 第 14 章 Skill 是什么
-part: 第四部分 · Skill（技能）：教 AI 新本事
+title: 第 11 章 Skill 是什么
+part: 进阶篇 · 用 Skill 教 AI 新本事
 verified_with: dsh 0.2.2-rc.3（按官方 skill 文档核对）
 last_checked: 2026-11-17
 ---
 
-# 第 14 章 Skill 是什么
+# 第 11 章 Skill 是什么
 
 > **学完这一章，你能：**
 > - 用“说明书”的比喻讲清楚 skill
 > - 看懂一个 skill 文件夹里有什么，尤其是最重要的 `description`
 > - 分清 skill、AGENTS.md、MCP、插件这四样东西
 >
-> **前置：** 第 12 章（会用 DSH 干活）
+> **前置：** 第 10 章（会用 DSH 干活）
 
 ## 1. 为什么要学这个
 
@@ -98,7 +98,7 @@ description: 任何涉及 .pptx 文件的工作都用这个 skill:新建演示�
 - ❌ `description: PPT 工具`（太短，AI 不知道什么情况下用）
 - ✅ `description: 制作、修改、美化 PowerPoint 演示文稿(.pptx)时使用。用户提到"PPT""幻灯片""演示文稿""汇报材料",或者给了一个 .pptx 文件时,都用这个 skill。`
 
-第 19 章自己写 skill 时，会专门练习怎么写 `description`。
+第 16 章自己写 skill 时，会专门练习怎么写 `description`。
 
 ### Skill 被用上的两种方式
 
@@ -107,7 +107,7 @@ description: 任何涉及 .pptx 文件的工作都用这个 skill:新建演示�
 | **AI 自己判断** | AI 看了目录，觉得当前工作需要 | 你说“帮我做个 PPT”,AI 自己去加载 `pptx` |
 | **你手动叫** | 在输入框里输入 `/` 加 skill 名字 | 输入 `/pptx`，直接指定用这个 skill |
 
-skill 被加载时，对话里会出现一行「**加载技能**」的记录，点「查看」可以看到它加载的是哪个 skill（第 15 章会教你怎么确认）。
+skill 被加载时，对话里会出现一行「**加载技能**」的记录，点「查看」可以看到它加载的是哪个 skill（第 12 章会教你怎么确认）。
 
 ### 分清四样东西
 
@@ -115,10 +115,10 @@ skill 被加载时，对话里会出现一行「**加载技能**」的记录，�
 
 | | 比喻 | 是什么 | AI 什么时候看到 | 本教程哪一章 |
 |---|---|---|---|---|
-| **AGENTS.md** | 墙上贴的**规章制度** | 写在项目文件夹里的规则文件，比如“本项目回答一律用中文” | **每次都看** | 第 22 章 |
-| **Skill** | 书架上的**说明书** | 某类工作的具体做法 | **需要时才看** | 第 14–19 章 |
-| **MCP** | 墙上的**万能插座** | 把外部工具（比如搜索引擎、数据库）接给 AI | 接上就能用 | 第 20 章 |
-| **插件** | 给管家**换装备** | 给 DSH 本身增加新功能（比如新界面、新工具） | —— | 第 21 章 |
+| **AGENTS.md** | 墙上贴的**规章制度** | 写在项目文件夹里的规则文件，比如“本项目回答一律用中文” | **每次都看** | 第 20 章 |
+| **Skill** | 书架上的**说明书** | 某类工作的具体做法 | **需要时才看** | 第 11–16 章 |
+| **MCP** | 墙上的**万能插座** | 把外部工具（比如搜索引擎、数据库）接给 AI | 接上就能用 | 第 18 章 |
+| **插件** | 给管家**换装备** | 给 DSH 本身增加新功能（比如新界面、新工具） | —— | 第 19 章 |
 
 简单记：
 
@@ -175,4 +175,4 @@ skill 的格式最早来自 Anthropic（做 Claude 的公司），现在 DSH、C
 
 - Anthropic 官方 skill 仓库：https://github.com/anthropics/skills
 - DSH 官方 skill 格式说明：https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/skill/skill-filesystem/README.zh.md
-- 下一章：[第 15 章 安装 Skill，并确认 AI 真的会用它](15-install-skill.md)
+- 下一章：[第 12 章 安装 Skill，并确认 AI 真的会用它](12-install-skill.md)

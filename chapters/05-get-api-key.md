@@ -1,6 +1,6 @@
 ---
 title: 第 5 章 申请 DeepSeek API 钥匙
-part: 第二部分 · 拿到钥匙，接上 DeepSeek
+part: 基础篇 · 接上 AI
 verified_with: DeepSeek 开放平台（2026-11-17 查阅）
 last_checked: 2026-11-17
 ---
@@ -19,7 +19,7 @@ last_checked: 2026-11-17
 DSH 要用 DeepSeek 的 AI，就得有一把 **API 钥匙**。这一章带你一步步拿到它。
 
 > [!TIP]
-> DSH 桌面版也支持直接**登录 DeepSeek 账号**来使用（第 9 章会讲）。但学会自己管理 API 钥匙很重要：接其他 AI、用其他工具、写程序时都要用到。
+> DSH 桌面版也支持直接**登录 DeepSeek 账号**来使用（第 7 章会讲）。但学会自己管理 API 钥匙很重要：接其他 AI、用其他工具、写程序时都要用到。
 
 ## 2. 讲解
 
@@ -138,5 +138,5 @@ DeepSeek 有两个网站，**不要搞混**：
 
 - DeepSeek 开放平台：https://platform.deepseek.com
 - 价格说明：https://api-docs.deepseek.com/zh-cn/quick_start/pricing
-- 下一章（🟡 选修）：[第 6 章 亲手调用一次 API](06-call-api.md)
-- 不想写代码？直接跳到：[第 8 章 安装 DSH](08-install-dsh.md)
+- 不想写代码？直接跳到：[第 6 章 安装 DSH](06-install-dsh.md)
+- 下一章：[第 6 章 安装 DSH](06-install-dsh.md)

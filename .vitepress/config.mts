@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 import fs from 'node:fs'
 import path from 'node:path'
+import { SKILLS } from './theme/skills-data'
 
-const REPO = 'https://github.com/zhubing20011218-hub/agent-teaching'
 const chaptersDir = path.resolve(__dirname, '../chapters')
 
 /** 从章节文件的头部信息里读标题,侧边栏显示时去掉"第 N 章"里多余的空格和选修标记 */
@@ -32,16 +32,15 @@ const pick = (from: number, to: number) =>
     return !Number.isNaN(n) && n >= from && n <= to
   }).map(item)
 
-/** 教程目录:按学习阶段分组。每组可以折叠，正在看的那一组会自动展开 */
-const group = (text: string, items: ReturnType<typeof item>[]) => ({ text, collapsed: false, items })
+/** 教程目录：从入门到精通。每一篇末尾有一页实操题；要写代码的选修章放在最后 */
+const practice = (n: number, text: string) => ({ text: `✍️ ${text}`, link: `/chapters/practice-${n}` })
 const tutorialSidebar = [
-  group('① 认识 AI', pick(0, 4)),
-  group('② 拿到钥匙', pick(5, 7)),
-  group('③ 接入 DSH', pick(8, 11)),
-  group('④ 用 DSH 干活', pick(12, 13)),
-  group('⑤ Skill：教 AI 新本事', pick(14, 19)),
-  group('⑥ 进阶定制', pick(20, 23)),
-  group('⑦ 实战与安全', pick(24, 25)),
+  { text: '入门篇 · 认识 AI', collapsed: false, items: [...pick(0, 4), practice(1, '入门篇实操题')] },
+  { text: '基础篇 · 接上 AI', collapsed: false, items: [...pick(5, 10), practice(2, '基础篇实操题')] },
+  { text: '进阶篇 · 用 Skill 教 AI 新本事', collapsed: false, items: [...pick(11, 16), practice(3, '进阶篇实操题')] },
+  { text: '高级篇 · 自动化和定制', collapsed: false, items: [...pick(17, 20), practice(4, '高级篇实操题')] },
+  { text: '实战篇 · 综合运用', collapsed: false, items: [...pick(21, 22), practice(5, '实战篇实操题')] },
+  { text: '选修 · 写一点代码', collapsed: true, items: pick(23, 25) },
   { text: '附录', collapsed: true, items: files.filter((f) => f.startsWith('appendix-')).map(item) },
 ]
 
@@ -58,20 +57,6 @@ const rolesSidebar = [
       { text: '🎬 自媒体 / 剪辑', link: '/roles/media' },
       { text: '🐾 宠物主人', link: '/roles/pet' },
       { text: '✈️ 旅行爱好者', link: '/roles/travel' },
-    ],
-  },
-]
-
-/** Skill 库 */
-const skillHubSidebar = [
-  {
-    text: 'Skill 库',
-    items: [
-      { text: '怎么用这个 Skill 库', link: '/skill-hub/' },
-      { text: '安装前的安全检查', link: '/skill-hub/safety-check' },
-      { text: '通用 Skill：人人用得上', link: '/skill-hub/general' },
-      { text: '按身份找 Skill', link: '/skill-hub/by-role' },
-      { text: '不推荐的 Skill（和原因）', link: '/skill-hub/avoid' },
     ],
   },
 ]
@@ -102,6 +87,32 @@ function taskLists(md: any) {
   })
 }
 
+/** 全站的 skill 名（行内代码，比如 `xlsx`）自动变成链接，点一下跳到 Skill 库里对应的那一条 */
+function skillLinks(md: any) {
+  const ids = new Map(SKILLS.map((s) => [s.name, s.id] as [string, string]))
+  for (const s of SKILLS) ids.set(s.id, s.id)
+  md.core.ruler.push('skill-links', (state: any) => {
+    if (String(state.env?.relativePath ?? '').startsWith('skill-hub/')) return
+    for (const t of state.tokens) {
+      if (t.type !== 'inline' || !t.children) continue
+      const out: any[] = []
+      let inLink = 0
+      for (const c of t.children) {
+        if (c.type === 'link_open') inLink++
+        if (c.type === 'link_close') inLink--
+        const raw = c.type === 'code_inline' ? c.content.replace(/^\//, '') : ''
+        if (!inLink && raw && ids.has(raw)) {
+          const open = new state.Token('link_open', 'a', 1)
+          open.attrs = [['href', `/skill-hub/#${ids.get(raw)}`], ['class', 'skill-link'], ['title', '在 Skill 库里查看']]
+          const close = new state.Token('link_close', 'a', -1)
+          out.push(open, c, close)
+        } else out.push(c)
+      }
+      t.children = out
+    }
+  })
+}
+
 /** 提示框(> [!TIP] / > [!WARNING])的标题换成中文;VitePress 自带的这个插件不读语言设置 */
 function zhAlertTitles(md: any) {
   const zh: Record<string, string> = {
@@ -122,7 +133,7 @@ function zhAlertTitles(md: any) {
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'Agent 小白教程',
+  title: 'Agent 上手指南',
   description: '写给零编程基础的人:从 API、DeepSeek Harness 到 Skill,让 AI 真的帮你干活',
   cleanUrls: true,
   lastUpdated: true,
@@ -132,7 +143,7 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#4d6bfe' }],
   ],
   markdown: {
-    config: (md) => md.use(taskLists).use(zhAlertTitles),
+    config: (md) => md.use(taskLists).use(zhAlertTitles).use(skillLinks),
     container: {
       tipLabel: '小技巧',
       warningLabel: '注意',
@@ -151,6 +162,7 @@ export default defineConfig({
       { text: '教程', link: '/chapters/00-how-to-use', activeMatch: '^/chapters/(?!appendix)' },
       { text: '按身份学', link: '/roles/', activeMatch: '^/roles/' },
       { text: 'Skill 库', link: '/skill-hub/', activeMatch: '^/skill-hub/' },
+      { text: '作品展示', link: '/showcase/', activeMatch: '^/showcase/' },
       {
         text: '工具箱',
         activeMatch: '^/chapters/appendix',
@@ -165,12 +177,9 @@ export default defineConfig({
     sidebar: {
       '/chapters/': tutorialSidebar,
       '/roles/': rolesSidebar,
-      '/skill-hub/': skillHubSidebar,
     },
-    socialLinks: [{ icon: 'github', link: REPO, ariaLabel: 'GitHub 仓库' }],
     outline: { level: [2, 3], label: '本页目录' },
     docFooter: { prev: '上一章', next: '下一章' },
-    editLink: { pattern: `${REPO}/edit/main/:path`, text: '在 GitHub 上修改这一页' },
     lastUpdated: { text: '最后更新', formatOptions: { dateStyle: 'medium' } },
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '目录',
@@ -187,7 +196,7 @@ export default defineConfig({
     },
     footer: {
       message: '内容采用 CC BY-NC-SA 4.0 许可:可以免费分享,请注明出处,不要用于商业用途',
-      copyright: '持续更新中 · 发现问题欢迎到 GitHub 反馈',
+      copyright: '持续更新中',
     },
     search: {
       provider: 'local',

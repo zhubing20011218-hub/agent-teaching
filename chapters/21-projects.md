@@ -1,17 +1,17 @@
 ---
-title: 第 24 章 综合实战
-part: 第六部分 · 实战与安全
+title: 第 21 章 综合实战
+part: 实战篇 · 综合运用
 verified_with: dsh 0.2.2-rc.3
 last_checked: 2026-11-17
 ---
 
-# 第 24 章 综合实战
+# 第 21 章 综合实战
 
 > **学完这一章，你能：**
 > - 把前面学的工作区、skill、MCP、子智能体、定时任务**组合起来**，完成真实的工作
 > - 学会把一个大任务拆成几步，每一步都检查
 >
-> **前置：** 主线第 0–22 章
+> **前置：** 主线第 0–20 章
 
 ## 1. 为什么要学这个
 
@@ -27,7 +27,7 @@ last_checked: 2026-11-17
 
 ## 2. 项目 A：每天自动整理资料、写日报
 
-**用到：** 工作区、定时任务（第 13 章）、写 skill（第 19 章）
+**用到：** 工作区、定时任务（第 17 章）、写 skill（第 16 章）
 
 **目标：** 每天下班前，AI 自动把今天放进“收件箱”文件夹的资料分类归档，并写一份日报。
 
@@ -59,7 +59,7 @@ last_checked: 2026-11-17
 
 ## 3. 项目 B：做汇报，一条龙
 
-**用到：** 调研 skill（第 18 章）、搜索 MCP（第 20 章）、子智能体（第 22 章）、PPT skill（第 16、17 章）
+**用到：** 调研 skill（第 15 章）、搜索 MCP（第 18 章）、子智能体（第 20 章）、PPT skill（第 13、14 章）
 
 **目标：** 给一个主题，AI 完成“调研 → 大纲 → PPT → 讲稿”。
 
@@ -107,7 +107,7 @@ last_checked: 2026-11-17
 1. 建文件夹 `ai-练习/电商项目`，放一份商品表格(比如 `商品.xlsx`，有商品名、规格、价格、卖点)
 
 > [!TIP]
-> 处理 Excel 表格，可以先装一个表格类 skill，比如 [anthropics/skills 里的 xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx)(方法和第 16 章装 `pptx` 一样)。
+> 处理 Excel 表格，可以先装一个表格类 skill，比如 [anthropics/skills 里的 xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx)(方法和第 13 章装 `pptx` 一样)。
 
 2. **先试一个**：
 
@@ -138,4 +138,4 @@ last_checked: 2026-11-17
 ## 6. 想了解更多
 
 - 更多案例灵感（英文）：https://github.com/Shubhamsaboo/awesome-llm-apps
-- 下一章：[第 25 章 安全和花费](25-safety-cost.md)
+- 下一章：[第 22 章 安全和花费](22-safety-cost.md)

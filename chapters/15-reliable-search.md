@@ -1,11 +1,11 @@
 ---
-title: 第 18 章 实战三：让 AI 搜到靠谱资料，少说“胡话”
-part: 第四部分 · Skill（技能）：教 AI 新本事
+title: 第 15 章 实战三：让 AI 搜到靠谱资料，少说“胡话”
+part: 进阶篇 · 用 Skill 教 AI 新本事
 verified_with: dsh 0.2.2-rc.3（按官方文档和界面文字核对）；本教程 reliable-research skill
 last_checked: 2026-11-17
 ---
 
-# 第 18 章 实战三：让 AI 搜到靠谱资料，少说“胡话”
+# 第 15 章 实战三：让 AI 搜到靠谱资料，少说“胡话”
 
 > **学完这一章，你能：**
 > - 说清楚 AI 为什么会“说得很像真的，但其实是错的”
@@ -13,7 +13,7 @@ last_checked: 2026-11-17
 > - 装好一个“靠谱调研”skill，对比装之前、装之后的回答
 > - 自己一眼认出 AI 批量写的垃圾网页
 >
-> **前置：** 第 15 章（会装 skill、会确认 skill 被调用）
+> **前置：** 第 12 章（会装 skill、会确认 skill 被调用）
 
 ## 1. 为什么要学这个
 
@@ -53,7 +53,7 @@ AI 编了一个错的说法 → 被批量发到很多网站
 
 | 需要什么 | 比喻 | 在 DSH 里是什么 |
 |---|---|---|
-| **搜得到** | 一个好的**搜索引擎** | DSH 的「网页搜索与获取」功能，或者接一个搜索 MCP（第 20 章） |
+| **搜得到** | 一个好的**搜索引擎** | DSH 的「网页搜索与获取」功能，或者接一个搜索 MCP（第 18 章） |
 | **会判断** | 一个会挑来源、会核对的**调查员** | 一个“调研”skill |
 
 只有搜索引擎，没有调查员 → 搜到什么信什么，垃圾也照单全收。
@@ -96,16 +96,16 @@ DeepSeek API 现在有哪些模型?每个模型输出 100 万 Token 多少钱?
 
 ### 第三步：安装 `reliable-research` skill
 
-按第 15 章的方法，在 DSH 里输入：
+按第 12 章的方法，在 DSH 里输入：
 
 ```
 请帮我安装一个 skill:
-把 https://github.com/zhubing20011218-hub/agent-teaching 仓库里
-skills/reliable-research 这个文件夹复制到 ~/.dsh/skills/reliable-research。
+下载 https://teach.prismice.cn/files/skills/reliable-research/SKILL.md
+保存为 ~/.dsh/skills/reliable-research/SKILL.md。
 装好后列出里面的文件给我确认。
 ```
 
-然后打开 [skills/reliable-research/SKILL.md](https://github.com/zhubing20011218-hub/agent-teaching/blob/main/skills/reliable-research/SKILL.md) 读一读。和 `ppt-polish` 一样，它只是一份写清楚的“规则”，没有脚本。
+然后打开 [skills/reliable-research/SKILL.md](https://teach.prismice.cn/files/skills/reliable-research/SKILL.md) 读一读。和 `ppt-polish` 一样，它只是一份写清楚的“规则”，没有脚本。
 
 ### 第四步：再问一次，对比
 
@@ -157,7 +157,7 @@ skills/reliable-research 这个文件夹复制到 ~/.dsh/skills/reliable-researc
 
 ## 5. 更多调研 skill（进阶，可选）
 
-`reliable-research` 是一个简单好懂的入门版。想要更强的，可以看看这些（安装前按第 15 章检查）：
+`reliable-research` 是一个简单好懂的入门版。想要更强的，可以看看这些（安装前按第 12 章检查）：
 
 | skill | 说明 |
 |---|---|
@@ -166,7 +166,7 @@ skills/reliable-research 这个文件夹复制到 ~/.dsh/skills/reliable-researc
 | [7starsseeker/dsh-fact-check](https://github.com/7starsseeker/dsh-fact-check) | **专门为 DSH 写的**事实核查 skill：国内外来源同时搜、每句话可追溯；作者自己说还在验证阶段；MIT 许可 |
 | [petar-nauka/fact-check-skill](https://github.com/petar-nauka/fact-check-skill) | 来源可信度评估、虚假信息风险打分；英文；MIT 许可 |
 
-另外，第 20 章会教你接一个**专业搜索 MCP**（比如英文资料用 Exa、Tavily，中文资料用博查），让“搜得到”这一层也更强。
+另外，第 18 章会教你接一个**专业搜索 MCP**（比如英文资料用 Exa、Tavily，中文资料用博查），让“搜得到”这一层也更强。
 
 ## 6. 自己检查
 
@@ -193,6 +193,6 @@ skills/reliable-research 这个文件夹复制到 ~/.dsh/skills/reliable-researc
 
 ## 8. 想了解更多
 
-- 本教程的 [reliable-research skill 原文](https://github.com/zhubing20011218-hub/agent-teaching/blob/main/skills/reliable-research/SKILL.md)
+- 本教程的 [reliable-research skill 原文](https://teach.prismice.cn/files/skills/reliable-research/SKILL.md)
 - DeepSeek 价格页（含搜索收费）：https://api-docs.deepseek.com/zh-cn/quick_start/pricing
-- 下一章：[第 19 章 写你自己的第一个 Skill](19-write-skill.md)
+- 下一章：[第 16 章 写你自己的第一个 Skill](16-write-skill.md)

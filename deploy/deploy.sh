@@ -47,7 +47,7 @@ echo "✅ 分支 $BRANCH,提交 $COMMIT,和远程一致"
 # ---------- 2. 构建 ----------
 say "2/6 构建网站"
 [ -d node_modules ] || npm ci --no-fund --no-audit
-npx vitepress build >/dev/null
+npm run build >/dev/null
 [ -f .vitepress/dist/index.html ] || fail "构建结果里没有 index.html"
 grep -rl '截图待补' .vitepress/dist >/dev/null 2>&1 && fail "网页里出现了「截图待补」字样,不应该显示给读者"
 echo "✅ 构建完成"
@@ -123,7 +123,7 @@ if [ "$(remote "grep -q '^$DOMAIN' /opt/prismice/app/deploy/hk-server/Caddyfile 
   echo "⚠️ 主站网关的 Caddyfile 里还没有 $DOMAIN,公网暂时打不开(第一次上线要先改 eureka-saas 仓库的 deploy/hk-server/Caddyfile)"
   exit 0
 fi
-for path in / /chapters/00-how-to-use /chapters/16-ppt-make /version.txt; do
+for path in / /chapters/00-how-to-use /chapters/13-ppt-make /version.txt; do
   code=$(curl -s -o /dev/null -m 20 -w '%{http_code}' "https://$DOMAIN$path" || true)
   echo "$code  https://$DOMAIN$path"
   [ "$code" = 200 ] || fail "公网访问 $path 不正常"

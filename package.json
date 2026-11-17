@@ -2,10 +2,10 @@
   "name": "agent-teaching",
   "private": true,
   "type": "module",
-  "description": "Agent 小白教程网站(VitePress)",
+  "description": "Agent 上手指南网站(VitePress)",
   "scripts": {
-    "dev": "vitepress dev",
-    "build": "vitepress build",
+    "dev": "node scripts/sync-files.mjs && vitepress dev",
+    "build": "node scripts/sync-files.mjs && vitepress build",
     "preview": "vitepress preview"
   },
   "devDependencies": {

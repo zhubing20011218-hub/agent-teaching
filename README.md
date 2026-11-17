@@ -1,4 +1,4 @@
-# Agent 小白教程：从零开始，让 AI 真的帮你干活
+# Agent 上手指南：从零开始，让 AI 真的帮你干活
 
 一份**写给零编程基础的人**的中文教程，会持续更新。
 
@@ -12,45 +12,48 @@
 
 ## 目录
 
-### 第 0 部分 · 开始之前
+### 入门篇 · 认识 AI
 - 🟢 [第 0 章 怎么用这份教程](chapters/00-how-to-use.md)
-- 🟢 [第 1 章 三个必备小技能（终端、路径、文本文件）](chapters/01-basic-skills.md)
-
-### 第一部分 · 先弄懂几个概念
+- 🟢 [第 1 章 三个必备小技能](chapters/01-basic-skills.md)
 - 🟢 [第 2 章 大模型和 Agent 到底是什么](chapters/02-what-is-agent.md)
 - 🟢 [第 3 章 API 是什么](chapters/03-what-is-api.md)
 - 🟢 [第 4 章 Harness 是什么](chapters/04-what-is-harness.md)
+- ✍️ [入门篇实操题](chapters/practice-1.md)
 
-### 第二部分 · 拿到钥匙，接上 DeepSeek
+### 基础篇 · 接上 AI
 - 🟢 [第 5 章 申请 DeepSeek API 钥匙](chapters/05-get-api-key.md)
-- 🟡 [第 6 章 亲手调用一次 API](chapters/06-call-api.md)
-- 🟡 [第 7 章 手写一个迷你 Agent](chapters/07-mini-agent.md)
+- 🟢 [第 6 章 安装 DSH](chapters/06-install-dsh.md)
+- 🟢 [第 7 章 把钥匙填进 DSH](chapters/07-connect-key.md)
+- 🟢 [第 8 章 接其他 AI：厂商渠道和自定义渠道](chapters/08-api-channels.md)
+- 🟢 [第 9 章 中转站：学校网关和公开中转站](chapters/09-relay-station.md)
+- 🟢 [第 10 章 让 DSH 帮你干活](chapters/10-work-with-dsh.md)
+- ✍️ [基础篇实操题](chapters/practice-2.md)
 
-### 第三部分 · 接入和使用 DeepSeek Harness
-- 🟢 [第 8 章 安装 DSH](chapters/08-install-dsh.md)
-- 🟢 [第 9 章 把钥匙填进 DSH](chapters/09-connect-key.md)
-- 🟢 [第 10 章 接其他 AI：厂商渠道和自定义渠道](chapters/10-api-channels.md)
-- 🟢 [第 11 章 中转站：学校网关和公开中转站](chapters/11-relay-station.md)
-- 🟢 [第 12 章 让 DSH 帮你干活](chapters/12-work-with-dsh.md)
-- 🟡 [第 13 章 让 DSH 自动干活](chapters/13-automation.md)
+### 进阶篇 · 用 Skill 教 AI 新本事
+- 🟢 [第 11 章 Skill 是什么](chapters/11-what-is-skill.md)
+- 🟢 [第 12 章 安装 Skill，并确认 AI 真的会用它](chapters/12-install-skill.md)
+- 🟢 [第 13 章 实战一：让 AI 帮你做 PPT](chapters/13-ppt-make.md)
+- 🟢 [第 14 章 实战二：优化、美化你已有的 PPT](chapters/14-ppt-polish.md)
+- 🟢 [第 15 章 实战三：让 AI 搜到靠谱资料，少说“胡话”](chapters/15-reliable-search.md)
+- 🟢 [第 16 章 写你自己的第一个 Skill](chapters/16-write-skill.md)
+- ✍️ [进阶篇实操题](chapters/practice-3.md)
 
-### 第四部分 · Skill（技能）：教 AI 新本事
-- 🟢 [第 14 章 Skill 是什么](chapters/14-what-is-skill.md)
-- 🟢 [第 15 章 安装 Skill，并确认 AI 真的会用它](chapters/15-install-skill.md)
-- 🟢 [第 16 章 实战一：让 AI 帮你做 PPT](chapters/16-ppt-make.md)
-- 🟢 [第 17 章 实战二：优化、美化你已有的 PPT](chapters/17-ppt-polish.md)
-- 🟢 [第 18 章 实战三：让 AI 搜到靠谱资料，少说“胡话”](chapters/18-reliable-search.md)
-- 🟢 [第 19 章 写你自己的第一个 Skill](chapters/19-write-skill.md)
+### 高级篇 · 自动化和定制
+- 🟢 [第 17 章 让 DSH 自动干活](chapters/17-automation.md)
+- 🟢 [第 18 章 MCP：让 AI 连上更多外部工具](chapters/18-mcp.md)
+- 🟢 [第 19 章 插件和配置文件](chapters/19-plugins-config.md)
+- 🟢 [第 20 章 定制你自己的 Agent](chapters/20-customize-agent.md)
+- ✍️ [高级篇实操题](chapters/practice-4.md)
 
-### 第五部分 · 进阶定制
-- 🟢 [第 20 章 MCP：让 AI 连上更多外部工具](chapters/20-mcp.md)
-- 🟢 [第 21 章 插件和配置文件](chapters/21-plugins-config.md)
-- 🟢 [第 22 章 定制你自己的 Agent](chapters/22-customize-agent.md)
-- 🟡 [第 23 章 开发你的第一个插件](chapters/23-plugin-dev.md)
+### 实战篇 · 综合运用
+- 🟢 [第 21 章 综合实战](chapters/21-projects.md)
+- 🟢 [第 22 章 安全和花费](chapters/22-safety-cost.md)
+- ✍️ [实战篇实操题](chapters/practice-5.md)
 
-### 第六部分 · 实战与安全
-- 🟢 [第 24 章 综合实战](chapters/24-projects.md)
-- 🟢 [第 25 章 安全和花费](chapters/25-safety-cost.md)
+### 选修 · 写一点代码
+- 🟡 [第 23 章 亲手调用一次 API](chapters/23-call-api.md)
+- 🟡 [第 24 章 手写一个迷你 Agent](chapters/24-mini-agent.md)
+- 🟡 [第 25 章 开发你的第一个插件](chapters/25-plugin-dev.md)
 
 ### 附录
 - [A 名词小词典](chapters/appendix-a-glossary.md)

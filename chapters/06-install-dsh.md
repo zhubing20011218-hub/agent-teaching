@@ -1,11 +1,11 @@
 ---
-title: 第 8 章 安装 DSH
-part: 第三部分 · 接入和使用 DeepSeek Harness
+title: 第 6 章 安装 DSH
+part: 基础篇 · 接上 AI
 verified_with: dsh 0.2.2-rc.3（按官网下载页和官方文档核对）
 last_checked: 2026-11-17
 ---
 
-# 第 8 章 安装 DSH
+# 第 6 章 安装 DSH
 
 > **学完这一章，你能：**
 > - 根据你的电脑，选对安装方式
@@ -65,7 +65,7 @@ DSH 有两种用法，界面和功能基本一样：
 <!-- 截图待补:桌面版欢迎页。补图方法见 docs/screenshots.md -->
 
 > [!TIP]
-> 先停在这里。下一章([第 9 章](09-connect-key.md))讲这两个按钮选哪个。
+> 先停在这里。下一章([第 7 章](07-connect-key.md))讲这两个按钮选哪个。
 
 ## 4. 跟着做：安装网页版（Intel Mac、Linux，或者你想用浏览器）
 
@@ -166,4 +166,4 @@ DSH 更新很快（经常一周几个新版本）。
 
 - DSH 官网（下载）：https://deepseek.com/harness
 - 官方快速上手（网页版）：https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/guide/index.zh.md
-- 下一章：[第 9 章 把钥匙填进 DSH](09-connect-key.md)
+- 下一章：[第 7 章 把钥匙填进 DSH](07-connect-key.md)

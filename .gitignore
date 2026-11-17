@@ -26,3 +26,6 @@ docs/calmness-profile.md
 # 网站构建产物
 .vitepress/cache/
 .vitepress/dist/
+
+# 构建时由 scripts/sync-files.mjs 生成
+public/files/

@@ -1,6 +1,6 @@
 ---
 title: 第 4 章 Harness 是什么
-part: 第一部分 · 先弄懂几个概念
+part: 入门篇 · 认识 AI
 verified_with: DeepSeek Harness 官方文档（0.2.2-rc.3）
 last_checked: 2026-11-17
 ---
@@ -150,4 +150,5 @@ Harness 这个英文词，本来的意思是**马具**——套在马身上的�
 
 - DeepSeek Harness 官网：https://deepseek.com/harness
 - DeepSeek Harness 代码仓库（含官方中文文档）：https://github.com/deepseek-ai/deepseek-harness
+- 本阶段的实操题：[入门篇实操题](practice-1.md)
 - 下一章：[第 5 章 申请 DeepSeek API 钥匙](05-get-api-key.md)

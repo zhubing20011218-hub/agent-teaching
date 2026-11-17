@@ -1,6 +1,6 @@
 ---
 title: 第 1 章 三个必备小技能
-part: 第 0 部分 · 开始之前
+part: 入门篇 · 认识 AI
 verified_with: macOS 15 / Windows 11
 last_checked: 2026-11-17
 ---

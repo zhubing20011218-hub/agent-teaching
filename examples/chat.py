@@ -1,10 +1,10 @@
 """
 命令行聊天小程序:可以连续聊天,AI 记得前面说过的话。
-配套教程:第 6 章 亲手调用一次 API
+配套教程:第 23 章 亲手调用一次 API
 
 运行前:
   1. pip install openai
-  2. 设置环境变量 DEEPSEEK_API_KEY(方法见第 6 章)
+  2. 设置环境变量 DEEPSEEK_API_KEY(方法见第 23 章)
   3. python chat.py      (输入 退出 结束聊天)
 """
 import os

@@ -219,29 +219,6 @@
   vertical-align: 1px;
 }
 
-/* ========== 页尾的反馈条 ========== */
-.doc-feedback {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px 12px;
-  align-items: center;
-  justify-content: space-between;
-  margin: 40px 0 8px;
-  padding: 14px 18px;
-  border: 1px dashed var(--vp-c-divider);
-  border-radius: 10px;
-  font-size: 14px;
-  color: var(--vp-c-text-2);
-}
-.doc-feedback a {
-  font-weight: 600;
-  color: var(--vp-c-brand-1);
-  text-decoration: none;
-}
-.doc-feedback a:hover {
-  text-decoration: underline;
-}
-
 /* ========== 首页 ========== */
 .VPHome .VPFeature .title {
   font-size: 17px;
@@ -339,3 +316,52 @@ a.home-step.home-role h3 {
 .home-section h2 + .home-steps {
   margin-bottom: 40px;
 }
+
+/* ========== Skill 库 / 作品展示 ========== */
+.sl-filters { padding: 14px; margin: 8px 0 12px; border: 1px solid var(--vp-c-divider); border-radius: 12px; background: var(--vp-c-bg); }
+.sl-search { width: 100%; padding: 10px 14px; border: 1px solid var(--vp-c-divider); border-radius: 8px; background: var(--vp-c-bg-soft); font-size: 15px; }
+.sl-search:focus { outline: none; border-color: var(--vp-c-brand-2); }
+.sl-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 10px; }
+.sl-row-label { font-size: 13px; color: var(--vp-c-text-2); margin-right: 4px; }
+.sl-chip { padding: 3px 10px; border: 1px solid var(--vp-c-divider); border-radius: 999px; font-size: 13px; line-height: 1.6; color: var(--vp-c-text-2); background: var(--vp-c-bg); cursor: pointer; transition: all 0.15s; }
+.sl-chip:hover { border-color: var(--vp-c-brand-2); color: var(--vp-c-brand-1); }
+.sl-chip.on { border-color: var(--vp-c-brand-2); background: var(--vp-c-brand-soft); color: var(--vp-c-brand-1); font-weight: 600; }
+.sl-count { font-size: 14px; color: var(--vp-c-text-2); }
+.sl-reset { margin-left: 8px; color: var(--vp-c-brand-1); font-size: 14px; cursor: pointer; }
+.vp-doc h2.sl-group-title { margin-top: 36px; padding-top: 16px; }
+.vp-doc .sl-group-intro { margin: 4px 0 14px; color: var(--vp-c-text-2); font-size: 14px; }
+.sl-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+@media (max-width: 640px) { .sl-grid { grid-template-columns: 1fr; } }
+.sl-card { display: flex; flex-direction: column; gap: 8px; padding: 16px; border: 1px solid var(--vp-c-divider); border-radius: 12px; background: var(--vp-c-bg-soft); scroll-margin-top: 90px; min-width: 0; }
+.sl-card:target { border-color: var(--vp-c-brand-2); box-shadow: 0 0 0 3px var(--vp-c-brand-soft); }
+.sl-card-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; }
+.vp-doc .sl-card-title { margin: 0; font-size: 16px; line-height: 1.4; border: none; padding: 0; }
+.vp-doc .sl-card-name { font-size: 12px; }
+.vp-doc .sl-card-desc { margin: 0; font-size: 14px; line-height: 1.7; color: var(--vp-c-text-1); }
+.sl-tags { display: flex; flex-wrap: wrap; gap: 4px; }
+.sl-tag { padding: 0 8px; border-radius: 999px; font-size: 12px; line-height: 20px; background: var(--vp-c-default-soft); color: var(--vp-c-text-2); }
+.sl-tag.safe { background: var(--at-main-soft); color: var(--at-main); }
+.sl-tag.warn { background: var(--at-optional-soft); color: var(--at-optional); }
+.sl-tag.muted { opacity: 0.8; }
+.vp-doc .sl-note { margin: 0; font-size: 13px; line-height: 1.6; color: var(--at-optional); }
+.sl-link { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.sl-link-label { font-size: 12px; color: var(--vp-c-text-3); }
+.vp-doc .sl-link-url { display: block; font-size: 12px; overflow-wrap: anywhere; word-break: break-all; user-select: all; }
+.sl-actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
+.sl-btn { padding: 5px 12px; border: 1px solid var(--vp-c-divider); border-radius: 8px; font-size: 13px; font-weight: 500; color: var(--vp-c-text-1); background: var(--vp-c-bg); cursor: pointer; text-decoration: none !important; transition: all 0.15s; }
+.sl-btn:hover { border-color: var(--vp-c-brand-2); color: var(--vp-c-brand-1); }
+.sl-btn.primary { border-color: var(--vp-c-brand-2); background: var(--vp-c-brand-2); color: #fff; }
+.sl-btn.primary:hover { background: var(--vp-c-brand-1); color: #fff; }
+.sl-btn.ghost { color: var(--vp-c-text-2); }
+.sl-roles { font-size: 12px; color: var(--vp-c-text-3); }
+.sl-role { margin-right: 6px; }
+.sl-empty { padding: 24px; text-align: center; color: var(--vp-c-text-2); }
+.vp-doc a.skill-link code { color: var(--vp-c-brand-1); text-decoration: underline dotted; text-underline-offset: 3px; }
+.sc-grid { grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
+@media (max-width: 640px) { .sc-grid { grid-template-columns: 1fr; } }
+.vp-doc .sc-line { margin: 0; font-size: 14px; line-height: 1.7; }
+.vp-doc .sc-steps { margin: 2px 0 0; padding-left: 20px; font-size: 14px; }
+.vp-doc .sc-steps li + li { margin-top: 2px; }
+.vp-doc .sc-evidence { margin: 0; font-size: 12px; line-height: 1.6; color: var(--vp-c-text-3); }
+.sc-prompt { display: flex; flex-direction: column; gap: 2px; padding: 8px 10px; border-radius: 8px; background: var(--vp-c-bg); }
+.vp-doc .sc-prompt .sl-link-url { white-space: normal; font-size: 13px; line-height: 1.6; background: transparent; padding: 0; }

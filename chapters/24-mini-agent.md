@@ -1,20 +1,20 @@
 ---
-title: 第 7 章 🟡 选修：手写一个迷你 Agent
-part: 第二部分 · 拿到钥匙，接上 DeepSeek
+title: 第 24 章 🟡 选修：手写一个迷你 Agent
+part: 选修 · 写一点代码
 verified_with: openai Python 库 3.51（示例代码已用模拟回复测试循环逻辑）
 last_checked: 2026-11-17
 ---
 
-# 第 7 章 🟡 选修：手写一个迷你 Agent（约 80 行，代码全给）
+# 第 24 章 🟡 选修：手写一个迷你 Agent（约 80 行，代码全给）
 
-> 🟡 **这是选修章。** 需要先学完第 6 章。不想学可以直接跳到 [第 8 章](08-install-dsh.md)。
+> 🟡 **这是选修章。** 需要先学完第 23 章。不想学可以直接跳到 [第 6 章](06-install-dsh.md)。
 
 > **学完这一章，你能：**
 > - 亲手运行一个“会自己用工具”的迷你 Agent
 > - 看懂 Agent 的核心秘密：**工具调用 + 循环**
 > - 明白为什么 DSH 要做“权限审批”
 >
-> **前置：** 第 6 章(能运行 `chat.py`)
+> **前置：** 第 23 章(能运行 `chat.py`)
 
 ## 1. 为什么要学这个
 
@@ -58,12 +58,12 @@ last_checked: 2026-11-17
 
 ### 第一步：准备文件
 
-1. 下载 [examples/mini_agent.py](https://github.com/zhubing20011218-hub/agent-teaching/blob/main/examples/mini_agent.py)，放进 `ai-练习` 文件夹
+1. 下载 [examples/mini_agent.py](https://teach.prismice.cn/files/examples/mini_agent.py)，放进 `ai-练习` 文件夹
 2. 在 `ai-练习` 里随便放两个文本文件，比如第 1 章建的 `test.md`，再建一个 `购物清单.txt`，里面写：`鸡蛋、牛奶、面包`
 
 ### 第二步：运行
 
-在终端里(记得先按第 6 章放好钥匙，并 `cd` 进 `ai-练习` 文件夹):
+在终端里(记得先按第 23 章放好钥匙，并 `cd` 进 `ai-练习` 文件夹):
 
 ```bash
 python3 mini_agent.py
@@ -109,7 +109,7 @@ AI 的回答: 文件夹里有 mini_agent.py、test.md、购物清单.txt。购�
 现在它只能“看”，不能“改”。假如我们加一个工具 `run_command`，让它可以**执行任何命令**：
 
 - 好处：它能做的事一下子多了很多（改名、移动、安装软件……）
-- 风险：如果 AI 理解错了，或者读到的文件里藏着坏指令（第 25 章讲的“提示词注入”），它可能执行**删除文件**之类的危险命令
+- 风险：如果 AI 理解错了，或者读到的文件里藏着坏指令（第 22 章讲的“提示词注入”），它可能执行**删除文件**之类的危险命令
 
 所以**工业级 Harness 必须有审批**：危险操作先停下来，问你“可以吗？”。这就是你在 DSH 里会经常看到的确认弹窗。
 
@@ -169,7 +169,7 @@ TOOL_SPECS.append({"type": "function", "function": {
 答：换个说法，明确一点，比如“请用工具查看当前文件夹”。不同时候 AI 的判断会有差异。
 
 **问：报错 `KeyError: 'DEEPSEEK_API_KEY'`?**
-答：钥匙没放进环境变量，重新做第 6 章第一步。
+答：钥匙没放进环境变量，重新做第 23 章第一步。
 
 **问：为什么限制最多 10 圈？**
 答：防止 AI 陷入死循环，一直花你的钱。DSH 也有类似的保护。
@@ -178,4 +178,4 @@ TOOL_SPECS.append({"type": "function", "function": {
 
 - DeepSeek 工具调用官方说明：https://api-docs.deepseek.com/zh-cn/guides/function_calling
 - 想从零造一个更完整的 Harness:[xbsheng/deepseek-harness-tutorial](https://github.com/xbsheng/deepseek-harness-tutorial)（mini-dsh 教程）
-- 下一章：[第 8 章 安装 DSH](08-install-dsh.md)
+- 下一章：[第 25 章 开发你的第一个插件](25-plugin-dev.md)

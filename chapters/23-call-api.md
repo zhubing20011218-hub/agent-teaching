@@ -1,13 +1,13 @@
 ---
-title: 第 6 章 🟡 选修：亲手调用一次 API
-part: 第二部分 · 拿到钥匙，接上 DeepSeek
+title: 第 23 章 🟡 选修：亲手调用一次 API
+part: 选修 · 写一点代码
 verified_with: DeepSeek API 文档（2026-11-17 查阅），openai Python 库 3.51
 last_checked: 2026-11-17
 ---
 
-# 第 6 章 🟡 选修：亲手调用一次 API
+# 第 23 章 🟡 选修：亲手调用一次 API
 
-> 🟡 **这是选修章。** 会用到终端和几行代码（全部给好，只需复制）。不想学可以直接跳到 [第 8 章](08-install-dsh.md)，不影响后面。
+> 🟡 **这是选修章。** 会用到终端和几行代码（全部给好，只需复制）。不想学可以直接跳到 [第 6 章](06-install-dsh.md)，不影响后面。
 
 > **学完这一章，你能：**
 > - 用一条命令，亲手给 DeepSeek 发一个请求，看懂它回了什么
@@ -130,7 +130,7 @@ pip3 install openai
 
 (Windows 用 `pip install openai`)
 
-3. 下载本教程的示例文件 [examples/chat.py](https://github.com/zhubing20011218-hub/agent-teaching/blob/main/examples/chat.py)，放进 `ai-练习` 文件夹
+3. 下载本教程的示例文件 [examples/chat.py](https://teach.prismice.cn/files/examples/chat.py)，放进 `ai-练习` 文件夹
 4. 在终端里进入 `ai-练习` 文件夹(输入 `cd `，把文件夹拖进终端，按回车)
 5. 运行：
 
@@ -176,4 +176,4 @@ AI “记得”你叫小明。打开 `chat.py` 看看，秘密在 `history` 这�
 
 - DeepSeek API 官方文档（含更多参数）：https://api-docs.deepseek.com/zh-cn/
 - 错误码说明：https://api-docs.deepseek.com/zh-cn/quick_start/error_codes
-- 下一章（🟡 选修）：[第 7 章 手写一个迷你 Agent](07-mini-agent.md)
+- 下一章：[第 24 章 手写一个迷你 Agent](24-mini-agent.md)
